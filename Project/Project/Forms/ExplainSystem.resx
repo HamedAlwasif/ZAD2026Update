@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>تم تصميم البرنامج ليخدم العديد من الشرائح التجارية 
+فيمكن للبرنامج أن يخدم كلا من القطاعات التجارية والمؤسسات والشركات والمحلات والسوبر مارك
+ وكل من يتعامل مع أصناف ومخازن ومبيعات ومشتريات 
+وقد روعي في التصميم الدقة والتوافق التام والسهولة</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>مميزات البرنامج
+1-  يمكن استخدام المندوبين ومعرفة المبيعات والتحصيلات ونسبة العمولة   والمديونية والعهدة
+2-  يمكن استخدام المناطق وربطها بالعميل ومعرفة مبيعات كل منطقة
+3-  يمكن استخدام نوع العميل (جملة - نصف جملة - قطاعى حكومة -----) لتحديد السعر ونسبة الخصم 
+4- يقوم بحساب ربحية كل صنف فى الفاتورة 
+5- توجد به خاصية يمكن استخدامها لعدم بيع الصنف باقل من سعر الشراء 
+6- عروض الاسعار ويمكن ادخال مواصفات الصنف وبلد المنشأ  والماركة 
+7- يمكن ادخال مصروفات على فاتورة المبيعات مثل (مصاريف مشال - اكرامية ---) حيث يقوم النظام بعمل القيود المحاسبية اوتوماتيك حسب الدليل المحاسبى الخاص بكل شركة 
+8- فى حالة الاصناف المرتجعة من المبيعات يقوم النظام بادخالها المخزن  بسعر شرائها المحسوب وقت البيع حتى لاتتضخم قيمة المخزون  اوتقل بنسب وهمية تؤثر على الميزانية
+10- فى حالة لاصناف المحولة من مخزن لاخر يقوم النظام بحساب سعر الشراء بمتوسط السعر واستخدام خاصية الوارد اولا  يصرف اولا
+11- يوجد به نظام لنجزئة الصنف  واخر لنجميع الصنف
+12- النظام يقوم بعمل ملف تلقائى لكل عميل لمعرف اللاصناف المباعة له واسعارها ونسب الخصم لكلصنف والكمية ويمكن استخدام خاصيىة الاسعار الخاصة للبيع الاصناف باخر سعر للصنف اخذه العميل(اى نفس سعر بيع الصنف من المرة السابقة)
+13- يمكن استخدام خاصية تاريخ الانتهاء للاصناف واعطاء تقرير فى اى وقت
+14- توجد خاصية لاستخدام 4 خصومات على الصنف
+15- يمكن استخدام خاصية السحب بدون وجود رصيد فى المخزن فى الحالات الخاصة
+16- يمكن التعرف علي أرصدة الصنف المحدد في الفاتورة داخل مخزن معين أو كل المخازن من نفس شاشة الفاتورة 
+دون الخروج والدخول إلي أي شاشات أخري كما يمكن التعرف علي رصيد العميل او المورد
+17- يوجد به نظام لشخص عميل ومورد فى نفس الوقت وعمل تفرير لحسابه والتسوية
+18- يوجد به نظام للتحصيلاات  والاقساط  والدفعات المقدمة  للعميل والورد مربوط بالحسابات المالية
+19- يوجد به نظام للمصروفات والايرادات والسلف  والعهدة المالية مربوط بالحسابات المالية مصمم بحيث يمكن لآى  مستخدم التعامل معه بصرف النظر عن مؤهله العلمى ولايشترط ان يكون محاسب
+20- يوجد به خاصية التكويد ألاوتوماتيك للاصناف حسب الفئة
+21- يوجد به خاصية المسلسل الاوتوماتيك عند التشغيل   ويمكن التحكم فى السريال لأى مستند 
+22- تحتوي جميع شاشات البرنامج علي شاشة خاصة مميزة  للبحث وكذا شروط التقارير وذلك للبحث عن أي بيان 
+23- يوجد خاصيىة لتشغيل ضريبة المبيعات على الصنف او الفاتورة كما يمكن استخدام نسخة يتم ضبطها للمحاسبة الضريبية بعيدا عن البيانات الاصلية للشركة (نسخة ضرائب)
+24- يعمل على جميع انواع الشبكات والنت على لاتقل السرعة عن 2M
+25- يوجد به نظام محاسبى كامل يقوم بعمل القيود المحاسبية لكل مايخص العملاء والموردين اوتوماتيك ولايحتاج الى محاسب ام فى حالة استخدام شاشة  قيود اليومية فهو يحتاج محاسب 
+26 - يمكن استخدام مراكز تكلفة
+27-يقوم النظام بعمل جميع التقارير المحاسبية   كارت حساب -متاجرة - تشغيل - ارباح وخسائر -ميزانيةميزان مراجعة  - رصيد الخزنة يومى    اكثر من 100 تقرير تفصيلى متعدد  الشروط يمكن تحويلها اكسيل او ورد
+28- البرنامج يسمح بعمل وطباعة فاتورة صيانة او فاتورة اصلاح اوخدمة واضافتها على حساب العميل البرنامج به خصائص ومواصفات وصلاحيات للمستخدمين  يقوم المستخدم بضبطها لتناسب طبيعة العمل وتامين البيانات  والسرية  حسب رغبته يوجد به نظام لمراقبة المستخدمين لمعرفة كل مايتم من ععمله وتسجيله يمكن الرجوع اليه فى اى وقت يقوم النظام بعمل خمس نسخ احتياطية  مشفرة مخفية تلقائى يوميا لاسترجاع البيانات فى حالة تلف الهارد
+-	مجهز لطباعة باركود حسب المقاسات المطلوبة  
+-	مجهز للتعامل مع موازين البار كود المستخدمة فى السوبر ماركت
+-	جاهز للتشغيل لنقاط البيع 
+-	يمكن استخدام طابعة للتقارير وطابعة للفاتورة الصغيرة  وطابعة للباركود وقارئ الباركود 
+-	ودرج للخزينة فى نفس الوقت   
+        
+الصيانة والتدريب  : عن طريق النت  باستخدام برنامج   TeamViewer   او عن طريق مهندس الشركة حسب رغبة العميل
+</value>
+  </data>
+</root>

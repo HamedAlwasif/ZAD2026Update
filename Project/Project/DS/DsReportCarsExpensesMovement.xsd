@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsReportCarsExpensesMovement" targetNamespace="http://tempuri.org/DsReportCarsExpensesMovement.xsd" xmlns:mstns="http://tempuri.org/DsReportCarsExpensesMovement.xsd" xmlns="http://tempuri.org/DsReportCarsExpensesMovement.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsReportCarsExpensesMovement" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsReportCarsExpensesMovement" msprop:Generator_UserDSName="DsReportCarsExpensesMovement">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SearchCar" msprop:Generator_TableClassName="SearchCarDataTable" msprop:Generator_TableVarName="tableSearchCar" msprop:Generator_TablePropName="SearchCar" msprop:Generator_RowDeletingName="SearchCarRowDeleting" msprop:Generator_RowChangingName="SearchCarRowChanging" msprop:Generator_RowEvHandlerName="SearchCarRowChangeEventHandler" msprop:Generator_RowDeletedName="SearchCarRowDeleted" msprop:Generator_UserTableName="SearchCar" msprop:Generator_RowChangedName="SearchCarRowChanged" msprop:Generator_RowEvArgName="SearchCarRowChangeEvent" msprop:Generator_RowClassName="SearchCarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="NumCar" msprop:Generator_ColumnVarNameInTable="columnNumCar" msprop:Generator_ColumnPropNameInRow="NumCar" msprop:Generator_ColumnPropNameInTable="NumCarColumn" msprop:Generator_UserColumnName="NumCar" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Washed" msprop:Generator_ColumnVarNameInTable="columnWashed" msprop:Generator_ColumnPropNameInRow="Washed" msprop:Generator_ColumnPropNameInTable="WashedColumn" msprop:Generator_UserColumnName="Washed" type="xs:string" minOccurs="0" />
+              <xs:element name="Filter" msprop:Generator_ColumnVarNameInTable="columnFilter" msprop:Generator_ColumnPropNameInRow="Filter" msprop:Generator_ColumnPropNameInTable="FilterColumn" msprop:Generator_UserColumnName="Filter" type="xs:string" minOccurs="0" />
+              <xs:element name="Petroleum" msprop:Generator_ColumnVarNameInTable="columnPetroleum" msprop:Generator_ColumnPropNameInRow="Petroleum" msprop:Generator_ColumnPropNameInTable="PetroleumColumn" msprop:Generator_UserColumnName="Petroleum" type="xs:string" minOccurs="0" />
+              <xs:element name="Oil" msprop:Generator_ColumnVarNameInTable="columnOil" msprop:Generator_ColumnPropNameInRow="Oil" msprop:Generator_ColumnPropNameInTable="OilColumn" msprop:Generator_UserColumnName="Oil" type="xs:string" minOccurs="0" />
+              <xs:element name="Mechanical" msprop:Generator_ColumnVarNameInTable="columnMechanical" msprop:Generator_ColumnPropNameInRow="Mechanical" msprop:Generator_ColumnPropNameInTable="MechanicalColumn" msprop:Generator_UserColumnName="Mechanical" type="xs:string" minOccurs="0" />
+              <xs:element name="PartChange" msprop:Generator_ColumnVarNameInTable="columnPartChange" msprop:Generator_ColumnPropNameInRow="PartChange" msprop:Generator_ColumnPropNameInTable="PartChangeColumn" msprop:Generator_UserColumnName="PartChange" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Notice" msprop:Generator_ColumnVarNameInTable="columnNotice" msprop:Generator_ColumnPropNameInRow="Notice" msprop:Generator_ColumnPropNameInTable="NoticeColumn" msprop:Generator_UserColumnName="Notice" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver" msprop:Generator_ColumnVarNameInTable="columnDriver" msprop:Generator_ColumnPropNameInRow="Driver" msprop:Generator_ColumnPropNameInTable="DriverColumn" msprop:Generator_UserColumnName="Driver" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
