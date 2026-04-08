@@ -282,8 +282,7 @@ Keys keyData)
             data.NumBill =
             textBillingDataNumBill.Text;
 
-            data.UserPrint =
- textUser.Text;
+            data.UserPrint = textUser.Text;
 
             data.TypeBill =
             comTypeBill.Text;
@@ -317,6 +316,8 @@ Keys keyData)
 
             data.Note =
             textNoteBill.Text;
+
+            data.PaidAmountWords = textPaidAmountWords.Text;
 
             return data;
 
@@ -12055,12 +12056,14 @@ Keys keyData)
             if (returnValue < 0)
                 returnValue = 0;
 
-            textarabic.Text =
-            "تم دفع مبلغ " +
-            ArabicNumberToWords.Convert(mosadadActual) +
-            " ورد مبلغ " +
-            ArabicNumberToWords.Convert(returnValue) +
-            " وهذا للعلم";
+            //textPaidAmountWords.Text =
+            //"تم دفع مبلغ " +
+            //ArabicNumberToWords.Convert(mosadadActual) +
+            //" ورد مبلغ " +
+            //ArabicNumberToWords.Convert(returnValue) +
+            //" وهذا للعلم";
+
+            textPaidAmountWords.Text =  "تم دفع مبلغ " +  ArabicNumberToWords.Convert(mosadadActual) + " ورد مبلغ " + ArabicNumberToWords.Convert(returnValue);
         }
         //private void CalculateValues()
         //{

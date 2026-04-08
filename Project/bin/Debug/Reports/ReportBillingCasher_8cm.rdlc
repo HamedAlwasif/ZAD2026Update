@@ -1275,7 +1275,7 @@ Replace(Fields!Total.Value,"0" , ChrW (1632)
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>12.08056cm</Top>
+            <Top>13.35056cm</Top>
             <Left>0.08997cm</Left>
             <Height>0.57354cm</Height>
             <Width>6.90237cm</Width>
@@ -1741,7 +1741,7 @@ Replace(Parameters!NumBill.Value.ToString(),"0" , ChrW (1632)
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>11.37472cm</Top>
+            <Top>12.64472cm</Top>
             <Left>0.08997cm</Left>
             <Height>0.6cm</Height>
             <Width>6.85622cm</Width>
@@ -1790,7 +1790,7 @@ Replace(Parameters!NumBill.Value.ToString(),"0" , ChrW (1632)
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>ExecutionTime</rd:DefaultName>
-            <Top>12.83049cm</Top>
+            <Top>14.10049cm</Top>
             <Left>0.14628cm</Left>
             <Height>0.39642cm</Height>
             <Width>6.80038cm</Width>
@@ -1805,8 +1805,40 @@ Replace(Parameters!NumBill.Value.ToString(),"0" , ChrW (1632)
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Textbox Name="Textbox7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!PaidAmountWords.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox5</rd:DefaultName>
+            <Top>11.34518cm</Top>
+            <Left>0.12673cm</Left>
+            <Height>0.89104cm</Height>
+            <Width>6.80038cm</Width>
+            <ZIndex>27</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>5.2736in</Height>
+        <Height>5.85693in</Height>
         <Style />
       </Body>
       <Width>2.7771in</Width>
@@ -1943,11 +1975,17 @@ Replace(Parameters!NumBill.Value.ToString(),"0" , ChrW (1632)
       <AllowBlank>true</AllowBlank>
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
+    <ReportParameter Name="PaidAmountWords">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>5</NumberOfRows>
+      <NumberOfRows>6</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -2048,6 +2086,11 @@ Replace(Parameters!NumBill.Value.ToString(),"0" , ChrW (1632)
           <ColumnIndex>3</ColumnIndex>
           <RowIndex>4</RowIndex>
           <ParameterName>Demo</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>PaidAmountWords</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>

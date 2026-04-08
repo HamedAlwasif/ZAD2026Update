@@ -30,71 +30,73 @@ namespace ZAD_Sales.ClassProject
                 new Dictionary<string, string>()
                 {
 
-{"Parm_Company_Name",
-data.CompanyName ?? ""},
+                    {"Parm_Company_Name",
+                    data.CompanyName ?? ""},
 
-{"Name",
-data.Name ?? ""},
+                    {"Name",
+                    data.Name ?? ""},
 
-{"Date",
-data.Date ?? ""},
+                    {"Date",
+                    data.Date ?? ""},
 
-{"Total",
-data.Total ?? "0"},
+                    {"Total",
+                    data.Total ?? "0"},
 
-{"Sabek",
-data.Sabek ?? "0"},
+                    {"Sabek",
+                    data.Sabek ?? "0"},
 
-{"Sabek1",
-data.Sabek1 ?? "0"},
+                    {"Sabek1",
+                    data.Sabek1 ?? "0"},
 
-{"Mosadad",
-data.Mosadad ?? "0"},
+                    {"Mosadad",
+                    data.Mosadad ?? "0"},
 
-{"Remaning",
-data.Remaning ?? "0"},
+                    {"Remaning",
+                    data.Remaning ?? "0"},
 
-{"Discount",
-data.Discount ?? "0"},
+                    {"Discount",
+                    data.Discount ?? "0"},
 
-{"State",
-data.State ?? ""},
+                    {"State",
+                    data.State ?? ""},
 
-{"NumBill",
-data.NumBill ?? ""},
+                    {"NumBill",
+                    data.NumBill ?? ""},
 
-{"Print",
-data.UserPrint ?? ""},
+                    {"Print",
+                    data.UserPrint ?? ""},
 
-{"TypeBill",
-data.TypeBill ?? ""},
+                    {"TypeBill",
+                    data.TypeBill ?? ""},
 
-{"Parm_MoveBill",
-data.MoveBill ?? ""},
+                    {"Parm_MoveBill",
+                    data.MoveBill ?? ""},
 
-{"Parm_NoteToBill",
-data.NoteToBill ?? ""},
+                    {"Parm_NoteToBill",
+                    data.NoteToBill ?? ""},
 
-{"Parm_Company_Description",
-data.CompanyDescription ?? ""},
+                    {"Parm_Company_Description",
+                    data.CompanyDescription ?? ""},
 
-{"Parm_Company_Address",
-data.CompanyAddress ?? ""},
+                    {"Parm_Company_Address",
+                    data.CompanyAddress ?? ""},
 
-{"Parm_Company_Phone",
-data.CompanyPhone ?? ""},
+                    {"Parm_Company_Phone",
+                    data.CompanyPhone ?? ""},
 
-{"Mosadad_Actual",
-data.MosadadActual ?? "0"},
+                    {"Mosadad_Actual",
+                    data.MosadadActual ?? "0"},
 
-{"Return",
-data.ReturnValue ?? "0"},
+                    {"Return",
+                    data.ReturnValue ?? "0"},
 
-{"Demo",
-data.Demo ?? ""},
+                    {"Demo",
+                    data.Demo ?? ""},
 
-{"Note",
-data.Note ?? ""}
+                    {"Note",
+                    data.Note ?? ""},
+
+                    {"PaidAmountWords", data.PaidAmountWords ?? ""},
 
                 };
 

@@ -55,6 +55,7 @@ namespace ZAD_Sales.ClassProject
         public string Demo;
 
         public string Note;
+        public string PaidAmountWords;
 
     }
 }

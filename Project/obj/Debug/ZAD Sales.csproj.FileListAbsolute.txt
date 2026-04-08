@@ -28750,3 +28750,151 @@ E:\Hamed\01- Githup\2026\تجربة الطباعه المباشرة\تجربة �
 E:\Hamed\01- Githup\2026\تجربة الطباعه المباشرة\تجربة الطباعه المباشرة\Project\obj\Debug\ZAD Sales.csproj.CopyComplete
 E:\Hamed\01- Githup\2026\تجربة الطباعه المباشرة\تجربة الطباعه المباشرة\Project\obj\Debug\ZAD Sales.exe
 E:\Hamed\01- Githup\2026\تجربة الطباعه المباشرة\تجربة الطباعه المباشرة\Project\obj\Debug\ZAD Sales.pdb
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingCasher_6cm_Dis.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingCasher_8cm_NoDis.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingCasher_8cm.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingA4.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingB5.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingCasher.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingDiscountA5.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingNoPrice_A4.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingNoPrice.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Reports\ReportBillingA5.rdlc
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\ZAD Sales.exe.config
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\ZAD Sales.exe
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\ZAD Sales.pdb
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\dje-NE\ZAD Sales.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.ManagedConnections.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\EnvDTE.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\stdole.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\Microsoft.MSXML.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.csprojAssemblyReference.cache
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BackupRestore.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BackupSave.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BankAddAccount.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BanksList.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BankStatement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BankToBank.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Barcode.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BoxMovement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.CallUs.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.CarsAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.CarsExpenses.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.CarsExpensesMovement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.CategoryGroup.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.CheckSaderWared.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.CheckSave.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ClientAccountStatement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ClientAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ClientAddFrist.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ClientsList.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ClientsMoney.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ClientsMoneyToClients.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Connection.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.DailyClosing.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.DailySalesPurchases.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.DailyTransactions.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.EmployeeAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.EmployeeBonusAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.EmployeePenaltyAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.EmployeeSalaryMovement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.EmployeeSalaryPayment.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Events.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Expenses.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.FactionCategoreyAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.FinancialStatements.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Form1.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.FrmBillingSummary.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Installment.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Inventory.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.MaterialsAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.MoneyWaredAndSaderOther.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.OccasionsForm.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.OsolSabta.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Prices.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.PriceViewer.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ProducerAddBarcodeFactory.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ProducerAddSN.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ProducerIncomplete.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ProducerMake.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ProducerNewAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ProducerUpdate.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ProductMovement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Profits.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Statistical.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.StoreNewAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.StoreToStore.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.SystemReset.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.GroupAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.ExplainSystem.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.License.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Main.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.MoneyFromBox.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.MoneyToBox.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Purchases.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.Sales.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.SettingsGeneral.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.TermsandConditions.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.TypeProgram.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.UserAdd.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.VersionNew.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Properties.Resources.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_AllBills.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_BillDay.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_BillingSummaryReport.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_Expenses.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_PriceProducer.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_ReceiptOfCash.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_ReportBill.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_ReportDailyCategry.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_ReportDailyTransactions.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_Statistical.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportBoxMovement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportCars.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportCarsExpensesMovement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportClientAccountStatement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportClints.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportProducer.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportProducer_GK.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportProductMovement.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.ReportsBillAll.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Reports.Frm_BillDay.dje-NE.resources
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.csproj.GenerateResource.cache
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\RdlCompile.cache
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\RdlCompile.compiled
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\dje-NE\ZAD Sales.resources.dll
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.csproj.CopyComplete
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.exe
+D:\01- Software\001- Github Project\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.pdb

@@ -39,11 +39,13 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -53,20 +55,18 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             this.butSeting = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.radioB_Factory = new System.Windows.Forms.RadioButton();
@@ -142,6 +142,7 @@
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.label61 = new System.Windows.Forms.Label();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.butSearchCategory = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label64 = new System.Windows.Forms.Label();
             this.textBox64 = new System.Windows.Forms.TextBox();
@@ -161,6 +162,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.comClintGroup = new System.Windows.Forms.ComboBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.butAddClint = new System.Windows.Forms.Button();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -176,6 +178,10 @@
             this.textClintTellHome = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.numBillDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalBillDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classBillsClintSalesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel11 = new System.Windows.Forms.Panel();
             this.textBox72 = new System.Windows.Forms.TextBox();
@@ -203,6 +209,15 @@
             this.label62 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
             this.dataGridView9 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classCategoreysBillCopyBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.TxtNumBox = new System.Windows.Forms.TextBox();
             this.panel_PriceSheraa = new System.Windows.Forms.Panel();
             this.txtBoxRemining = new System.Windows.Forms.TextBox();
@@ -250,15 +265,29 @@
             this.label58 = new System.Windows.Forms.Label();
             this.textTotalSheraa = new System.Windows.Forms.TextBox();
             this.textLimitCredit = new System.Windows.Forms.TextBox();
+            this.butUP = new System.Windows.Forms.Button();
             this.label70 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.butProfit = new System.Windows.Forms.Button();
             this.panelLastPrice = new System.Windows.Forms.Panel();
             this.dataGridLastPrice = new System.Windows.Forms.DataGridView();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.butDown = new System.Windows.Forms.Button();
+            this.butInstallment = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridCategory_BestSeller = new System.Windows.Forms.DataGridView();
+            this.categoryBarcodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numberSalesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lastDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classCategoryBestSellerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textQuntetyAuto = new System.Windows.Forms.TextBox();
             this.dataGridGetAllCategry_BestSeller = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classGetAllCategryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.radCategory_BestSeller = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radio_GetAllCategry_Quntety = new System.Windows.Forms.RadioButton();
@@ -266,6 +295,14 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridSearchCategory = new System.Windows.Forms.DataGridView();
+            this.barcodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.storageDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceMostahlekDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.butAllBillng = new System.Windows.Forms.Button();
+            this.butClientDays = new System.Windows.Forms.Button();
+            this.butPrinting = new System.Windows.Forms.Button();
             this.txtClintName = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
@@ -273,8 +310,21 @@
             this.textSearchClintMobil = new System.Windows.Forms.TextBox();
             this.textSearchClint = new System.Windows.Forms.TextBox();
             this.dataGridSearchClint = new System.Windows.Forms.DataGridView();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.companyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telHomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telMobilDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.previousBalanceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stateRaseedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classGetAllClintesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button12 = new System.Windows.Forms.Button();
+            this.butPrintautoss = new System.Windows.Forms.Button();
+            this.butDeleteBilling = new System.Windows.Forms.Button();
             this.panelBillDay = new System.Windows.Forms.Panel();
             this.checkCopyBill = new System.Windows.Forms.CheckBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
             this.label59 = new System.Windows.Forms.Label();
@@ -287,11 +337,27 @@
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.numBillDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.typeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalBillDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.paidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.remainingDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classBillDayBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panel16 = new System.Windows.Forms.Panel();
             this.textClientGroup = new System.Windows.Forms.TextBox();
             this.textClintID = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.numDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.storageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.quantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.typeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.discountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classCategoreysBillBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.label20 = new System.Windows.Forms.Label();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.panelDiscount = new System.Windows.Forms.Panel();
@@ -327,11 +393,22 @@
             this.reportViewerA5 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.button4 = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
+            this.butSearchBill = new System.Windows.Forms.Button();
             this.comMoveBill = new System.Windows.Forms.ComboBox();
             this.labelMoveBill = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.butBillingNoSave = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonUP = new System.Windows.Forms.Button();
             this.buttondown = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -346,15 +423,6 @@
             this.txtTotalBillNoSave = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.dataGridView7 = new System.Windows.Forms.DataGridView();
-            this.button9 = new System.Windows.Forms.Button();
-            this.textTotalBillNoSave = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.textNumBillNoSave = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.textarabic = new System.Windows.Forms.TextBox();
             this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -363,89 +431,21 @@
             this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classCategoreysBillBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.button9 = new System.Windows.Forms.Button();
+            this.textTotalBillNoSave = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textNumBillNoSave = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classBillDayBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.butBillingNoSave = new System.Windows.Forms.Button();
-            this.butSearchBill = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.butSearchCategory = new System.Windows.Forms.Button();
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classCategoreysBillCopyBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.numBillDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalBillDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classBillsClintSalesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.butUP = new System.Windows.Forms.Button();
-            this.butProfit = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.butDown = new System.Windows.Forms.Button();
-            this.butInstallment = new System.Windows.Forms.Button();
-            this.categoryBarcodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.categoryDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numberSalesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lastDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classCategoryBestSellerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classGetAllCategryBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.barcodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.categoryDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.storageDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.priceMostahlekDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.butAllBillng = new System.Windows.Forms.Button();
-            this.butClientDays = new System.Windows.Forms.Button();
-            this.butPrinting = new System.Windows.Forms.Button();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.companyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telHomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telMobilDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.previousBalanceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stateRaseedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classGetAllClintesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.button12 = new System.Windows.Forms.Button();
-            this.butPrintautoss = new System.Windows.Forms.Button();
-            this.butDeleteBilling = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.numBillDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.typeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalBillDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.paidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.remainingDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.storageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.typeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.discountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.textPaidAmountWords = new System.Windows.Forms.TextBox();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -457,15 +457,18 @@
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel9.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classBillsClintSalesBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillCopyBindingSource)).BeginInit();
             this.panel_PriceSheraa.SuspendLayout();
             this.panelSettings.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -477,13 +480,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridLastPrice)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCategory_BestSeller)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classCategoryBestSellerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGetAllCategry_BestSeller)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classGetAllCategryBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSearchCategory)).BeginInit();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSearchClint)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classGetAllClintesBindingSource)).BeginInit();
             this.panelBillDay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classBillDayBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillBindingSource1)).BeginInit();
             this.panelDiscount.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel18.SuspendLayout();
@@ -494,14 +502,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classBillDayBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillCopyBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classBillsClintSalesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classCategoryBestSellerBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classGetAllCategryBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classGetAllClintesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // butSeting
@@ -1430,6 +1430,20 @@
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
+            // butSearchCategory
+            // 
+            this.butSearchCategory.BackColor = System.Drawing.Color.White;
+            this.butSearchCategory.BackgroundImage = global::ZAD_Sales.Properties.Resources.searchZ;
+            this.butSearchCategory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butSearchCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butSearchCategory.ForeColor = System.Drawing.Color.White;
+            this.butSearchCategory.Location = new System.Drawing.Point(5, 82);
+            this.butSearchCategory.Name = "butSearchCategory";
+            this.butSearchCategory.Size = new System.Drawing.Size(20, 20);
+            this.butSearchCategory.TabIndex = 5530;
+            this.butSearchCategory.UseVisualStyleBackColor = false;
+            this.butSearchCategory.Click += new System.EventHandler(this.butSearchCategory_Click);
+            // 
             // groupBox5
             // 
             this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -1663,6 +1677,16 @@
             this.button5.Text = "إختار الصورة";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(102, 237);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5492;
+            this.pictureBox1.TabStop = false;
+            // 
             // butAddClint
             // 
             this.butAddClint.BackColor = System.Drawing.Color.CadetBlue;
@@ -1841,6 +1865,34 @@
             this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView3.Size = new System.Drawing.Size(336, 405);
             this.dataGridView3.TabIndex = 1;
+            // 
+            // numBillDataGridViewTextBoxColumn1
+            // 
+            this.numBillDataGridViewTextBoxColumn1.DataPropertyName = "NumBill";
+            this.numBillDataGridViewTextBoxColumn1.HeaderText = "رقم";
+            this.numBillDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.numBillDataGridViewTextBoxColumn1.Name = "numBillDataGridViewTextBoxColumn1";
+            this.numBillDataGridViewTextBoxColumn1.Width = 80;
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "التاريخ";
+            this.dateDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            this.dateDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // totalBillDataGridViewTextBoxColumn1
+            // 
+            this.totalBillDataGridViewTextBoxColumn1.DataPropertyName = "TotalBill";
+            this.totalBillDataGridViewTextBoxColumn1.HeaderText = "الاجمالى";
+            this.totalBillDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.totalBillDataGridViewTextBoxColumn1.Name = "totalBillDataGridViewTextBoxColumn1";
+            this.totalBillDataGridViewTextBoxColumn1.Width = 90;
+            // 
+            // classBillsClintSalesBindingSource
+            // 
+            this.classBillsClintSalesBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_BillsClintSales);
             // 
             // tabPage4
             // 
@@ -2268,6 +2320,76 @@
             this.dataGridView9.Size = new System.Drawing.Size(826, 389);
             this.dataGridView9.StandardTab = true;
             this.dataGridView9.TabIndex = 255;
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "Num";
+            this.dataGridViewTextBoxColumn26.HeaderText = "م";
+            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.DataPropertyName = "Storage";
+            this.dataGridViewTextBoxColumn27.HeaderText = "المخزن";
+            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            this.dataGridViewTextBoxColumn27.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.DataPropertyName = "Category";
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.dataGridViewTextBoxColumn28.DefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridViewTextBoxColumn28.HeaderText = "الصنف";
+            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            this.dataGridViewTextBoxColumn28.Width = 250;
+            // 
+            // dataGridViewTextBoxColumn29
+            // 
+            this.dataGridViewTextBoxColumn29.DataPropertyName = "Quantity";
+            this.dataGridViewTextBoxColumn29.HeaderText = "الكمية";
+            this.dataGridViewTextBoxColumn29.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
+            this.dataGridViewTextBoxColumn29.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.DataPropertyName = "Type";
+            this.dataGridViewTextBoxColumn30.HeaderText = "الفئه";
+            this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            this.dataGridViewTextBoxColumn30.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn31.HeaderText = "السعر";
+            this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            this.dataGridViewTextBoxColumn31.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn32
+            // 
+            this.dataGridViewTextBoxColumn32.DataPropertyName = "Discount";
+            this.dataGridViewTextBoxColumn32.HeaderText = "خصم %";
+            this.dataGridViewTextBoxColumn32.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
+            this.dataGridViewTextBoxColumn32.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.DataPropertyName = "Total";
+            this.dataGridViewTextBoxColumn33.HeaderText = "الاجمالى";
+            this.dataGridViewTextBoxColumn33.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            this.dataGridViewTextBoxColumn33.Width = 60;
+            // 
+            // classCategoreysBillCopyBindingSource
+            // 
+            this.classCategoreysBillCopyBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_CategoreysBillCopy);
             // 
             // TxtNumBox
             // 
@@ -2843,6 +2965,19 @@
             this.textLimitCredit.Text = "0";
             this.textLimitCredit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // butUP
+            // 
+            this.butUP.BackgroundImage = global::ZAD_Sales.Properties.Resources.ArrowUp;
+            this.butUP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butUP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butUP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
+            this.butUP.Location = new System.Drawing.Point(0, 264);
+            this.butUP.Name = "butUP";
+            this.butUP.Size = new System.Drawing.Size(26, 25);
+            this.butUP.TabIndex = 5546;
+            this.butUP.UseVisualStyleBackColor = true;
+            this.butUP.Click += new System.EventHandler(this.butUP_Click);
+            // 
             // label70
             // 
             this.label70.AutoSize = true;
@@ -2874,6 +3009,19 @@
             this.label26.TabIndex = 5543;
             this.label26.Text = "الحد الائتمانى";
             // 
+            // butProfit
+            // 
+            this.butProfit.BackgroundImage = global::ZAD_Sales.Properties.Resources.Files;
+            this.butProfit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butProfit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butProfit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
+            this.butProfit.Location = new System.Drawing.Point(0, 232);
+            this.butProfit.Name = "butProfit";
+            this.butProfit.Size = new System.Drawing.Size(26, 25);
+            this.butProfit.TabIndex = 5547;
+            this.butProfit.UseVisualStyleBackColor = true;
+            this.butProfit.Click += new System.EventHandler(this.butProfit_Click);
+            // 
             // panelLastPrice
             // 
             this.panelLastPrice.BackColor = System.Drawing.Color.SteelBlue;
@@ -2900,6 +3048,61 @@
             this.dataGridLastPrice.Size = new System.Drawing.Size(322, 251);
             this.dataGridLastPrice.TabIndex = 5509;
             this.dataGridLastPrice.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridLastPrice_CellContentClick);
+            // 
+            // button18
+            // 
+            this.button18.BackgroundImage = global::ZAD_Sales.Properties.Resources.file_invoice;
+            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
+            this.button18.Location = new System.Drawing.Point(1, 385);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(26, 25);
+            this.button18.TabIndex = 5547;
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button15
+            // 
+            this.button15.BackgroundImage = global::ZAD_Sales.Properties.Resources.settings;
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
+            this.button15.Location = new System.Drawing.Point(0, 200);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(26, 25);
+            this.button15.TabIndex = 5547;
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // butDown
+            // 
+            this.butDown.BackgroundImage = global::ZAD_Sales.Properties.Resources.ArrowDown;
+            this.butDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butDown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
+            this.butDown.Location = new System.Drawing.Point(0, 296);
+            this.butDown.Name = "butDown";
+            this.butDown.Size = new System.Drawing.Size(26, 25);
+            this.butDown.TabIndex = 5547;
+            this.butDown.UseVisualStyleBackColor = true;
+            this.butDown.Click += new System.EventHandler(this.butDown_Click);
+            // 
+            // butInstallment
+            // 
+            this.butInstallment.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butInstallment.BackgroundImage = global::ZAD_Sales.Properties.Resources.Kest_Zad;
+            this.butInstallment.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butInstallment.Enabled = false;
+            this.butInstallment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butInstallment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butInstallment.Location = new System.Drawing.Point(0, 483);
+            this.butInstallment.Name = "butInstallment";
+            this.butInstallment.Size = new System.Drawing.Size(26, 25);
+            this.butInstallment.TabIndex = 5527;
+            this.toolTip1.SetToolTip(this.butInstallment, "تقسيط الفاتورة");
+            this.butInstallment.UseVisualStyleBackColor = false;
+            this.butInstallment.Click += new System.EventHandler(this.butInstallment_Click);
             // 
             // panel2
             // 
@@ -2966,6 +3169,42 @@
             this.dataGridCategory_BestSeller.Visible = false;
             this.dataGridCategory_BestSeller.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridCategory_BestSeller_CellDoubleClick);
             // 
+            // categoryBarcodeDataGridViewTextBoxColumn
+            // 
+            this.categoryBarcodeDataGridViewTextBoxColumn.DataPropertyName = "Category_Barcode";
+            this.categoryBarcodeDataGridViewTextBoxColumn.HeaderText = "الباركود";
+            this.categoryBarcodeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.categoryBarcodeDataGridViewTextBoxColumn.Name = "categoryBarcodeDataGridViewTextBoxColumn";
+            this.categoryBarcodeDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // categoryDataGridViewTextBoxColumn2
+            // 
+            this.categoryDataGridViewTextBoxColumn2.DataPropertyName = "Category";
+            this.categoryDataGridViewTextBoxColumn2.HeaderText = "الصنف";
+            this.categoryDataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.categoryDataGridViewTextBoxColumn2.Name = "categoryDataGridViewTextBoxColumn2";
+            this.categoryDataGridViewTextBoxColumn2.Width = 270;
+            // 
+            // numberSalesDataGridViewTextBoxColumn
+            // 
+            this.numberSalesDataGridViewTextBoxColumn.DataPropertyName = "Number_Sales";
+            this.numberSalesDataGridViewTextBoxColumn.HeaderText = "العدد";
+            this.numberSalesDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.numberSalesDataGridViewTextBoxColumn.Name = "numberSalesDataGridViewTextBoxColumn";
+            this.numberSalesDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // lastDateDataGridViewTextBoxColumn
+            // 
+            this.lastDateDataGridViewTextBoxColumn.DataPropertyName = "LastDate";
+            this.lastDateDataGridViewTextBoxColumn.HeaderText = "اخر تاريخ";
+            this.lastDateDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.lastDateDataGridViewTextBoxColumn.Name = "lastDateDataGridViewTextBoxColumn";
+            this.lastDateDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // classCategoryBestSellerBindingSource
+            // 
+            this.classCategoryBestSellerBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_Category_BestSeller);
+            // 
             // textQuntetyAuto
             // 
             this.textQuntetyAuto.Location = new System.Drawing.Point(47, 20);
@@ -2993,6 +3232,26 @@
             this.dataGridGetAllCategry_BestSeller.TabIndex = 4;
             this.dataGridGetAllCategry_BestSeller.Visible = false;
             this.dataGridGetAllCategry_BestSeller.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridGetAllCategry_BestSeller_CellDoubleClick);
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Category";
+            this.dataGridViewTextBoxColumn2.HeaderText = "الصنف";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 350;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Storage";
+            this.dataGridViewTextBoxColumn3.HeaderText = "المخزن";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 125;
+            // 
+            // classGetAllCategryBindingSource
+            // 
+            this.classGetAllCategryBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_GetAllCategry);
             // 
             // radCategory_BestSeller
             // 
@@ -3091,6 +3350,93 @@
             this.dataGridSearchCategory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridSearchCategory_CellContentClick);
             this.dataGridSearchCategory.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridSearchCategory_CellDoubleClick);
             // 
+            // barcodeDataGridViewTextBoxColumn
+            // 
+            this.barcodeDataGridViewTextBoxColumn.DataPropertyName = "Barcode";
+            this.barcodeDataGridViewTextBoxColumn.HeaderText = "الباركود";
+            this.barcodeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.barcodeDataGridViewTextBoxColumn.Name = "barcodeDataGridViewTextBoxColumn";
+            this.barcodeDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // categoryDataGridViewTextBoxColumn1
+            // 
+            this.categoryDataGridViewTextBoxColumn1.DataPropertyName = "Category";
+            this.categoryDataGridViewTextBoxColumn1.HeaderText = "الصنف";
+            this.categoryDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.categoryDataGridViewTextBoxColumn1.Name = "categoryDataGridViewTextBoxColumn1";
+            this.categoryDataGridViewTextBoxColumn1.Width = 250;
+            // 
+            // storageDataGridViewTextBoxColumn1
+            // 
+            this.storageDataGridViewTextBoxColumn1.DataPropertyName = "Storage";
+            this.storageDataGridViewTextBoxColumn1.HeaderText = "المخزن";
+            this.storageDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.storageDataGridViewTextBoxColumn1.Name = "storageDataGridViewTextBoxColumn1";
+            this.storageDataGridViewTextBoxColumn1.Width = 70;
+            // 
+            // totalDataGridViewTextBoxColumn1
+            // 
+            this.totalDataGridViewTextBoxColumn1.DataPropertyName = "Total";
+            this.totalDataGridViewTextBoxColumn1.HeaderText = "الكمية";
+            this.totalDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.totalDataGridViewTextBoxColumn1.Name = "totalDataGridViewTextBoxColumn1";
+            this.totalDataGridViewTextBoxColumn1.Width = 60;
+            // 
+            // priceMostahlekDataGridViewTextBoxColumn
+            // 
+            this.priceMostahlekDataGridViewTextBoxColumn.DataPropertyName = "PriceMostahlek";
+            this.priceMostahlekDataGridViewTextBoxColumn.HeaderText = "السعر";
+            this.priceMostahlekDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.priceMostahlekDataGridViewTextBoxColumn.Name = "priceMostahlekDataGridViewTextBoxColumn";
+            this.priceMostahlekDataGridViewTextBoxColumn.Width = 70;
+            // 
+            // butAllBillng
+            // 
+            this.butAllBillng.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butAllBillng.BackgroundImage = global::ZAD_Sales.Properties.Resources.PrintAll_Zad2;
+            this.butAllBillng.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butAllBillng.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butAllBillng.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butAllBillng.Location = new System.Drawing.Point(0, 517);
+            this.butAllBillng.Name = "butAllBillng";
+            this.butAllBillng.Size = new System.Drawing.Size(26, 25);
+            this.butAllBillng.TabIndex = 5542;
+            this.toolTip1.SetToolTip(this.butAllBillng, "طباعة جميع الفواتير");
+            this.butAllBillng.UseVisualStyleBackColor = false;
+            this.butAllBillng.Visible = false;
+            this.butAllBillng.Click += new System.EventHandler(this.butAllBillng_Click);
+            // 
+            // butClientDays
+            // 
+            this.butClientDays.AccessibleName = "عملاء اليوم";
+            this.butClientDays.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butClientDays.BackgroundImage = global::ZAD_Sales.Properties.Resources.users_solid;
+            this.butClientDays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butClientDays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butClientDays.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butClientDays.Location = new System.Drawing.Point(139, 1);
+            this.butClientDays.Name = "butClientDays";
+            this.butClientDays.Size = new System.Drawing.Size(32, 30);
+            this.butClientDays.TabIndex = 5542;
+            this.toolTip1.SetToolTip(this.butClientDays, "عملاء اليوم");
+            this.butClientDays.UseVisualStyleBackColor = false;
+            this.butClientDays.Click += new System.EventHandler(this.butClientDays_Click);
+            // 
+            // butPrinting
+            // 
+            this.butPrinting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butPrinting.BackgroundImage = global::ZAD_Sales.Properties.Resources.print_solid;
+            this.butPrinting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butPrinting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butPrinting.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butPrinting.Location = new System.Drawing.Point(94, 1);
+            this.butPrinting.Name = "butPrinting";
+            this.butPrinting.Size = new System.Drawing.Size(32, 30);
+            this.butPrinting.TabIndex = 5542;
+            this.toolTip1.SetToolTip(this.butPrinting, "طباعه");
+            this.butPrinting.UseVisualStyleBackColor = false;
+            this.butPrinting.Click += new System.EventHandler(this.butPrinting_Click);
+            // 
             // txtClintName
             // 
             this.txtClintName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -3175,6 +3521,119 @@
             this.dataGridSearchClint.TabIndex = 0;
             this.dataGridSearchClint.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridSearchClint_CellDoubleClick);
             // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "الكود";
+            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // nameDataGridViewTextBoxColumn1
+            // 
+            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn1.HeaderText = "الاسم";
+            this.nameDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            this.nameDataGridViewTextBoxColumn1.Width = 140;
+            // 
+            // companyDataGridViewTextBoxColumn
+            // 
+            this.companyDataGridViewTextBoxColumn.DataPropertyName = "Company";
+            this.companyDataGridViewTextBoxColumn.HeaderText = "المجموعه";
+            this.companyDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.companyDataGridViewTextBoxColumn.Name = "companyDataGridViewTextBoxColumn";
+            this.companyDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // telHomeDataGridViewTextBoxColumn
+            // 
+            this.telHomeDataGridViewTextBoxColumn.DataPropertyName = "TelHome";
+            this.telHomeDataGridViewTextBoxColumn.HeaderText = "تليفون";
+            this.telHomeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.telHomeDataGridViewTextBoxColumn.Name = "telHomeDataGridViewTextBoxColumn";
+            this.telHomeDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // telMobilDataGridViewTextBoxColumn
+            // 
+            this.telMobilDataGridViewTextBoxColumn.DataPropertyName = "TelMobil";
+            this.telMobilDataGridViewTextBoxColumn.HeaderText = "محمول";
+            this.telMobilDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.telMobilDataGridViewTextBoxColumn.Name = "telMobilDataGridViewTextBoxColumn";
+            this.telMobilDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // addressDataGridViewTextBoxColumn
+            // 
+            this.addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
+            this.addressDataGridViewTextBoxColumn.HeaderText = "العنوان";
+            this.addressDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
+            this.addressDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // previousBalanceDataGridViewTextBoxColumn
+            // 
+            this.previousBalanceDataGridViewTextBoxColumn.DataPropertyName = "PreviousBalance";
+            this.previousBalanceDataGridViewTextBoxColumn.HeaderText = "الرصيد";
+            this.previousBalanceDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.previousBalanceDataGridViewTextBoxColumn.Name = "previousBalanceDataGridViewTextBoxColumn";
+            this.previousBalanceDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // stateRaseedDataGridViewTextBoxColumn
+            // 
+            this.stateRaseedDataGridViewTextBoxColumn.DataPropertyName = "StateRaseed";
+            this.stateRaseedDataGridViewTextBoxColumn.HeaderText = "الحالة";
+            this.stateRaseedDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.stateRaseedDataGridViewTextBoxColumn.Name = "stateRaseedDataGridViewTextBoxColumn";
+            this.stateRaseedDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // classGetAllClintesBindingSource
+            // 
+            this.classGetAllClintesBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_GetAllClintes);
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button12.BackgroundImage = global::ZAD_Sales.Properties.Resources.UpdateDate_Zad2;
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button12.Location = new System.Drawing.Point(0, 448);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(26, 25);
+            this.button12.TabIndex = 5542;
+            this.toolTip1.SetToolTip(this.button12, "تعديل التاريخ");
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // butPrintautoss
+            // 
+            this.butPrintautoss.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butPrintautoss.BackgroundImage = global::ZAD_Sales.Properties.Resources.print_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24;
+            this.butPrintautoss.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butPrintautoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butPrintautoss.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butPrintautoss.Location = new System.Drawing.Point(42, 1);
+            this.butPrintautoss.Name = "butPrintautoss";
+            this.butPrintautoss.Size = new System.Drawing.Size(32, 30);
+            this.butPrintautoss.TabIndex = 5542;
+            this.toolTip1.SetToolTip(this.butPrintautoss, "طباعة مباشرة");
+            this.butPrintautoss.UseVisualStyleBackColor = false;
+            this.butPrintautoss.Click += new System.EventHandler(this.butPrintautoss_Click);
+            // 
+            // butDeleteBilling
+            // 
+            this.butDeleteBilling.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butDeleteBilling.BackgroundImage = global::ZAD_Sales.Properties.Resources.Delete_Zad2;
+            this.butDeleteBilling.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butDeleteBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butDeleteBilling.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.butDeleteBilling.Location = new System.Drawing.Point(0, 414);
+            this.butDeleteBilling.Name = "butDeleteBilling";
+            this.butDeleteBilling.Size = new System.Drawing.Size(26, 25);
+            this.butDeleteBilling.TabIndex = 5542;
+            this.toolTip1.SetToolTip(this.butDeleteBilling, "حذف فاتورة");
+            this.butDeleteBilling.UseVisualStyleBackColor = false;
+            this.butDeleteBilling.Click += new System.EventHandler(this.butDeleteBilling_Click);
+            // 
             // panelBillDay
             // 
             this.panelBillDay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(174)))), ((int)(((byte)(214)))));
@@ -3210,6 +3669,21 @@
             this.checkCopyBill.Text = "نسخ فاتورة";
             this.checkCopyBill.UseVisualStyleBackColor = true;
             this.checkCopyBill.CheckedChanged += new System.EventHandler(this.checkCopyBill_CheckedChanged);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.button11.Location = new System.Drawing.Point(12, 5);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(25, 25);
+            this.button11.TabIndex = 5522;
+            this.button11.Text = "بحث";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // dateTimePicker2
             // 
@@ -3381,6 +3855,58 @@
             this.dataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellContentClick);
             this.dataGridView4.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellDoubleClick);
             // 
+            // numBillDataGridViewTextBoxColumn
+            // 
+            this.numBillDataGridViewTextBoxColumn.DataPropertyName = "NumBill";
+            this.numBillDataGridViewTextBoxColumn.HeaderText = "رقم";
+            this.numBillDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.numBillDataGridViewTextBoxColumn.Name = "numBillDataGridViewTextBoxColumn";
+            this.numBillDataGridViewTextBoxColumn.Width = 70;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "الاسم";
+            this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.Width = 200;
+            // 
+            // typeDataGridViewTextBoxColumn1
+            // 
+            this.typeDataGridViewTextBoxColumn1.DataPropertyName = "Type";
+            this.typeDataGridViewTextBoxColumn1.HeaderText = "المجموعه";
+            this.typeDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.typeDataGridViewTextBoxColumn1.Name = "typeDataGridViewTextBoxColumn1";
+            this.typeDataGridViewTextBoxColumn1.Width = 80;
+            // 
+            // totalBillDataGridViewTextBoxColumn
+            // 
+            this.totalBillDataGridViewTextBoxColumn.DataPropertyName = "TotalBill";
+            this.totalBillDataGridViewTextBoxColumn.HeaderText = "اجمالى ف";
+            this.totalBillDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.totalBillDataGridViewTextBoxColumn.Name = "totalBillDataGridViewTextBoxColumn";
+            this.totalBillDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // paidDataGridViewTextBoxColumn
+            // 
+            this.paidDataGridViewTextBoxColumn.DataPropertyName = "Paid";
+            this.paidDataGridViewTextBoxColumn.HeaderText = "التحصيل";
+            this.paidDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.paidDataGridViewTextBoxColumn.Name = "paidDataGridViewTextBoxColumn";
+            this.paidDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // remainingDataGridViewTextBoxColumn
+            // 
+            this.remainingDataGridViewTextBoxColumn.DataPropertyName = "Remaining";
+            this.remainingDataGridViewTextBoxColumn.HeaderText = "الباقى";
+            this.remainingDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.remainingDataGridViewTextBoxColumn.Name = "remainingDataGridViewTextBoxColumn";
+            this.remainingDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // classBillDayBindingSource1
+            // 
+            this.classBillDayBindingSource1.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_BillDay);
+            // 
             // panel16
             // 
             this.panel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -3490,6 +4016,76 @@
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             this.dataGridView2.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellDoubleClick);
             this.dataGridView2.Click += new System.EventHandler(this.dataGridView2_Click);
+            // 
+            // numDataGridViewTextBoxColumn
+            // 
+            this.numDataGridViewTextBoxColumn.DataPropertyName = "Num";
+            this.numDataGridViewTextBoxColumn.HeaderText = "م";
+            this.numDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.numDataGridViewTextBoxColumn.Name = "numDataGridViewTextBoxColumn";
+            this.numDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // storageDataGridViewTextBoxColumn
+            // 
+            this.storageDataGridViewTextBoxColumn.DataPropertyName = "Storage";
+            this.storageDataGridViewTextBoxColumn.HeaderText = "المخزن";
+            this.storageDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.storageDataGridViewTextBoxColumn.Name = "storageDataGridViewTextBoxColumn";
+            this.storageDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // categoryDataGridViewTextBoxColumn
+            // 
+            this.categoryDataGridViewTextBoxColumn.DataPropertyName = "Category";
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.categoryDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle23;
+            this.categoryDataGridViewTextBoxColumn.HeaderText = "الصنف";
+            this.categoryDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
+            this.categoryDataGridViewTextBoxColumn.Width = 300;
+            // 
+            // quantityDataGridViewTextBoxColumn
+            // 
+            this.quantityDataGridViewTextBoxColumn.DataPropertyName = "Quantity";
+            this.quantityDataGridViewTextBoxColumn.HeaderText = "الكمية";
+            this.quantityDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.quantityDataGridViewTextBoxColumn.Name = "quantityDataGridViewTextBoxColumn";
+            this.quantityDataGridViewTextBoxColumn.Width = 70;
+            // 
+            // typeDataGridViewTextBoxColumn
+            // 
+            this.typeDataGridViewTextBoxColumn.DataPropertyName = "Type";
+            this.typeDataGridViewTextBoxColumn.HeaderText = "الفئه";
+            this.typeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.typeDataGridViewTextBoxColumn.Name = "typeDataGridViewTextBoxColumn";
+            this.typeDataGridViewTextBoxColumn.Width = 70;
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            this.priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
+            this.priceDataGridViewTextBoxColumn.HeaderText = "السعر";
+            this.priceDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            this.priceDataGridViewTextBoxColumn.Width = 70;
+            // 
+            // discountDataGridViewTextBoxColumn
+            // 
+            this.discountDataGridViewTextBoxColumn.DataPropertyName = "Discount";
+            this.discountDataGridViewTextBoxColumn.HeaderText = "خصم %";
+            this.discountDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.discountDataGridViewTextBoxColumn.Name = "discountDataGridViewTextBoxColumn";
+            this.discountDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // totalDataGridViewTextBoxColumn
+            // 
+            this.totalDataGridViewTextBoxColumn.DataPropertyName = "Total";
+            this.totalDataGridViewTextBoxColumn.HeaderText = "الاجمالى";
+            this.totalDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.totalDataGridViewTextBoxColumn.Name = "totalDataGridViewTextBoxColumn";
+            this.totalDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // classCategoreysBillBindingSource1
+            // 
+            this.classCategoreysBillBindingSource1.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_CategoreysBill);
             // 
             // label20
             // 
@@ -3862,6 +4458,19 @@
             this.panel21.Click += new System.EventHandler(this.panel21_Click);
             this.panel21.Paint += new System.Windows.Forms.PaintEventHandler(this.panel21_Paint);
             // 
+            // butSearchBill
+            // 
+            this.butSearchBill.BackgroundImage = global::ZAD_Sales.Properties.Resources.searchZ;
+            this.butSearchBill.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butSearchBill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butSearchBill.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(150)))), ((int)(((byte)(186)))));
+            this.butSearchBill.Location = new System.Drawing.Point(289, 6);
+            this.butSearchBill.Name = "butSearchBill";
+            this.butSearchBill.Size = new System.Drawing.Size(23, 23);
+            this.butSearchBill.TabIndex = 5532;
+            this.butSearchBill.UseVisualStyleBackColor = true;
+            this.butSearchBill.Click += new System.EventHandler(this.butSearchBill_Click);
+            // 
             // comMoveBill
             // 
             this.comMoveBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -3885,9 +4494,39 @@
             this.labelMoveBill.ForeColor = System.Drawing.Color.Yellow;
             this.labelMoveBill.Location = new System.Drawing.Point(181, 2);
             this.labelMoveBill.Name = "labelMoveBill";
-            this.labelMoveBill.Size = new System.Drawing.Size(107, 30);
+            this.labelMoveBill.Size = new System.Drawing.Size(106, 30);
             this.labelMoveBill.TabIndex = 5514;
             this.labelMoveBill.Text = "فاتورة مبيعات";
+            // 
+            // button10
+            // 
+            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.button10.BackgroundImage = global::ZAD_Sales.Properties.Resources.search11;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.button10.Location = new System.Drawing.Point(1136, 8);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(20, 20);
+            this.button10.TabIndex = 5531;
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // butBillingNoSave
+            // 
+            this.butBillingNoSave.BackgroundImage = global::ZAD_Sales.Properties.Resources.PrintAll_Zad2;
+            this.butBillingNoSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.butBillingNoSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butBillingNoSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
+            this.butBillingNoSave.Location = new System.Drawing.Point(9, -6);
+            this.butBillingNoSave.Name = "butBillingNoSave";
+            this.butBillingNoSave.Size = new System.Drawing.Size(35, 30);
+            this.butBillingNoSave.TabIndex = 5545;
+            this.toolTip1.SetToolTip(this.butBillingNoSave, "طباعة جميع الفواتير");
+            this.butBillingNoSave.UseVisualStyleBackColor = true;
+            this.butBillingNoSave.Visible = false;
+            this.butBillingNoSave.Click += new System.EventHandler(this.butBillingNoSave_Click);
             // 
             // button1
             // 
@@ -3949,6 +4588,70 @@
             this.dataGridView5.Size = new System.Drawing.Size(746, 474);
             this.dataGridView5.StandardTab = true;
             this.dataGridView5.TabIndex = 5543;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Num";
+            this.dataGridViewTextBoxColumn4.HeaderText = "م";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Storage";
+            this.dataGridViewTextBoxColumn5.HeaderText = "المخزن";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Category";
+            this.dataGridViewTextBoxColumn6.HeaderText = "الصنف";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 300;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Quantity";
+            this.dataGridViewTextBoxColumn7.HeaderText = "الكمية";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Type";
+            this.dataGridViewTextBoxColumn8.HeaderText = "الفئه";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn9.HeaderText = "السعر";
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Discount";
+            this.dataGridViewTextBoxColumn10.HeaderText = "خصم %";
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.DataPropertyName = "Total";
+            this.dataGridViewTextBoxColumn11.HeaderText = "الاجمالى";
+            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.Width = 80;
             // 
             // buttonUP
             // 
@@ -4151,6 +4854,72 @@
             this.dataGridView7.StandardTab = true;
             this.dataGridView7.TabIndex = 5522;
             // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "Num";
+            this.dataGridViewTextBoxColumn18.HeaderText = "م";
+            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            this.dataGridViewTextBoxColumn18.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "Storage";
+            this.dataGridViewTextBoxColumn19.HeaderText = "المخزن";
+            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "Category";
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.dataGridViewTextBoxColumn20.DefaultCellStyle = dataGridViewCellStyle31;
+            this.dataGridViewTextBoxColumn20.HeaderText = "الصنف";
+            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.Width = 300;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "Quantity";
+            this.dataGridViewTextBoxColumn21.HeaderText = "الكمية";
+            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.dataGridViewTextBoxColumn21.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "Type";
+            this.dataGridViewTextBoxColumn22.HeaderText = "الفئه";
+            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "Price";
+            this.dataGridViewTextBoxColumn23.HeaderText = "السعر";
+            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "Discount";
+            this.dataGridViewTextBoxColumn24.HeaderText = "خصم %";
+            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "Total";
+            this.dataGridViewTextBoxColumn25.HeaderText = "الاجمالى";
+            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.Width = 80;
+            // 
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(172)))), ((int)(((byte)(132)))));
@@ -4252,122 +5021,6 @@
             this.dataGridView6.TabIndex = 5504;
             this.dataGridView6.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView6_CellDoubleClick);
             // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.panel15.Controls.Add(this.button14);
-            this.panel15.Controls.Add(this.butClientDay);
-            this.panel15.Controls.Add(this.textBox5);
-            this.panel15.Controls.Add(this.panelBillingNoSave);
-            this.panel15.Controls.Add(this.panel6);
-            this.panel15.Controls.Add(this.textBox4);
-            this.panel15.Controls.Add(this.butPrint);
-            this.panel15.Controls.Add(this.panel12);
-            this.panel15.Controls.Add(this.butSeting);
-            this.panel15.Controls.Add(this.panelDiscount);
-            this.panel15.Controls.Add(this.textBox3);
-            this.panel15.Controls.Add(this.textBox2);
-            this.panel15.Controls.Add(this.txtTotalAndRemaining);
-            this.panel15.Controls.Add(this.txtCategorey);
-            this.panel15.Controls.Add(this.listBox1);
-            this.panel15.Controls.Add(this.butDeleteBill);
-            this.panel15.Controls.Add(this.comboBox1);
-            this.panel15.Controls.Add(this.button1);
-            this.panel15.Controls.Add(this.panel1);
-            this.panel15.Controls.Add(this.butPrintauto);
-            this.panel15.Controls.Add(this.button4);
-            this.panel15.Location = new System.Drawing.Point(132, 701);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(60, 124);
-            this.panel15.TabIndex = 5546;
-            this.panel15.Visible = false;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(0, 0);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(200, 100);
-            this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "    الشيكات   ";
-            // 
-            // textarabic
-            // 
-            this.textarabic.Location = new System.Drawing.Point(301, 701);
-            this.textarabic.Name = "textarabic";
-            this.textarabic.Size = new System.Drawing.Size(460, 20);
-            this.textarabic.TabIndex = 5531;
-            this.textarabic.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "Num";
-            this.dataGridViewTextBoxColumn18.HeaderText = "م";
-            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.Width = 50;
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "Storage";
-            this.dataGridViewTextBoxColumn19.HeaderText = "المخزن";
-            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "Category";
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.dataGridViewTextBoxColumn20.DefaultCellStyle = dataGridViewCellStyle31;
-            this.dataGridViewTextBoxColumn20.HeaderText = "الصنف";
-            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.Width = 300;
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "Quantity";
-            this.dataGridViewTextBoxColumn21.HeaderText = "الكمية";
-            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            this.dataGridViewTextBoxColumn21.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "Type";
-            this.dataGridViewTextBoxColumn22.HeaderText = "الفئه";
-            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn23.HeaderText = "السعر";
-            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "Discount";
-            this.dataGridViewTextBoxColumn24.HeaderText = "خصم %";
-            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "Total";
-            this.dataGridViewTextBoxColumn25.HeaderText = "الاجمالى";
-            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.Width = 80;
-            // 
-            // classCategoreysBillBindingSource1
-            // 
-            this.classCategoreysBillBindingSource1.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_CategoreysBill);
-            // 
             // dataGridViewTextBoxColumn12
             // 
             this.dataGridViewTextBoxColumn12.DataPropertyName = "NumBill";
@@ -4416,704 +5069,51 @@
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.Width = 80;
             // 
-            // classBillDayBindingSource1
-            // 
-            this.classBillDayBindingSource1.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_BillDay);
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Num";
-            this.dataGridViewTextBoxColumn4.HeaderText = "م";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 50;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Storage";
-            this.dataGridViewTextBoxColumn5.HeaderText = "المخزن";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Category";
-            this.dataGridViewTextBoxColumn6.HeaderText = "الصنف";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.Width = 300;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Quantity";
-            this.dataGridViewTextBoxColumn7.HeaderText = "الكمية";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Type";
-            this.dataGridViewTextBoxColumn8.HeaderText = "الفئه";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn9.HeaderText = "السعر";
-            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Discount";
-            this.dataGridViewTextBoxColumn10.HeaderText = "خصم %";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.DataPropertyName = "Total";
-            this.dataGridViewTextBoxColumn11.HeaderText = "الاجمالى";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 80;
-            // 
-            // butBillingNoSave
-            // 
-            this.butBillingNoSave.BackgroundImage = global::ZAD_Sales.Properties.Resources.PrintAll_Zad2;
-            this.butBillingNoSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butBillingNoSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butBillingNoSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
-            this.butBillingNoSave.Location = new System.Drawing.Point(9, -6);
-            this.butBillingNoSave.Name = "butBillingNoSave";
-            this.butBillingNoSave.Size = new System.Drawing.Size(35, 30);
-            this.butBillingNoSave.TabIndex = 5545;
-            this.toolTip1.SetToolTip(this.butBillingNoSave, "طباعة جميع الفواتير");
-            this.butBillingNoSave.UseVisualStyleBackColor = true;
-            this.butBillingNoSave.Visible = false;
-            this.butBillingNoSave.Click += new System.EventHandler(this.butBillingNoSave_Click);
-            // 
-            // butSearchBill
-            // 
-            this.butSearchBill.BackgroundImage = global::ZAD_Sales.Properties.Resources.searchZ;
-            this.butSearchBill.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butSearchBill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butSearchBill.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(150)))), ((int)(((byte)(186)))));
-            this.butSearchBill.Location = new System.Drawing.Point(289, 6);
-            this.butSearchBill.Name = "butSearchBill";
-            this.butSearchBill.Size = new System.Drawing.Size(23, 23);
-            this.butSearchBill.TabIndex = 5532;
-            this.butSearchBill.UseVisualStyleBackColor = true;
-            this.butSearchBill.Click += new System.EventHandler(this.butSearchBill_Click);
-            // 
-            // button10
-            // 
-            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.button10.BackgroundImage = global::ZAD_Sales.Properties.Resources.search11;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.button10.Location = new System.Drawing.Point(1136, 8);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(20, 20);
-            this.button10.TabIndex = 5531;
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // butSearchCategory
-            // 
-            this.butSearchCategory.BackColor = System.Drawing.Color.White;
-            this.butSearchCategory.BackgroundImage = global::ZAD_Sales.Properties.Resources.searchZ;
-            this.butSearchCategory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butSearchCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butSearchCategory.ForeColor = System.Drawing.Color.White;
-            this.butSearchCategory.Location = new System.Drawing.Point(5, 82);
-            this.butSearchCategory.Name = "butSearchCategory";
-            this.butSearchCategory.Size = new System.Drawing.Size(20, 20);
-            this.butSearchCategory.TabIndex = 5530;
-            this.butSearchCategory.UseVisualStyleBackColor = false;
-            this.butSearchCategory.Click += new System.EventHandler(this.butSearchCategory_Click);
-            // 
-            // dataGridViewTextBoxColumn26
-            // 
-            this.dataGridViewTextBoxColumn26.DataPropertyName = "Num";
-            this.dataGridViewTextBoxColumn26.HeaderText = "م";
-            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.Width = 50;
-            // 
-            // dataGridViewTextBoxColumn27
-            // 
-            this.dataGridViewTextBoxColumn27.DataPropertyName = "Storage";
-            this.dataGridViewTextBoxColumn27.HeaderText = "المخزن";
-            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            this.dataGridViewTextBoxColumn27.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn28
-            // 
-            this.dataGridViewTextBoxColumn28.DataPropertyName = "Category";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.dataGridViewTextBoxColumn28.DefaultCellStyle = dataGridViewCellStyle8;
-            this.dataGridViewTextBoxColumn28.HeaderText = "الصنف";
-            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            this.dataGridViewTextBoxColumn28.Width = 250;
-            // 
-            // dataGridViewTextBoxColumn29
-            // 
-            this.dataGridViewTextBoxColumn29.DataPropertyName = "Quantity";
-            this.dataGridViewTextBoxColumn29.HeaderText = "الكمية";
-            this.dataGridViewTextBoxColumn29.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
-            this.dataGridViewTextBoxColumn29.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn30
-            // 
-            this.dataGridViewTextBoxColumn30.DataPropertyName = "Type";
-            this.dataGridViewTextBoxColumn30.HeaderText = "الفئه";
-            this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
-            this.dataGridViewTextBoxColumn30.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn31
-            // 
-            this.dataGridViewTextBoxColumn31.DataPropertyName = "Price";
-            this.dataGridViewTextBoxColumn31.HeaderText = "السعر";
-            this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
-            this.dataGridViewTextBoxColumn31.Width = 70;
-            // 
-            // dataGridViewTextBoxColumn32
-            // 
-            this.dataGridViewTextBoxColumn32.DataPropertyName = "Discount";
-            this.dataGridViewTextBoxColumn32.HeaderText = "خصم %";
-            this.dataGridViewTextBoxColumn32.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
-            this.dataGridViewTextBoxColumn32.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn33
-            // 
-            this.dataGridViewTextBoxColumn33.DataPropertyName = "Total";
-            this.dataGridViewTextBoxColumn33.HeaderText = "الاجمالى";
-            this.dataGridViewTextBoxColumn33.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
-            this.dataGridViewTextBoxColumn33.Width = 60;
-            // 
-            // classCategoreysBillCopyBindingSource
-            // 
-            this.classCategoreysBillCopyBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_CategoreysBillCopy);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(102, 237);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 42);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5492;
-            this.pictureBox1.TabStop = false;
-            // 
-            // numBillDataGridViewTextBoxColumn1
-            // 
-            this.numBillDataGridViewTextBoxColumn1.DataPropertyName = "NumBill";
-            this.numBillDataGridViewTextBoxColumn1.HeaderText = "رقم";
-            this.numBillDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.numBillDataGridViewTextBoxColumn1.Name = "numBillDataGridViewTextBoxColumn1";
-            this.numBillDataGridViewTextBoxColumn1.Width = 80;
-            // 
-            // dateDataGridViewTextBoxColumn
-            // 
-            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "التاريخ";
-            this.dateDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
-            this.dateDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // totalBillDataGridViewTextBoxColumn1
-            // 
-            this.totalBillDataGridViewTextBoxColumn1.DataPropertyName = "TotalBill";
-            this.totalBillDataGridViewTextBoxColumn1.HeaderText = "الاجمالى";
-            this.totalBillDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.totalBillDataGridViewTextBoxColumn1.Name = "totalBillDataGridViewTextBoxColumn1";
-            this.totalBillDataGridViewTextBoxColumn1.Width = 90;
-            // 
-            // classBillsClintSalesBindingSource
-            // 
-            this.classBillsClintSalesBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_BillsClintSales);
-            // 
-            // butUP
-            // 
-            this.butUP.BackgroundImage = global::ZAD_Sales.Properties.Resources.ArrowUp;
-            this.butUP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butUP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butUP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
-            this.butUP.Location = new System.Drawing.Point(0, 264);
-            this.butUP.Name = "butUP";
-            this.butUP.Size = new System.Drawing.Size(26, 25);
-            this.butUP.TabIndex = 5546;
-            this.butUP.UseVisualStyleBackColor = true;
-            this.butUP.Click += new System.EventHandler(this.butUP_Click);
-            // 
-            // butProfit
-            // 
-            this.butProfit.BackgroundImage = global::ZAD_Sales.Properties.Resources.Files;
-            this.butProfit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butProfit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butProfit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
-            this.butProfit.Location = new System.Drawing.Point(0, 232);
-            this.butProfit.Name = "butProfit";
-            this.butProfit.Size = new System.Drawing.Size(26, 25);
-            this.butProfit.TabIndex = 5547;
-            this.butProfit.UseVisualStyleBackColor = true;
-            this.butProfit.Click += new System.EventHandler(this.butProfit_Click);
-            // 
-            // button18
-            // 
-            this.button18.BackgroundImage = global::ZAD_Sales.Properties.Resources.file_invoice;
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
-            this.button18.Location = new System.Drawing.Point(1, 385);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(26, 25);
-            this.button18.TabIndex = 5547;
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
-            // button15
-            // 
-            this.button15.BackgroundImage = global::ZAD_Sales.Properties.Resources.settings;
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
-            this.button15.Location = new System.Drawing.Point(0, 200);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(26, 25);
-            this.button15.TabIndex = 5547;
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
-            // 
-            // butDown
-            // 
-            this.butDown.BackgroundImage = global::ZAD_Sales.Properties.Resources.ArrowDown;
-            this.butDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butDown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
-            this.butDown.Location = new System.Drawing.Point(0, 296);
-            this.butDown.Name = "butDown";
-            this.butDown.Size = new System.Drawing.Size(26, 25);
-            this.butDown.TabIndex = 5547;
-            this.butDown.UseVisualStyleBackColor = true;
-            this.butDown.Click += new System.EventHandler(this.butDown_Click);
-            // 
-            // butInstallment
-            // 
-            this.butInstallment.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butInstallment.BackgroundImage = global::ZAD_Sales.Properties.Resources.Kest_Zad;
-            this.butInstallment.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butInstallment.Enabled = false;
-            this.butInstallment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butInstallment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butInstallment.Location = new System.Drawing.Point(0, 483);
-            this.butInstallment.Name = "butInstallment";
-            this.butInstallment.Size = new System.Drawing.Size(26, 25);
-            this.butInstallment.TabIndex = 5527;
-            this.toolTip1.SetToolTip(this.butInstallment, "تقسيط الفاتورة");
-            this.butInstallment.UseVisualStyleBackColor = false;
-            this.butInstallment.Click += new System.EventHandler(this.butInstallment_Click);
-            // 
-            // categoryBarcodeDataGridViewTextBoxColumn
-            // 
-            this.categoryBarcodeDataGridViewTextBoxColumn.DataPropertyName = "Category_Barcode";
-            this.categoryBarcodeDataGridViewTextBoxColumn.HeaderText = "الباركود";
-            this.categoryBarcodeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.categoryBarcodeDataGridViewTextBoxColumn.Name = "categoryBarcodeDataGridViewTextBoxColumn";
-            this.categoryBarcodeDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // categoryDataGridViewTextBoxColumn2
-            // 
-            this.categoryDataGridViewTextBoxColumn2.DataPropertyName = "Category";
-            this.categoryDataGridViewTextBoxColumn2.HeaderText = "الصنف";
-            this.categoryDataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.categoryDataGridViewTextBoxColumn2.Name = "categoryDataGridViewTextBoxColumn2";
-            this.categoryDataGridViewTextBoxColumn2.Width = 270;
-            // 
-            // numberSalesDataGridViewTextBoxColumn
-            // 
-            this.numberSalesDataGridViewTextBoxColumn.DataPropertyName = "Number_Sales";
-            this.numberSalesDataGridViewTextBoxColumn.HeaderText = "العدد";
-            this.numberSalesDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.numberSalesDataGridViewTextBoxColumn.Name = "numberSalesDataGridViewTextBoxColumn";
-            this.numberSalesDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // lastDateDataGridViewTextBoxColumn
-            // 
-            this.lastDateDataGridViewTextBoxColumn.DataPropertyName = "LastDate";
-            this.lastDateDataGridViewTextBoxColumn.HeaderText = "اخر تاريخ";
-            this.lastDateDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.lastDateDataGridViewTextBoxColumn.Name = "lastDateDataGridViewTextBoxColumn";
-            this.lastDateDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // classCategoryBestSellerBindingSource
-            // 
-            this.classCategoryBestSellerBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_Category_BestSeller);
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Category";
-            this.dataGridViewTextBoxColumn2.HeaderText = "الصنف";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 350;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Storage";
-            this.dataGridViewTextBoxColumn3.HeaderText = "المخزن";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // classGetAllCategryBindingSource
-            // 
-            this.classGetAllCategryBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_GetAllCategry);
-            // 
-            // barcodeDataGridViewTextBoxColumn
-            // 
-            this.barcodeDataGridViewTextBoxColumn.DataPropertyName = "Barcode";
-            this.barcodeDataGridViewTextBoxColumn.HeaderText = "الباركود";
-            this.barcodeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.barcodeDataGridViewTextBoxColumn.Name = "barcodeDataGridViewTextBoxColumn";
-            this.barcodeDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // categoryDataGridViewTextBoxColumn1
-            // 
-            this.categoryDataGridViewTextBoxColumn1.DataPropertyName = "Category";
-            this.categoryDataGridViewTextBoxColumn1.HeaderText = "الصنف";
-            this.categoryDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.categoryDataGridViewTextBoxColumn1.Name = "categoryDataGridViewTextBoxColumn1";
-            this.categoryDataGridViewTextBoxColumn1.Width = 250;
-            // 
-            // storageDataGridViewTextBoxColumn1
-            // 
-            this.storageDataGridViewTextBoxColumn1.DataPropertyName = "Storage";
-            this.storageDataGridViewTextBoxColumn1.HeaderText = "المخزن";
-            this.storageDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.storageDataGridViewTextBoxColumn1.Name = "storageDataGridViewTextBoxColumn1";
-            this.storageDataGridViewTextBoxColumn1.Width = 70;
-            // 
-            // totalDataGridViewTextBoxColumn1
-            // 
-            this.totalDataGridViewTextBoxColumn1.DataPropertyName = "Total";
-            this.totalDataGridViewTextBoxColumn1.HeaderText = "الكمية";
-            this.totalDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.totalDataGridViewTextBoxColumn1.Name = "totalDataGridViewTextBoxColumn1";
-            this.totalDataGridViewTextBoxColumn1.Width = 60;
-            // 
-            // priceMostahlekDataGridViewTextBoxColumn
-            // 
-            this.priceMostahlekDataGridViewTextBoxColumn.DataPropertyName = "PriceMostahlek";
-            this.priceMostahlekDataGridViewTextBoxColumn.HeaderText = "السعر";
-            this.priceMostahlekDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.priceMostahlekDataGridViewTextBoxColumn.Name = "priceMostahlekDataGridViewTextBoxColumn";
-            this.priceMostahlekDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // butAllBillng
-            // 
-            this.butAllBillng.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butAllBillng.BackgroundImage = global::ZAD_Sales.Properties.Resources.PrintAll_Zad2;
-            this.butAllBillng.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butAllBillng.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butAllBillng.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butAllBillng.Location = new System.Drawing.Point(0, 517);
-            this.butAllBillng.Name = "butAllBillng";
-            this.butAllBillng.Size = new System.Drawing.Size(26, 25);
-            this.butAllBillng.TabIndex = 5542;
-            this.toolTip1.SetToolTip(this.butAllBillng, "طباعة جميع الفواتير");
-            this.butAllBillng.UseVisualStyleBackColor = false;
-            this.butAllBillng.Visible = false;
-            this.butAllBillng.Click += new System.EventHandler(this.butAllBillng_Click);
-            // 
-            // butClientDays
-            // 
-            this.butClientDays.AccessibleName = "عملاء اليوم";
-            this.butClientDays.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butClientDays.BackgroundImage = global::ZAD_Sales.Properties.Resources.users_solid;
-            this.butClientDays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butClientDays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butClientDays.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butClientDays.Location = new System.Drawing.Point(139, 1);
-            this.butClientDays.Name = "butClientDays";
-            this.butClientDays.Size = new System.Drawing.Size(32, 30);
-            this.butClientDays.TabIndex = 5542;
-            this.toolTip1.SetToolTip(this.butClientDays, "عملاء اليوم");
-            this.butClientDays.UseVisualStyleBackColor = false;
-            this.butClientDays.Click += new System.EventHandler(this.butClientDays_Click);
-            // 
-            // butPrinting
-            // 
-            this.butPrinting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butPrinting.BackgroundImage = global::ZAD_Sales.Properties.Resources.print_solid;
-            this.butPrinting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butPrinting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butPrinting.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butPrinting.Location = new System.Drawing.Point(94, 1);
-            this.butPrinting.Name = "butPrinting";
-            this.butPrinting.Size = new System.Drawing.Size(32, 30);
-            this.butPrinting.TabIndex = 5542;
-            this.toolTip1.SetToolTip(this.butPrinting, "طباعه");
-            this.butPrinting.UseVisualStyleBackColor = false;
-            this.butPrinting.Click += new System.EventHandler(this.butPrinting_Click);
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "الكود";
-            this.iDDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // nameDataGridViewTextBoxColumn1
-            // 
-            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn1.HeaderText = "الاسم";
-            this.nameDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
-            this.nameDataGridViewTextBoxColumn1.Width = 140;
-            // 
-            // companyDataGridViewTextBoxColumn
-            // 
-            this.companyDataGridViewTextBoxColumn.DataPropertyName = "Company";
-            this.companyDataGridViewTextBoxColumn.HeaderText = "المجموعه";
-            this.companyDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.companyDataGridViewTextBoxColumn.Name = "companyDataGridViewTextBoxColumn";
-            this.companyDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // telHomeDataGridViewTextBoxColumn
-            // 
-            this.telHomeDataGridViewTextBoxColumn.DataPropertyName = "TelHome";
-            this.telHomeDataGridViewTextBoxColumn.HeaderText = "تليفون";
-            this.telHomeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.telHomeDataGridViewTextBoxColumn.Name = "telHomeDataGridViewTextBoxColumn";
-            this.telHomeDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // telMobilDataGridViewTextBoxColumn
-            // 
-            this.telMobilDataGridViewTextBoxColumn.DataPropertyName = "TelMobil";
-            this.telMobilDataGridViewTextBoxColumn.HeaderText = "محمول";
-            this.telMobilDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.telMobilDataGridViewTextBoxColumn.Name = "telMobilDataGridViewTextBoxColumn";
-            this.telMobilDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "العنوان";
-            this.addressDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            this.addressDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // previousBalanceDataGridViewTextBoxColumn
-            // 
-            this.previousBalanceDataGridViewTextBoxColumn.DataPropertyName = "PreviousBalance";
-            this.previousBalanceDataGridViewTextBoxColumn.HeaderText = "الرصيد";
-            this.previousBalanceDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.previousBalanceDataGridViewTextBoxColumn.Name = "previousBalanceDataGridViewTextBoxColumn";
-            this.previousBalanceDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // stateRaseedDataGridViewTextBoxColumn
-            // 
-            this.stateRaseedDataGridViewTextBoxColumn.DataPropertyName = "StateRaseed";
-            this.stateRaseedDataGridViewTextBoxColumn.HeaderText = "الحالة";
-            this.stateRaseedDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.stateRaseedDataGridViewTextBoxColumn.Name = "stateRaseedDataGridViewTextBoxColumn";
-            this.stateRaseedDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // classGetAllClintesBindingSource
-            // 
-            this.classGetAllClintesBindingSource.DataSource = typeof(ZAD_Sales.Forms.Sales.Class_GetAllClintes);
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.button12.BackgroundImage = global::ZAD_Sales.Properties.Resources.UpdateDate_Zad2;
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.button12.Location = new System.Drawing.Point(0, 448);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(26, 25);
-            this.button12.TabIndex = 5542;
-            this.toolTip1.SetToolTip(this.button12, "تعديل التاريخ");
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // butPrintautoss
-            // 
-            this.butPrintautoss.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butPrintautoss.BackgroundImage = global::ZAD_Sales.Properties.Resources.print_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24;
-            this.butPrintautoss.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butPrintautoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butPrintautoss.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butPrintautoss.Location = new System.Drawing.Point(42, 1);
-            this.butPrintautoss.Name = "butPrintautoss";
-            this.butPrintautoss.Size = new System.Drawing.Size(32, 30);
-            this.butPrintautoss.TabIndex = 5542;
-            this.toolTip1.SetToolTip(this.butPrintautoss, "طباعة مباشرة");
-            this.butPrintautoss.UseVisualStyleBackColor = false;
-            this.butPrintautoss.Click += new System.EventHandler(this.butPrintautoss_Click);
-            // 
-            // butDeleteBilling
-            // 
-            this.butDeleteBilling.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butDeleteBilling.BackgroundImage = global::ZAD_Sales.Properties.Resources.Delete_Zad2;
-            this.butDeleteBilling.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.butDeleteBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butDeleteBilling.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.butDeleteBilling.Location = new System.Drawing.Point(0, 414);
-            this.butDeleteBilling.Name = "butDeleteBilling";
-            this.butDeleteBilling.Size = new System.Drawing.Size(26, 25);
-            this.butDeleteBilling.TabIndex = 5542;
-            this.toolTip1.SetToolTip(this.butDeleteBilling, "حذف فاتورة");
-            this.butDeleteBilling.UseVisualStyleBackColor = false;
-            this.butDeleteBilling.Click += new System.EventHandler(this.butDeleteBilling_Click);
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
-            this.button11.Location = new System.Drawing.Point(12, 5);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(25, 25);
-            this.button11.TabIndex = 5522;
-            this.button11.Text = "بحث";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // numBillDataGridViewTextBoxColumn
-            // 
-            this.numBillDataGridViewTextBoxColumn.DataPropertyName = "NumBill";
-            this.numBillDataGridViewTextBoxColumn.HeaderText = "رقم";
-            this.numBillDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.numBillDataGridViewTextBoxColumn.Name = "numBillDataGridViewTextBoxColumn";
-            this.numBillDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "الاسم";
-            this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.Width = 200;
-            // 
-            // typeDataGridViewTextBoxColumn1
-            // 
-            this.typeDataGridViewTextBoxColumn1.DataPropertyName = "Type";
-            this.typeDataGridViewTextBoxColumn1.HeaderText = "المجموعه";
-            this.typeDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.typeDataGridViewTextBoxColumn1.Name = "typeDataGridViewTextBoxColumn1";
-            this.typeDataGridViewTextBoxColumn1.Width = 80;
-            // 
-            // totalBillDataGridViewTextBoxColumn
-            // 
-            this.totalBillDataGridViewTextBoxColumn.DataPropertyName = "TotalBill";
-            this.totalBillDataGridViewTextBoxColumn.HeaderText = "اجمالى ف";
-            this.totalBillDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.totalBillDataGridViewTextBoxColumn.Name = "totalBillDataGridViewTextBoxColumn";
-            this.totalBillDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // paidDataGridViewTextBoxColumn
-            // 
-            this.paidDataGridViewTextBoxColumn.DataPropertyName = "Paid";
-            this.paidDataGridViewTextBoxColumn.HeaderText = "التحصيل";
-            this.paidDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.paidDataGridViewTextBoxColumn.Name = "paidDataGridViewTextBoxColumn";
-            this.paidDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // remainingDataGridViewTextBoxColumn
-            // 
-            this.remainingDataGridViewTextBoxColumn.DataPropertyName = "Remaining";
-            this.remainingDataGridViewTextBoxColumn.HeaderText = "الباقى";
-            this.remainingDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.remainingDataGridViewTextBoxColumn.Name = "remainingDataGridViewTextBoxColumn";
-            this.remainingDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // numDataGridViewTextBoxColumn
-            // 
-            this.numDataGridViewTextBoxColumn.DataPropertyName = "Num";
-            this.numDataGridViewTextBoxColumn.HeaderText = "م";
-            this.numDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.numDataGridViewTextBoxColumn.Name = "numDataGridViewTextBoxColumn";
-            this.numDataGridViewTextBoxColumn.Width = 50;
-            // 
-            // storageDataGridViewTextBoxColumn
-            // 
-            this.storageDataGridViewTextBoxColumn.DataPropertyName = "Storage";
-            this.storageDataGridViewTextBoxColumn.HeaderText = "المخزن";
-            this.storageDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.storageDataGridViewTextBoxColumn.Name = "storageDataGridViewTextBoxColumn";
-            this.storageDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // categoryDataGridViewTextBoxColumn
-            // 
-            this.categoryDataGridViewTextBoxColumn.DataPropertyName = "Category";
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.categoryDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle23;
-            this.categoryDataGridViewTextBoxColumn.HeaderText = "الصنف";
-            this.categoryDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
-            this.categoryDataGridViewTextBoxColumn.Width = 300;
-            // 
-            // quantityDataGridViewTextBoxColumn
-            // 
-            this.quantityDataGridViewTextBoxColumn.DataPropertyName = "Quantity";
-            this.quantityDataGridViewTextBoxColumn.HeaderText = "الكمية";
-            this.quantityDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.quantityDataGridViewTextBoxColumn.Name = "quantityDataGridViewTextBoxColumn";
-            this.quantityDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // typeDataGridViewTextBoxColumn
-            // 
-            this.typeDataGridViewTextBoxColumn.DataPropertyName = "Type";
-            this.typeDataGridViewTextBoxColumn.HeaderText = "الفئه";
-            this.typeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.typeDataGridViewTextBoxColumn.Name = "typeDataGridViewTextBoxColumn";
-            this.typeDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // priceDataGridViewTextBoxColumn
-            // 
-            this.priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
-            this.priceDataGridViewTextBoxColumn.HeaderText = "السعر";
-            this.priceDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
-            this.priceDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // discountDataGridViewTextBoxColumn
-            // 
-            this.discountDataGridViewTextBoxColumn.DataPropertyName = "Discount";
-            this.discountDataGridViewTextBoxColumn.HeaderText = "خصم %";
-            this.discountDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.discountDataGridViewTextBoxColumn.Name = "discountDataGridViewTextBoxColumn";
-            this.discountDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // totalDataGridViewTextBoxColumn
-            // 
-            this.totalDataGridViewTextBoxColumn.DataPropertyName = "Total";
-            this.totalDataGridViewTextBoxColumn.HeaderText = "الاجمالى";
-            this.totalDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.totalDataGridViewTextBoxColumn.Name = "totalDataGridViewTextBoxColumn";
-            this.totalDataGridViewTextBoxColumn.Width = 80;
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel15.Controls.Add(this.button14);
+            this.panel15.Controls.Add(this.butClientDay);
+            this.panel15.Controls.Add(this.textBox5);
+            this.panel15.Controls.Add(this.panelBillingNoSave);
+            this.panel15.Controls.Add(this.panel6);
+            this.panel15.Controls.Add(this.textBox4);
+            this.panel15.Controls.Add(this.butPrint);
+            this.panel15.Controls.Add(this.panel12);
+            this.panel15.Controls.Add(this.butSeting);
+            this.panel15.Controls.Add(this.panelDiscount);
+            this.panel15.Controls.Add(this.textBox3);
+            this.panel15.Controls.Add(this.textBox2);
+            this.panel15.Controls.Add(this.txtTotalAndRemaining);
+            this.panel15.Controls.Add(this.txtCategorey);
+            this.panel15.Controls.Add(this.listBox1);
+            this.panel15.Controls.Add(this.butDeleteBill);
+            this.panel15.Controls.Add(this.comboBox1);
+            this.panel15.Controls.Add(this.button1);
+            this.panel15.Controls.Add(this.panel1);
+            this.panel15.Controls.Add(this.butPrintauto);
+            this.panel15.Controls.Add(this.button4);
+            this.panel15.Location = new System.Drawing.Point(132, 701);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(60, 124);
+            this.panel15.TabIndex = 5546;
+            this.panel15.Visible = false;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(0, 0);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(200, 100);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "    الشيكات   ";
+            // 
+            // textPaidAmountWords
+            // 
+            this.textPaidAmountWords.Location = new System.Drawing.Point(301, 701);
+            this.textPaidAmountWords.Name = "textPaidAmountWords";
+            this.textPaidAmountWords.Size = new System.Drawing.Size(460, 20);
+            this.textPaidAmountWords.TabIndex = 5531;
+            this.textPaidAmountWords.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Sales
             // 
@@ -5134,7 +5134,7 @@
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.textarabic);
+            this.Controls.Add(this.textPaidAmountWords);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Sales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -5162,10 +5162,12 @@
             this.tabPage1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classBillsClintSalesBindingSource)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
@@ -5175,6 +5177,7 @@
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillCopyBindingSource)).EndInit();
             this.panel_PriceSheraa.ResumeLayout(false);
             this.panelSettings.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -5190,15 +5193,20 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCategory_BestSeller)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classCategoryBestSellerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGetAllCategry_BestSeller)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classGetAllCategryBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSearchCategory)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSearchClint)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classGetAllClintesBindingSource)).EndInit();
             this.panelBillDay.ResumeLayout(false);
             this.panelBillDay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classBillDayBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillBindingSource1)).EndInit();
             this.panelDiscount.ResumeLayout(false);
             this.panelDiscount.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -5214,14 +5222,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classBillDayBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classCategoreysBillCopyBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classBillsClintSalesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classCategoryBestSellerBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classGetAllCategryBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.classGetAllClintesBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5606,7 +5606,7 @@
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button butUpdateSeting;
-        private System.Windows.Forms.TextBox textarabic;
+        private System.Windows.Forms.TextBox textPaidAmountWords;
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.Label label73;
     }
