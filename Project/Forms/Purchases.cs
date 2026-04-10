@@ -20,6 +20,7 @@ using ZAD_Sales.ClassProject;
 
 namespace ZAD_Sales.Forms
 {
+    // public partial class Purchases :  BaseForm
     public partial class Purchases : Form
     {
         //----------------- ConnectionStrings ------------------

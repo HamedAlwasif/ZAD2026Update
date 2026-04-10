@@ -113,8 +113,8 @@
             this.chB_SettingsGeneral = new System.Windows.Forms.CheckBox();
             this.chB_AllowUser = new System.Windows.Forms.CheckBox();
             this.chB_FirstAccounts = new System.Windows.Forms.CheckBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox14.SuspendLayout();
             this.groupBox12.SuspendLayout();
             this.groupBox11.SuspendLayout();
@@ -127,24 +127,28 @@
             this.groupBox4.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(73)))), ((int)(((byte)(124)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(119)))), ((int)(((byte)(182)))));
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.butSearch);
-            this.panel1.Controls.Add(this.groupBox1);
+            this.panel1.Controls.Add(this.textBox19);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.textBox18);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox20);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.comUsers);
             this.panel1.Controls.Add(this.butChekAllRemove);
             this.panel1.Controls.Add(this.buChekAll);
-            this.panel1.Location = new System.Drawing.Point(-8, -4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(37, 24);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1639, 103);
+            this.panel1.Size = new System.Drawing.Size(1411, 66);
             this.panel1.TabIndex = 51;
             // 
             // butSearch
@@ -152,10 +156,10 @@
             this.butSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(107)))), ((int)(((byte)(107)))));
             this.butSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butSearch.ForeColor = System.Drawing.Color.White;
-            this.butSearch.Location = new System.Drawing.Point(65, 49);
-            this.butSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butSearch.Location = new System.Drawing.Point(23, 16);
+            this.butSearch.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch.Name = "butSearch";
-            this.butSearch.Size = new System.Drawing.Size(51, 28);
+            this.butSearch.Size = new System.Drawing.Size(56, 35);
             this.butSearch.TabIndex = 52;
             this.butSearch.Text = "بحث";
             this.butSearch.UseVisualStyleBackColor = false;
@@ -163,26 +167,23 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox19);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox18);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.groupBox1.Location = new System.Drawing.Point(879, 26);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(1455, 246);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(559, 64);
+            this.groupBox1.Size = new System.Drawing.Size(72, 21);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "   إضافة  ";
+            this.groupBox1.Visible = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label2.Location = new System.Drawing.Point(213, 30);
+            this.label2.Location = new System.Drawing.Point(1087, 22);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 17);
@@ -191,8 +192,8 @@
             // 
             // textBox19
             // 
-            this.textBox19.Location = new System.Drawing.Point(25, 23);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox19.Location = new System.Drawing.Point(899, 19);
+            this.textBox19.Margin = new System.Windows.Forms.Padding(4);
             this.textBox19.Name = "textBox19";
             this.textBox19.PasswordChar = '*';
             this.textBox19.Size = new System.Drawing.Size(164, 22);
@@ -203,7 +204,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(488, 25);
+            this.label1.Location = new System.Drawing.Point(1362, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 17);
@@ -212,8 +213,8 @@
             // 
             // textBox18
             // 
-            this.textBox18.Location = new System.Drawing.Point(276, 25);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox18.Location = new System.Drawing.Point(1150, 19);
+            this.textBox18.Margin = new System.Windows.Forms.Padding(4);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(176, 22);
             this.textBox18.TabIndex = 25;
@@ -223,7 +224,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label3.Location = new System.Drawing.Point(388, 53);
+            this.label3.Location = new System.Drawing.Point(375, 22);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 17);
@@ -232,8 +233,8 @@
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(156, 15);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox20.Location = new System.Drawing.Point(1432, 311);
+            this.textBox20.Margin = new System.Windows.Forms.Padding(4);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(56, 22);
             this.textBox20.TabIndex = 34;
@@ -245,10 +246,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button4.Location = new System.Drawing.Point(715, 34);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(702, 13);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 52);
+            this.button4.Size = new System.Drawing.Size(129, 35);
             this.button4.TabIndex = 47;
             this.button4.Text = " إفتراضي";
             this.button4.UseVisualStyleBackColor = false;
@@ -260,8 +261,8 @@
             this.comUsers.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comUsers.DisplayMember = "UserName";
             this.comUsers.FormattingEnabled = true;
-            this.comUsers.Location = new System.Drawing.Point(119, 50);
-            this.comUsers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comUsers.Location = new System.Drawing.Point(106, 18);
+            this.comUsers.Margin = new System.Windows.Forms.Padding(4);
             this.comUsers.Name = "comUsers";
             this.comUsers.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.comUsers.Size = new System.Drawing.Size(253, 24);
@@ -274,10 +275,10 @@
             this.butChekAllRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butChekAllRemove.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butChekAllRemove.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.butChekAllRemove.Location = new System.Drawing.Point(436, 34);
-            this.butChekAllRemove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butChekAllRemove.Location = new System.Drawing.Point(423, 12);
+            this.butChekAllRemove.Margin = new System.Windows.Forms.Padding(4);
             this.butChekAllRemove.Name = "butChekAllRemove";
-            this.butChekAllRemove.Size = new System.Drawing.Size(123, 52);
+            this.butChekAllRemove.Size = new System.Drawing.Size(123, 36);
             this.butChekAllRemove.TabIndex = 50;
             this.butChekAllRemove.Text = "مسح الكل";
             this.butChekAllRemove.UseVisualStyleBackColor = false;
@@ -289,10 +290,10 @@
             this.buChekAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buChekAll.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buChekAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buChekAll.Location = new System.Drawing.Point(575, 34);
-            this.buChekAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buChekAll.Location = new System.Drawing.Point(562, 13);
+            this.buChekAll.Margin = new System.Windows.Forms.Padding(4);
             this.buChekAll.Name = "buChekAll";
-            this.buChekAll.Size = new System.Drawing.Size(124, 52);
+            this.buChekAll.Size = new System.Drawing.Size(124, 35);
             this.buChekAll.TabIndex = 48;
             this.buChekAll.Text = "إختيار الكل";
             this.buChekAll.UseVisualStyleBackColor = false;
@@ -306,11 +307,11 @@
             this.groupBox14.Controls.Add(this.checkBox28);
             this.groupBox14.Controls.Add(this.checkBox26);
             this.groupBox14.Controls.Add(this.checkBox23);
-            this.groupBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox14.Location = new System.Drawing.Point(537, 639);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox14.ForeColor = System.Drawing.Color.Black;
+            this.groupBox14.Location = new System.Drawing.Point(498, 512);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox14.Size = new System.Drawing.Size(425, 122);
             this.groupBox14.TabIndex = 49;
@@ -320,9 +321,9 @@
             // checkBox32
             // 
             this.checkBox32.AutoSize = true;
-            this.checkBox32.ForeColor = System.Drawing.Color.White;
+            this.checkBox32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.checkBox32.Location = new System.Drawing.Point(39, 91);
-            this.checkBox32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox32.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(151, 21);
             this.checkBox32.TabIndex = 49;
@@ -332,9 +333,9 @@
             // checkBox30
             // 
             this.checkBox30.AutoSize = true;
-            this.checkBox30.ForeColor = System.Drawing.Color.White;
+            this.checkBox30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.checkBox30.Location = new System.Drawing.Point(44, 62);
-            this.checkBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox30.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(146, 21);
             this.checkBox30.TabIndex = 47;
@@ -344,9 +345,9 @@
             // checkBox29
             // 
             this.checkBox29.AutoSize = true;
-            this.checkBox29.ForeColor = System.Drawing.Color.White;
+            this.checkBox29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.checkBox29.Location = new System.Drawing.Point(45, 32);
-            this.checkBox29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox29.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(145, 21);
             this.checkBox29.TabIndex = 45;
@@ -356,9 +357,9 @@
             // checkBox28
             // 
             this.checkBox28.AutoSize = true;
-            this.checkBox28.ForeColor = System.Drawing.Color.White;
+            this.checkBox28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.checkBox28.Location = new System.Drawing.Point(273, 91);
-            this.checkBox28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox28.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox28.Name = "checkBox28";
             this.checkBox28.Size = new System.Drawing.Size(101, 21);
             this.checkBox28.TabIndex = 43;
@@ -368,9 +369,9 @@
             // checkBox26
             // 
             this.checkBox26.AutoSize = true;
-            this.checkBox26.ForeColor = System.Drawing.Color.White;
+            this.checkBox26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.checkBox26.Location = new System.Drawing.Point(271, 60);
-            this.checkBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox26.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(103, 21);
             this.checkBox26.TabIndex = 41;
@@ -380,9 +381,9 @@
             // checkBox23
             // 
             this.checkBox23.AutoSize = true;
-            this.checkBox23.ForeColor = System.Drawing.Color.White;
+            this.checkBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.checkBox23.Location = new System.Drawing.Point(269, 30);
-            this.checkBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox23.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox23.Name = "checkBox23";
             this.checkBox23.Size = new System.Drawing.Size(105, 21);
             this.checkBox23.TabIndex = 39;
@@ -398,11 +399,11 @@
             this.groupBox12.Controls.Add(this.chB_CheckSave2);
             this.groupBox12.Controls.Add(this.chB_BankAddAccount);
             this.groupBox12.Controls.Add(this.chB_CheckSave);
-            this.groupBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox12.Location = new System.Drawing.Point(63, 395);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox12.ForeColor = System.Drawing.Color.Black;
+            this.groupBox12.Location = new System.Drawing.Point(24, 268);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox12.Size = new System.Drawing.Size(425, 154);
             this.groupBox12.TabIndex = 45;
@@ -412,9 +413,9 @@
             // chB_BankStatement
             // 
             this.chB_BankStatement.AutoSize = true;
-            this.chB_BankStatement.ForeColor = System.Drawing.Color.White;
+            this.chB_BankStatement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_BankStatement.Location = new System.Drawing.Point(282, 114);
-            this.chB_BankStatement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_BankStatement.Margin = new System.Windows.Forms.Padding(4);
             this.chB_BankStatement.Name = "chB_BankStatement";
             this.chB_BankStatement.Size = new System.Drawing.Size(106, 21);
             this.chB_BankStatement.TabIndex = 56;
@@ -425,9 +426,9 @@
             // chB_BankToBank
             // 
             this.chB_BankToBank.AutoSize = true;
-            this.chB_BankToBank.ForeColor = System.Drawing.Color.White;
+            this.chB_BankToBank.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_BankToBank.Location = new System.Drawing.Point(107, 82);
-            this.chB_BankToBank.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_BankToBank.Margin = new System.Windows.Forms.Padding(4);
             this.chB_BankToBank.Name = "chB_BankToBank";
             this.chB_BankToBank.Size = new System.Drawing.Size(104, 21);
             this.chB_BankToBank.TabIndex = 54;
@@ -438,9 +439,9 @@
             // chB_CheckSaderWared
             // 
             this.chB_CheckSaderWared.AutoSize = true;
-            this.chB_CheckSaderWared.ForeColor = System.Drawing.Color.White;
+            this.chB_CheckSaderWared.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_CheckSaderWared.Location = new System.Drawing.Point(124, 26);
-            this.chB_CheckSaderWared.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_CheckSaderWared.Margin = new System.Windows.Forms.Padding(4);
             this.chB_CheckSaderWared.Name = "chB_CheckSaderWared";
             this.chB_CheckSaderWared.Size = new System.Drawing.Size(87, 21);
             this.chB_CheckSaderWared.TabIndex = 52;
@@ -451,9 +452,9 @@
             // chB_CheckSaderWared2
             // 
             this.chB_CheckSaderWared2.AutoSize = true;
-            this.chB_CheckSaderWared2.ForeColor = System.Drawing.Color.White;
+            this.chB_CheckSaderWared2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_CheckSaderWared2.Location = new System.Drawing.Point(126, 54);
-            this.chB_CheckSaderWared2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_CheckSaderWared2.Margin = new System.Windows.Forms.Padding(4);
             this.chB_CheckSaderWared2.Name = "chB_CheckSaderWared2";
             this.chB_CheckSaderWared2.Size = new System.Drawing.Size(85, 21);
             this.chB_CheckSaderWared2.TabIndex = 53;
@@ -464,9 +465,9 @@
             // chB_CheckSave2
             // 
             this.chB_CheckSave2.AutoSize = true;
-            this.chB_CheckSave2.ForeColor = System.Drawing.Color.White;
+            this.chB_CheckSave2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_CheckSave2.Location = new System.Drawing.Point(307, 84);
-            this.chB_CheckSave2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_CheckSave2.Margin = new System.Windows.Forms.Padding(4);
             this.chB_CheckSave2.Name = "chB_CheckSave2";
             this.chB_CheckSave2.Size = new System.Drawing.Size(81, 21);
             this.chB_CheckSave2.TabIndex = 48;
@@ -477,9 +478,9 @@
             // chB_BankAddAccount
             // 
             this.chB_BankAddAccount.AutoSize = true;
-            this.chB_BankAddAccount.ForeColor = System.Drawing.Color.White;
+            this.chB_BankAddAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_BankAddAccount.Location = new System.Drawing.Point(285, 25);
-            this.chB_BankAddAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_BankAddAccount.Margin = new System.Windows.Forms.Padding(4);
             this.chB_BankAddAccount.Name = "chB_BankAddAccount";
             this.chB_BankAddAccount.Size = new System.Drawing.Size(103, 21);
             this.chB_BankAddAccount.TabIndex = 46;
@@ -490,9 +491,9 @@
             // chB_CheckSave
             // 
             this.chB_CheckSave.AutoSize = true;
-            this.chB_CheckSave.ForeColor = System.Drawing.Color.White;
+            this.chB_CheckSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_CheckSave.Location = new System.Drawing.Point(296, 55);
-            this.chB_CheckSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_CheckSave.Margin = new System.Windows.Forms.Padding(4);
             this.chB_CheckSave.Name = "chB_CheckSave";
             this.chB_CheckSave.Size = new System.Drawing.Size(92, 21);
             this.chB_CheckSave.TabIndex = 47;
@@ -503,11 +504,11 @@
             // groupBox11
             // 
             this.groupBox11.Controls.Add(this.chB_UserAdd);
-            this.groupBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.groupBox11.Location = new System.Drawing.Point(1003, 699);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox11.ForeColor = System.Drawing.Color.Black;
+            this.groupBox11.Location = new System.Drawing.Point(964, 572);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox11.Size = new System.Drawing.Size(424, 65);
             this.groupBox11.TabIndex = 44;
@@ -517,9 +518,9 @@
             // chB_UserAdd
             // 
             this.chB_UserAdd.AutoSize = true;
-            this.chB_UserAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_UserAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_UserAdd.Location = new System.Drawing.Point(285, 25);
-            this.chB_UserAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_UserAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_UserAdd.Name = "chB_UserAdd";
             this.chB_UserAdd.Size = new System.Drawing.Size(89, 21);
             this.chB_UserAdd.TabIndex = 5;
@@ -532,11 +533,11 @@
             this.groupBox10.Controls.Add(this.chB_SystemReset);
             this.groupBox10.Controls.Add(this.chB_BackupSave);
             this.groupBox10.Controls.Add(this.chB_BackupRestore);
-            this.groupBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox10.Location = new System.Drawing.Point(537, 476);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox10.ForeColor = System.Drawing.Color.Black;
+            this.groupBox10.Location = new System.Drawing.Point(498, 349);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox10.Size = new System.Drawing.Size(425, 123);
             this.groupBox10.TabIndex = 43;
@@ -546,9 +547,9 @@
             // chB_SystemReset
             // 
             this.chB_SystemReset.AutoSize = true;
-            this.chB_SystemReset.ForeColor = System.Drawing.Color.White;
+            this.chB_SystemReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_SystemReset.Location = new System.Drawing.Point(289, 87);
-            this.chB_SystemReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_SystemReset.Margin = new System.Windows.Forms.Padding(4);
             this.chB_SystemReset.Name = "chB_SystemReset";
             this.chB_SystemReset.Size = new System.Drawing.Size(86, 21);
             this.chB_SystemReset.TabIndex = 42;
@@ -559,9 +560,9 @@
             // chB_BackupSave
             // 
             this.chB_BackupSave.AutoSize = true;
-            this.chB_BackupSave.ForeColor = System.Drawing.Color.White;
+            this.chB_BackupSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_BackupSave.Location = new System.Drawing.Point(246, 31);
-            this.chB_BackupSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_BackupSave.Margin = new System.Windows.Forms.Padding(4);
             this.chB_BackupSave.Name = "chB_BackupSave";
             this.chB_BackupSave.Size = new System.Drawing.Size(129, 21);
             this.chB_BackupSave.TabIndex = 11;
@@ -572,9 +573,9 @@
             // chB_BackupRestore
             // 
             this.chB_BackupRestore.AutoSize = true;
-            this.chB_BackupRestore.ForeColor = System.Drawing.Color.White;
+            this.chB_BackupRestore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_BackupRestore.Location = new System.Drawing.Point(246, 59);
-            this.chB_BackupRestore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_BackupRestore.Margin = new System.Windows.Forms.Padding(4);
             this.chB_BackupRestore.Name = "chB_BackupRestore";
             this.chB_BackupRestore.Size = new System.Drawing.Size(129, 21);
             this.chB_BackupRestore.TabIndex = 15;
@@ -589,11 +590,11 @@
             this.groupBox9.Controls.Add(this.chB_EmployeeBonusAdd);
             this.groupBox9.Controls.Add(this.chB_EmployeeSalaryPayment);
             this.groupBox9.Controls.Add(this.chB_EmployeeAdd);
-            this.groupBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox9.Location = new System.Drawing.Point(537, 305);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.ForeColor = System.Drawing.Color.Black;
+            this.groupBox9.Location = new System.Drawing.Point(498, 178);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox9.Size = new System.Drawing.Size(425, 132);
             this.groupBox9.TabIndex = 42;
@@ -603,9 +604,9 @@
             // chB_EmployeeSalaryMovement
             // 
             this.chB_EmployeeSalaryMovement.AutoSize = true;
-            this.chB_EmployeeSalaryMovement.ForeColor = System.Drawing.Color.White;
+            this.chB_EmployeeSalaryMovement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_EmployeeSalaryMovement.Location = new System.Drawing.Point(285, 92);
-            this.chB_EmployeeSalaryMovement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_EmployeeSalaryMovement.Margin = new System.Windows.Forms.Padding(4);
             this.chB_EmployeeSalaryMovement.Name = "chB_EmployeeSalaryMovement";
             this.chB_EmployeeSalaryMovement.Size = new System.Drawing.Size(97, 21);
             this.chB_EmployeeSalaryMovement.TabIndex = 31;
@@ -616,9 +617,9 @@
             // chB_EmployeePenaltyAdd
             // 
             this.chB_EmployeePenaltyAdd.AutoSize = true;
-            this.chB_EmployeePenaltyAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_EmployeePenaltyAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_EmployeePenaltyAdd.Location = new System.Drawing.Point(115, 65);
-            this.chB_EmployeePenaltyAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_EmployeePenaltyAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_EmployeePenaltyAdd.Name = "chB_EmployeePenaltyAdd";
             this.chB_EmployeePenaltyAdd.Size = new System.Drawing.Size(85, 21);
             this.chB_EmployeePenaltyAdd.TabIndex = 26;
@@ -629,9 +630,9 @@
             // chB_EmployeeBonusAdd
             // 
             this.chB_EmployeeBonusAdd.AutoSize = true;
-            this.chB_EmployeeBonusAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_EmployeeBonusAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_EmployeeBonusAdd.Location = new System.Drawing.Point(117, 32);
-            this.chB_EmployeeBonusAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_EmployeeBonusAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_EmployeeBonusAdd.Name = "chB_EmployeeBonusAdd";
             this.chB_EmployeeBonusAdd.Size = new System.Drawing.Size(83, 21);
             this.chB_EmployeeBonusAdd.TabIndex = 24;
@@ -642,9 +643,9 @@
             // chB_EmployeeSalaryPayment
             // 
             this.chB_EmployeeSalaryPayment.AutoSize = true;
-            this.chB_EmployeeSalaryPayment.ForeColor = System.Drawing.Color.White;
+            this.chB_EmployeeSalaryPayment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_EmployeeSalaryPayment.Location = new System.Drawing.Point(293, 63);
-            this.chB_EmployeeSalaryPayment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_EmployeeSalaryPayment.Margin = new System.Windows.Forms.Padding(4);
             this.chB_EmployeeSalaryPayment.Name = "chB_EmployeeSalaryPayment";
             this.chB_EmployeeSalaryPayment.Size = new System.Drawing.Size(89, 21);
             this.chB_EmployeeSalaryPayment.TabIndex = 19;
@@ -655,9 +656,9 @@
             // chB_EmployeeAdd
             // 
             this.chB_EmployeeAdd.AutoSize = true;
-            this.chB_EmployeeAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_EmployeeAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_EmployeeAdd.Location = new System.Drawing.Point(297, 33);
-            this.chB_EmployeeAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_EmployeeAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_EmployeeAdd.Name = "chB_EmployeeAdd";
             this.chB_EmployeeAdd.Size = new System.Drawing.Size(85, 21);
             this.chB_EmployeeAdd.TabIndex = 21;
@@ -670,11 +671,11 @@
             this.groupBox8.Controls.Add(this.chB_CarsAdd);
             this.groupBox8.Controls.Add(this.chB_CarsExpensesMovement);
             this.groupBox8.Controls.Add(this.chB_CarsExpenses);
-            this.groupBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox8.Location = new System.Drawing.Point(537, 143);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.ForeColor = System.Drawing.Color.Black;
+            this.groupBox8.Location = new System.Drawing.Point(498, 16);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox8.Size = new System.Drawing.Size(425, 123);
             this.groupBox8.TabIndex = 41;
@@ -684,9 +685,9 @@
             // chB_CarsAdd
             // 
             this.chB_CarsAdd.AutoSize = true;
-            this.chB_CarsAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_CarsAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_CarsAdd.Location = new System.Drawing.Point(297, 28);
-            this.chB_CarsAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_CarsAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_CarsAdd.Name = "chB_CarsAdd";
             this.chB_CarsAdd.Size = new System.Drawing.Size(86, 21);
             this.chB_CarsAdd.TabIndex = 32;
@@ -697,9 +698,9 @@
             // chB_CarsExpensesMovement
             // 
             this.chB_CarsExpensesMovement.AutoSize = true;
-            this.chB_CarsExpensesMovement.ForeColor = System.Drawing.Color.White;
+            this.chB_CarsExpensesMovement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_CarsExpensesMovement.Location = new System.Drawing.Point(302, 82);
-            this.chB_CarsExpensesMovement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_CarsExpensesMovement.Margin = new System.Windows.Forms.Padding(4);
             this.chB_CarsExpensesMovement.Name = "chB_CarsExpensesMovement";
             this.chB_CarsExpensesMovement.Size = new System.Drawing.Size(81, 21);
             this.chB_CarsExpensesMovement.TabIndex = 34;
@@ -710,9 +711,9 @@
             // chB_CarsExpenses
             // 
             this.chB_CarsExpenses.AutoSize = true;
-            this.chB_CarsExpenses.ForeColor = System.Drawing.Color.White;
+            this.chB_CarsExpenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_CarsExpenses.Location = new System.Drawing.Point(283, 55);
-            this.chB_CarsExpenses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_CarsExpenses.Margin = new System.Windows.Forms.Padding(4);
             this.chB_CarsExpenses.Name = "chB_CarsExpenses";
             this.chB_CarsExpenses.Size = new System.Drawing.Size(100, 21);
             this.chB_CarsExpenses.TabIndex = 35;
@@ -725,8 +726,8 @@
             this.butDelete.BackColor = System.Drawing.Color.Gray;
             this.butDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butDelete.ForeColor = System.Drawing.Color.White;
-            this.butDelete.Location = new System.Drawing.Point(169, 710);
-            this.butDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDelete.Location = new System.Drawing.Point(130, 583);
+            this.butDelete.Margin = new System.Windows.Forms.Padding(4);
             this.butDelete.Name = "butDelete";
             this.butDelete.Size = new System.Drawing.Size(103, 44);
             this.butDelete.TabIndex = 36;
@@ -739,8 +740,8 @@
             this.butClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.butClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(241)))), ((int)(((byte)(227)))));
-            this.butClose.Location = new System.Drawing.Point(63, 710);
-            this.butClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butClose.Location = new System.Drawing.Point(24, 583);
+            this.butClose.Margin = new System.Windows.Forms.Padding(4);
             this.butClose.Name = "butClose";
             this.butClose.Size = new System.Drawing.Size(103, 44);
             this.butClose.TabIndex = 32;
@@ -753,11 +754,11 @@
             this.groupBox7.Controls.Add(this.chB_MoneyFromBox);
             this.groupBox7.Controls.Add(this.chB_MoneyToBox);
             this.groupBox7.Controls.Add(this.chB_Expenses);
-            this.groupBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox7.Location = new System.Drawing.Point(1001, 575);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.ForeColor = System.Drawing.Color.Black;
+            this.groupBox7.Location = new System.Drawing.Point(962, 448);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox7.Size = new System.Drawing.Size(425, 92);
             this.groupBox7.TabIndex = 40;
@@ -767,9 +768,9 @@
             // chB_MoneyFromBox
             // 
             this.chB_MoneyFromBox.AutoSize = true;
-            this.chB_MoneyFromBox.ForeColor = System.Drawing.Color.White;
+            this.chB_MoneyFromBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_MoneyFromBox.Location = new System.Drawing.Point(78, 27);
-            this.chB_MoneyFromBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_MoneyFromBox.Margin = new System.Windows.Forms.Padding(4);
             this.chB_MoneyFromBox.Name = "chB_MoneyFromBox";
             this.chB_MoneyFromBox.Size = new System.Drawing.Size(115, 21);
             this.chB_MoneyFromBox.TabIndex = 23;
@@ -780,9 +781,9 @@
             // chB_MoneyToBox
             // 
             this.chB_MoneyToBox.AutoSize = true;
-            this.chB_MoneyToBox.ForeColor = System.Drawing.Color.White;
+            this.chB_MoneyToBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_MoneyToBox.Location = new System.Drawing.Point(272, 58);
-            this.chB_MoneyToBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_MoneyToBox.Margin = new System.Windows.Forms.Padding(4);
             this.chB_MoneyToBox.Name = "chB_MoneyToBox";
             this.chB_MoneyToBox.Size = new System.Drawing.Size(101, 21);
             this.chB_MoneyToBox.TabIndex = 21;
@@ -793,9 +794,9 @@
             // chB_Expenses
             // 
             this.chB_Expenses.AutoSize = true;
-            this.chB_Expenses.ForeColor = System.Drawing.Color.White;
+            this.chB_Expenses.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_Expenses.Location = new System.Drawing.Point(296, 27);
-            this.chB_Expenses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_Expenses.Margin = new System.Windows.Forms.Padding(4);
             this.chB_Expenses.Name = "chB_Expenses";
             this.chB_Expenses.Size = new System.Drawing.Size(77, 21);
             this.chB_Expenses.TabIndex = 10;
@@ -809,11 +810,11 @@
             this.groupBox6.Controls.Add(this.chB_PurchasesMaedodat);
             this.groupBox6.Controls.Add(this.chB_Sales);
             this.groupBox6.Controls.Add(this.chB_Purchases);
-            this.groupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox6.Location = new System.Drawing.Point(1001, 415);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.ForeColor = System.Drawing.Color.Black;
+            this.groupBox6.Location = new System.Drawing.Point(962, 288);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox6.Size = new System.Drawing.Size(425, 128);
             this.groupBox6.TabIndex = 39;
@@ -823,9 +824,9 @@
             // chB_SalesMardodat
             // 
             this.chB_SalesMardodat.AutoSize = true;
-            this.chB_SalesMardodat.ForeColor = System.Drawing.Color.White;
+            this.chB_SalesMardodat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_SalesMardodat.Location = new System.Drawing.Point(89, 64);
-            this.chB_SalesMardodat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_SalesMardodat.Margin = new System.Windows.Forms.Padding(4);
             this.chB_SalesMardodat.Name = "chB_SalesMardodat";
             this.chB_SalesMardodat.Size = new System.Drawing.Size(104, 21);
             this.chB_SalesMardodat.TabIndex = 19;
@@ -836,9 +837,9 @@
             // chB_PurchasesMaedodat
             // 
             this.chB_PurchasesMaedodat.AutoSize = true;
-            this.chB_PurchasesMaedodat.ForeColor = System.Drawing.Color.White;
+            this.chB_PurchasesMaedodat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_PurchasesMaedodat.Location = new System.Drawing.Point(79, 36);
-            this.chB_PurchasesMaedodat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_PurchasesMaedodat.Margin = new System.Windows.Forms.Padding(4);
             this.chB_PurchasesMaedodat.Name = "chB_PurchasesMaedodat";
             this.chB_PurchasesMaedodat.Size = new System.Drawing.Size(114, 21);
             this.chB_PurchasesMaedodat.TabIndex = 20;
@@ -849,9 +850,9 @@
             // chB_Sales
             // 
             this.chB_Sales.AutoSize = true;
-            this.chB_Sales.ForeColor = System.Drawing.Color.White;
+            this.chB_Sales.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_Sales.Location = new System.Drawing.Point(315, 71);
-            this.chB_Sales.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_Sales.Margin = new System.Windows.Forms.Padding(4);
             this.chB_Sales.Name = "chB_Sales";
             this.chB_Sales.Size = new System.Drawing.Size(65, 21);
             this.chB_Sales.TabIndex = 0;
@@ -862,9 +863,9 @@
             // chB_Purchases
             // 
             this.chB_Purchases.AutoSize = true;
-            this.chB_Purchases.ForeColor = System.Drawing.Color.White;
+            this.chB_Purchases.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_Purchases.Location = new System.Drawing.Point(305, 34);
-            this.chB_Purchases.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_Purchases.Margin = new System.Windows.Forms.Padding(4);
             this.chB_Purchases.Name = "chB_Purchases";
             this.chB_Purchases.Size = new System.Drawing.Size(75, 21);
             this.chB_Purchases.TabIndex = 1;
@@ -877,8 +878,8 @@
             this.butEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.butEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butEdit.ForeColor = System.Drawing.Color.White;
-            this.butEdit.Location = new System.Drawing.Point(276, 710);
-            this.butEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butEdit.Location = new System.Drawing.Point(237, 583);
+            this.butEdit.Margin = new System.Windows.Forms.Padding(4);
             this.butEdit.Name = "butEdit";
             this.butEdit.Size = new System.Drawing.Size(103, 44);
             this.butEdit.TabIndex = 29;
@@ -891,11 +892,11 @@
             this.groupBox5.Controls.Add(this.chB_ClientsMoney);
             this.groupBox5.Controls.Add(this.chB_GroupAdd);
             this.groupBox5.Controls.Add(this.chB_ClientAdd);
-            this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox5.Location = new System.Drawing.Point(1001, 295);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.ForeColor = System.Drawing.Color.Black;
+            this.groupBox5.Location = new System.Drawing.Point(962, 168);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox5.Size = new System.Drawing.Size(425, 87);
             this.groupBox5.TabIndex = 38;
@@ -905,9 +906,9 @@
             // chB_ClientsMoney
             // 
             this.chB_ClientsMoney.AutoSize = true;
-            this.chB_ClientsMoney.ForeColor = System.Drawing.Color.White;
+            this.chB_ClientsMoney.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_ClientsMoney.Location = new System.Drawing.Point(147, 26);
-            this.chB_ClientsMoney.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_ClientsMoney.Margin = new System.Windows.Forms.Padding(4);
             this.chB_ClientsMoney.Name = "chB_ClientsMoney";
             this.chB_ClientsMoney.Size = new System.Drawing.Size(57, 21);
             this.chB_ClientsMoney.TabIndex = 2;
@@ -918,9 +919,9 @@
             // chB_GroupAdd
             // 
             this.chB_GroupAdd.AutoSize = true;
-            this.chB_GroupAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_GroupAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_GroupAdd.Location = new System.Drawing.Point(276, 55);
-            this.chB_GroupAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_GroupAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_GroupAdd.Name = "chB_GroupAdd";
             this.chB_GroupAdd.Size = new System.Drawing.Size(98, 21);
             this.chB_GroupAdd.TabIndex = 19;
@@ -931,9 +932,9 @@
             // chB_ClientAdd
             // 
             this.chB_ClientAdd.AutoSize = true;
-            this.chB_ClientAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_ClientAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_ClientAdd.Location = new System.Drawing.Point(290, 27);
-            this.chB_ClientAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_ClientAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_ClientAdd.Name = "chB_ClientAdd";
             this.chB_ClientAdd.Size = new System.Drawing.Size(84, 21);
             this.chB_ClientAdd.TabIndex = 3;
@@ -949,11 +950,11 @@
             this.groupBox4.Controls.Add(this.chB_Prices);
             this.groupBox4.Controls.Add(this.chB_ProducerUpdate);
             this.groupBox4.Controls.Add(this.chB_StoreNewAdd);
-            this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox4.Location = new System.Drawing.Point(1001, 143);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.ForeColor = System.Drawing.Color.Black;
+            this.groupBox4.Location = new System.Drawing.Point(962, 16);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox4.Size = new System.Drawing.Size(425, 121);
             this.groupBox4.TabIndex = 37;
@@ -963,9 +964,9 @@
             // chB_ProducerNewAdd
             // 
             this.chB_ProducerNewAdd.AutoSize = true;
-            this.chB_ProducerNewAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_ProducerNewAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_ProducerNewAdd.Location = new System.Drawing.Point(293, 28);
-            this.chB_ProducerNewAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_ProducerNewAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_ProducerNewAdd.Name = "chB_ProducerNewAdd";
             this.chB_ProducerNewAdd.Size = new System.Drawing.Size(87, 21);
             this.chB_ProducerNewAdd.TabIndex = 17;
@@ -976,9 +977,9 @@
             // chB_Inventory
             // 
             this.chB_Inventory.AutoSize = true;
-            this.chB_Inventory.ForeColor = System.Drawing.Color.White;
+            this.chB_Inventory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_Inventory.Location = new System.Drawing.Point(153, 85);
-            this.chB_Inventory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_Inventory.Margin = new System.Windows.Forms.Padding(4);
             this.chB_Inventory.Name = "chB_Inventory";
             this.chB_Inventory.Size = new System.Drawing.Size(56, 21);
             this.chB_Inventory.TabIndex = 4;
@@ -989,9 +990,9 @@
             // chB_StoreToStore
             // 
             this.chB_StoreToStore.AutoSize = true;
-            this.chB_StoreToStore.ForeColor = System.Drawing.Color.White;
+            this.chB_StoreToStore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_StoreToStore.Location = new System.Drawing.Point(95, 59);
-            this.chB_StoreToStore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_StoreToStore.Margin = new System.Windows.Forms.Padding(4);
             this.chB_StoreToStore.Name = "chB_StoreToStore";
             this.chB_StoreToStore.Size = new System.Drawing.Size(114, 21);
             this.chB_StoreToStore.TabIndex = 7;
@@ -1002,9 +1003,9 @@
             // chB_Prices
             // 
             this.chB_Prices.AutoSize = true;
-            this.chB_Prices.ForeColor = System.Drawing.Color.White;
+            this.chB_Prices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_Prices.Location = new System.Drawing.Point(316, 58);
-            this.chB_Prices.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_Prices.Margin = new System.Windows.Forms.Padding(4);
             this.chB_Prices.Name = "chB_Prices";
             this.chB_Prices.Size = new System.Drawing.Size(64, 21);
             this.chB_Prices.TabIndex = 17;
@@ -1015,9 +1016,9 @@
             // chB_ProducerUpdate
             // 
             this.chB_ProducerUpdate.AutoSize = true;
-            this.chB_ProducerUpdate.ForeColor = System.Drawing.Color.White;
+            this.chB_ProducerUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_ProducerUpdate.Location = new System.Drawing.Point(297, 87);
-            this.chB_ProducerUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_ProducerUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.chB_ProducerUpdate.Name = "chB_ProducerUpdate";
             this.chB_ProducerUpdate.Size = new System.Drawing.Size(83, 21);
             this.chB_ProducerUpdate.TabIndex = 9;
@@ -1028,9 +1029,9 @@
             // chB_StoreNewAdd
             // 
             this.chB_StoreNewAdd.AutoSize = true;
-            this.chB_StoreNewAdd.ForeColor = System.Drawing.Color.White;
+            this.chB_StoreNewAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_StoreNewAdd.Location = new System.Drawing.Point(121, 33);
-            this.chB_StoreNewAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_StoreNewAdd.Margin = new System.Windows.Forms.Padding(4);
             this.chB_StoreNewAdd.Name = "chB_StoreNewAdd";
             this.chB_StoreNewAdd.Size = new System.Drawing.Size(88, 21);
             this.chB_StoreNewAdd.TabIndex = 6;
@@ -1043,8 +1044,8 @@
             this.butAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
             this.butAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butAdd.ForeColor = System.Drawing.Color.White;
-            this.butAdd.Location = new System.Drawing.Point(383, 710);
-            this.butAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butAdd.Location = new System.Drawing.Point(344, 583);
+            this.butAdd.Margin = new System.Windows.Forms.Padding(4);
             this.butAdd.Name = "butAdd";
             this.butAdd.Size = new System.Drawing.Size(103, 44);
             this.butAdd.TabIndex = 31;
@@ -1055,61 +1056,65 @@
             // chB_FinancialStatements
             // 
             this.chB_FinancialStatements.AutoSize = true;
-            this.chB_FinancialStatements.ForeColor = System.Drawing.Color.White;
+            this.chB_FinancialStatements.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_FinancialStatements.Location = new System.Drawing.Point(299, 37);
-            this.chB_FinancialStatements.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_FinancialStatements.Margin = new System.Windows.Forms.Padding(4);
             this.chB_FinancialStatements.Name = "chB_FinancialStatements";
             this.chB_FinancialStatements.Size = new System.Drawing.Size(86, 21);
             this.chB_FinancialStatements.TabIndex = 38;
             this.chB_FinancialStatements.Text = "القوائم المالية";
+            this.chB_FinancialStatements.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chB_FinancialStatements.UseVisualStyleBackColor = true;
             this.chB_FinancialStatements.CheckedChanged += new System.EventHandler(this.chB_FinancialStatements_CheckedChanged);
             // 
             // chB_DailyTransactions
             // 
             this.chB_DailyTransactions.AutoSize = true;
-            this.chB_DailyTransactions.ForeColor = System.Drawing.Color.White;
+            this.chB_DailyTransactions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_DailyTransactions.Location = new System.Drawing.Point(295, 66);
-            this.chB_DailyTransactions.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_DailyTransactions.Margin = new System.Windows.Forms.Padding(4);
             this.chB_DailyTransactions.Name = "chB_DailyTransactions";
             this.chB_DailyTransactions.Size = new System.Drawing.Size(90, 21);
             this.chB_DailyTransactions.TabIndex = 29;
             this.chB_DailyTransactions.Text = "معاملات اليوم";
+            this.chB_DailyTransactions.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chB_DailyTransactions.UseVisualStyleBackColor = true;
             this.chB_DailyTransactions.CheckedChanged += new System.EventHandler(this.chB_DailyTransactions_CheckedChanged);
             // 
             // chB_ProductMovement
             // 
             this.chB_ProductMovement.AutoSize = true;
-            this.chB_ProductMovement.ForeColor = System.Drawing.Color.White;
+            this.chB_ProductMovement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_ProductMovement.Location = new System.Drawing.Point(299, 96);
-            this.chB_ProductMovement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_ProductMovement.Margin = new System.Windows.Forms.Padding(4);
             this.chB_ProductMovement.Name = "chB_ProductMovement";
             this.chB_ProductMovement.Size = new System.Drawing.Size(86, 21);
             this.chB_ProductMovement.TabIndex = 43;
             this.chB_ProductMovement.Text = "حركة صنف";
+            this.chB_ProductMovement.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chB_ProductMovement.UseVisualStyleBackColor = true;
             this.chB_ProductMovement.CheckedChanged += new System.EventHandler(this.chB_ProductMovement_CheckedChanged);
             // 
             // chB_ClientsList
             // 
             this.chB_ClientsList.AutoSize = true;
-            this.chB_ClientsList.ForeColor = System.Drawing.Color.White;
+            this.chB_ClientsList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_ClientsList.Location = new System.Drawing.Point(301, 126);
-            this.chB_ClientsList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_ClientsList.Margin = new System.Windows.Forms.Padding(4);
             this.chB_ClientsList.Name = "chB_ClientsList";
             this.chB_ClientsList.Size = new System.Drawing.Size(84, 21);
             this.chB_ClientsList.TabIndex = 41;
             this.chB_ClientsList.Text = "قائمة العملاء";
+            this.chB_ClientsList.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chB_ClientsList.UseVisualStyleBackColor = true;
             this.chB_ClientsList.CheckedChanged += new System.EventHandler(this.chB_ClientsList_CheckedChanged);
             // 
             // chB_BanksList
             // 
             this.chB_BanksList.AutoSize = true;
-            this.chB_BanksList.ForeColor = System.Drawing.Color.White;
+            this.chB_BanksList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_BanksList.Location = new System.Drawing.Point(130, 39);
-            this.chB_BanksList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_BanksList.Margin = new System.Windows.Forms.Padding(4);
             this.chB_BanksList.Name = "chB_BanksList";
             this.chB_BanksList.Size = new System.Drawing.Size(80, 21);
             this.chB_BanksList.TabIndex = 47;
@@ -1120,9 +1125,9 @@
             // chB_BoxMovement
             // 
             this.chB_BoxMovement.AutoSize = true;
-            this.chB_BoxMovement.ForeColor = System.Drawing.Color.White;
+            this.chB_BoxMovement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_BoxMovement.Location = new System.Drawing.Point(110, 70);
-            this.chB_BoxMovement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_BoxMovement.Margin = new System.Windows.Forms.Padding(4);
             this.chB_BoxMovement.Name = "chB_BoxMovement";
             this.chB_BoxMovement.Size = new System.Drawing.Size(100, 21);
             this.chB_BoxMovement.TabIndex = 45;
@@ -1133,9 +1138,9 @@
             // chB_ClientAccountStatement
             // 
             this.chB_ClientAccountStatement.AutoSize = true;
-            this.chB_ClientAccountStatement.ForeColor = System.Drawing.Color.White;
+            this.chB_ClientAccountStatement.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_ClientAccountStatement.Location = new System.Drawing.Point(95, 101);
-            this.chB_ClientAccountStatement.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_ClientAccountStatement.Margin = new System.Windows.Forms.Padding(4);
             this.chB_ClientAccountStatement.Name = "chB_ClientAccountStatement";
             this.chB_ClientAccountStatement.Size = new System.Drawing.Size(115, 21);
             this.chB_ClientAccountStatement.TabIndex = 51;
@@ -1146,9 +1151,9 @@
             // chB_Profits
             // 
             this.chB_Profits.AutoSize = true;
-            this.chB_Profits.ForeColor = System.Drawing.Color.White;
+            this.chB_Profits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_Profits.Location = new System.Drawing.Point(148, 132);
-            this.chB_Profits.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_Profits.Margin = new System.Windows.Forms.Padding(4);
             this.chB_Profits.Name = "chB_Profits";
             this.chB_Profits.Size = new System.Drawing.Size(62, 21);
             this.chB_Profits.TabIndex = 49;
@@ -1159,22 +1164,23 @@
             // chB_DailySalesPurchases
             // 
             this.chB_DailySalesPurchases.AutoSize = true;
-            this.chB_DailySalesPurchases.ForeColor = System.Drawing.Color.White;
+            this.chB_DailySalesPurchases.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_DailySalesPurchases.Location = new System.Drawing.Point(317, 155);
-            this.chB_DailySalesPurchases.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_DailySalesPurchases.Margin = new System.Windows.Forms.Padding(4);
             this.chB_DailySalesPurchases.Name = "chB_DailySalesPurchases";
             this.chB_DailySalesPurchases.Size = new System.Drawing.Size(68, 21);
             this.chB_DailySalesPurchases.TabIndex = 53;
             this.chB_DailySalesPurchases.Text = "يومية بيع";
+            this.chB_DailySalesPurchases.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chB_DailySalesPurchases.UseVisualStyleBackColor = true;
             this.chB_DailySalesPurchases.CheckedChanged += new System.EventHandler(this.chB_DailySalesPurchases_CheckedChanged);
             // 
             // checkBox57
             // 
             this.checkBox57.AutoSize = true;
-            this.checkBox57.ForeColor = System.Drawing.Color.White;
+            this.checkBox57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.checkBox57.Location = new System.Drawing.Point(92, 162);
-            this.checkBox57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox57.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox57.Name = "checkBox57";
             this.checkBox57.Size = new System.Drawing.Size(118, 21);
             this.checkBox57.TabIndex = 55;
@@ -1195,11 +1201,11 @@
             this.groupBox13.Controls.Add(this.chB_ProductMovement);
             this.groupBox13.Controls.Add(this.chB_DailyTransactions);
             this.groupBox13.Controls.Add(this.chB_FinancialStatements);
-            this.groupBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox13.Location = new System.Drawing.Point(63, 144);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox13.ForeColor = System.Drawing.Color.Black;
+            this.groupBox13.Location = new System.Drawing.Point(24, 17);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox13.Size = new System.Drawing.Size(425, 217);
             this.groupBox13.TabIndex = 46;
@@ -1209,13 +1215,14 @@
             // chB_Statistical
             // 
             this.chB_Statistical.AutoSize = true;
-            this.chB_Statistical.ForeColor = System.Drawing.Color.White;
+            this.chB_Statistical.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_Statistical.Location = new System.Drawing.Point(302, 183);
-            this.chB_Statistical.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_Statistical.Margin = new System.Windows.Forms.Padding(4);
             this.chB_Statistical.Name = "chB_Statistical";
             this.chB_Statistical.Size = new System.Drawing.Size(83, 21);
             this.chB_Statistical.TabIndex = 55;
             this.chB_Statistical.Text = "الاحصائيات";
+            this.chB_Statistical.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chB_Statistical.UseVisualStyleBackColor = true;
             this.chB_Statistical.CheckedChanged += new System.EventHandler(this.chB_Statistical_CheckedChanged);
             // 
@@ -1224,11 +1231,11 @@
             this.groupBox2.Controls.Add(this.chB_SettingsGeneral);
             this.groupBox2.Controls.Add(this.chB_AllowUser);
             this.groupBox2.Controls.Add(this.chB_FirstAccounts);
-            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(63)))));
-            this.groupBox2.Location = new System.Drawing.Point(63, 583);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
+            this.groupBox2.Location = new System.Drawing.Point(24, 456);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox2.Size = new System.Drawing.Size(425, 102);
             this.groupBox2.TabIndex = 53;
@@ -1238,9 +1245,9 @@
             // chB_SettingsGeneral
             // 
             this.chB_SettingsGeneral.AutoSize = true;
-            this.chB_SettingsGeneral.ForeColor = System.Drawing.Color.White;
+            this.chB_SettingsGeneral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_SettingsGeneral.Location = new System.Drawing.Point(120, 36);
-            this.chB_SettingsGeneral.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_SettingsGeneral.Margin = new System.Windows.Forms.Padding(4);
             this.chB_SettingsGeneral.Name = "chB_SettingsGeneral";
             this.chB_SettingsGeneral.Size = new System.Drawing.Size(92, 21);
             this.chB_SettingsGeneral.TabIndex = 57;
@@ -1251,9 +1258,9 @@
             // chB_AllowUser
             // 
             this.chB_AllowUser.AutoSize = true;
-            this.chB_AllowUser.ForeColor = System.Drawing.Color.White;
+            this.chB_AllowUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_AllowUser.Location = new System.Drawing.Point(235, 64);
-            this.chB_AllowUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_AllowUser.Margin = new System.Windows.Forms.Padding(4);
             this.chB_AllowUser.Name = "chB_AllowUser";
             this.chB_AllowUser.Size = new System.Drawing.Size(154, 21);
             this.chB_AllowUser.TabIndex = 57;
@@ -1264,9 +1271,9 @@
             // chB_FirstAccounts
             // 
             this.chB_FirstAccounts.AutoSize = true;
-            this.chB_FirstAccounts.ForeColor = System.Drawing.Color.White;
+            this.chB_FirstAccounts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
             this.chB_FirstAccounts.Location = new System.Drawing.Point(280, 36);
-            this.chB_FirstAccounts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chB_FirstAccounts.Margin = new System.Windows.Forms.Padding(4);
             this.chB_FirstAccounts.Name = "chB_FirstAccounts";
             this.chB_FirstAccounts.Size = new System.Drawing.Size(109, 21);
             this.chB_FirstAccounts.TabIndex = 57;
@@ -1274,39 +1281,51 @@
             this.chB_FirstAccounts.UseVisualStyleBackColor = true;
             this.chB_FirstAccounts.CheckedChanged += new System.EventHandler(this.chB_FirstAccounts_CheckedChanged);
             // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.groupBox13);
+            this.panel2.Controls.Add(this.groupBox2);
+            this.panel2.Controls.Add(this.butAdd);
+            this.panel2.Controls.Add(this.groupBox4);
+            this.panel2.Controls.Add(this.groupBox14);
+            this.panel2.Controls.Add(this.groupBox5);
+            this.panel2.Controls.Add(this.groupBox12);
+            this.panel2.Controls.Add(this.butEdit);
+            this.panel2.Controls.Add(this.groupBox6);
+            this.panel2.Controls.Add(this.groupBox11);
+            this.panel2.Controls.Add(this.groupBox7);
+            this.panel2.Controls.Add(this.groupBox10);
+            this.panel2.Controls.Add(this.butClose);
+            this.panel2.Controls.Add(this.groupBox9);
+            this.panel2.Controls.Add(this.butDelete);
+            this.panel2.Controls.Add(this.groupBox8);
+            this.panel2.Location = new System.Drawing.Point(37, 107);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1411, 661);
+            this.panel2.TabIndex = 54;
+            // 
             // UserAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(101)))), ((int)(((byte)(158)))));
             this.ClientSize = new System.Drawing.Size(1483, 810);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.groupBox14);
-            this.Controls.Add(this.groupBox12);
-            this.Controls.Add(this.groupBox13);
-            this.Controls.Add(this.groupBox11);
-            this.Controls.Add(this.groupBox10);
-            this.Controls.Add(this.groupBox9);
-            this.Controls.Add(this.groupBox8);
-            this.Controls.Add(this.butDelete);
-            this.Controls.Add(this.butClose);
-            this.Controls.Add(this.groupBox7);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.butEdit);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.butAdd);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.textBox20);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UserAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "اضافة مستخدم";
             this.Load += new System.EventHandler(this.UserAdd_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox14.ResumeLayout(false);
             this.groupBox14.PerformLayout();
             this.groupBox12.ResumeLayout(false);
@@ -1331,7 +1350,9 @@
             this.groupBox13.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1422,5 +1443,6 @@
         private System.Windows.Forms.CheckBox chB_SettingsGeneral;
         private System.Windows.Forms.CheckBox chB_AllowUser;
         private System.Windows.Forms.CheckBox chB_Statistical;
+        private System.Windows.Forms.Panel panel2;
     }
 }

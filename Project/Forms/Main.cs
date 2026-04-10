@@ -15,6 +15,7 @@ using System.Security.Cryptography;
 
 using ZAD_Sales.DAL;
 using ZAD_Sales.Models;
+using ZAD_Sales.ClassProject;
 
 namespace ZAD_Sales.Forms
 {
@@ -56,7 +57,8 @@ namespace ZAD_Sales.Forms
         CarsAdd CarsAdd1;
         CarsExpenses CarsExpenses1;
         CarsExpensesMovement CarsExpensesMovement1;
-        UserAdd UserAdd1;
+        UserAdd UserAdd2;
+        UserAddNew UserAdd1;
         BackupSave BackupSave1;
         BackupRestore BackupRestore1;
         SettingsGeneral SettingsGeneral1;
@@ -118,7 +120,7 @@ namespace ZAD_Sales.Forms
             InitializeComponent();
             sqlCommand1.Connection = sqlConnection1;
 
-            User_Powers();
+            
 
 
             occasionDAL = new OccasionDAL(constring);
@@ -350,7 +352,7 @@ namespace ZAD_Sales.Forms
                 //}
 
             }
-      
+      //----- ايجاد صلاحيات المستخدم
         public void User_Powers()
         {
             //RemoveChBox();
@@ -2347,7 +2349,7 @@ namespace ZAD_Sales.Forms
         {
             if (UserAdd1 == null || UserAdd1.IsDisposed == true)
             {
-                UserAdd1 = new UserAdd();
+                UserAdd1 = new UserAddNew();
             }
             UserAdd1.MdiParent = this;
             UserAdd1.Show();
@@ -2915,6 +2917,243 @@ namespace ZAD_Sales.Forms
         //        }
         //    }
         //}
+
+        void ApplyPermissions()
+        {
+            TsmFirstAccounts.Enabled = CurrentUser.FirstAccounts == 1;
+            TsmStatistical.Enabled = CurrentUser.Statistical == 1;
+
+            TsmSales.Enabled = CurrentUser.Sales == 1;
+            TsmSalesReturns.Enabled = CurrentUser.Sales == 1;
+            TsmPurchaseReturns.Enabled = CurrentUser.Sales == 1;
+            ToolStrip_CategoryOthers.Enabled = CurrentUser.Sales == 1;
+            TsmBarcode.Enabled = CurrentUser.Sales == 1;
+            TsmProducerIncomplete.Enabled = CurrentUser.Sales == 1;
+
+            TsmPurchases.Enabled = CurrentUser.Purchases == 1;
+            TsmExpenses.Enabled = CurrentUser.Expenses == 1;
+
+            TsmMoneyToBox.Enabled = CurrentUser.MoneyToBox == 1;
+            TsmMoneyFromBox.Enabled = CurrentUser.MoneyFromBox == 1;
+
+            TsmGroupAdd.Enabled = CurrentUser.GroupAdd == 1;
+            TsmEmployeeAdd.Enabled = CurrentUser.EmployeeAdd == 1;
+            TsmEmployeeSalaryPayment.Enabled = CurrentUser.EmployeeSalaryPayment == 1;
+            TsmEmployeeSalaryMovement.Enabled = CurrentUser.EmployeeSalaryMovement == 1;
+            TsmEmployeeBonusAdd.Enabled = CurrentUser.EmployeeBonusAdd == 1;
+            TsmEmployeePenaltyAdd.Enabled = CurrentUser.EmployeePenaltyAdd == 1;
+
+            TsmCarsAdd.Enabled = CurrentUser.CarsAdd == 1;
+            TsmCarsExpenses.Enabled = CurrentUser.CarsExpenses == 1;
+            TsmCarsExpensesMovement.Enabled = CurrentUser.CarsExpensesMovement == 1;
+
+            TsmBackupSave.Enabled = CurrentUser.BackupSave == 1;
+            TsmBackupRestore.Enabled = CurrentUser.BackupRestore == 1;
+
+            TsmSettingsGeneral.Enabled = CurrentUser.SettingsGeneral == 1;
+            TsmSystemReset.Enabled = CurrentUser.SystemReset == 1;
+
+            TsmAddClient.Enabled = CurrentUser.ClientAdd == 1;
+            TsmClientsMoneyFrom.Enabled = CurrentUser.ClientsMoney == 1;
+            TsmClientsMoneyTo.Enabled = CurrentUser.ClientsMoney == 1;
+
+            TsmProducerNewAdd.Enabled = CurrentUser.ProducerNewAdd == 1;
+            TsmStoreNewAdd.Enabled = CurrentUser.StoreNewAdd == 1;
+            TsmPrices.Enabled = CurrentUser.Prices == 1;
+            TsmProducerUpdate.Enabled = CurrentUser.ProducerUpdate == 1;
+
+            TsmInventory.Enabled = CurrentUser.Inventory == 1;
+
+            TsmStoreToStore.Enabled = CurrentUser.StoreToStore == 1;
+            TsmProductMovement.Enabled = CurrentUser.ProductMovement == 1;
+            TsmBoxMovement.Enabled = CurrentUser.BoxMovement == 1;
+
+            TsmClientsList.Enabled = CurrentUser.ClientsList == 1;
+            TsmBanksList.Enabled = CurrentUser.BanksList == 1;
+
+            TsmProfits.Enabled = CurrentUser.Profits == 1;
+            TsmDailySalesPurchases.Enabled = CurrentUser.DailySalesPurchases == 1;
+            TsmDailyTransactions.Enabled = CurrentUser.DailyTransactions == 1;
+            TsmFinancialStatements.Enabled = CurrentUser.FinancialStatements == 1;
+
+            TsmBankAddAccount.Enabled = CurrentUser.BankAddAccount == 1;
+
+            TsmCheckSaderAll.Enabled = CurrentUser.CheckSaderWared == 1;
+            TsmCheckWaredAll.Enabled = CurrentUser.CheckSaderWared == 1;
+
+            TsmCheckAddALL.Enabled = CurrentUser.CheckSave == 1;
+            TsmCheckDiscALL.Enabled = CurrentUser.CheckSave == 1;
+
+            TsmBankStatement.Enabled = CurrentUser.BankStatement == 1;
+            TsmBankToBank.Enabled = CurrentUser.BankToBank == 1;
+
+            TsmClientAccountStatement.Enabled = CurrentUser.ClientAccountStatement == 1;
+
+            TsmUserAdd.Enabled = CurrentUser.UserAdd1 == 1;
+        }
+
+        //Dictionary<string, Func<int>> menuPermissions = new Dictionary<string, Func<int>>()
+        //    {
+        //        { "TsmSales", () => CurrentUser.Sales },
+        //        { "TsmPurchases", () => CurrentUser.Purchases },
+        //        { "TsmExpenses", () => CurrentUser.Expenses },
+        //        { "TsmClients", () => CurrentUser.ClientAdd },
+        //        { "TsmUsers", () => CurrentUser.AllowUser }
+        //    };
+        Dictionary<string, Func<int>> menuPermissions = new Dictionary<string, Func<int>>()
+        {
+            { "TsmFirstAccounts", () => CurrentUser.FirstAccounts },
+    
+            // مفيش مقابل واضح → ممكن تربطه أو تسيبه
+            { "TsmStatistical", () => CurrentUser.Statistical },
+
+            { "TsmSales", () => CurrentUser.Sales },
+            { "TsmSalesReturns", () => CurrentUser.Sales },
+            { "TsmPurchaseReturns", () => CurrentUser.Purchases },
+
+            { "ToolStrip_CategoryOthers", () => 1 },
+
+            { "TsmBarcode", () => CurrentUser.Barcode },
+            { "TsmProducerIncomplete", () => CurrentUser.ProducerIncomplete },
+
+            { "TsmPurchases", () => CurrentUser.Purchases },
+            { "TsmExpenses", () => CurrentUser.Expenses },
+            { "TsmMoneyToBox", () => CurrentUser.MoneyToBox },
+            { "TsmMoneyFromBox", () => CurrentUser.MoneyFromBox },
+
+            { "TsmGroupAdd", () => CurrentUser.GroupAdd },
+            { "TsmEmployeeAdd", () => CurrentUser.EmployeeAdd },
+            { "TsmEmployeeSalaryPayment", () => CurrentUser.EmployeeSalaryPayment },
+            { "TsmEmployeeSalaryMovement", () => CurrentUser.EmployeeSalaryMovement },
+            { "TsmEmployeeBonusAdd", () => CurrentUser.EmployeeBonusAdd },
+            { "TsmEmployeePenaltyAdd", () => CurrentUser.EmployeePenaltyAdd },
+
+            { "TsmCarsAdd", () => CurrentUser.CarsAdd },
+            { "TsmCarsExpenses", () => CurrentUser.CarsExpenses },
+            { "TsmCarsExpensesMovement", () => CurrentUser.CarsExpensesMovement },
+
+            { "TsmBackupSave", () => CurrentUser.BackupSave },
+            { "TsmBackupRestore", () => CurrentUser.BackupRestore },
+
+            { "TsmSettingsGeneral", () => CurrentUser.SettingsGeneral },
+            { "TsmSystemReset", () => CurrentUser.SystemReset },
+
+            { "TsmAddClient", () => CurrentUser.ClientAdd },
+            { "TsmClientsMoneyFrom", () => CurrentUser.ClientsMoney },
+            { "TsmClientsMoneyTo", () => CurrentUser.ClientsMoney },
+
+            { "TsmProducerNewAdd", () => CurrentUser.ProducerNewAdd },
+            { "TsmStoreNewAdd", () => CurrentUser.StoreNewAdd },
+
+            { "TsmPrices", () => CurrentUser.Prices },
+            { "TsmProducerUpdate", () => CurrentUser.ProducerUpdate },
+
+            { "TsmInventory", () => CurrentUser.Inventory },
+            { "TsmStoreToStore", () => CurrentUser.StoreToStore },
+
+            { "TsmProductMovement", () => CurrentUser.ProductMovement },
+            { "TsmBoxMovement", () => CurrentUser.BoxMovement },
+
+            { "TsmClientsList", () => CurrentUser.ClientsList },
+            { "TsmBanksList", () => CurrentUser.BanksList },
+
+            { "TsmProfits", () => CurrentUser.Profits },
+            { "TsmDailySalesPurchases", () => CurrentUser.DailySalesPurchases },
+            { "TsmDailyTransactions", () => CurrentUser.DailyTransactions },
+            { "TsmFinancialStatements", () => CurrentUser.FinancialStatements },
+
+            { "TsmBankAddAccount", () => CurrentUser.BankAddAccount },
+
+            // الشيكات كلها على نفس الصلاحية
+            { "TsmCheckSaderAll", () => CurrentUser.CheckSaderWared },
+            { "TsmCheckWaredAll", () => CurrentUser.CheckSaderWared },
+            { "TsmCheckAddALL", () => CurrentUser.CheckSave },
+            { "TsmCheckDiscALL", () => CurrentUser.CheckSave },
+
+            { "TsmBankStatement", () => CurrentUser.BankStatement },
+            { "TsmBankToBank", () => CurrentUser.BankToBank },
+
+            { "TsmClientAccountStatement", () => CurrentUser.ClientAccountStatement },
+
+            { "TsmUserAdd", () => CurrentUser.UserAdd1 },
+            { "TsmExplainSystem", () => CurrentUser.ExplainSystem },
+            { "TsmCallUs", () => CurrentUser.CallUs },
+            { "TsmLicense", () => CurrentUser.License },
+            { "TsmClientsMoneyToClients", () => CurrentUser.ClientsMoney },
+            { "TsmPriceViewer", () => CurrentUser.PriceViewer },
+            { "TsmProducerAddBarcodeFactory", () => CurrentUser.PriceViewer }
+
+        };
+
+        void ApplyPermissionsSmart()
+        {
+            foreach (ToolStripMenuItem item in GetAllMenuItems(menuStrip2))
+            {
+                if (menuPermissions.ContainsKey(item.Name))
+                {
+                    int value = menuPermissions[item.Name]();
+
+                    item.Enabled = value == 1;
+                    // أو
+                    // item.Visible = value == 1;
+                }
+            }
+
+            foreach (ToolStripMenuItem item in GetAllMenuItems(menuStrip2))
+            {
+                if (!menuPermissions.ContainsKey(item.Name))
+                {
+                    Console.WriteLine("Not Mapped: " + item.Name);
+                }
+            }
+        }
+
+        List<ToolStripMenuItem> GetAllMenuItems(MenuStrip menu)
+        {
+            List<ToolStripMenuItem> list = new List<ToolStripMenuItem>();
+
+            foreach (ToolStripItem item in menu.Items)
+            {
+                if (item is ToolStripMenuItem menuItem)
+                {
+                    list.Add(menuItem);
+                    GetSubItems(menuItem, list);
+                }
+            }
+
+            return list;
+        }
+
+        void GetSubItems(ToolStripMenuItem parent, List<ToolStripMenuItem> list)
+        {
+            foreach (ToolStripItem sub in parent.DropDownItems)
+            {
+                if (sub is ToolStripMenuItem child)
+                {
+                    list.Add(child);
+                    GetSubItems(child, list);
+                }
+            }
+        }
+        //--------- دالة مؤقتة
+        void DebugPermissions()
+        {
+            foreach (ToolStripMenuItem item in GetAllMenuItems(menuStrip2))
+            {
+                string name = item.Name;
+
+                if (menuPermissions.ContainsKey(name))
+                {
+                    int value = menuPermissions[name]();
+
+                    Console.WriteLine($"{name} => Permission = {value}");
+                }
+                else
+                {
+                    Console.WriteLine($"{name} => Not Mapped");
+                }
+            }
+        }
         private void Main_Load(object sender, EventArgs e)
         {
             CheckOccasions(); //------ رسالة تذكير مناسبات
@@ -2924,7 +3163,17 @@ namespace ZAD_Sales.Forms
 
             GetValueMonth();
 
-           
+            //------- تحميل صلاحيات المستخدم النظام القديم
+
+            User_Powers();
+
+            //------- تحميل صلاحيات المستخدم النظام الجديدة
+          
+           // ApplyPermissionsSmart();
+
+
+            DebugPermissions(); // 👈 شغلها مؤقتًا
+
             //GetValueMonth();
             //  butUpdate.PerformClick();
 
@@ -3651,6 +3900,15 @@ namespace ZAD_Sales.Forms
 
         private void TsmProducerAddBarcodeFactory_Click(object sender, EventArgs e)
         {
+            
+
+
+            if (CurrentUser.ProducerAddBarcodeFactory == 0)
+            {
+                MessageBox.Show("ليس لديك صلاحية");
+                return;
+            }
+
             TransferData.FormName = "اضافة باركود المصنع";
 
             if (ProducerAddBarcodeFactory1 == null || ProducerAddBarcodeFactory1.IsDisposed == true)

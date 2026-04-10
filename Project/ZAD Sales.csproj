@@ -96,6 +96,7 @@
     <Compile Include="ClassProject\ClassCloseLettering.cs" />
     <Compile Include="ClassProject\ClassInvoiceItem.cs" />
     <Compile Include="ClassProject\CompanyInfo.cs" />
+    <Compile Include="ClassProject\CurrentUser.cs" />
     <Compile Include="ClassProject\DirectReportPrinter.cs" />
     <Compile Include="ClassProject\EventsAllSave.cs" />
     <Compile Include="ClassProject\InvoiceData.cs" />
@@ -578,6 +579,12 @@
     <Compile Include="Forms\UserAdd.Designer.cs">
       <DependentUpon>UserAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UserAddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserAddNew.Designer.cs">
+      <DependentUpon>UserAddNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\VersionNew.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -912,6 +919,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UserAdd.resx">
       <DependentUpon>UserAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserAddNew.resx">
+      <DependentUpon>UserAddNew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\VersionNew.resx">
       <DependentUpon>VersionNew.cs</DependentUpon>

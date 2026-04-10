@@ -176,6 +176,13 @@ namespace ZAD_Sales.Forms
 
         private void UserAdd_Load(object sender, EventArgs e)
         {
+            //this.AutoScaleMode = AutoScaleMode.Font;
+            this.AutoScaleMode = AutoScaleMode.None;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Font = new Font("Tajawal", 10);
+
+
             try
             {
                 SqlDataAdapter Da1;

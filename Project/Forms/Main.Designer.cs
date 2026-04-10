@@ -338,9 +338,9 @@
             this.toolStripTextBox1});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStrip2.Size = new System.Drawing.Size(1320, 31);
+            this.menuStrip2.Size = new System.Drawing.Size(1760, 37);
             this.menuStrip2.TabIndex = 44;
             this.menuStrip2.Text = "menuStrip2";
             this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
@@ -357,7 +357,7 @@
             this.ملفToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ملفToolStripMenuItem1.Image = global::ZAD_Sales.Properties.Resources.Files;
             this.ملفToolStripMenuItem1.Name = "ملفToolStripMenuItem1";
-            this.ملفToolStripMenuItem1.Size = new System.Drawing.Size(66, 27);
+            this.ملفToolStripMenuItem1.Size = new System.Drawing.Size(77, 33);
             this.ملفToolStripMenuItem1.Text = "م&لف";
             // 
             // TsmLogin
@@ -365,35 +365,35 @@
             this.TsmLogin.BackColor = System.Drawing.Color.White;
             this.TsmLogin.ForeColor = System.Drawing.Color.Green;
             this.TsmLogin.Name = "TsmLogin";
-            this.TsmLogin.Size = new System.Drawing.Size(196, 28);
+            this.TsmLogin.Size = new System.Drawing.Size(251, 34);
             this.TsmLogin.Text = "تسجيل الدخول";
             this.TsmLogin.Click += new System.EventHandler(this.TsmLogin_Click);
             // 
             // TsmConnection
             // 
             this.TsmConnection.Name = "TsmConnection";
-            this.TsmConnection.Size = new System.Drawing.Size(196, 28);
+            this.TsmConnection.Size = new System.Drawing.Size(251, 34);
             this.TsmConnection.Text = "إعدادات الإتصال";
             this.TsmConnection.Click += new System.EventHandler(this.TsmConnection_Click);
             // 
             // TsmCalc
             // 
             this.TsmCalc.Name = "TsmCalc";
-            this.TsmCalc.Size = new System.Drawing.Size(196, 28);
+            this.TsmCalc.Size = new System.Drawing.Size(251, 34);
             this.TsmCalc.Text = "آلـــــــــــه حاسبــــــــــــه";
             this.TsmCalc.Click += new System.EventHandler(this.TsmCalc_Click);
             // 
             // القائمةالجانبيةToolStripMenuItem
             // 
             this.القائمةالجانبيةToolStripMenuItem.Name = "القائمةالجانبيةToolStripMenuItem";
-            this.القائمةالجانبيةToolStripMenuItem.Size = new System.Drawing.Size(196, 28);
+            this.القائمةالجانبيةToolStripMenuItem.Size = new System.Drawing.Size(251, 34);
             this.القائمةالجانبيةToolStripMenuItem.Text = "القائمة الجانبية";
             this.القائمةالجانبيةToolStripMenuItem.Click += new System.EventHandler(this.القائمةالجانبيةToolStripMenuItem_Click);
             // 
             // TsmRASMALL
             // 
             this.TsmRASMALL.Name = "TsmRASMALL";
-            this.TsmRASMALL.Size = new System.Drawing.Size(196, 28);
+            this.TsmRASMALL.Size = new System.Drawing.Size(251, 34);
             this.TsmRASMALL.Text = "راس المال";
             this.TsmRASMALL.Visible = false;
             this.TsmRASMALL.Click += new System.EventHandler(this.TsmRASMALL_Click);
@@ -403,7 +403,7 @@
             this.TsmExit.BackColor = System.Drawing.Color.White;
             this.TsmExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.TsmExit.Name = "TsmExit";
-            this.TsmExit.Size = new System.Drawing.Size(196, 28);
+            this.TsmExit.Size = new System.Drawing.Size(251, 34);
             this.TsmExit.Text = "تسجيل الخروج";
             this.TsmExit.Click += new System.EventHandler(this.TsmExit_Click);
             // 
@@ -426,7 +426,7 @@
             this.الأصنافToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.الأصنافToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.category;
             this.الأصنافToolStripMenuItem.Name = "الأصنافToolStripMenuItem";
-            this.الأصنافToolStripMenuItem.Size = new System.Drawing.Size(82, 27);
+            this.الأصنافToolStripMenuItem.Size = new System.Drawing.Size(96, 33);
             this.الأصنافToolStripMenuItem.Text = "ا&لأصناف";
             // 
             // TsmProducerNewAdd
@@ -434,7 +434,7 @@
             this.TsmProducerNewAdd.Enabled = false;
             this.TsmProducerNewAdd.ForeColor = System.Drawing.Color.Black;
             this.TsmProducerNewAdd.Name = "TsmProducerNewAdd";
-            this.TsmProducerNewAdd.Size = new System.Drawing.Size(228, 28);
+            this.TsmProducerNewAdd.Size = new System.Drawing.Size(283, 34);
             this.TsmProducerNewAdd.Text = "إضــــــــــــــــافة صنف جديد";
             this.TsmProducerNewAdd.Click += new System.EventHandler(this.TsmProducerNewAdd_Click);
             // 
@@ -442,21 +442,21 @@
             // 
             this.TsmStoreNewAdd.Enabled = false;
             this.TsmStoreNewAdd.Name = "TsmStoreNewAdd";
-            this.TsmStoreNewAdd.Size = new System.Drawing.Size(228, 28);
+            this.TsmStoreNewAdd.Size = new System.Drawing.Size(283, 34);
             this.TsmStoreNewAdd.Text = "إضــــــــــــــــافة مخزن جديد";
             this.TsmStoreNewAdd.Click += new System.EventHandler(this.TsmStoreNewAdd_Click);
             // 
             // tsmGroup_Name
             // 
             this.tsmGroup_Name.Name = "tsmGroup_Name";
-            this.tsmGroup_Name.Size = new System.Drawing.Size(228, 28);
+            this.tsmGroup_Name.Size = new System.Drawing.Size(283, 34);
             this.tsmGroup_Name.Text = "إضـــــــافة مجموعة للأصناف";
             this.tsmGroup_Name.Click += new System.EventHandler(this.tsmGroup_Name_Click);
             // 
             // tsmFactionCategoreyAdd
             // 
             this.tsmFactionCategoreyAdd.Name = "tsmFactionCategoreyAdd";
-            this.tsmFactionCategoreyAdd.Size = new System.Drawing.Size(228, 28);
+            this.tsmFactionCategoreyAdd.Size = new System.Drawing.Size(283, 34);
             this.tsmFactionCategoreyAdd.Text = "إضافة فئات جديدة للأصناف";
             this.tsmFactionCategoreyAdd.Click += new System.EventHandler(this.tsmFactionCategoreyAdd_Click);
             // 
@@ -465,7 +465,7 @@
             this.TsmPrices.Enabled = false;
             this.TsmPrices.ForeColor = System.Drawing.Color.Black;
             this.TsmPrices.Name = "TsmPrices";
-            this.TsmPrices.Size = new System.Drawing.Size(228, 28);
+            this.TsmPrices.Size = new System.Drawing.Size(283, 34);
             this.TsmPrices.Text = "الأسعــــــــــــــــــــــــــــــــار";
             this.TsmPrices.Click += new System.EventHandler(this.TsmPrices_Click);
             // 
@@ -473,7 +473,7 @@
             // 
             this.TsmProducerUpdate.Enabled = false;
             this.TsmProducerUpdate.Name = "TsmProducerUpdate";
-            this.TsmProducerUpdate.Size = new System.Drawing.Size(228, 28);
+            this.TsmProducerUpdate.Size = new System.Drawing.Size(283, 34);
             this.TsmProducerUpdate.Text = "تعديـــــــــــــــل صنـــــــــــف";
             this.TsmProducerUpdate.Click += new System.EventHandler(this.TsmProducerUpdate_Click);
             // 
@@ -482,7 +482,7 @@
             this.TsmStoreToStore.Enabled = false;
             this.TsmStoreToStore.ForeColor = System.Drawing.Color.Black;
             this.TsmStoreToStore.Name = "TsmStoreToStore";
-            this.TsmStoreToStore.Size = new System.Drawing.Size(228, 28);
+            this.TsmStoreToStore.Size = new System.Drawing.Size(283, 34);
             this.TsmStoreToStore.Text = "نقل كمية من مخزن الى مخزن";
             this.TsmStoreToStore.Click += new System.EventHandler(this.TsmStoreToStore_Click);
             // 
@@ -491,7 +491,7 @@
             this.TsmInventory.Enabled = false;
             this.TsmInventory.ForeColor = System.Drawing.Color.Black;
             this.TsmInventory.Name = "TsmInventory";
-            this.TsmInventory.Size = new System.Drawing.Size(228, 28);
+            this.TsmInventory.Size = new System.Drawing.Size(283, 34);
             this.TsmInventory.Text = "الجـــــــــــــــــــــــــــــــــــرد";
             this.TsmInventory.Click += new System.EventHandler(this.TsmInventory_Click);
             // 
@@ -500,7 +500,7 @@
             this.TsmBarcode.Enabled = false;
             this.TsmBarcode.Name = "TsmBarcode";
             this.TsmBarcode.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.TsmBarcode.Size = new System.Drawing.Size(228, 28);
+            this.TsmBarcode.Size = new System.Drawing.Size(283, 34);
             this.TsmBarcode.Text = "طباعة الباركود";
             this.TsmBarcode.Click += new System.EventHandler(this.TsmBarcode_Click);
             // 
@@ -508,21 +508,21 @@
             // 
             this.TsmProducerIncomplete.Enabled = false;
             this.TsmProducerIncomplete.Name = "TsmProducerIncomplete";
-            this.TsmProducerIncomplete.Size = new System.Drawing.Size(228, 28);
+            this.TsmProducerIncomplete.Size = new System.Drawing.Size(283, 34);
             this.TsmProducerIncomplete.Text = "الاصناف الناقصة";
             this.TsmProducerIncomplete.Click += new System.EventHandler(this.TsmProducerIncomplete_Click);
             // 
             // إضافةسريالاتالأصنافToolStripMenuItem
             // 
             this.إضافةسريالاتالأصنافToolStripMenuItem.Name = "إضافةسريالاتالأصنافToolStripMenuItem";
-            this.إضافةسريالاتالأصنافToolStripMenuItem.Size = new System.Drawing.Size(228, 28);
+            this.إضافةسريالاتالأصنافToolStripMenuItem.Size = new System.Drawing.Size(283, 34);
             this.إضافةسريالاتالأصنافToolStripMenuItem.Text = "إضافة سريالات الأصناف";
             this.إضافةسريالاتالأصنافToolStripMenuItem.Click += new System.EventHandler(this.إضافةسريالاتالأصنافToolStripMenuItem_Click);
             // 
             // TsmProducerAddBarcodeFactory
             // 
             this.TsmProducerAddBarcodeFactory.Name = "TsmProducerAddBarcodeFactory";
-            this.TsmProducerAddBarcodeFactory.Size = new System.Drawing.Size(228, 28);
+            this.TsmProducerAddBarcodeFactory.Size = new System.Drawing.Size(283, 34);
             this.TsmProducerAddBarcodeFactory.Text = "إضافة باركود المصنع";
             this.TsmProducerAddBarcodeFactory.Click += new System.EventHandler(this.TsmProducerAddBarcodeFactory_Click);
             // 
@@ -531,7 +531,7 @@
             this.TsmPriceViewer.Name = "TsmPriceViewer";
             this.TsmPriceViewer.ShortcutKeyDisplayString = "";
             this.TsmPriceViewer.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.TsmPriceViewer.Size = new System.Drawing.Size(228, 28);
+            this.TsmPriceViewer.Size = new System.Drawing.Size(283, 34);
             this.TsmPriceViewer.Text = "عرض الاسعار";
             this.TsmPriceViewer.Click += new System.EventHandler(this.TsmPriceViewer_Click);
             // 
@@ -547,7 +547,7 @@
             this.العملاءToolStripMenuItem1.Image = global::ZAD_Sales.Properties.Resources.Clients;
             this.العملاءToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Black;
             this.العملاءToolStripMenuItem1.Name = "العملاءToolStripMenuItem1";
-            this.العملاءToolStripMenuItem1.Size = new System.Drawing.Size(76, 27);
+            this.العملاءToolStripMenuItem1.Size = new System.Drawing.Size(91, 33);
             this.العملاءToolStripMenuItem1.Text = "ا&لعملاء";
             // 
             // TsmAddClient
@@ -555,7 +555,7 @@
             this.TsmAddClient.Enabled = false;
             this.TsmAddClient.Image = global::ZAD_Sales.Properties.Resources.AddClients;
             this.TsmAddClient.Name = "TsmAddClient";
-            this.TsmAddClient.Size = new System.Drawing.Size(231, 28);
+            this.TsmAddClient.Size = new System.Drawing.Size(284, 34);
             this.TsmAddClient.Text = "إضافة عميـــــــــل جديـــــــد";
             this.TsmAddClient.Click += new System.EventHandler(this.TsmAddClient_Click);
             // 
@@ -564,7 +564,7 @@
             this.TsmGroupAdd.Enabled = false;
             this.TsmGroupAdd.ForeColor = System.Drawing.Color.Black;
             this.TsmGroupAdd.Name = "TsmGroupAdd";
-            this.TsmGroupAdd.Size = new System.Drawing.Size(231, 28);
+            this.TsmGroupAdd.Size = new System.Drawing.Size(284, 34);
             this.TsmGroupAdd.Text = "إضافة مجموعه جديده للعملاء";
             this.TsmGroupAdd.Click += new System.EventHandler(this.TsmGroupAdd_Click);
             // 
@@ -573,7 +573,7 @@
             this.TsmClientsMoneyFrom.Enabled = false;
             this.TsmClientsMoneyFrom.ForeColor = System.Drawing.Color.Black;
             this.TsmClientsMoneyFrom.Name = "TsmClientsMoneyFrom";
-            this.TsmClientsMoneyFrom.Size = new System.Drawing.Size(231, 28);
+            this.TsmClientsMoneyFrom.Size = new System.Drawing.Size(284, 34);
             this.TsmClientsMoneyFrom.Text = "تحصيل من عميل";
             this.TsmClientsMoneyFrom.Click += new System.EventHandler(this.TsmClientsMoneyFrom_Click);
             // 
@@ -581,14 +581,14 @@
             // 
             this.TsmClientsMoneyTo.Enabled = false;
             this.TsmClientsMoneyTo.Name = "TsmClientsMoneyTo";
-            this.TsmClientsMoneyTo.Size = new System.Drawing.Size(231, 28);
+            this.TsmClientsMoneyTo.Size = new System.Drawing.Size(284, 34);
             this.TsmClientsMoneyTo.Text = "توريد الى عميل";
             this.TsmClientsMoneyTo.Click += new System.EventHandler(this.TsmClientsMoneyTo_Click);
             // 
             // TsmClientsMoneyToClients
             // 
             this.TsmClientsMoneyToClients.Name = "TsmClientsMoneyToClients";
-            this.TsmClientsMoneyToClients.Size = new System.Drawing.Size(231, 28);
+            this.TsmClientsMoneyToClients.Size = new System.Drawing.Size(284, 34);
             this.TsmClientsMoneyToClients.Text = "تحويل من عميل الى عميل";
             this.TsmClientsMoneyToClients.Click += new System.EventHandler(this.TsmClientsMoneyToClients_Click);
             // 
@@ -605,7 +605,7 @@
             this.مبيعاتومشترياتToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.مبيعاتومشترياتToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.bill;
             this.مبيعاتومشترياتToolStripMenuItem.Name = "مبيعاتومشترياتToolStripMenuItem";
-            this.مبيعاتومشترياتToolStripMenuItem.Size = new System.Drawing.Size(132, 27);
+            this.مبيعاتومشترياتToolStripMenuItem.Size = new System.Drawing.Size(159, 33);
             this.مبيعاتومشترياتToolStripMenuItem.Text = "م&بيعات ومشتريات";
             // 
             // TsmSales
@@ -616,7 +616,7 @@
             this.TsmSales.Image = global::ZAD_Sales.Properties.Resources.shopping_cart;
             this.TsmSales.Name = "TsmSales";
             this.TsmSales.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.TsmSales.Size = new System.Drawing.Size(247, 28);
+            this.TsmSales.Size = new System.Drawing.Size(302, 34);
             this.TsmSales.Text = "فاتــــــورة مبيعـــات";
             this.TsmSales.Click += new System.EventHandler(this.TsmSales_Click);
             // 
@@ -628,7 +628,7 @@
             this.TsmPurchases.Image = global::ZAD_Sales.Properties.Resources.add_to_shopping_cart;
             this.TsmPurchases.Name = "TsmPurchases";
             this.TsmPurchases.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.TsmPurchases.Size = new System.Drawing.Size(247, 28);
+            this.TsmPurchases.Size = new System.Drawing.Size(302, 34);
             this.TsmPurchases.Text = "فاتــــورة مشتريـات";
             this.TsmPurchases.Click += new System.EventHandler(this.TsmPurchases_Click);
             // 
@@ -639,7 +639,7 @@
             this.TsmSalesReturns.ForeColor = System.Drawing.Color.Black;
             this.TsmSalesReturns.Image = global::ZAD_Sales.Properties.Resources.put_in_shopping_cart;
             this.TsmSalesReturns.Name = "TsmSalesReturns";
-            this.TsmSalesReturns.Size = new System.Drawing.Size(247, 28);
+            this.TsmSalesReturns.Size = new System.Drawing.Size(302, 34);
             this.TsmSalesReturns.Text = "مردودات مبيعـــــات";
             this.TsmSalesReturns.Click += new System.EventHandler(this.TsmSalesReturns_Click);
             // 
@@ -650,7 +650,7 @@
             this.TsmPurchaseReturns.ForeColor = System.Drawing.Color.Black;
             this.TsmPurchaseReturns.Image = global::ZAD_Sales.Properties.Resources.remove_from_shopping_cart;
             this.TsmPurchaseReturns.Name = "TsmPurchaseReturns";
-            this.TsmPurchaseReturns.Size = new System.Drawing.Size(247, 28);
+            this.TsmPurchaseReturns.Size = new System.Drawing.Size(302, 34);
             this.TsmPurchaseReturns.Text = "مردودات مشتريــات";
             this.TsmPurchaseReturns.Click += new System.EventHandler(this.TsmPurchaseReturns_Click);
             // 
@@ -659,7 +659,7 @@
             this.ToolStrip_CategoryOthers.Enabled = false;
             this.ToolStrip_CategoryOthers.Image = global::ZAD_Sales.Properties.Resources.money1;
             this.ToolStrip_CategoryOthers.Name = "ToolStrip_CategoryOthers";
-            this.ToolStrip_CategoryOthers.Size = new System.Drawing.Size(247, 28);
+            this.ToolStrip_CategoryOthers.Size = new System.Drawing.Size(302, 34);
             this.ToolStrip_CategoryOthers.Text = "مصروفات وايرادات أخرى";
             this.ToolStrip_CategoryOthers.Click += new System.EventHandler(this.ToolStrip_CategoryOthers_Click);
             // 
@@ -667,14 +667,14 @@
             // 
             this.TsmInstallment.Image = global::ZAD_Sales.Properties.Resources.shopping_cart_accept;
             this.TsmInstallment.Name = "TsmInstallment";
-            this.TsmInstallment.Size = new System.Drawing.Size(247, 28);
+            this.TsmInstallment.Size = new System.Drawing.Size(302, 34);
             this.TsmInstallment.Text = "التقسيط";
             this.TsmInstallment.Click += new System.EventHandler(this.TsmInstallment_Click);
             // 
             // TsmSalesNoSave
             // 
             this.TsmSalesNoSave.Name = "TsmSalesNoSave";
-            this.TsmSalesNoSave.Size = new System.Drawing.Size(247, 28);
+            this.TsmSalesNoSave.Size = new System.Drawing.Size(302, 34);
             this.TsmSalesNoSave.Text = "فاتــــــورة مبيعـــات غير معتمدة";
             this.TsmSalesNoSave.Visible = false;
             this.TsmSalesNoSave.Click += new System.EventHandler(this.TsmSalesNoSave_Click);
@@ -686,21 +686,21 @@
             this.TsmProductMakeNeww});
             this.toolStripMenuItem1.Image = global::ZAD_Sales.Properties.Resources.gardd;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(80, 27);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(94, 33);
             this.toolStripMenuItem1.Text = "التصنيع";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // TsmProductMakeAddMateriall
             // 
             this.TsmProductMakeAddMateriall.Name = "TsmProductMakeAddMateriall";
-            this.TsmProductMakeAddMateriall.Size = new System.Drawing.Size(142, 28);
+            this.TsmProductMakeAddMateriall.Size = new System.Drawing.Size(178, 34);
             this.TsmProductMakeAddMateriall.Text = "اضافة خامات";
             this.TsmProductMakeAddMateriall.Click += new System.EventHandler(this.TsmProductMakeAddMateriall_Click);
             // 
             // TsmProductMakeNeww
             // 
             this.TsmProductMakeNeww.Name = "TsmProductMakeNeww";
-            this.TsmProductMakeNeww.Size = new System.Drawing.Size(142, 28);
+            this.TsmProductMakeNeww.Size = new System.Drawing.Size(178, 34);
             this.TsmProductMakeNeww.Text = "تصنيع منتج";
             this.TsmProductMakeNeww.Click += new System.EventHandler(this.TsmProductMakeNeww_Click);
             // 
@@ -713,7 +713,7 @@
             this.شئونماليهToolStripMenuItem.ForeColor = System.Drawing.Color.DarkMagenta;
             this.شئونماليهToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.money;
             this.شئونماليهToolStripMenuItem.Name = "شئونماليهToolStripMenuItem";
-            this.شئونماليهToolStripMenuItem.Size = new System.Drawing.Size(100, 27);
+            this.شئونماليهToolStripMenuItem.Size = new System.Drawing.Size(119, 33);
             this.شئونماليهToolStripMenuItem.Text = "ش&ئون ماليه";
             this.شئونماليهToolStripMenuItem.Click += new System.EventHandler(this.شئونماليهToolStripMenuItem_Click);
             this.شئونماليهToolStripMenuItem.MouseEnter += new System.EventHandler(this.شئونماليهToolStripMenuItem_MouseEnter);
@@ -725,7 +725,7 @@
             this.TsmMoneyToBox.Enabled = false;
             this.TsmMoneyToBox.ForeColor = System.Drawing.Color.Black;
             this.TsmMoneyToBox.Name = "TsmMoneyToBox";
-            this.TsmMoneyToBox.Size = new System.Drawing.Size(200, 28);
+            this.TsmMoneyToBox.Size = new System.Drawing.Size(250, 34);
             this.TsmMoneyToBox.Text = "إضافة نقديـــة للصندوق";
             this.TsmMoneyToBox.Click += new System.EventHandler(this.TsmMoneyToBox_Click);
             // 
@@ -735,7 +735,7 @@
             this.TsmMoneyFromBox.Enabled = false;
             this.TsmMoneyFromBox.ForeColor = System.Drawing.Color.Black;
             this.TsmMoneyFromBox.Name = "TsmMoneyFromBox";
-            this.TsmMoneyFromBox.Size = new System.Drawing.Size(200, 28);
+            this.TsmMoneyFromBox.Size = new System.Drawing.Size(250, 34);
             this.TsmMoneyFromBox.Text = "خصم نقدية من الصندوق";
             this.TsmMoneyFromBox.Click += new System.EventHandler(this.TsmMoneyFromBox_Click);
             // 
@@ -744,7 +744,7 @@
             this.TsmExpenses.Enabled = false;
             this.TsmExpenses.ForeColor = System.Drawing.Color.Black;
             this.TsmExpenses.Name = "TsmExpenses";
-            this.TsmExpenses.Size = new System.Drawing.Size(200, 28);
+            this.TsmExpenses.Size = new System.Drawing.Size(250, 34);
             this.TsmExpenses.Text = "مصروفـــــــــــــــــــــات";
             this.TsmExpenses.Click += new System.EventHandler(this.TsmExpenses_Click);
             // 
@@ -761,7 +761,7 @@
             this.شئونموظفينToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.emp;
             this.شئونموظفينToolStripMenuItem.ImageTransparentColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.شئونموظفينToolStripMenuItem.Name = "شئونموظفينToolStripMenuItem";
-            this.شئونموظفينToolStripMenuItem.Size = new System.Drawing.Size(115, 27);
+            this.شئونموظفينToolStripMenuItem.Size = new System.Drawing.Size(138, 33);
             this.شئونموظفينToolStripMenuItem.Text = "ش&ئون العاملين";
             // 
             // TsmEmployeeAdd
@@ -770,7 +770,7 @@
             this.TsmEmployeeAdd.Enabled = false;
             this.TsmEmployeeAdd.ForeColor = System.Drawing.Color.Black;
             this.TsmEmployeeAdd.Name = "TsmEmployeeAdd";
-            this.TsmEmployeeAdd.Size = new System.Drawing.Size(183, 28);
+            this.TsmEmployeeAdd.Size = new System.Drawing.Size(228, 34);
             this.TsmEmployeeAdd.Text = "إضــــافة عامل جديد";
             this.TsmEmployeeAdd.Click += new System.EventHandler(this.TsmEmployeeAdd_Click);
             // 
@@ -779,7 +779,7 @@
             this.TsmEmployeeSalaryPayment.Enabled = false;
             this.TsmEmployeeSalaryPayment.ForeColor = System.Drawing.Color.Black;
             this.TsmEmployeeSalaryPayment.Name = "TsmEmployeeSalaryPayment";
-            this.TsmEmployeeSalaryPayment.Size = new System.Drawing.Size(183, 28);
+            this.TsmEmployeeSalaryPayment.Size = new System.Drawing.Size(228, 34);
             this.TsmEmployeeSalaryPayment.Text = "صــــــــرف مـــــرتب";
             this.TsmEmployeeSalaryPayment.Click += new System.EventHandler(this.TsmEmployeeSalaryPayment_Click);
             // 
@@ -788,7 +788,7 @@
             this.TsmEmployeeBonusAdd.Enabled = false;
             this.TsmEmployeeBonusAdd.ForeColor = System.Drawing.Color.Black;
             this.TsmEmployeeBonusAdd.Name = "TsmEmployeeBonusAdd";
-            this.TsmEmployeeBonusAdd.Size = new System.Drawing.Size(183, 28);
+            this.TsmEmployeeBonusAdd.Size = new System.Drawing.Size(228, 34);
             this.TsmEmployeeBonusAdd.Text = "إضافة حافز / مكافئة";
             this.TsmEmployeeBonusAdd.Click += new System.EventHandler(this.TsmEmployeeBonusAdd_Click);
             // 
@@ -797,7 +797,7 @@
             this.TsmEmployeePenaltyAdd.Enabled = false;
             this.TsmEmployeePenaltyAdd.ForeColor = System.Drawing.Color.Black;
             this.TsmEmployeePenaltyAdd.Name = "TsmEmployeePenaltyAdd";
-            this.TsmEmployeePenaltyAdd.Size = new System.Drawing.Size(183, 28);
+            this.TsmEmployeePenaltyAdd.Size = new System.Drawing.Size(228, 34);
             this.TsmEmployeePenaltyAdd.Text = "إضــــــــافة جـــــزاء";
             this.TsmEmployeePenaltyAdd.Click += new System.EventHandler(this.TsmEmployeePenaltyAdd_Click);
             // 
@@ -806,7 +806,7 @@
             this.TsmEmployeeSalaryMovement.Enabled = false;
             this.TsmEmployeeSalaryMovement.ForeColor = System.Drawing.Color.Black;
             this.TsmEmployeeSalaryMovement.Name = "TsmEmployeeSalaryMovement";
-            this.TsmEmployeeSalaryMovement.Size = new System.Drawing.Size(183, 28);
+            this.TsmEmployeeSalaryMovement.Size = new System.Drawing.Size(228, 34);
             this.TsmEmployeeSalaryMovement.Text = "حـــــــركة المرتبــات";
             this.TsmEmployeeSalaryMovement.Visible = false;
             this.TsmEmployeeSalaryMovement.Click += new System.EventHandler(this.TsmEmployeeSalaryMovement_Click);
@@ -820,7 +820,7 @@
             this.سياراتToolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
             this.سياراتToolStripMenuItem1.Image = global::ZAD_Sales.Properties.Resources.car;
             this.سياراتToolStripMenuItem1.Name = "سياراتToolStripMenuItem1";
-            this.سياراتToolStripMenuItem1.Size = new System.Drawing.Size(76, 27);
+            this.سياراتToolStripMenuItem1.Size = new System.Drawing.Size(89, 33);
             this.سياراتToolStripMenuItem1.Text = "س&يارات";
             // 
             // TsmCarsAdd
@@ -828,7 +828,7 @@
             this.TsmCarsAdd.Enabled = false;
             this.TsmCarsAdd.ForeColor = System.Drawing.Color.Black;
             this.TsmCarsAdd.Name = "TsmCarsAdd";
-            this.TsmCarsAdd.Size = new System.Drawing.Size(187, 28);
+            this.TsmCarsAdd.Size = new System.Drawing.Size(231, 34);
             this.TsmCarsAdd.Text = "إضـــافة سيارة جديدة";
             this.TsmCarsAdd.Click += new System.EventHandler(this.TsmCarsAdd_Click);
             // 
@@ -838,7 +838,7 @@
             this.TsmCarsExpenses.Enabled = false;
             this.TsmCarsExpenses.ForeColor = System.Drawing.Color.Black;
             this.TsmCarsExpenses.Name = "TsmCarsExpenses";
-            this.TsmCarsExpenses.Size = new System.Drawing.Size(187, 28);
+            this.TsmCarsExpenses.Size = new System.Drawing.Size(231, 34);
             this.TsmCarsExpenses.Text = "مصـــــــــاريف سيارة";
             this.TsmCarsExpenses.Click += new System.EventHandler(this.TsmCarsExpenses_Click);
             // 
@@ -848,7 +848,7 @@
             this.TsmCarsExpensesMovement.Enabled = false;
             this.TsmCarsExpensesMovement.ForeColor = System.Drawing.Color.Black;
             this.TsmCarsExpensesMovement.Name = "TsmCarsExpensesMovement";
-            this.TsmCarsExpensesMovement.Size = new System.Drawing.Size(187, 28);
+            this.TsmCarsExpensesMovement.Size = new System.Drawing.Size(231, 34);
             this.TsmCarsExpensesMovement.Text = "يومية مصاريف سيارة";
             this.TsmCarsExpensesMovement.Click += new System.EventHandler(this.TsmCarsExpensesMovement_Click);
             // 
@@ -865,7 +865,7 @@
             this.البنوكToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.البنوكToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.Bank;
             this.البنوكToolStripMenuItem.Name = "البنوكToolStripMenuItem";
-            this.البنوكToolStripMenuItem.Size = new System.Drawing.Size(74, 27);
+            this.البنوكToolStripMenuItem.Size = new System.Drawing.Size(87, 33);
             this.البنوكToolStripMenuItem.Text = "ا&لبنوك";
             // 
             // TsmBankAddAccount
@@ -873,7 +873,7 @@
             this.TsmBankAddAccount.Enabled = false;
             this.TsmBankAddAccount.ForeColor = System.Drawing.Color.Black;
             this.TsmBankAddAccount.Name = "TsmBankAddAccount";
-            this.TsmBankAddAccount.Size = new System.Drawing.Size(183, 28);
+            this.TsmBankAddAccount.Size = new System.Drawing.Size(230, 34);
             this.TsmBankAddAccount.Text = "فتح حساب بنك جديد";
             this.TsmBankAddAccount.Click += new System.EventHandler(this.TsmBankAddAccount_Click);
             // 
@@ -886,21 +886,21 @@
             this.TsmCheckAddALL.Enabled = false;
             this.TsmCheckAddALL.ForeColor = System.Drawing.Color.Black;
             this.TsmCheckAddALL.Name = "TsmCheckAddALL";
-            this.TsmCheckAddALL.Size = new System.Drawing.Size(183, 28);
+            this.TsmCheckAddALL.Size = new System.Drawing.Size(230, 34);
             this.TsmCheckAddALL.Text = "إشعــــــــــــار إضافة";
             // 
             // TsmCheckWared
             // 
             this.TsmCheckWared.ForeColor = System.Drawing.Color.Green;
             this.TsmCheckWared.Name = "TsmCheckWared";
-            this.TsmCheckWared.Size = new System.Drawing.Size(148, 28);
+            this.TsmCheckWared.Size = new System.Drawing.Size(185, 34);
             this.TsmCheckWared.Text = "شيـــــــك وارد";
             this.TsmCheckWared.Click += new System.EventHandler(this.TsmCheckWared_Click);
             // 
             // TsmDraftWared
             // 
             this.TsmDraftWared.Name = "TsmDraftWared";
-            this.TsmDraftWared.Size = new System.Drawing.Size(148, 28);
+            this.TsmDraftWared.Size = new System.Drawing.Size(185, 34);
             this.TsmDraftWared.Text = "كمبيالة واردة";
             this.TsmDraftWared.Click += new System.EventHandler(this.TsmDraftWared_Click);
             // 
@@ -912,21 +912,21 @@
             this.TsmCheckDiscALL.Enabled = false;
             this.TsmCheckDiscALL.ForeColor = System.Drawing.Color.Black;
             this.TsmCheckDiscALL.Name = "TsmCheckDiscALL";
-            this.TsmCheckDiscALL.Size = new System.Drawing.Size(183, 28);
+            this.TsmCheckDiscALL.Size = new System.Drawing.Size(230, 34);
             this.TsmCheckDiscALL.Text = "إشعـــــــــــــار خصم";
             // 
             // TsmCheckSader
             // 
             this.TsmCheckSader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.TsmCheckSader.Name = "TsmCheckSader";
-            this.TsmCheckSader.Size = new System.Drawing.Size(151, 28);
+            this.TsmCheckSader.Size = new System.Drawing.Size(187, 34);
             this.TsmCheckSader.Text = "شيك صادر";
             this.TsmCheckSader.Click += new System.EventHandler(this.TsmCheckSader_Click);
             // 
             // TsmDraftSader
             // 
             this.TsmDraftSader.Name = "TsmDraftSader";
-            this.TsmDraftSader.Size = new System.Drawing.Size(151, 28);
+            this.TsmDraftSader.Size = new System.Drawing.Size(187, 34);
             this.TsmDraftSader.Text = "كمبيالة صادرة";
             this.TsmDraftSader.Click += new System.EventHandler(this.TsmDraftSader_Click);
             // 
@@ -939,21 +939,21 @@
             this.TsmCheckWaredAll.Enabled = false;
             this.TsmCheckWaredAll.ForeColor = System.Drawing.Color.Black;
             this.TsmCheckWaredAll.Name = "TsmCheckWaredAll";
-            this.TsmCheckWaredAll.Size = new System.Drawing.Size(183, 28);
+            this.TsmCheckWaredAll.Size = new System.Drawing.Size(230, 34);
             this.TsmCheckWaredAll.Text = "حفــــــــــظ مديونيات";
             // 
             // TsmCheckWaredSave
             // 
             this.TsmCheckWaredSave.ForeColor = System.Drawing.Color.Green;
             this.TsmCheckWaredSave.Name = "TsmCheckWaredSave";
-            this.TsmCheckWaredSave.Size = new System.Drawing.Size(172, 28);
+            this.TsmCheckWaredSave.Size = new System.Drawing.Size(216, 34);
             this.TsmCheckWaredSave.Text = "حفظ شيك مدين";
             this.TsmCheckWaredSave.Click += new System.EventHandler(this.TsmCheckWaredSave_Click);
             // 
             // TsmDraftWaredSave
             // 
             this.TsmDraftWaredSave.Name = "TsmDraftWaredSave";
-            this.TsmDraftWaredSave.Size = new System.Drawing.Size(172, 28);
+            this.TsmDraftWaredSave.Size = new System.Drawing.Size(216, 34);
             this.TsmDraftWaredSave.Text = "حفظ كمبيالة مدين";
             this.TsmDraftWaredSave.Click += new System.EventHandler(this.TsmDraftWaredSave_Click);
             // 
@@ -965,21 +965,21 @@
             this.TsmCheckSaderAll.Enabled = false;
             this.TsmCheckSaderAll.ForeColor = System.Drawing.Color.Black;
             this.TsmCheckSaderAll.Name = "TsmCheckSaderAll";
-            this.TsmCheckSaderAll.Size = new System.Drawing.Size(183, 28);
+            this.TsmCheckSaderAll.Size = new System.Drawing.Size(230, 34);
             this.TsmCheckSaderAll.Text = "حفــــــــــظ دائنــــات";
             // 
             // TsmCheckSaderSave
             // 
             this.TsmCheckSaderSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.TsmCheckSaderSave.Name = "TsmCheckSaderSave";
-            this.TsmCheckSaderSave.Size = new System.Drawing.Size(167, 28);
+            this.TsmCheckSaderSave.Size = new System.Drawing.Size(209, 34);
             this.TsmCheckSaderSave.Text = "حفظ شيك دائن";
             this.TsmCheckSaderSave.Click += new System.EventHandler(this.TsmCheckSaderSave_Click);
             // 
             // TsmDraftSaderSave
             // 
             this.TsmDraftSaderSave.Name = "TsmDraftSaderSave";
-            this.TsmDraftSaderSave.Size = new System.Drawing.Size(167, 28);
+            this.TsmDraftSaderSave.Size = new System.Drawing.Size(209, 34);
             this.TsmDraftSaderSave.Text = "حفظ كمبياله دائن";
             this.TsmDraftSaderSave.Click += new System.EventHandler(this.TsmDraftSaderSave_Click);
             // 
@@ -988,7 +988,7 @@
             this.TsmBankStatement.Enabled = false;
             this.TsmBankStatement.ForeColor = System.Drawing.Color.Black;
             this.TsmBankStatement.Name = "TsmBankStatement";
-            this.TsmBankStatement.Size = new System.Drawing.Size(183, 28);
+            this.TsmBankStatement.Size = new System.Drawing.Size(230, 34);
             this.TsmBankStatement.Text = "كشف حســــــاب بنك";
             this.TsmBankStatement.Click += new System.EventHandler(this.TsmBankStatement_Click);
             // 
@@ -996,7 +996,7 @@
             // 
             this.TsmBankToBank.Enabled = false;
             this.TsmBankToBank.Name = "TsmBankToBank";
-            this.TsmBankToBank.Size = new System.Drawing.Size(183, 28);
+            this.TsmBankToBank.Size = new System.Drawing.Size(230, 34);
             this.TsmBankToBank.Text = "تحويــــــل بين البنوك";
             this.TsmBankToBank.Click += new System.EventHandler(this.TsmBankToBank_Click);
             // 
@@ -1023,7 +1023,7 @@
             this.التقاريرToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.التقاريرToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.reports;
             this.التقاريرToolStripMenuItem.Name = "التقاريرToolStripMenuItem";
-            this.التقاريرToolStripMenuItem.Size = new System.Drawing.Size(76, 27);
+            this.التقاريرToolStripMenuItem.Size = new System.Drawing.Size(90, 33);
             this.التقاريرToolStripMenuItem.Text = "ا&لتقارير";
             // 
             // TsmProductMovement
@@ -1032,7 +1032,7 @@
             this.TsmProductMovement.Enabled = false;
             this.TsmProductMovement.ForeColor = System.Drawing.Color.Black;
             this.TsmProductMovement.Name = "TsmProductMovement";
-            this.TsmProductMovement.Size = new System.Drawing.Size(187, 28);
+            this.TsmProductMovement.Size = new System.Drawing.Size(247, 34);
             this.TsmProductMovement.Text = "حــــركة الأصنـــــاف";
             this.TsmProductMovement.Click += new System.EventHandler(this.TsmProductMovement_Click);
             // 
@@ -1040,7 +1040,7 @@
             // 
             this.toolStripMenuItem7.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(187, 28);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(247, 34);
             this.toolStripMenuItem7.Text = "---------------------";
             // 
             // TsmBoxMovement
@@ -1049,7 +1049,7 @@
             this.TsmBoxMovement.Enabled = false;
             this.TsmBoxMovement.ForeColor = System.Drawing.Color.Black;
             this.TsmBoxMovement.Name = "TsmBoxMovement";
-            this.TsmBoxMovement.Size = new System.Drawing.Size(187, 28);
+            this.TsmBoxMovement.Size = new System.Drawing.Size(247, 34);
             this.TsmBoxMovement.Text = "حـــــركة الصنــــدوق";
             this.TsmBoxMovement.Click += new System.EventHandler(this.TsmBoxMovement_Click);
             // 
@@ -1057,14 +1057,14 @@
             // 
             this.toolStripMenuItem8.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(187, 28);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(247, 34);
             this.toolStripMenuItem8.Text = "---------------------";
             // 
             // TsmClientAccountStatement
             // 
             this.TsmClientAccountStatement.Enabled = false;
             this.TsmClientAccountStatement.Name = "TsmClientAccountStatement";
-            this.TsmClientAccountStatement.Size = new System.Drawing.Size(187, 28);
+            this.TsmClientAccountStatement.Size = new System.Drawing.Size(247, 34);
             this.TsmClientAccountStatement.Text = "كشف حساب عميل";
             this.TsmClientAccountStatement.Click += new System.EventHandler(this.TsmClientAccountStatement_Click);
             // 
@@ -1073,7 +1073,7 @@
             this.TsmClientsList.BackColor = System.Drawing.Color.White;
             this.TsmClientsList.Enabled = false;
             this.TsmClientsList.Name = "TsmClientsList";
-            this.TsmClientsList.Size = new System.Drawing.Size(187, 28);
+            this.TsmClientsList.Size = new System.Drawing.Size(247, 34);
             this.TsmClientsList.Text = "قــــــــائمة العمـــــلاء";
             this.TsmClientsList.Click += new System.EventHandler(this.TsmClientsList_Click);
             // 
@@ -1081,7 +1081,7 @@
             // 
             this.TsmBanksList.Enabled = false;
             this.TsmBanksList.Name = "TsmBanksList";
-            this.TsmBanksList.Size = new System.Drawing.Size(187, 28);
+            this.TsmBanksList.Size = new System.Drawing.Size(247, 34);
             this.TsmBanksList.Text = "قــــــائمة البنـــــــوك";
             this.TsmBanksList.Click += new System.EventHandler(this.TsmBanksList_Click);
             // 
@@ -1089,14 +1089,14 @@
             // 
             this.toolStripMenuItem9.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(187, 28);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(247, 34);
             this.toolStripMenuItem9.Text = "---------------------";
             // 
             // TsmProfits
             // 
             this.TsmProfits.Enabled = false;
             this.TsmProfits.Name = "TsmProfits";
-            this.TsmProfits.Size = new System.Drawing.Size(187, 28);
+            this.TsmProfits.Size = new System.Drawing.Size(247, 34);
             this.TsmProfits.Text = "الأربـــــــــــــــــــــاح";
             this.TsmProfits.Click += new System.EventHandler(this.TsmProfits_Click);
             // 
@@ -1104,7 +1104,7 @@
             // 
             this.TsmDailySalesPurchases.Enabled = false;
             this.TsmDailySalesPurchases.Name = "TsmDailySalesPurchases";
-            this.TsmDailySalesPurchases.Size = new System.Drawing.Size(187, 28);
+            this.TsmDailySalesPurchases.Size = new System.Drawing.Size(247, 34);
             this.TsmDailySalesPurchases.Text = "يوميــــة بيــع وشــراء";
             this.TsmDailySalesPurchases.Click += new System.EventHandler(this.TsmDailySalesPurchases_Click);
             // 
@@ -1113,7 +1113,7 @@
             this.TsmDailyTransactions.Enabled = false;
             this.TsmDailyTransactions.ForeColor = System.Drawing.Color.Black;
             this.TsmDailyTransactions.Name = "TsmDailyTransactions";
-            this.TsmDailyTransactions.Size = new System.Drawing.Size(187, 28);
+            this.TsmDailyTransactions.Size = new System.Drawing.Size(247, 34);
             this.TsmDailyTransactions.Text = "معامـــلات اليـــــوم";
             this.TsmDailyTransactions.Click += new System.EventHandler(this.TsmDailyTransactions_Click);
             // 
@@ -1121,28 +1121,28 @@
             // 
             this.toolStripMenuItem10.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(187, 28);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(247, 34);
             this.toolStripMenuItem10.Text = "---------------------";
             // 
             // TsmFinancialStatements
             // 
             this.TsmFinancialStatements.Enabled = false;
             this.TsmFinancialStatements.Name = "TsmFinancialStatements";
-            this.TsmFinancialStatements.Size = new System.Drawing.Size(187, 28);
+            this.TsmFinancialStatements.Size = new System.Drawing.Size(247, 34);
             this.TsmFinancialStatements.Text = "القوائم الماليـــــــــة";
             this.TsmFinancialStatements.Click += new System.EventHandler(this.TsmFinancialStatements_Click);
             // 
             // الأحداثاليوميةToolStripMenuItem
             // 
             this.الأحداثاليوميةToolStripMenuItem.Name = "الأحداثاليوميةToolStripMenuItem";
-            this.الأحداثاليوميةToolStripMenuItem.Size = new System.Drawing.Size(187, 28);
+            this.الأحداثاليوميةToolStripMenuItem.Size = new System.Drawing.Size(247, 34);
             this.الأحداثاليوميةToolStripMenuItem.Text = "الأحداث اليومية";
             this.الأحداثاليوميةToolStripMenuItem.Click += new System.EventHandler(this.الأحداثاليوميةToolStripMenuItem_Click);
             // 
             // TsmDailyClosing
             // 
             this.TsmDailyClosing.Name = "TsmDailyClosing";
-            this.TsmDailyClosing.Size = new System.Drawing.Size(187, 28);
+            this.TsmDailyClosing.Size = new System.Drawing.Size(247, 34);
             this.TsmDailyClosing.Text = "الختام اليومى";
             this.TsmDailyClosing.Click += new System.EventHandler(this.TsmDailyClosing_Click);
             // 
@@ -1150,14 +1150,14 @@
             // 
             this.TsmStatistical.Enabled = false;
             this.TsmStatistical.Name = "TsmStatistical";
-            this.TsmStatistical.Size = new System.Drawing.Size(187, 28);
+            this.TsmStatistical.Size = new System.Drawing.Size(247, 34);
             this.TsmStatistical.Text = "الاحصائيات";
             this.TsmStatistical.Click += new System.EventHandler(this.TsmStatistical_Click);
             // 
             // TsmStatisticalFrmBillingSummary
             // 
             this.TsmStatisticalFrmBillingSummary.Name = "TsmStatisticalFrmBillingSummary";
-            this.TsmStatisticalFrmBillingSummary.Size = new System.Drawing.Size(187, 28);
+            this.TsmStatisticalFrmBillingSummary.Size = new System.Drawing.Size(247, 34);
             this.TsmStatisticalFrmBillingSummary.Text = "تقرير العملاء";
             this.TsmStatisticalFrmBillingSummary.Click += new System.EventHandler(this.TsmStatisticalFrmBillingSummary_Click);
             // 
@@ -1168,14 +1168,14 @@
             this.المستخدمينToolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
             this.المستخدمينToolStripMenuItem1.Image = global::ZAD_Sales.Properties.Resources.team;
             this.المستخدمينToolStripMenuItem1.Name = "المستخدمينToolStripMenuItem1";
-            this.المستخدمينToolStripMenuItem1.Size = new System.Drawing.Size(105, 27);
+            this.المستخدمينToolStripMenuItem1.Size = new System.Drawing.Size(127, 33);
             this.المستخدمينToolStripMenuItem1.Text = "ا&لمستخدمين";
             // 
             // TsmUserAdd
             // 
             this.TsmUserAdd.Enabled = false;
             this.TsmUserAdd.Name = "TsmUserAdd";
-            this.TsmUserAdd.Size = new System.Drawing.Size(181, 28);
+            this.TsmUserAdd.Size = new System.Drawing.Size(228, 34);
             this.TsmUserAdd.Text = "إضافة مستخدم جديد";
             this.TsmUserAdd.Click += new System.EventHandler(this.TsmUserAdd_Click);
             // 
@@ -1192,14 +1192,14 @@
             this.TsmFirstAccounts.ForeColor = System.Drawing.Color.Black;
             this.TsmFirstAccounts.Image = global::ZAD_Sales.Properties.Resources.FristGard;
             this.TsmFirstAccounts.Name = "TsmFirstAccounts";
-            this.TsmFirstAccounts.Size = new System.Drawing.Size(127, 27);
+            this.TsmFirstAccounts.Size = new System.Drawing.Size(154, 33);
             this.TsmFirstAccounts.Text = "ح&سابات أول المده";
             // 
             // TsmFirst_Term_Products
             // 
             this.TsmFirst_Term_Products.ForeColor = System.Drawing.Color.Black;
             this.TsmFirst_Term_Products.Name = "TsmFirst_Term_Products";
-            this.TsmFirst_Term_Products.Size = new System.Drawing.Size(258, 28);
+            this.TsmFirst_Term_Products.Size = new System.Drawing.Size(325, 34);
             this.TsmFirst_Term_Products.Text = "بضاعة أول المــــــــــــــــــــــــــــدة";
             this.TsmFirst_Term_Products.Click += new System.EventHandler(this.TsmFirst_Term_Products_Click);
             // 
@@ -1207,7 +1207,7 @@
             // 
             this.TsmFirst_Term_Madenon.ForeColor = System.Drawing.Color.Black;
             this.TsmFirst_Term_Madenon.Name = "TsmFirst_Term_Madenon";
-            this.TsmFirst_Term_Madenon.Size = new System.Drawing.Size(258, 28);
+            this.TsmFirst_Term_Madenon.Size = new System.Drawing.Size(325, 34);
             this.TsmFirst_Term_Madenon.Text = "مدينون بداية المــــــــــــــــــــــــــدة";
             this.TsmFirst_Term_Madenon.Visible = false;
             this.TsmFirst_Term_Madenon.Click += new System.EventHandler(this.TsmFirst_Term_Madenon_Click);
@@ -1216,7 +1216,7 @@
             // 
             this.TsmFirst_Term_Daenon.ForeColor = System.Drawing.Color.Black;
             this.TsmFirst_Term_Daenon.Name = "TsmFirst_Term_Daenon";
-            this.TsmFirst_Term_Daenon.Size = new System.Drawing.Size(258, 28);
+            this.TsmFirst_Term_Daenon.Size = new System.Drawing.Size(325, 34);
             this.TsmFirst_Term_Daenon.Text = "دائنون بداية المـــــــــــــــــــــــــــدة";
             this.TsmFirst_Term_Daenon.Visible = false;
             this.TsmFirst_Term_Daenon.Click += new System.EventHandler(this.TsmFirst_Term_Daenon_Click);
@@ -1225,7 +1225,7 @@
             // 
             this.TsmMoneyToBoxFristTime.ForeColor = System.Drawing.Color.Black;
             this.TsmMoneyToBoxFristTime.Name = "TsmMoneyToBoxFristTime";
-            this.TsmMoneyToBoxFristTime.Size = new System.Drawing.Size(258, 28);
+            this.TsmMoneyToBoxFristTime.Size = new System.Drawing.Size(325, 34);
             this.TsmMoneyToBoxFristTime.Text = "إضافة للصندوق فى أول المــــــــــدة";
             this.TsmMoneyToBoxFristTime.Visible = false;
             this.TsmMoneyToBoxFristTime.Click += new System.EventHandler(this.TsmMoneyToBoxFristTime_Click);
@@ -1234,7 +1234,7 @@
             // 
             this.TsmFirst_Term_Adv.ForeColor = System.Drawing.Color.Black;
             this.TsmFirst_Term_Adv.Name = "TsmFirst_Term_Adv";
-            this.TsmFirst_Term_Adv.Size = new System.Drawing.Size(258, 28);
+            this.TsmFirst_Term_Adv.Size = new System.Drawing.Size(325, 34);
             this.TsmFirst_Term_Adv.Text = "إضافة تكلفة دعاية وإعلان أول المدة";
             this.TsmFirst_Term_Adv.Visible = false;
             // 
@@ -1242,7 +1242,7 @@
             // 
             this.TsmFirst_Term_Osol.ForeColor = System.Drawing.Color.Black;
             this.TsmFirst_Term_Osol.Name = "TsmFirst_Term_Osol";
-            this.TsmFirst_Term_Osol.Size = new System.Drawing.Size(258, 28);
+            this.TsmFirst_Term_Osol.Size = new System.Drawing.Size(325, 34);
             this.TsmFirst_Term_Osol.Text = "إضافة أصول ثابة أول المـــــــــــــدة";
             this.TsmFirst_Term_Osol.Click += new System.EventHandler(this.TsmFirst_Term_Osol_Click);
             // 
@@ -1258,7 +1258,7 @@
             this.قواعدالبياناتToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.قواعدالبياناتToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.database;
             this.قواعدالبياناتToolStripMenuItem.Name = "قواعدالبياناتToolStripMenuItem";
-            this.قواعدالبياناتToolStripMenuItem.Size = new System.Drawing.Size(110, 27);
+            this.قواعدالبياناتToolStripMenuItem.Size = new System.Drawing.Size(132, 33);
             this.قواعدالبياناتToolStripMenuItem.Text = "ق&واعد البيانات";
             // 
             // TsmBackupSave
@@ -1267,7 +1267,7 @@
             this.TsmBackupSave.Enabled = false;
             this.TsmBackupSave.ForeColor = System.Drawing.Color.Black;
             this.TsmBackupSave.Name = "TsmBackupSave";
-            this.TsmBackupSave.Size = new System.Drawing.Size(198, 28);
+            this.TsmBackupSave.Size = new System.Drawing.Size(246, 34);
             this.TsmBackupSave.Text = "نسخــــــــــــة إحتياطية";
             this.TsmBackupSave.Click += new System.EventHandler(this.TsmBackupSave_Click);
             // 
@@ -1275,7 +1275,7 @@
             // 
             this.TsmBackupRestore.Enabled = false;
             this.TsmBackupRestore.Name = "TsmBackupRestore";
-            this.TsmBackupRestore.Size = new System.Drawing.Size(198, 28);
+            this.TsmBackupRestore.Size = new System.Drawing.Size(246, 34);
             this.TsmBackupRestore.Text = "إستعادة نسخة إحتياطيه";
             this.TsmBackupRestore.Click += new System.EventHandler(this.TsmBackupRestore_Click);
             // 
@@ -1284,7 +1284,7 @@
             this.TsmSystemReset.Enabled = false;
             this.TsmSystemReset.ForeColor = System.Drawing.Color.Black;
             this.TsmSystemReset.Name = "TsmSystemReset";
-            this.TsmSystemReset.Size = new System.Drawing.Size(198, 28);
+            this.TsmSystemReset.Size = new System.Drawing.Size(246, 34);
             this.TsmSystemReset.Text = "اعادة ضبط النظام";
             this.TsmSystemReset.Click += new System.EventHandler(this.TsmSystemReset_Click);
             // 
@@ -1292,21 +1292,21 @@
             // 
             this.TsmSettingsGeneral.Enabled = false;
             this.TsmSettingsGeneral.Name = "TsmSettingsGeneral";
-            this.TsmSettingsGeneral.Size = new System.Drawing.Size(198, 28);
+            this.TsmSettingsGeneral.Size = new System.Drawing.Size(246, 34);
             this.TsmSettingsGeneral.Text = "إعدادت عامة";
             this.TsmSettingsGeneral.Click += new System.EventHandler(this.TsmSettingsGeneral_Click);
             // 
             // TsmOccasionsForm
             // 
             this.TsmOccasionsForm.Name = "TsmOccasionsForm";
-            this.TsmOccasionsForm.Size = new System.Drawing.Size(198, 28);
+            this.TsmOccasionsForm.Size = new System.Drawing.Size(246, 34);
             this.TsmOccasionsForm.Text = "ادارة المناسبات";
             this.TsmOccasionsForm.Click += new System.EventHandler(this.TsmOccasionsForm_Click);
             // 
             // جديدالاصداراتToolStripMenuItem
             // 
             this.جديدالاصداراتToolStripMenuItem.Name = "جديدالاصداراتToolStripMenuItem";
-            this.جديدالاصداراتToolStripMenuItem.Size = new System.Drawing.Size(198, 28);
+            this.جديدالاصداراتToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
             this.جديدالاصداراتToolStripMenuItem.Text = "جديد الاصدارات";
             this.جديدالاصداراتToolStripMenuItem.Click += new System.EventHandler(this.جديدالاصداراتToolStripMenuItem_Click);
             // 
@@ -1321,14 +1321,14 @@
             this.نبذهعنالبرنامجToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.نبذهعنالبرنامجToolStripMenuItem1.Image = global::ZAD_Sales.Properties.Resources.help2;
             this.نبذهعنالبرنامجToolStripMenuItem1.Name = "نبذهعنالبرنامجToolStripMenuItem1";
-            this.نبذهعنالبرنامجToolStripMenuItem1.Size = new System.Drawing.Size(89, 27);
+            this.نبذهعنالبرنامجToolStripMenuItem1.Size = new System.Drawing.Size(106, 33);
             this.نبذهعنالبرنامجToolStripMenuItem1.Text = "المساعدة";
             // 
             // TsmExplainSystem
             // 
             this.TsmExplainSystem.ForeColor = System.Drawing.Color.Black;
             this.TsmExplainSystem.Name = "TsmExplainSystem";
-            this.TsmExplainSystem.Size = new System.Drawing.Size(183, 28);
+            this.TsmExplainSystem.Size = new System.Drawing.Size(227, 34);
             this.TsmExplainSystem.Text = "موقعنا على الانترنت";
             this.TsmExplainSystem.Click += new System.EventHandler(this.TsmExplainSystem_Click);
             // 
@@ -1336,14 +1336,14 @@
             // 
             this.TsmCallUs.ForeColor = System.Drawing.Color.Black;
             this.TsmCallUs.Name = "TsmCallUs";
-            this.TsmCallUs.Size = new System.Drawing.Size(183, 28);
+            this.TsmCallUs.Size = new System.Drawing.Size(227, 34);
             this.TsmCallUs.Text = "اتصل بنا";
             this.TsmCallUs.Click += new System.EventHandler(this.TsmCallUs_Click);
             // 
             // TsmPrograms
             // 
             this.TsmPrograms.Name = "TsmPrograms";
-            this.TsmPrograms.Size = new System.Drawing.Size(183, 28);
+            this.TsmPrograms.Size = new System.Drawing.Size(227, 34);
             this.TsmPrograms.Text = "برامجنا";
             this.TsmPrograms.Visible = false;
             this.TsmPrograms.Click += new System.EventHandler(this.TsmPrograms_Click);
@@ -1352,14 +1352,14 @@
             // 
             this.TsmLicense.ForeColor = System.Drawing.Color.Black;
             this.TsmLicense.Name = "TsmLicense";
-            this.TsmLicense.Size = new System.Drawing.Size(183, 28);
+            this.TsmLicense.Size = new System.Drawing.Size(227, 34);
             this.TsmLicense.Text = "الترخيص";
             this.TsmLicense.Click += new System.EventHandler(this.TsmLicense_Click);
             // 
             // TSMTermsandConditions
             // 
             this.TSMTermsandConditions.Name = "TSMTermsandConditions";
-            this.TSMTermsandConditions.Size = new System.Drawing.Size(183, 28);
+            this.TSMTermsandConditions.Size = new System.Drawing.Size(227, 34);
             this.TSMTermsandConditions.Text = "الشروط والأحكام";
             this.TSMTermsandConditions.Click += new System.EventHandler(this.TSMTermsandConditions_Click);
             // 
@@ -1389,21 +1389,21 @@
             this.مواقعقدتهمكToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.مواقعقدتهمكToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.Sites;
             this.مواقعقدتهمكToolStripMenuItem.Name = "مواقعقدتهمكToolStripMenuItem";
-            this.مواقعقدتهمكToolStripMenuItem.Size = new System.Drawing.Size(125, 27);
+            this.مواقعقدتهمكToolStripMenuItem.Size = new System.Drawing.Size(150, 33);
             this.مواقعقدتهمكToolStripMenuItem.Text = "مواقع قد تهمك";
             this.مواقعقدتهمكToolStripMenuItem.Visible = false;
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(215, 28);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(267, 34);
             this.toolStripMenuItem4.Text = ".......................................";
             // 
             // قناةالوصيفللقرآنالكريمToolStripMenuItem1
             // 
             this.قناةالوصيفللقرآنالكريمToolStripMenuItem1.ForeColor = System.Drawing.Color.Crimson;
             this.قناةالوصيفللقرآنالكريمToolStripMenuItem1.Name = "قناةالوصيفللقرآنالكريمToolStripMenuItem1";
-            this.قناةالوصيفللقرآنالكريمToolStripMenuItem1.Size = new System.Drawing.Size(215, 28);
+            this.قناةالوصيفللقرآنالكريمToolStripMenuItem1.Size = new System.Drawing.Size(267, 34);
             this.قناةالوصيفللقرآنالكريمToolStripMenuItem1.Text = "القناة الخاصة على اليوتيوب";
             this.قناةالوصيفللقرآنالكريمToolStripMenuItem1.Click += new System.EventHandler(this.قناةالوصيفللقرآنالكريمToolStripMenuItem1_Click);
             // 
@@ -1411,14 +1411,14 @@
             // 
             this.الوصيفللبرمجيــــــاتToolStripMenuItem.ForeColor = System.Drawing.Color.RoyalBlue;
             this.الوصيفللبرمجيــــــاتToolStripMenuItem.Name = "الوصيفللبرمجيــــــاتToolStripMenuItem";
-            this.الوصيفللبرمجيــــــاتToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.الوصيفللبرمجيــــــاتToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.الوصيفللبرمجيــــــاتToolStripMenuItem.Text = "الموقع الرسمى للبرنامج";
             this.الوصيفللبرمجيــــــاتToolStripMenuItem.Click += new System.EventHandler(this.الوصيفللبرمجيــــــاتToolStripMenuItem_Click);
             // 
             // اليـــــــــــومالســـــــــابعToolStripMenuItem
             // 
             this.اليـــــــــــومالســـــــــابعToolStripMenuItem.Name = "اليـــــــــــومالســـــــــابعToolStripMenuItem";
-            this.اليـــــــــــومالســـــــــابعToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.اليـــــــــــومالســـــــــابعToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.اليـــــــــــومالســـــــــابعToolStripMenuItem.Text = "قناتنا الخاصة على التليجرام";
             this.اليـــــــــــومالســـــــــابعToolStripMenuItem.Click += new System.EventHandler(this.اليـــــــــــومالســـــــــابعToolStripMenuItem_Click);
             // 
@@ -1427,34 +1427,34 @@
             this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem2.ForeColor = System.Drawing.Color.Crimson;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(215, 28);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(267, 34);
             this.toolStripMenuItem2.Text = ".......................................";
             // 
             // المصرىاليــــــــــــــــــــومToolStripMenuItem
             // 
             this.المصرىاليــــــــــــــــــــومToolStripMenuItem.Name = "المصرىاليــــــــــــــــــــومToolStripMenuItem";
-            this.المصرىاليــــــــــــــــــــومToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.المصرىاليــــــــــــــــــــومToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.المصرىاليــــــــــــــــــــومToolStripMenuItem.Text = "المصرى اليــــــــــــــــــوم";
             this.المصرىاليــــــــــــــــــــومToolStripMenuItem.Click += new System.EventHandler(this.المصرىاليــــــــــــــــــــومToolStripMenuItem_Click);
             // 
             // وزارةالأوقافأونلاينToolStripMenuItem
             // 
             this.وزارةالأوقافأونلاينToolStripMenuItem.Name = "وزارةالأوقافأونلاينToolStripMenuItem";
-            this.وزارةالأوقافأونلاينToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.وزارةالأوقافأونلاينToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.وزارةالأوقافأونلاينToolStripMenuItem.Text = "وزارة الأوقــــــاف أون لاين";
             this.وزارةالأوقافأونلاينToolStripMenuItem.Click += new System.EventHandler(this.وزارةالأوقافأونلاينToolStripMenuItem_Click);
             // 
             // الأزهرالشريفToolStripMenuItem
             // 
             this.الأزهرالشريفToolStripMenuItem.Name = "الأزهرالشريفToolStripMenuItem";
-            this.الأزهرالشريفToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.الأزهرالشريفToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.الأزهرالشريفToolStripMenuItem.Text = "الأزهـــــــــــر الشريـــــــف";
             this.الأزهرالشريفToolStripMenuItem.Click += new System.EventHandler(this.الأزهرالشريفToolStripMenuItem_Click);
             // 
             // وزارةالتربيةوالتعليمToolStripMenuItem
             // 
             this.وزارةالتربيةوالتعليمToolStripMenuItem.Name = "وزارةالتربيةوالتعليمToolStripMenuItem";
-            this.وزارةالتربيةوالتعليمToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.وزارةالتربيةوالتعليمToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.وزارةالتربيةوالتعليمToolStripMenuItem.Text = "وزارة التربية والتعليــــــــم";
             this.وزارةالتربيةوالتعليمToolStripMenuItem.Click += new System.EventHandler(this.وزارةالتربيةوالتعليمToolStripMenuItem_Click);
             // 
@@ -1462,20 +1462,20 @@
             // 
             this.toolStripMenuItem3.ForeColor = System.Drawing.Color.Crimson;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(215, 28);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(267, 34);
             this.toolStripMenuItem3.Text = ".......................................";
             // 
             // الياهـــــــــــــــوToolStripMenuItem
             // 
             this.الياهـــــــــــــــوToolStripMenuItem.Name = "الياهـــــــــــــــوToolStripMenuItem";
-            this.الياهـــــــــــــــوToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.الياهـــــــــــــــوToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.الياهـــــــــــــــوToolStripMenuItem.Text = "الياهـــــــــــــــــو   Yahoo ";
             this.الياهـــــــــــــــوToolStripMenuItem.Click += new System.EventHandler(this.الياهـــــــــــــــوToolStripMenuItem_Click);
             // 
             // الهوتميــــــــــــلToolStripMenuItem
             // 
             this.الهوتميــــــــــــلToolStripMenuItem.Name = "الهوتميــــــــــــلToolStripMenuItem";
-            this.الهوتميــــــــــــلToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.الهوتميــــــــــــلToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.الهوتميــــــــــــلToolStripMenuItem.Text = "الهوتميـــــــــل  Hootmail";
             this.الهوتميــــــــــــلToolStripMenuItem.Click += new System.EventHandler(this.الهوتميــــــــــــلToolStripMenuItem_Click);
             // 
@@ -1483,14 +1483,14 @@
             // 
             this.الفيسبـــــــــــوكToolStripMenuItem.ForeColor = System.Drawing.Color.RoyalBlue;
             this.الفيسبـــــــــــوكToolStripMenuItem.Name = "الفيسبـــــــــــوكToolStripMenuItem";
-            this.الفيسبـــــــــــوكToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.الفيسبـــــــــــوكToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.الفيسبـــــــــــوكToolStripMenuItem.Text = "الفيس بــــــوك  Facebook";
             this.الفيسبـــــــــــوكToolStripMenuItem.Click += new System.EventHandler(this.الفيسبـــــــــــوكToolStripMenuItem_Click);
             // 
             // يــوتيــــــوبYoutubeToolStripMenuItem
             // 
             this.يــوتيــــــوبYoutubeToolStripMenuItem.Name = "يــوتيــــــوبYoutubeToolStripMenuItem";
-            this.يــوتيــــــوبYoutubeToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.يــوتيــــــوبYoutubeToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.يــوتيــــــوبYoutubeToolStripMenuItem.Text = "يــوتيــــــــوب     Youtube";
             this.يــوتيــــــوبYoutubeToolStripMenuItem.Click += new System.EventHandler(this.يــوتيــــــوبYoutubeToolStripMenuItem_Click);
             // 
@@ -1498,54 +1498,54 @@
             // 
             this.تويترToolStripMenuItem.ForeColor = System.Drawing.Color.DarkTurquoise;
             this.تويترToolStripMenuItem.Name = "تويترToolStripMenuItem";
-            this.تويترToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.تويترToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.تويترToolStripMenuItem.Text = "تــــــــــــــــويتــر  Twitter";
             this.تويترToolStripMenuItem.Click += new System.EventHandler(this.تويترToolStripMenuItem_Click);
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(215, 28);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(267, 34);
             this.toolStripMenuItem5.Text = ".......................................";
             // 
             // كورةToolStripMenuItem
             // 
             this.كورةToolStripMenuItem.Name = "كورةToolStripMenuItem";
-            this.كورةToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.كورةToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.كورةToolStripMenuItem.Text = "كــــــــــــــــــــــــــــووورة";
             this.كورةToolStripMenuItem.Click += new System.EventHandler(this.كورةToolStripMenuItem_Click);
             // 
             // ياللاكــــــــــــــــــــــــورةToolStripMenuItem
             // 
             this.ياللاكــــــــــــــــــــــــورةToolStripMenuItem.Name = "ياللاكــــــــــــــــــــــــورةToolStripMenuItem";
-            this.ياللاكــــــــــــــــــــــــورةToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.ياللاكــــــــــــــــــــــــورةToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.ياللاكــــــــــــــــــــــــورةToolStripMenuItem.Text = "ياللا كــــــــــــــــــــــــورة";
             this.ياللاكــــــــــــــــــــــــورةToolStripMenuItem.Click += new System.EventHandler(this.ياللاكــــــــــــــــــــــــورةToolStripMenuItem_Click);
             // 
             // الأهلىالمصــــــــــرىToolStripMenuItem
             // 
             this.الأهلىالمصــــــــــرىToolStripMenuItem.Name = "الأهلىالمصــــــــــرىToolStripMenuItem";
-            this.الأهلىالمصــــــــــرىToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.الأهلىالمصــــــــــرىToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.الأهلىالمصــــــــــرىToolStripMenuItem.Text = "الأهلـــــــــى المصـــــــرى";
             this.الأهلىالمصــــــــــرىToolStripMenuItem.Click += new System.EventHandler(this.الأهلىالمصــــــــــرىToolStripMenuItem_Click);
             // 
             // الزمالـــــكالمصــــــــــرىToolStripMenuItem
             // 
             this.الزمالـــــكالمصــــــــــرىToolStripMenuItem.Name = "الزمالـــــكالمصــــــــــرىToolStripMenuItem";
-            this.الزمالـــــكالمصــــــــــرىToolStripMenuItem.Size = new System.Drawing.Size(215, 28);
+            this.الزمالـــــكالمصــــــــــرىToolStripMenuItem.Size = new System.Drawing.Size(267, 34);
             this.الزمالـــــكالمصــــــــــرىToolStripMenuItem.Text = "الزمالــــك المصــــــــــرى";
             this.الزمالـــــكالمصــــــــــرىToolStripMenuItem.Click += new System.EventHandler(this.الزمالـــــكالمصــــــــــرىToolStripMenuItem_Click);
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(14, 33);
             // 
             // نسخةتجريبيةToolStripMenuItem
             // 
             this.نسخةتجريبيةToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.نسخةتجريبيةToolStripMenuItem.Name = "نسخةتجريبيةToolStripMenuItem";
-            this.نسخةتجريبيةToolStripMenuItem.Size = new System.Drawing.Size(90, 27);
+            this.نسخةتجريبيةToolStripMenuItem.Size = new System.Drawing.Size(112, 33);
             this.نسخةتجريبيةToolStripMenuItem.Text = "نسخة تجريبية";
             this.نسخةتجريبيةToolStripMenuItem.Visible = false;
             this.نسخةتجريبيةToolStripMenuItem.Click += new System.EventHandler(this.نسخةتجريبيةToolStripMenuItem_Click);
@@ -1553,49 +1553,49 @@
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(14, 33);
             this.toolStripMenuItem6.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
             // toolStripMenuItem12
             // 
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(14, 33);
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(14, 33);
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(14, 33);
             // 
             // toolStripMenuItem16
             // 
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(14, 33);
             // 
             // toolStripMenuItem17
             // 
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(14, 33);
             // 
             // toolStripMenuItem18
             // 
             this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(14, 33);
             // 
             // toolStripMenuItem19
             // 
             this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(12, 27);
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(14, 33);
             // 
             // toolStripTextBox1
             // 
             this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 27);
+            this.toolStripTextBox1.Size = new System.Drawing.Size(132, 33);
             // 
             // panelUser
             // 
@@ -1607,9 +1607,10 @@
             this.panelUser.BackColor = System.Drawing.Color.White;
             this.panelUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelUser.Controls.Add(this.groupBox3);
-            this.panelUser.Location = new System.Drawing.Point(620, 360);
+            this.panelUser.Location = new System.Drawing.Point(827, 443);
+            this.panelUser.Margin = new System.Windows.Forms.Padding(4);
             this.panelUser.Name = "panelUser";
-            this.panelUser.Size = new System.Drawing.Size(381, 182);
+            this.panelUser.Size = new System.Drawing.Size(507, 223);
             this.panelUser.TabIndex = 46;
             this.panelUser.Visible = false;
             // 
@@ -1621,10 +1622,12 @@
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.textBassword);
             this.groupBox3.Controls.Add(this.button9);
-            this.groupBox3.Location = new System.Drawing.Point(24, 19);
+            this.groupBox3.Location = new System.Drawing.Point(32, 23);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox3.Size = new System.Drawing.Size(352, 158);
+            this.groupBox3.Size = new System.Drawing.Size(469, 194);
             this.groupBox3.TabIndex = 534;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "  ادخل بيانات الدخول  ";
@@ -1634,18 +1637,20 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(282, 86);
+            this.label2.Location = new System.Drawing.Point(376, 106);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(46, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "الباسورد";
             // 
             // textUserName
             // 
             this.textUserName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textUserName.Location = new System.Drawing.Point(30, 42);
+            this.textUserName.Location = new System.Drawing.Point(40, 52);
+            this.textUserName.Margin = new System.Windows.Forms.Padding(4);
             this.textUserName.Name = "textUserName";
-            this.textUserName.Size = new System.Drawing.Size(225, 20);
+            this.textUserName.Size = new System.Drawing.Size(299, 22);
             this.textUserName.TabIndex = 0;
             this.textUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1656,9 +1661,10 @@
             this.butLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butLogin.ForeColor = System.Drawing.Color.White;
             this.butLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butLogin.Location = new System.Drawing.Point(82, 102);
+            this.butLogin.Location = new System.Drawing.Point(109, 126);
+            this.butLogin.Margin = new System.Windows.Forms.Padding(4);
             this.butLogin.Name = "butLogin";
-            this.butLogin.Size = new System.Drawing.Size(67, 23);
+            this.butLogin.Size = new System.Drawing.Size(89, 28);
             this.butLogin.TabIndex = 2;
             this.butLogin.Text = "دخول";
             this.butLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -1670,19 +1676,21 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(291, 42);
+            this.label1.Location = new System.Drawing.Point(388, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.Size = new System.Drawing.Size(32, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "الإسم";
             // 
             // textBassword
             // 
             this.textBassword.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBassword.Location = new System.Drawing.Point(30, 76);
+            this.textBassword.Location = new System.Drawing.Point(40, 94);
+            this.textBassword.Margin = new System.Windows.Forms.Padding(4);
             this.textBassword.Name = "textBassword";
             this.textBassword.PasswordChar = '*';
-            this.textBassword.Size = new System.Drawing.Size(225, 20);
+            this.textBassword.Size = new System.Drawing.Size(299, 22);
             this.textBassword.TabIndex = 1;
             this.textBassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBassword.TextChanged += new System.EventHandler(this.textBassword_TextChanged);
@@ -1694,9 +1702,10 @@
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(30, 102);
+            this.button9.Location = new System.Drawing.Point(40, 126);
+            this.button9.Margin = new System.Windows.Forms.Padding(4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(46, 23);
+            this.button9.Size = new System.Drawing.Size(61, 28);
             this.button9.TabIndex = 525;
             this.button9.Text = "خروج";
             this.button9.UseVisualStyleBackColor = false;
@@ -1712,9 +1721,10 @@
             this.panlMenu.Controls.Add(this.picCompany_Logo);
             this.panlMenu.Controls.Add(this.textUserName1);
             this.panlMenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panlMenu.Location = new System.Drawing.Point(1147, 31);
+            this.panlMenu.Location = new System.Drawing.Point(1530, 37);
+            this.panlMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panlMenu.Name = "panlMenu";
-            this.panlMenu.Size = new System.Drawing.Size(173, 685);
+            this.panlMenu.Size = new System.Drawing.Size(230, 844);
             this.panlMenu.TabIndex = 48;
             this.panlMenu.Visible = false;
             this.panlMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panlMenu_Paint);
@@ -1724,9 +1734,10 @@
             this.button21.BackColor = System.Drawing.Color.Yellow;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button21.Location = new System.Drawing.Point(24, 7);
+            this.button21.Location = new System.Drawing.Point(32, 9);
+            this.button21.Margin = new System.Windows.Forms.Padding(4);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(122, 23);
+            this.button21.Size = new System.Drawing.Size(163, 28);
             this.button21.TabIndex = 60;
             this.button21.Text = "عرض سعر";
             this.button21.UseVisualStyleBackColor = false;
@@ -1751,34 +1762,38 @@
             this.panel_Lite.Controls.Add(this.button4);
             this.panel_Lite.Controls.Add(this.button8);
             this.panel_Lite.Font = new System.Drawing.Font("Cairo", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_Lite.Location = new System.Drawing.Point(2, 175);
+            this.panel_Lite.Location = new System.Drawing.Point(3, 215);
+            this.panel_Lite.Margin = new System.Windows.Forms.Padding(4);
             this.panel_Lite.Name = "panel_Lite";
-            this.panel_Lite.Size = new System.Drawing.Size(155, 584);
+            this.panel_Lite.Size = new System.Drawing.Size(207, 719);
             this.panel_Lite.TabIndex = 49;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(15, 422);
+            this.label29.Location = new System.Drawing.Point(20, 519);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(95, 23);
+            this.label29.Size = new System.Drawing.Size(121, 29);
             this.label29.TabIndex = 60;
             this.label29.Text = "Data Base Name";
             // 
             // labelDataBaseName
             // 
             this.labelDataBaseName.AutoSize = true;
-            this.labelDataBaseName.Location = new System.Drawing.Point(15, 445);
+            this.labelDataBaseName.Location = new System.Drawing.Point(20, 548);
+            this.labelDataBaseName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDataBaseName.Name = "labelDataBaseName";
-            this.labelDataBaseName.Size = new System.Drawing.Size(95, 23);
+            this.labelDataBaseName.Size = new System.Drawing.Size(121, 29);
             this.labelDataBaseName.TabIndex = 60;
             this.labelDataBaseName.Text = "Data Base Name";
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(14, 358);
+            this.button18.Location = new System.Drawing.Point(19, 441);
+            this.button18.Margin = new System.Windows.Forms.Padding(4);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(130, 31);
+            this.button18.Size = new System.Drawing.Size(173, 38);
             this.button18.TabIndex = 55;
             this.button18.Text = "راس المال الحالى";
             this.button18.UseVisualStyleBackColor = true;
@@ -1789,17 +1804,19 @@
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Cairo", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(14, 308);
+            this.dateTimePicker1.Location = new System.Drawing.Point(19, 379);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(134, 30);
+            this.dateTimePicker1.Size = new System.Drawing.Size(177, 36);
             this.dateTimePicker1.TabIndex = 54;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(15, 483);
+            this.panel3.Location = new System.Drawing.Point(20, 594);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(131, 3);
+            this.panel3.Size = new System.Drawing.Size(175, 4);
             this.panel3.TabIndex = 15;
             // 
             // button5
@@ -1808,9 +1825,10 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Cairo", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.button5.Location = new System.Drawing.Point(14, 262);
+            this.button5.Location = new System.Drawing.Point(19, 322);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(134, 40);
+            this.button5.Size = new System.Drawing.Size(179, 49);
             this.button5.TabIndex = 11;
             this.button5.Text = "التقارير";
             this.button5.UseVisualStyleBackColor = false;
@@ -1823,9 +1841,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Cairo", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button1.Location = new System.Drawing.Point(14, 19);
+            this.button1.Location = new System.Drawing.Point(19, 23);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 40);
+            this.button1.Size = new System.Drawing.Size(179, 49);
             this.button1.TabIndex = 6;
             this.button1.Text = "فاتورة مبيعات";
             this.button1.UseVisualStyleBackColor = false;
@@ -1836,9 +1855,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Khaki;
-            this.label6.Location = new System.Drawing.Point(15, 552);
+            this.label6.Location = new System.Drawing.Point(20, 679);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 16);
+            this.label6.Size = new System.Drawing.Size(131, 21);
             this.label6.TabIndex = 9;
             this.label6.Text = "01224349933";
             // 
@@ -1847,9 +1867,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(15, 536);
+            this.label3.Location = new System.Drawing.Point(20, 660);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 16);
+            this.label3.Size = new System.Drawing.Size(181, 21);
             this.label3.TabIndex = 9;
             this.label3.Text = "Eng: Hamed Alwasif";
             // 
@@ -1859,9 +1880,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Cairo", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button2.Location = new System.Drawing.Point(14, 65);
+            this.button2.Location = new System.Drawing.Point(19, 80);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 40);
+            this.button2.Size = new System.Drawing.Size(179, 49);
             this.button2.TabIndex = 6;
             this.button2.Text = "فاتورة مشتريات";
             this.button2.UseVisualStyleBackColor = false;
@@ -1872,9 +1894,10 @@
             this.labelVersion.AutoSize = true;
             this.labelVersion.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVersion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.labelVersion.Location = new System.Drawing.Point(15, 512);
+            this.labelVersion.Location = new System.Drawing.Point(20, 630);
+            this.labelVersion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(32, 16);
+            this.labelVersion.Size = new System.Drawing.Size(42, 21);
             this.labelVersion.TabIndex = 9;
             this.labelVersion.Text = "Lite";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1884,9 +1907,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Aqua;
-            this.label4.Location = new System.Drawing.Point(15, 492);
+            this.label4.Location = new System.Drawing.Point(20, 606);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 16);
+            this.label4.Size = new System.Drawing.Size(96, 21);
             this.label4.TabIndex = 9;
             this.label4.Text = "ZAD Salse";
             // 
@@ -1896,9 +1920,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Cairo", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Purple;
-            this.button3.Location = new System.Drawing.Point(14, 111);
+            this.button3.Location = new System.Drawing.Point(19, 137);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 40);
+            this.button3.Size = new System.Drawing.Size(179, 49);
             this.button3.TabIndex = 6;
             this.button3.Text = "مصروفات";
             this.button3.UseVisualStyleBackColor = false;
@@ -1910,9 +1935,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Cairo", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.button4.Location = new System.Drawing.Point(14, 157);
+            this.button4.Location = new System.Drawing.Point(19, 193);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(134, 40);
+            this.button4.Size = new System.Drawing.Size(179, 49);
             this.button4.TabIndex = 6;
             this.button4.Text = "العملاء";
             this.button4.UseVisualStyleBackColor = false;
@@ -1924,9 +1950,10 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Cairo", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button8.Location = new System.Drawing.Point(14, 211);
+            this.button8.Location = new System.Drawing.Point(19, 260);
+            this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(134, 40);
+            this.button8.Size = new System.Drawing.Size(179, 49);
             this.button8.TabIndex = 14;
             this.button8.Text = "المخزن";
             this.button8.UseVisualStyleBackColor = false;
@@ -1937,9 +1964,10 @@
             this.picCompany_Logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picCompany_Logo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picCompany_Logo.Image = global::ZAD_Sales.Properties.Resources.ClientNull;
-            this.picCompany_Logo.Location = new System.Drawing.Point(24, 36);
+            this.picCompany_Logo.Location = new System.Drawing.Point(32, 44);
+            this.picCompany_Logo.Margin = new System.Windows.Forms.Padding(4);
             this.picCompany_Logo.Name = "picCompany_Logo";
-            this.picCompany_Logo.Size = new System.Drawing.Size(122, 95);
+            this.picCompany_Logo.Size = new System.Drawing.Size(162, 116);
             this.picCompany_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCompany_Logo.TabIndex = 9;
             this.picCompany_Logo.TabStop = false;
@@ -1947,10 +1975,11 @@
             // textUserName1
             // 
             this.textUserName1.Enabled = false;
-            this.textUserName1.Location = new System.Drawing.Point(23, 149);
+            this.textUserName1.Location = new System.Drawing.Point(31, 183);
+            this.textUserName1.Margin = new System.Windows.Forms.Padding(4);
             this.textUserName1.Name = "textUserName1";
             this.textUserName1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textUserName1.Size = new System.Drawing.Size(123, 20);
+            this.textUserName1.Size = new System.Drawing.Size(163, 22);
             this.textUserName1.TabIndex = 1;
             this.textUserName1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1971,9 +2000,10 @@
             this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.button11);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 662);
+            this.panel1.Location = new System.Drawing.Point(0, 815);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1147, 54);
+            this.panel1.Size = new System.Drawing.Size(1530, 66);
             this.panel1.TabIndex = 50;
             this.panel1.Visible = false;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
@@ -1983,9 +2013,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Khaki;
-            this.label5.Location = new System.Drawing.Point(48, 30);
+            this.label5.Location = new System.Drawing.Point(64, 37);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 19);
+            this.label5.Size = new System.Drawing.Size(153, 24);
             this.label5.TabIndex = 9;
             this.label5.Text = "01224349933";
             // 
@@ -1995,9 +2026,10 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(404, 7);
+            this.button6.Location = new System.Drawing.Point(539, 9);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(119, 40);
+            this.button6.Size = new System.Drawing.Size(159, 49);
             this.button6.TabIndex = 11;
             this.button6.Text = "الأرشيف";
             this.button6.UseVisualStyleBackColor = false;
@@ -2007,9 +2039,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(26, 7);
+            this.label7.Location = new System.Drawing.Point(35, 9);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(153, 19);
+            this.label7.Size = new System.Drawing.Size(189, 24);
             this.label7.TabIndex = 9;
             this.label7.Text = "Eng: Hamed Alwasif";
             // 
@@ -2018,9 +2051,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label8.Location = new System.Drawing.Point(1191, 30);
+            this.label8.Location = new System.Drawing.Point(1588, 37);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(32, 16);
+            this.label8.Size = new System.Drawing.Size(42, 21);
             this.label8.TabIndex = 9;
             this.label8.Text = "Lite";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2034,9 +2068,10 @@
             this.button7.ForeColor = System.Drawing.Color.Black;
             this.button7.Image = global::ZAD_Sales.Properties.Resources.gardd;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.Location = new System.Drawing.Point(1034, 7);
+            this.button7.Location = new System.Drawing.Point(1379, 9);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(119, 40);
+            this.button7.Size = new System.Drawing.Size(159, 49);
             this.button7.TabIndex = 6;
             this.button7.Text = "فاتورة بيع";
             this.button7.UseVisualStyleBackColor = false;
@@ -2046,9 +2081,10 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Aqua;
-            this.label9.Location = new System.Drawing.Point(1155, 12);
+            this.label9.Location = new System.Drawing.Point(1540, 15);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(147, 19);
+            this.label9.Size = new System.Drawing.Size(181, 24);
             this.label9.TabIndex = 9;
             this.label9.Text = "ZAD Salse V3.0.0";
             // 
@@ -2058,9 +2094,10 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(909, 7);
+            this.button10.Location = new System.Drawing.Point(1212, 9);
+            this.button10.Margin = new System.Windows.Forms.Padding(4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(119, 40);
+            this.button10.Size = new System.Drawing.Size(159, 49);
             this.button10.TabIndex = 6;
             this.button10.Text = "فاتورة مشتريات";
             this.button10.UseVisualStyleBackColor = false;
@@ -2068,10 +2105,11 @@
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(199, 21);
+            this.textBox1.Location = new System.Drawing.Point(265, 26);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox1.Size = new System.Drawing.Size(180, 20);
+            this.textBox1.Size = new System.Drawing.Size(239, 22);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -2081,9 +2119,10 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.Black;
-            this.button13.Location = new System.Drawing.Point(529, 7);
+            this.button13.Location = new System.Drawing.Point(705, 9);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(119, 40);
+            this.button13.Size = new System.Drawing.Size(159, 49);
             this.button13.TabIndex = 14;
             this.button13.Text = "المخزن";
             this.button13.UseVisualStyleBackColor = false;
@@ -2094,9 +2133,10 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.Black;
-            this.button12.Location = new System.Drawing.Point(654, 7);
+            this.button12.Location = new System.Drawing.Point(872, 9);
+            this.button12.Margin = new System.Windows.Forms.Padding(4);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(119, 40);
+            this.button12.Size = new System.Drawing.Size(159, 49);
             this.button12.TabIndex = 6;
             this.button12.Text = "العملاء - الموردين";
             this.button12.UseVisualStyleBackColor = false;
@@ -2107,9 +2147,10 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.Black;
-            this.button11.Location = new System.Drawing.Point(779, 7);
+            this.button11.Location = new System.Drawing.Point(1039, 9);
+            this.button11.Margin = new System.Windows.Forms.Padding(4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(119, 40);
+            this.button11.Size = new System.Drawing.Size(159, 49);
             this.button11.TabIndex = 6;
             this.button11.Text = "الإستعلام";
             this.button11.UseVisualStyleBackColor = false;
@@ -2121,9 +2162,10 @@
             this.panel2.Controls.Add(this.button16);
             this.panel2.Controls.Add(this.button15);
             this.panel2.Controls.Add(this.button14);
-            this.panel2.Location = new System.Drawing.Point(1302, 465);
+            this.panel2.Location = new System.Drawing.Point(1736, 572);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(127, 171);
+            this.panel2.Size = new System.Drawing.Size(169, 210);
             this.panel2.TabIndex = 52;
             this.panel2.Visible = false;
             // 
@@ -2132,9 +2174,10 @@
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Cairo", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.ForeColor = System.Drawing.Color.Yellow;
-            this.button17.Location = new System.Drawing.Point(18, 120);
+            this.button17.Location = new System.Drawing.Point(24, 148);
+            this.button17.Margin = new System.Windows.Forms.Padding(4);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(96, 34);
+            this.button17.Size = new System.Drawing.Size(128, 42);
             this.button17.TabIndex = 0;
             this.button17.Text = "الصندوق";
             this.button17.UseVisualStyleBackColor = true;
@@ -2145,9 +2188,10 @@
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Cairo", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(18, 84);
+            this.button16.Location = new System.Drawing.Point(24, 103);
+            this.button16.Margin = new System.Windows.Forms.Padding(4);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(96, 34);
+            this.button16.Size = new System.Drawing.Size(128, 42);
             this.button16.TabIndex = 0;
             this.button16.Text = "العملاء";
             this.button16.UseVisualStyleBackColor = true;
@@ -2158,9 +2202,10 @@
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Cairo", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.Yellow;
-            this.button15.Location = new System.Drawing.Point(18, 48);
+            this.button15.Location = new System.Drawing.Point(24, 59);
+            this.button15.Margin = new System.Windows.Forms.Padding(4);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(96, 34);
+            this.button15.Size = new System.Drawing.Size(128, 42);
             this.button15.TabIndex = 0;
             this.button15.Text = "كشف حساب";
             this.button15.UseVisualStyleBackColor = true;
@@ -2171,9 +2216,10 @@
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Cairo", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(18, 12);
+            this.button14.Location = new System.Drawing.Point(24, 15);
+            this.button14.Margin = new System.Windows.Forms.Padding(4);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(96, 34);
+            this.button14.Size = new System.Drawing.Size(128, 42);
             this.button14.TabIndex = 0;
             this.button14.Text = "معامـلات اليـوم";
             this.button14.UseVisualStyleBackColor = true;
@@ -2181,29 +2227,32 @@
             // 
             // textValueMonth
             // 
-            this.textValueMonth.Location = new System.Drawing.Point(13, 12);
+            this.textValueMonth.Location = new System.Drawing.Point(17, 15);
+            this.textValueMonth.Margin = new System.Windows.Forms.Padding(4);
             this.textValueMonth.Name = "textValueMonth";
             this.textValueMonth.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textValueMonth.Size = new System.Drawing.Size(119, 20);
+            this.textValueMonth.Size = new System.Drawing.Size(157, 22);
             this.textValueMonth.TabIndex = 54;
             this.textValueMonth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textYear
             // 
-            this.textYear.Location = new System.Drawing.Point(34, 336);
+            this.textYear.Location = new System.Drawing.Point(45, 414);
+            this.textYear.Margin = new System.Windows.Forms.Padding(4);
             this.textYear.Name = "textYear";
             this.textYear.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textYear.Size = new System.Drawing.Size(53, 20);
+            this.textYear.Size = new System.Drawing.Size(69, 22);
             this.textYear.TabIndex = 55;
             this.textYear.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textYear.Visible = false;
             // 
             // textMonth
             // 
-            this.textMonth.Location = new System.Drawing.Point(106, 334);
+            this.textMonth.Location = new System.Drawing.Point(141, 411);
+            this.textMonth.Margin = new System.Windows.Forms.Padding(4);
             this.textMonth.Name = "textMonth";
             this.textMonth.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textMonth.Size = new System.Drawing.Size(46, 20);
+            this.textMonth.Size = new System.Drawing.Size(60, 22);
             this.textMonth.TabIndex = 56;
             this.textMonth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textMonth.Visible = false;
@@ -2226,17 +2275,19 @@
             this.panel4.Controls.Add(this.textMonth);
             this.panel4.Controls.Add(this.textDateMonth);
             this.panel4.Controls.Add(this.textYear);
-            this.panel4.Location = new System.Drawing.Point(22, 59);
+            this.panel4.Location = new System.Drawing.Point(29, 73);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(752, 420);
+            this.panel4.Size = new System.Drawing.Size(1003, 517);
             this.panel4.TabIndex = 58;
             this.panel4.Visible = false;
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(31, 382);
+            this.button20.Location = new System.Drawing.Point(41, 470);
+            this.button20.Margin = new System.Windows.Forms.Padding(4);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(34, 23);
+            this.button20.Size = new System.Drawing.Size(45, 28);
             this.button20.TabIndex = 641;
             this.button20.Text = "X";
             this.button20.UseVisualStyleBackColor = true;
@@ -2252,37 +2303,42 @@
             this.groupBox6.Controls.Add(this.label13);
             this.groupBox6.Controls.Add(this.label14);
             this.groupBox6.Controls.Add(this.label15);
-            this.groupBox6.Location = new System.Drawing.Point(34, 49);
+            this.groupBox6.Location = new System.Drawing.Point(45, 60);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox6.Size = new System.Drawing.Size(216, 131);
+            this.groupBox6.Size = new System.Drawing.Size(288, 161);
             this.groupBox6.TabIndex = 640;
             this.groupBox6.TabStop = false;
             // 
             // textProfits
             // 
-            this.textProfits.Location = new System.Drawing.Point(13, 90);
+            this.textProfits.Location = new System.Drawing.Point(17, 111);
+            this.textProfits.Margin = new System.Windows.Forms.Padding(4);
             this.textProfits.Name = "textProfits";
             this.textProfits.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textProfits.Size = new System.Drawing.Size(119, 20);
+            this.textProfits.Size = new System.Drawing.Size(157, 22);
             this.textProfits.TabIndex = 59;
             this.textProfits.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textClientValue
             // 
-            this.textClientValue.Location = new System.Drawing.Point(13, 38);
+            this.textClientValue.Location = new System.Drawing.Point(17, 47);
+            this.textClientValue.Margin = new System.Windows.Forms.Padding(4);
             this.textClientValue.Name = "textClientValue";
             this.textClientValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textClientValue.Size = new System.Drawing.Size(119, 20);
+            this.textClientValue.Size = new System.Drawing.Size(157, 22);
             this.textClientValue.TabIndex = 59;
             this.textClientValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxMoney
             // 
-            this.textBoxMoney.Location = new System.Drawing.Point(13, 64);
+            this.textBoxMoney.Location = new System.Drawing.Point(17, 79);
+            this.textBoxMoney.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxMoney.Name = "textBoxMoney";
             this.textBoxMoney.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBoxMoney.Size = new System.Drawing.Size(119, 20);
+            this.textBoxMoney.Size = new System.Drawing.Size(157, 22);
             this.textBoxMoney.TabIndex = 59;
             this.textBoxMoney.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -2290,9 +2346,10 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(140, 16);
+            this.label12.Location = new System.Drawing.Point(187, 20);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(65, 13);
+            this.label12.Size = new System.Drawing.Size(66, 17);
             this.label12.TabIndex = 60;
             this.label12.Text = "قيمة البضاعه";
             // 
@@ -2300,9 +2357,10 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(145, 41);
+            this.label13.Location = new System.Drawing.Point(193, 50);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(60, 13);
+            this.label13.Size = new System.Drawing.Size(59, 17);
             this.label13.TabIndex = 60;
             this.label13.Text = "قيمة العملاء";
             // 
@@ -2310,9 +2368,10 @@
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(160, 67);
+            this.label14.Location = new System.Drawing.Point(213, 82);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 13);
+            this.label14.Size = new System.Drawing.Size(48, 17);
             this.label14.TabIndex = 60;
             this.label14.Text = "الصندوق";
             // 
@@ -2320,9 +2379,10 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(168, 90);
+            this.label15.Location = new System.Drawing.Point(224, 111);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(37, 13);
+            this.label15.Size = new System.Drawing.Size(40, 17);
             this.label15.TabIndex = 60;
             this.label15.Text = "الارباح";
             // 
@@ -2334,10 +2394,12 @@
             this.groupBox5.Controls.Add(this.label65);
             this.groupBox5.Controls.Add(this.textMoshtriat);
             this.groupBox5.Controls.Add(this.label42);
-            this.groupBox5.Location = new System.Drawing.Point(269, 280);
+            this.groupBox5.Location = new System.Drawing.Point(359, 345);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox5.Size = new System.Drawing.Size(216, 126);
+            this.groupBox5.Size = new System.Drawing.Size(288, 155);
             this.groupBox5.TabIndex = 639;
             this.groupBox5.TabStop = false;
             // 
@@ -2345,10 +2407,11 @@
             // 
             this.text_Arbah.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.text_Arbah.ForeColor = System.Drawing.Color.Green;
-            this.text_Arbah.Location = new System.Drawing.Point(6, 21);
+            this.text_Arbah.Location = new System.Drawing.Point(8, 26);
+            this.text_Arbah.Margin = new System.Windows.Forms.Padding(4);
             this.text_Arbah.Name = "text_Arbah";
             this.text_Arbah.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.text_Arbah.Size = new System.Drawing.Size(100, 21);
+            this.text_Arbah.Size = new System.Drawing.Size(132, 24);
             this.text_Arbah.TabIndex = 636;
             this.text_Arbah.Text = "0";
             this.text_Arbah.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2357,9 +2420,10 @@
             // 
             this.label22.AutoSize = true;
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(143, 24);
+            this.label22.Location = new System.Drawing.Point(191, 30);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(58, 13);
+            this.label22.Size = new System.Drawing.Size(62, 17);
             this.label22.TabIndex = 637;
             this.label22.Text = "سحب ارباح";
             // 
@@ -2367,10 +2431,11 @@
             // 
             this.textTotalMasrofat2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTotalMasrofat2.ForeColor = System.Drawing.Color.Black;
-            this.textTotalMasrofat2.Location = new System.Drawing.Point(6, 51);
+            this.textTotalMasrofat2.Location = new System.Drawing.Point(8, 63);
+            this.textTotalMasrofat2.Margin = new System.Windows.Forms.Padding(4);
             this.textTotalMasrofat2.Name = "textTotalMasrofat2";
             this.textTotalMasrofat2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textTotalMasrofat2.Size = new System.Drawing.Size(100, 21);
+            this.textTotalMasrofat2.Size = new System.Drawing.Size(132, 24);
             this.textTotalMasrofat2.TabIndex = 636;
             this.textTotalMasrofat2.Text = "0";
             this.textTotalMasrofat2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2379,9 +2444,10 @@
             // 
             this.label65.AutoSize = true;
             this.label65.ForeColor = System.Drawing.Color.White;
-            this.label65.Location = new System.Drawing.Point(117, 56);
+            this.label65.Location = new System.Drawing.Point(156, 69);
+            this.label65.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(84, 13);
+            this.label65.Size = new System.Drawing.Size(89, 17);
             this.label65.TabIndex = 637;
             this.label65.Text = "اجمالى المصاريف";
             // 
@@ -2389,10 +2455,11 @@
             // 
             this.textMoshtriat.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textMoshtriat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textMoshtriat.Location = new System.Drawing.Point(6, 83);
+            this.textMoshtriat.Location = new System.Drawing.Point(8, 102);
+            this.textMoshtriat.Margin = new System.Windows.Forms.Padding(4);
             this.textMoshtriat.Name = "textMoshtriat";
             this.textMoshtriat.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textMoshtriat.Size = new System.Drawing.Size(100, 21);
+            this.textMoshtriat.Size = new System.Drawing.Size(132, 24);
             this.textMoshtriat.TabIndex = 634;
             this.textMoshtriat.Text = "0";
             this.textMoshtriat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2401,17 +2468,19 @@
             // 
             this.label42.AutoSize = true;
             this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(116, 87);
+            this.label42.Location = new System.Drawing.Point(155, 107);
+            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(85, 13);
+            this.label42.Size = new System.Drawing.Size(92, 17);
             this.label42.TabIndex = 635;
             this.label42.Text = "مصاريف مشتريات";
             // 
             // butUpdate
             // 
-            this.butUpdate.Location = new System.Drawing.Point(641, 9);
+            this.butUpdate.Location = new System.Drawing.Point(855, 11);
+            this.butUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.butUpdate.Name = "butUpdate";
-            this.butUpdate.Size = new System.Drawing.Size(75, 23);
+            this.butUpdate.Size = new System.Drawing.Size(100, 28);
             this.butUpdate.TabIndex = 638;
             this.butUpdate.Text = "تحديث";
             this.butUpdate.UseVisualStyleBackColor = true;
@@ -2441,19 +2510,22 @@
             this.groupBox2.Controls.Add(this.textSeiana);
             this.groupBox2.Controls.Add(this.textAdvs);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(197)))), ((int)(((byte)(49)))));
-            this.groupBox2.Location = new System.Drawing.Point(504, 49);
+            this.groupBox2.Location = new System.Drawing.Point(672, 60);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox2.Size = new System.Drawing.Size(216, 353);
+            this.groupBox2.Size = new System.Drawing.Size(288, 434);
             this.groupBox2.TabIndex = 633;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "  المصاريف الجارية        ";
             // 
             // butShowMasrofat
             // 
-            this.butShowMasrofat.Location = new System.Drawing.Point(104, -2);
+            this.butShowMasrofat.Location = new System.Drawing.Point(139, -2);
+            this.butShowMasrofat.Margin = new System.Windows.Forms.Padding(4);
             this.butShowMasrofat.Name = "butShowMasrofat";
-            this.butShowMasrofat.Size = new System.Drawing.Size(18, 22);
+            this.butShowMasrofat.Size = new System.Drawing.Size(24, 27);
             this.butShowMasrofat.TabIndex = 113;
             this.butShowMasrofat.Text = "+";
             this.butShowMasrofat.UseVisualStyleBackColor = true;
@@ -2462,10 +2534,11 @@
             // 
             this.textNathria.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textNathria.ForeColor = System.Drawing.Color.Green;
-            this.textNathria.Location = new System.Drawing.Point(13, 23);
+            this.textNathria.Location = new System.Drawing.Point(17, 28);
+            this.textNathria.Margin = new System.Windows.Forms.Padding(4);
             this.textNathria.Name = "textNathria";
             this.textNathria.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textNathria.Size = new System.Drawing.Size(100, 21);
+            this.textNathria.Size = new System.Drawing.Size(132, 24);
             this.textNathria.TabIndex = 105;
             this.textNathria.Text = "0";
             this.textNathria.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2474,9 +2547,10 @@
             // 
             this.label48.AutoSize = true;
             this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label48.Location = new System.Drawing.Point(137, 26);
+            this.label48.Location = new System.Drawing.Point(183, 32);
+            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(68, 13);
+            this.label48.Size = new System.Drawing.Size(74, 17);
             this.label48.TabIndex = 106;
             this.label48.Text = "مصاريف نثريه";
             // 
@@ -2484,9 +2558,10 @@
             // 
             this.label52.AutoSize = true;
             this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label52.Location = new System.Drawing.Point(134, 58);
+            this.label52.Location = new System.Drawing.Point(179, 71);
+            this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(71, 13);
+            this.label52.Size = new System.Drawing.Size(77, 17);
             this.label52.TabIndex = 106;
             this.label52.Text = "مصاريف دعاية";
             // 
@@ -2494,9 +2569,10 @@
             // 
             this.label59.AutoSize = true;
             this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label59.Location = new System.Drawing.Point(133, 90);
+            this.label59.Location = new System.Drawing.Point(177, 111);
+            this.label59.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(72, 13);
+            this.label59.Size = new System.Drawing.Size(79, 17);
             this.label59.TabIndex = 106;
             this.label59.Text = "مصاريف صيانة";
             // 
@@ -2504,10 +2580,11 @@
             // 
             this.textMortabat.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textMortabat.ForeColor = System.Drawing.Color.Green;
-            this.textMortabat.Location = new System.Drawing.Point(13, 311);
+            this.textMortabat.Location = new System.Drawing.Point(17, 383);
+            this.textMortabat.Margin = new System.Windows.Forms.Padding(4);
             this.textMortabat.Name = "textMortabat";
             this.textMortabat.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textMortabat.Size = new System.Drawing.Size(100, 21);
+            this.textMortabat.Size = new System.Drawing.Size(132, 24);
             this.textMortabat.TabIndex = 105;
             this.textMortabat.Text = "0";
             this.textMortabat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2516,10 +2593,11 @@
             // 
             this.textCars.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textCars.ForeColor = System.Drawing.Color.Green;
-            this.textCars.Location = new System.Drawing.Point(13, 279);
+            this.textCars.Location = new System.Drawing.Point(17, 343);
+            this.textCars.Margin = new System.Windows.Forms.Padding(4);
             this.textCars.Name = "textCars";
             this.textCars.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textCars.Size = new System.Drawing.Size(100, 21);
+            this.textCars.Size = new System.Drawing.Size(132, 24);
             this.textCars.TabIndex = 105;
             this.textCars.Text = "0";
             this.textCars.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2528,10 +2606,11 @@
             // 
             this.textNet.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textNet.ForeColor = System.Drawing.Color.Green;
-            this.textNet.Location = new System.Drawing.Point(13, 247);
+            this.textNet.Location = new System.Drawing.Point(17, 304);
+            this.textNet.Margin = new System.Windows.Forms.Padding(4);
             this.textNet.Name = "textNet";
             this.textNet.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textNet.Size = new System.Drawing.Size(100, 21);
+            this.textNet.Size = new System.Drawing.Size(132, 24);
             this.textNet.TabIndex = 105;
             this.textNet.Text = "0";
             this.textNet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2540,9 +2619,10 @@
             // 
             this.label60.AutoSize = true;
             this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label60.Location = new System.Drawing.Point(136, 122);
+            this.label60.Location = new System.Drawing.Point(181, 150);
+            this.label60.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(69, 13);
+            this.label60.Size = new System.Drawing.Size(77, 17);
             this.label60.TabIndex = 106;
             this.label60.Text = "مصاريف ايجار";
             // 
@@ -2550,10 +2630,11 @@
             // 
             this.textTell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTell.ForeColor = System.Drawing.Color.Green;
-            this.textTell.Location = new System.Drawing.Point(13, 215);
+            this.textTell.Location = new System.Drawing.Point(17, 265);
+            this.textTell.Margin = new System.Windows.Forms.Padding(4);
             this.textTell.Name = "textTell";
             this.textTell.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textTell.Size = new System.Drawing.Size(100, 21);
+            this.textTell.Size = new System.Drawing.Size(132, 24);
             this.textTell.TabIndex = 105;
             this.textTell.Text = "0";
             this.textTell.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2562,9 +2643,10 @@
             // 
             this.label61.AutoSize = true;
             this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label61.Location = new System.Drawing.Point(132, 154);
+            this.label61.Location = new System.Drawing.Point(176, 190);
+            this.label61.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(73, 13);
+            this.label61.Size = new System.Drawing.Size(69, 17);
             this.label61.TabIndex = 106;
             this.label61.Text = "فاتورة كهرباء";
             // 
@@ -2572,10 +2654,11 @@
             // 
             this.textWater.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textWater.ForeColor = System.Drawing.Color.Green;
-            this.textWater.Location = new System.Drawing.Point(13, 183);
+            this.textWater.Location = new System.Drawing.Point(17, 225);
+            this.textWater.Margin = new System.Windows.Forms.Padding(4);
             this.textWater.Name = "textWater";
             this.textWater.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textWater.Size = new System.Drawing.Size(100, 21);
+            this.textWater.Size = new System.Drawing.Size(132, 24);
             this.textWater.TabIndex = 105;
             this.textWater.Text = "0";
             this.textWater.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2584,9 +2667,10 @@
             // 
             this.label62.AutoSize = true;
             this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label62.Location = new System.Drawing.Point(145, 186);
+            this.label62.Location = new System.Drawing.Point(193, 229);
+            this.label62.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(60, 13);
+            this.label62.Size = new System.Drawing.Size(54, 17);
             this.label62.TabIndex = 106;
             this.label62.Text = "فاتورة مياه";
             // 
@@ -2594,10 +2678,11 @@
             // 
             this.textKahraba.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textKahraba.ForeColor = System.Drawing.Color.Green;
-            this.textKahraba.Location = new System.Drawing.Point(13, 151);
+            this.textKahraba.Location = new System.Drawing.Point(17, 186);
+            this.textKahraba.Margin = new System.Windows.Forms.Padding(4);
             this.textKahraba.Name = "textKahraba";
             this.textKahraba.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textKahraba.Size = new System.Drawing.Size(100, 21);
+            this.textKahraba.Size = new System.Drawing.Size(132, 24);
             this.textKahraba.TabIndex = 105;
             this.textKahraba.Text = "0";
             this.textKahraba.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2606,9 +2691,10 @@
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label23.Location = new System.Drawing.Point(147, 314);
+            this.label23.Location = new System.Drawing.Point(196, 386);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(58, 13);
+            this.label23.Size = new System.Drawing.Size(60, 17);
             this.label23.TabIndex = 106;
             this.label23.Text = "مرتبـــــــات";
             // 
@@ -2616,9 +2702,10 @@
             // 
             this.label63.AutoSize = true;
             this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label63.Location = new System.Drawing.Point(135, 218);
+            this.label63.Location = new System.Drawing.Point(180, 268);
+            this.label63.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(70, 13);
+            this.label63.Size = new System.Drawing.Size(65, 17);
             this.label63.TabIndex = 106;
             this.label63.Text = "فاتورة تليفون";
             // 
@@ -2626,9 +2713,10 @@
             // 
             this.label24.AutoSize = true;
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label24.Location = new System.Drawing.Point(126, 282);
+            this.label24.Location = new System.Drawing.Point(168, 347);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(79, 13);
+            this.label24.Size = new System.Drawing.Size(87, 17);
             this.label24.TabIndex = 106;
             this.label24.Text = "مصاريف سيارات";
             // 
@@ -2636,10 +2724,11 @@
             // 
             this.textEgar.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEgar.ForeColor = System.Drawing.Color.Green;
-            this.textEgar.Location = new System.Drawing.Point(13, 119);
+            this.textEgar.Location = new System.Drawing.Point(17, 146);
+            this.textEgar.Margin = new System.Windows.Forms.Padding(4);
             this.textEgar.Name = "textEgar";
             this.textEgar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textEgar.Size = new System.Drawing.Size(100, 21);
+            this.textEgar.Size = new System.Drawing.Size(132, 24);
             this.textEgar.TabIndex = 105;
             this.textEgar.Text = "0";
             this.textEgar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2648,9 +2737,10 @@
             // 
             this.label64.AutoSize = true;
             this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label64.Location = new System.Drawing.Point(136, 250);
+            this.label64.Location = new System.Drawing.Point(181, 308);
+            this.label64.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(69, 13);
+            this.label64.Size = new System.Drawing.Size(68, 17);
             this.label64.TabIndex = 106;
             this.label64.Text = "فاتورة انترنت";
             // 
@@ -2658,10 +2748,11 @@
             // 
             this.textSeiana.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textSeiana.ForeColor = System.Drawing.Color.Green;
-            this.textSeiana.Location = new System.Drawing.Point(13, 87);
+            this.textSeiana.Location = new System.Drawing.Point(17, 107);
+            this.textSeiana.Margin = new System.Windows.Forms.Padding(4);
             this.textSeiana.Name = "textSeiana";
             this.textSeiana.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textSeiana.Size = new System.Drawing.Size(100, 21);
+            this.textSeiana.Size = new System.Drawing.Size(132, 24);
             this.textSeiana.TabIndex = 105;
             this.textSeiana.Text = "0";
             this.textSeiana.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2670,10 +2761,11 @@
             // 
             this.textAdvs.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textAdvs.ForeColor = System.Drawing.Color.Green;
-            this.textAdvs.Location = new System.Drawing.Point(13, 55);
+            this.textAdvs.Location = new System.Drawing.Point(17, 68);
+            this.textAdvs.Margin = new System.Windows.Forms.Padding(4);
             this.textAdvs.Name = "textAdvs";
             this.textAdvs.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textAdvs.Size = new System.Drawing.Size(100, 21);
+            this.textAdvs.Size = new System.Drawing.Size(132, 24);
             this.textAdvs.TabIndex = 105;
             this.textAdvs.Text = "0";
             this.textAdvs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2685,10 +2777,12 @@
             this.groupBox4.Controls.Add(this.textSadreMoney);
             this.groupBox4.Controls.Add(this.label21);
             this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(197)))), ((int)(((byte)(49)))));
-            this.groupBox4.Location = new System.Drawing.Point(34, 184);
+            this.groupBox4.Location = new System.Drawing.Point(45, 226);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox4.Size = new System.Drawing.Size(216, 93);
+            this.groupBox4.Size = new System.Drawing.Size(288, 114);
             this.groupBox4.TabIndex = 632;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "مالية";
@@ -2697,10 +2791,11 @@
             // 
             this.textWaredMoney.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textWaredMoney.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textWaredMoney.Location = new System.Drawing.Point(13, 21);
+            this.textWaredMoney.Location = new System.Drawing.Point(17, 26);
+            this.textWaredMoney.Margin = new System.Windows.Forms.Padding(4);
             this.textWaredMoney.Name = "textWaredMoney";
             this.textWaredMoney.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textWaredMoney.Size = new System.Drawing.Size(119, 21);
+            this.textWaredMoney.Size = new System.Drawing.Size(157, 24);
             this.textWaredMoney.TabIndex = 101;
             this.textWaredMoney.Text = "0";
             this.textWaredMoney.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2709,9 +2804,10 @@
             // 
             this.label40.AutoSize = true;
             this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(155, 53);
+            this.label40.Location = new System.Drawing.Point(207, 65);
+            this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(50, 13);
+            this.label40.Size = new System.Drawing.Size(51, 17);
             this.label40.TabIndex = 104;
             this.label40.Text = "مسحوبات";
             // 
@@ -2719,10 +2815,11 @@
             // 
             this.textSadreMoney.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textSadreMoney.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.textSadreMoney.Location = new System.Drawing.Point(13, 49);
+            this.textSadreMoney.Location = new System.Drawing.Point(17, 60);
+            this.textSadreMoney.Margin = new System.Windows.Forms.Padding(4);
             this.textSadreMoney.Name = "textSadreMoney";
             this.textSadreMoney.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textSadreMoney.Size = new System.Drawing.Size(119, 21);
+            this.textSadreMoney.Size = new System.Drawing.Size(157, 24);
             this.textSadreMoney.TabIndex = 101;
             this.textSadreMoney.Text = "0";
             this.textSadreMoney.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2731,9 +2828,10 @@
             // 
             this.label21.AutoSize = true;
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(164, 25);
+            this.label21.Location = new System.Drawing.Point(219, 31);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(41, 13);
+            this.label21.Size = new System.Drawing.Size(43, 17);
             this.label21.TabIndex = 104;
             this.label21.Text = "اضافات";
             // 
@@ -2757,10 +2855,12 @@
             this.groupBox1.Controls.Add(this.label28);
             this.groupBox1.Controls.Add(this.textTawreed);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(197)))), ((int)(((byte)(49)))));
-            this.groupBox1.Location = new System.Drawing.Point(269, 49);
+            this.groupBox1.Location = new System.Drawing.Point(359, 60);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(216, 228);
+            this.groupBox1.Size = new System.Drawing.Size(288, 281);
             this.groupBox1.TabIndex = 631;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "بيانات فواتير  ";
@@ -2769,19 +2869,21 @@
             // 
             this.textMabeaat.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textMabeaat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textMabeaat.Location = new System.Drawing.Point(13, 18);
+            this.textMabeaat.Location = new System.Drawing.Point(17, 22);
+            this.textMabeaat.Margin = new System.Windows.Forms.Padding(4);
             this.textMabeaat.Name = "textMabeaat";
             this.textMabeaat.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textMabeaat.Size = new System.Drawing.Size(100, 21);
+            this.textMabeaat.Size = new System.Drawing.Size(132, 24);
             this.textMabeaat.TabIndex = 101;
             this.textMabeaat.Text = "0";
             this.textMabeaat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(112, -2);
+            this.button19.Location = new System.Drawing.Point(149, -2);
+            this.button19.Margin = new System.Windows.Forms.Padding(4);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(18, 22);
+            this.button19.Size = new System.Drawing.Size(24, 27);
             this.button19.TabIndex = 120;
             this.button19.Text = "+";
             this.button19.UseVisualStyleBackColor = true;
@@ -2790,9 +2892,10 @@
             // 
             this.label17.AutoSize = true;
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label17.Location = new System.Drawing.Point(116, 98);
+            this.label17.Location = new System.Drawing.Point(155, 121);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(88, 13);
+            this.label17.Size = new System.Drawing.Size(95, 17);
             this.label17.TabIndex = 104;
             this.label17.Text = "خصومات مشتريات";
             // 
@@ -2800,10 +2903,11 @@
             // 
             this.textDisSheraa.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDisSheraa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textDisSheraa.Location = new System.Drawing.Point(13, 93);
+            this.textDisSheraa.Location = new System.Drawing.Point(17, 114);
+            this.textDisSheraa.Margin = new System.Windows.Forms.Padding(4);
             this.textDisSheraa.Name = "textDisSheraa";
             this.textDisSheraa.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textDisSheraa.Size = new System.Drawing.Size(100, 21);
+            this.textDisSheraa.Size = new System.Drawing.Size(132, 24);
             this.textDisSheraa.TabIndex = 101;
             this.textDisSheraa.Text = "0";
             this.textDisSheraa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2812,9 +2916,10 @@
             // 
             this.label25.AutoSize = true;
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label25.Location = new System.Drawing.Point(160, 198);
+            this.label25.Location = new System.Drawing.Point(213, 244);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(46, 13);
+            this.label25.Size = new System.Drawing.Size(52, 17);
             this.label25.TabIndex = 104;
             this.label25.Text = "تحصيلات";
             // 
@@ -2822,9 +2927,10 @@
             // 
             this.label18.AutoSize = true;
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label18.Location = new System.Drawing.Point(158, 73);
+            this.label18.Location = new System.Drawing.Point(211, 90);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(46, 13);
+            this.label18.Size = new System.Drawing.Size(47, 17);
             this.label18.TabIndex = 104;
             this.label18.Text = "مشتريات";
             // 
@@ -2832,10 +2938,11 @@
             // 
             this.textMoshtriaatTotal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textMoshtriaatTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textMoshtriaatTotal.Location = new System.Drawing.Point(13, 68);
+            this.textMoshtriaatTotal.Location = new System.Drawing.Point(17, 84);
+            this.textMoshtriaatTotal.Margin = new System.Windows.Forms.Padding(4);
             this.textMoshtriaatTotal.Name = "textMoshtriaatTotal";
             this.textMoshtriaatTotal.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textMoshtriaatTotal.Size = new System.Drawing.Size(100, 21);
+            this.textMoshtriaatTotal.Size = new System.Drawing.Size(132, 24);
             this.textMoshtriaatTotal.TabIndex = 101;
             this.textMoshtriaatTotal.Text = "0";
             this.textMoshtriaatTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2844,9 +2951,10 @@
             // 
             this.label26.AutoSize = true;
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label26.Location = new System.Drawing.Point(167, 173);
+            this.label26.Location = new System.Drawing.Point(223, 213);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(42, 13);
+            this.label26.Size = new System.Drawing.Size(45, 17);
             this.label26.TabIndex = 104;
             this.label26.Text = "توريدات";
             // 
@@ -2854,9 +2962,10 @@
             // 
             this.label19.AutoSize = true;
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label19.Location = new System.Drawing.Point(126, 48);
+            this.label19.Location = new System.Drawing.Point(168, 59);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(80, 13);
+            this.label19.Size = new System.Drawing.Size(85, 17);
             this.label19.TabIndex = 104;
             this.label19.Text = "خصومات مبيعات";
             // 
@@ -2864,10 +2973,11 @@
             // 
             this.textDiscMabeaat.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDiscMabeaat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textDiscMabeaat.Location = new System.Drawing.Point(13, 43);
+            this.textDiscMabeaat.Location = new System.Drawing.Point(17, 53);
+            this.textDiscMabeaat.Margin = new System.Windows.Forms.Padding(4);
             this.textDiscMabeaat.Name = "textDiscMabeaat";
             this.textDiscMabeaat.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textDiscMabeaat.Size = new System.Drawing.Size(100, 21);
+            this.textDiscMabeaat.Size = new System.Drawing.Size(132, 24);
             this.textDiscMabeaat.TabIndex = 101;
             this.textDiscMabeaat.Text = "0";
             this.textDiscMabeaat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2876,10 +2986,11 @@
             // 
             this.textTahseel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTahseel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textTahseel.Location = new System.Drawing.Point(13, 193);
+            this.textTahseel.Location = new System.Drawing.Point(17, 238);
+            this.textTahseel.Margin = new System.Windows.Forms.Padding(4);
             this.textTahseel.Name = "textTahseel";
             this.textTahseel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textTahseel.Size = new System.Drawing.Size(100, 21);
+            this.textTahseel.Size = new System.Drawing.Size(132, 24);
             this.textTahseel.TabIndex = 101;
             this.textTahseel.Text = "0";
             this.textTahseel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2888,9 +2999,10 @@
             // 
             this.label20.AutoSize = true;
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label20.Location = new System.Drawing.Point(168, 23);
+            this.label20.Location = new System.Drawing.Point(224, 28);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(38, 13);
+            this.label20.Size = new System.Drawing.Size(37, 17);
             this.label20.TabIndex = 104;
             this.label20.Text = "مبيعات";
             // 
@@ -2898,10 +3010,11 @@
             // 
             this.textHalekBeeea.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textHalekBeeea.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textHalekBeeea.Location = new System.Drawing.Point(13, 118);
+            this.textHalekBeeea.Location = new System.Drawing.Point(17, 145);
+            this.textHalekBeeea.Margin = new System.Windows.Forms.Padding(4);
             this.textHalekBeeea.Name = "textHalekBeeea";
             this.textHalekBeeea.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textHalekBeeea.Size = new System.Drawing.Size(100, 21);
+            this.textHalekBeeea.Size = new System.Drawing.Size(132, 24);
             this.textHalekBeeea.TabIndex = 101;
             this.textHalekBeeea.Text = "0";
             this.textHalekBeeea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2910,9 +3023,10 @@
             // 
             this.label27.AutoSize = true;
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label27.Location = new System.Drawing.Point(117, 148);
+            this.label27.Location = new System.Drawing.Point(156, 182);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(86, 13);
+            this.label27.Size = new System.Drawing.Size(92, 17);
             this.label27.TabIndex = 104;
             this.label27.Text = "مردودات مشتريات";
             // 
@@ -2920,10 +3034,11 @@
             // 
             this.textHaleksheraa.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textHaleksheraa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textHaleksheraa.Location = new System.Drawing.Point(13, 143);
+            this.textHaleksheraa.Location = new System.Drawing.Point(17, 176);
+            this.textHaleksheraa.Margin = new System.Windows.Forms.Padding(4);
             this.textHaleksheraa.Name = "textHaleksheraa";
             this.textHaleksheraa.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textHaleksheraa.Size = new System.Drawing.Size(100, 21);
+            this.textHaleksheraa.Size = new System.Drawing.Size(132, 24);
             this.textHaleksheraa.TabIndex = 101;
             this.textHaleksheraa.Text = "0";
             this.textHaleksheraa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2932,9 +3047,10 @@
             // 
             this.label28.AutoSize = true;
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.label28.Location = new System.Drawing.Point(127, 123);
+            this.label28.Location = new System.Drawing.Point(169, 151);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(78, 13);
+            this.label28.Size = new System.Drawing.Size(82, 17);
             this.label28.TabIndex = 104;
             this.label28.Text = "مردودات مبيعات";
             // 
@@ -2942,10 +3058,11 @@
             // 
             this.textTawreed.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTawreed.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textTawreed.Location = new System.Drawing.Point(13, 168);
+            this.textTawreed.Location = new System.Drawing.Point(17, 207);
+            this.textTawreed.Margin = new System.Windows.Forms.Padding(4);
             this.textTawreed.Name = "textTawreed";
             this.textTawreed.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textTawreed.Size = new System.Drawing.Size(100, 21);
+            this.textTawreed.Size = new System.Drawing.Size(132, 24);
             this.textTawreed.TabIndex = 101;
             this.textTawreed.Text = "0";
             this.textTawreed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2953,18 +3070,20 @@
             // dateTimePicker3
             // 
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker3.Location = new System.Drawing.Point(155, 336);
+            this.dateTimePicker3.Location = new System.Drawing.Point(207, 414);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(87, 20);
+            this.dateTimePicker3.Size = new System.Drawing.Size(115, 22);
             this.dateTimePicker3.TabIndex = 61;
             this.dateTimePicker3.Visible = false;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(155, 310);
+            this.dateTimePicker2.Location = new System.Drawing.Point(207, 382);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(87, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(115, 22);
             this.dateTimePicker2.TabIndex = 61;
             this.dateTimePicker2.Visible = false;
             // 
@@ -2972,18 +3091,20 @@
             // 
             this.label16.AutoSize = true;
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(178, 19);
+            this.label16.Location = new System.Drawing.Point(237, 23);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(66, 13);
+            this.label16.Size = new System.Drawing.Size(66, 17);
             this.label16.TabIndex = 60;
             this.label16.Text = "الشهر الحالى";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(34, 323);
+            this.label11.Location = new System.Drawing.Point(45, 398);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 13);
+            this.label11.Size = new System.Drawing.Size(30, 17);
             this.label11.TabIndex = 60;
             this.label11.Text = "السنة";
             this.label11.Visible = false;
@@ -2991,30 +3112,32 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(103, 323);
+            this.label10.Location = new System.Drawing.Point(137, 398);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(33, 13);
+            this.label10.Size = new System.Drawing.Size(34, 17);
             this.label10.TabIndex = 60;
             this.label10.Text = "الشهر";
             this.label10.Visible = false;
             // 
             // textDateMonth
             // 
-            this.textDateMonth.Location = new System.Drawing.Point(47, 15);
+            this.textDateMonth.Location = new System.Drawing.Point(63, 18);
+            this.textDateMonth.Margin = new System.Windows.Forms.Padding(4);
             this.textDateMonth.Name = "textDateMonth";
-            this.textDateMonth.Size = new System.Drawing.Size(119, 20);
+            this.textDateMonth.Size = new System.Drawing.Size(157, 22);
             this.textDateMonth.TabIndex = 55;
             this.textDateMonth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::ZAD_Sales.Properties.Resources.VER_15_6_0;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1320, 716);
+            this.ClientSize = new System.Drawing.Size(1760, 881);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -3024,6 +3147,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ZAD Sales v15.0.4";

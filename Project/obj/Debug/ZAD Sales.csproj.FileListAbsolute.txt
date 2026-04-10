@@ -29046,3 +29046,5 @@ D:\HAMED\03-GitHub\ZAD2026Update\Project\obj\Debug\dje-NE\ZAD Sales.resources.dl
 D:\HAMED\03-GitHub\ZAD2026Update\Project\obj\Debug\ZAD Sales.csproj.CopyComplete
 D:\HAMED\03-GitHub\ZAD2026Update\Project\obj\Debug\ZAD Sales.exe
 D:\HAMED\03-GitHub\ZAD2026Update\Project\obj\Debug\ZAD Sales.pdb
+D:\HAMED\03-GitHub\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.BaseForm.resources
+D:\HAMED\03-GitHub\ZAD2026Update\Project\obj\Debug\ZAD_Sales.Forms.UserAddNew.resources

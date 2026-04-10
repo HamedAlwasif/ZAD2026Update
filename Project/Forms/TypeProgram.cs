@@ -14,6 +14,8 @@ using System.Management;
 using System.Net.NetworkInformation;
 using System.Security.Cryptography;
 
+using ZAD_Sales.ClassProject;
+
 namespace ZAD_Sales.Forms
 {
     public partial class TypeProgram : Form
@@ -28,6 +30,11 @@ namespace ZAD_Sales.Forms
 
         string texthddserial1 = "";
         License License1;
+
+        int GetValue(SqlDataReader dr, string col)
+        {
+            return dr[col] != DBNull.Value ? Convert.ToInt32(dr[col]) : 0;
+        }
         public TypeProgram()
         {
             InitializeComponent();
@@ -216,6 +223,47 @@ namespace ZAD_Sales.Forms
 
             this.Visible = false;
 
+        }
+
+
+        void Login(string username, string password)
+        {
+            using (SqlConnection con = new SqlConnection(constring))
+            {
+                con.Open();
+
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT * FROM Users WHERE UserName=@u AND Bassword=@p", con);
+
+                cmd.Parameters.AddWithValue("@u", username);
+                cmd.Parameters.AddWithValue("@p", password);
+
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    CurrentUser.ID = Convert.ToInt64(dr["ID"]);
+                    CurrentUser.UserName = dr["UserName"].ToString();
+
+                    // تحميل كل الصلاحيات
+                    CurrentUser.Sales = Convert.ToInt32(dr["Sales"]);
+                    CurrentUser.Purchases = Convert.ToInt32(dr["Purchases"]);
+                    CurrentUser.Expenses = Convert.ToInt32(dr["Expenses"]);
+                    CurrentUser.ClientAdd = Convert.ToInt32(dr["ClientAdd"]);
+                    CurrentUser.ProductMovement = Convert.ToInt32(dr["ProductMovement"]);
+                    CurrentUser.BoxMovement = Convert.ToInt32(dr["BoxMovement"]);
+                    CurrentUser.AllowUser = Convert.ToInt32(dr["AllowUser"]);
+                    // كمل باقي الأعمدة بنفس الطريقة
+
+                    // فتح البرنامج
+                    Main frm = new Main();
+                    frm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("بيانات الدخول غير صحيحة");
+                }
+            }
         }
 
         private void TypeProgram_Load(object sender, EventArgs e)
@@ -517,6 +565,97 @@ namespace ZAD_Sales.Forms
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection con = new SqlConnection(constring))
+            {
+                con.Open();
+
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT * FROM Users WHERE UserName=@u AND Bassword=@p", con);
+
+                cmd.Parameters.AddWithValue("@u", textUserName.Text);
+                cmd.Parameters.AddWithValue("@p", textBassword.Text);
+
+                using (SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        // البيانات الأساسية
+                        CurrentUser.ID = Convert.ToInt64(dr["ID"]);
+                        CurrentUser.UserName = dr["UserName"]?.ToString();
+
+                        // الصلاحيات
+                        CurrentUser.Sales = GetValue(dr, "Sales");
+                        CurrentUser.Purchases = GetValue(dr, "Purchases");
+                        CurrentUser.Expenses = GetValue(dr, "Expenses");
+                        CurrentUser.MoneyToBox = GetValue(dr, "MoneyToBox");
+                        CurrentUser.MoneyFromBox = GetValue(dr, "MoneyFromBox");
+                        CurrentUser.GroupAdd = GetValue(dr, "GroupAdd");
+                        CurrentUser.EmployeeAdd = GetValue(dr, "EmployeeAdd");
+                        CurrentUser.EmployeeSalaryPayment = GetValue(dr, "EmployeeSalaryPayment");
+                        CurrentUser.EmployeeSalaryMovement = GetValue(dr, "EmployeeSalaryMovement");
+                        CurrentUser.EmployeeBonusAdd = GetValue(dr, "EmployeeBonusAdd");
+                        CurrentUser.EmployeePenaltyAdd = GetValue(dr, "EmployeePenaltyAdd");
+                        CurrentUser.CarsAdd = GetValue(dr, "CarsAdd");
+                        CurrentUser.CarsExpenses = GetValue(dr, "CarsExpenses");
+                        CurrentUser.CarsExpensesMovement = GetValue(dr, "CarsExpensesMovement");
+                        CurrentUser.BackupSave = GetValue(dr, "BackupSave");
+                        CurrentUser.BackupRestore = GetValue(dr, "BackupRestore");
+                        CurrentUser.SettingsGeneral = GetValue(dr, "SettingsGeneral");
+                        CurrentUser.SystemReset = GetValue(dr, "SystemReset");
+                        CurrentUser.License = GetValue(dr, "License");
+                        CurrentUser.CallUs = GetValue(dr, "CallUs");
+                        CurrentUser.ClientAdd = GetValue(dr, "ClientAdd");
+                        CurrentUser.ClientsMoney = GetValue(dr, "ClientsMoney");
+                        CurrentUser.ExplainSystem = GetValue(dr, "ExplainSystem");
+                        CurrentUser.Connection = GetValue(dr, "Connection");
+                        CurrentUser.ProducerNewAdd = GetValue(dr, "ProducerNewAdd");
+                        CurrentUser.StoreNewAdd = GetValue(dr, "StoreNewAdd");
+                        CurrentUser.Prices = GetValue(dr, "Prices");
+                        CurrentUser.ProducerUpdate = GetValue(dr, "ProducerUpdate");
+                        CurrentUser.Inventory = GetValue(dr, "Inventory");
+                        CurrentUser.Barcode = GetValue(dr, "Barcode");
+                        CurrentUser.ProducerIncomplete = GetValue(dr, "ProducerIncomplete");
+                        CurrentUser.StoreToStore = GetValue(dr, "StoreToStore");
+                        CurrentUser.ProductMovement = GetValue(dr, "ProductMovement");
+                        CurrentUser.BoxMovement = GetValue(dr, "BoxMovement");
+                        CurrentUser.ClientsList = GetValue(dr, "ClientsList");
+                        CurrentUser.BanksList = GetValue(dr, "BanksList");
+                        CurrentUser.Profits = GetValue(dr, "Profits");
+                        CurrentUser.DailySalesPurchases = GetValue(dr, "DailySalesPurchases");
+                        CurrentUser.DailyTransactions = GetValue(dr, "DailyTransactions");
+                        CurrentUser.FinancialStatements = GetValue(dr, "FinancialStatements");
+                        CurrentUser.BankAddAccount = GetValue(dr, "BankAddAccount");
+                        CurrentUser.CheckSaderWared = GetValue(dr, "CheckSaderWared");
+                        CurrentUser.CheckSave = GetValue(dr, "CheckSave");
+                        CurrentUser.BankStatement = GetValue(dr, "BankStatement");
+                        CurrentUser.BankToBank = GetValue(dr, "BankToBank");
+                        CurrentUser.ClientAccountStatement = GetValue(dr, "ClientAccountStatement");
+                        CurrentUser.UserAdd1 = GetValue(dr, "UserAdd1");
+                        CurrentUser.FirstAccounts = GetValue(dr, "FirstAccounts");
+                        CurrentUser.AllowUser = GetValue(dr, "AllowUser");
+                        CurrentUser.AllowUser = GetValue(dr, "Statistical");
+                        CurrentUser.AllowUser = GetValue(dr, "PriceViewer");
+                        CurrentUser.AllowUser = GetValue(dr, "ProducerAddBarcodeFactory");
+
+                        // مش موجود في الداتا بيز → نخليه افتراضي
+                        CurrentUser.Statistical = 1;
+
+                        // فتح الفورم الرئيسي
+                        Main frm = new Main();
+                        frm.Show();
+
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("اسم المستخدم أو كلمة المرور غير صحيحة");
+                    }
+                }
+            }
         }
     }
 }
