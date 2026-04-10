@@ -12,6 +12,10 @@ using System.Data.OleDb;
 using System.Configuration;
 using Microsoft.Reporting.WinForms;
 
+
+using System.Drawing.Printing;
+using System.IO;
+using ZAD_Sales.DAL;
 using ZAD_Sales.ClassProject;
 
 namespace ZAD_Sales.Forms
@@ -80,6 +84,11 @@ string PriceNesfAlgomla = "0";
         string Demo = "";
         string CompanyDescription = "";
 
+        string PrinterBill = "";
+        string SizePaperBill = ""; // الافتراضى
+
+        string PaperSizePrint = ""; // النهائى
+
 
         //-------------------------------
         DataTable dt1 = new DataTable();
@@ -103,11 +112,201 @@ string PriceNesfAlgomla = "0";
 
 
 
+        private void LoadPaperSizes() // يعرض اسماء التقارير من كلاس ReportEngine
+        {
+
+            combPaperSize.Items.Clear();
+
+            combPaperSize.Items.AddRange(
+            ReportEngine.Reports.Keys.ToArray());
+
+            combPaperSize.SelectedIndex = 0;
+
+        }
+
+        private void LoadPrinters()
+        {
+            combPrinters.Items.Clear();
+
+            foreach (string printer in PrinterSettings.InstalledPrinters)
+            {
+                combPrinters.Items.Add(printer);
+            }
+
+            if (combPrinters.Items.Count > 0)
+                combPrinters.SelectedIndex = 0;
+        }
+
+
+        ReportDataSource PrepareItems()
+        {
+
+            List<InvoiceItem> list =
+            new List<InvoiceItem>();
+
+            for (int i = 0; i < dataGridView2.Rows.Count - 1; i++)
+            {
+
+                decimal.TryParse(
+                dataGridView2.Rows[i].Cells[5].Value?.ToString(),
+                out decimal price);
+
+                decimal.TryParse(
+                dataGridView2.Rows[i].Cells[6].Value?.ToString(),
+                out decimal discount);
+
+                decimal.TryParse(
+                dataGridView2.Rows[i].Cells[7].Value?.ToString(),
+                out decimal total);
+
+                list.Add(new InvoiceItem
+                {
+
+                    Num =
+                dataGridView2.Rows[i].Cells[0].Value?.ToString(),
+
+                    Storage =
+                dataGridView2.Rows[i].Cells[1].Value?.ToString(),
+
+                    Category =
+                dataGridView2.Rows[i].Cells[2].Value?.ToString(),
+
+                    Quantity =
+                dataGridView2.Rows[i].Cells[3].Value?.ToString(),
+
+                    Type =
+                dataGridView2.Rows[i].Cells[4].Value?.ToString(),
+
+                    Price = price,
+
+                    Discount = discount,
+
+                    Total = total
+
+                });
+
+            }
+
+            return new ReportDataSource(
+            "DataSet1",
+            list);
+
+        }
+        
+        LocalReport PrepareReport()
+        {
+            try
+            {
+
+                LocalReport report = new LocalReport();
+
+
+
+                if (!ReportEngine.Reports.ContainsKey(combPaperSize.Text))
+                {
+                    MessageBox.Show("لم يتم تعريف التقرير");
+                    return null;
+                }
+
+
+                // string reportFile =Reports[combPaperSize.Text];
+
+
+                string reportFile = ReportEngine.GetReportFile(PaperSizePrint);
+
+                string reportPath = Path.Combine(Application.StartupPath, "Reports", reportFile);
+
+                // التأكد أن التقرير موجود
+                if (!File.Exists(reportPath))
+                {
+
+                    MessageBox.Show( "Report Not Found : " + reportPath);
+
+                    return null;
+
+                }
+
+                report.ReportPath =
+                reportPath;
+
+                report.DataSources.Clear();
+
+                report.DataSources.Add(PrepareItems());
+
+                report.EnableExternalImages = true;
+                //   SetParameters(report);
+
+                var invoiceData = CollectInvoiceData();
+
+                ReportParameterBuilder.SetParameters(report, invoiceData);
+
+                report.Refresh();
+
+                return report;
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(
+                "Report Error : " +
+                ex.Message);
+
+                return null;
+
+            }
+
+        }
+        void DirectPrint()
+        {
+
+            if (dataGridView2.Rows.Count == 0)
+            {
+
+                MessageBox.Show("لا توجد أصناف");
+
+                return;
+
+            }
+
+            LocalReport report =
+            PrepareReport();
+
+            if (report == null)
+                return;
+
+            ReportPrinter.Print( report, PrinterBill, PaperSizePrint );
+
+            System.Media.SystemSounds.Asterisk.Play();
+
+        }
+        protected override bool ProcessDialogKey(Keys keyData)
+        {
+
+            if (keyData == Keys.F9)
+            {
+
+                DirectPrint();
+
+                return true;
+
+            }
+
+            return base.ProcessDialogKey(keyData);
+
+        }
+
         public Purchases()
         {
             InitializeComponent();
             cn.Open();
             sqlCommand1.Connection = cn;
+
+            //-------- لتفعيل اختصار الزرار
+
+            this.KeyPreview = true;
+
+         //   this.KeyDown += Sales_KeyDown;
         }
 
         ZAD_Sales.ClassProject.InvoiceData CollectInvoiceData()
@@ -662,6 +861,49 @@ string PriceNesfAlgomla = "0";
                 reader.Close();
             }
         }
+
+        void InitDefaultSelections()
+        {
+
+            // Paper size
+            if (combPaperSize.Items.Contains(PaperSizePrint))
+            {
+
+                combPaperSize.Text =
+                PaperSizePrint;
+
+            }
+            else
+            {
+
+                combPaperSize.SelectedIndex = 0;
+
+                PaperSizePrint =
+                combPaperSize.Text;
+
+            }
+
+            // Printer
+            if (combPrinters.Items.Contains(
+            PrinterBill))
+            {
+
+                combPrinters.Text =
+                PrinterBill;
+
+            }
+            else
+            {
+
+                combPrinters.SelectedIndex = 0;
+
+                PrinterBill =
+                combPrinters.Text;
+
+            }
+
+        }
+
         private void Purchases_Load(object sender, EventArgs e)
         {
             imageLogoUrl = AppSetting.Comp_Logo;
@@ -672,6 +914,20 @@ string PriceNesfAlgomla = "0";
             NoteToBill = AppSetting.NoteToBill;
             Demo = AppSetting.DemoOnBill;
 
+            //---------- ايجاد الطابعه الافتراضية وحجم الورقة -----
+
+            SizePaperBill = AppSetting.SizePaperBill;
+
+            PaperSizePrint = AppSetting.SizePaperBill;
+
+            PrinterBill = AppSetting.PrinterBill;
+
+
+            LoadPaperSizes();
+
+            LoadPrinters();
+
+            InitDefaultSelections();
 
             GetProfitRate();
 
@@ -4763,7 +5019,7 @@ string PriceNesfAlgomla = "0";
 
         private void butPrintautoss_Click(object sender, EventArgs e)
         {
-
+            DirectPrint();
         }
 
         private void butClosePanel_Click(object sender, EventArgs e)
@@ -5007,6 +5263,27 @@ string PriceNesfAlgomla = "0";
 
                 panelprofitPercent.Visible = true;
             }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (panelSettings.Visible == true)
+            {
+                panelSettings.Visible = false;
+            }
+            else
+            {
+                panelSettings.Visible = true;
+
+
+            }
+        }
+
+        private void butUpdateSeting_Click(object sender, EventArgs e)
+        {
+            PaperSizePrint = combPaperSize.Text;
+
+            PrinterBill = combPrinters.Text;
         }
     }
 }

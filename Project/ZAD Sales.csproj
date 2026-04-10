@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppSetting.cs" />
+    <Compile Include="ClassProject\AppTheme.cs" />
     <Compile Include="ClassProject\ArabicNumberToWords.cs" />
     <Compile Include="ClassProject\ClassCloseLettering.cs" />
     <Compile Include="ClassProject\ClassInvoiceItem.cs" />
@@ -204,6 +205,12 @@
     </Compile>
     <Compile Include="Forms\Barcode.Designer.cs">
       <DependentUpon>Barcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\BoxMovement.cs">
       <SubType>Form</SubType>
@@ -719,6 +726,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Barcode.resx">
       <DependentUpon>Barcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BoxMovement.resx">
       <DependentUpon>BoxMovement.cs</DependentUpon>

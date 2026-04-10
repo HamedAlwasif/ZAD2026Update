@@ -74,7 +74,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.reportViewerCasher_6cm_Dis = new Microsoft.Reporting.WinForms.ReportViewer();
             this.reportViewerMain = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -378,7 +377,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
-            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label9);
@@ -709,15 +707,6 @@
             this.reportViewerMain.Size = new System.Drawing.Size(1057, 747);
             this.reportViewerMain.TabIndex = 67;
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(3, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(49, 33);
-            this.button3.TabIndex = 5547;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // Frm_ReportBill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -802,6 +791,5 @@
         private System.Windows.Forms.Button button1;
         public Microsoft.Reporting.WinForms.ReportViewer reportViewerCasher_6cm_Dis;
         public Microsoft.Reporting.WinForms.ReportViewer reportViewerMain;
-        private System.Windows.Forms.Button button3;
     }
 }

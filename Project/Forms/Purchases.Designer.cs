@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Purchases));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.chBoxDeletCat = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -282,6 +282,20 @@
             this.textMosadadActual = new System.Windows.Forms.TextBox();
             this.textNoteBill = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
+            this.panelSettings = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.butUpdateSeting = new System.Windows.Forms.Button();
+            this.label71 = new System.Windows.Forms.Label();
+            this.combPrinters = new System.Windows.Forms.ComboBox();
+            this.combPaperSize = new System.Windows.Forms.ComboBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.radioB_Factory = new System.Windows.Forms.RadioButton();
+            this.radioB_Program = new System.Windows.Forms.RadioButton();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.button15 = new System.Windows.Forms.Button();
             this.groupBox6.SuspendLayout();
             this.panelLastPrice.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridLastPrice)).BeginInit();
@@ -312,6 +326,9 @@
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelprofitPercent.SuspendLayout();
+            this.panelSettings.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox6
@@ -322,9 +339,9 @@
             this.groupBox6.Controls.Add(this.chBoxBarcode);
             this.groupBox6.ForeColor = System.Drawing.Color.Black;
             this.groupBox6.Location = new System.Drawing.Point(21, 694);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox6.Size = new System.Drawing.Size(403, 94);
             this.groupBox6.TabIndex = 7490;
@@ -336,7 +353,7 @@
             this.chBoxDeletCat.AutoSize = true;
             this.chBoxDeletCat.ForeColor = System.Drawing.Color.Purple;
             this.chBoxDeletCat.Location = new System.Drawing.Point(195, 63);
-            this.chBoxDeletCat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chBoxDeletCat.Margin = new System.Windows.Forms.Padding(4);
             this.chBoxDeletCat.Name = "chBoxDeletCat";
             this.chBoxDeletCat.Size = new System.Drawing.Size(137, 21);
             this.chBoxDeletCat.TabIndex = 1;
@@ -346,7 +363,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(11, 59);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(40, 25);
             this.button3.TabIndex = 7499;
@@ -358,7 +375,7 @@
             this.chBoxBarcode.AutoSize = true;
             this.chBoxBarcode.ForeColor = System.Drawing.Color.Purple;
             this.chBoxBarcode.Location = new System.Drawing.Point(228, 30);
-            this.chBoxBarcode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chBoxBarcode.Margin = new System.Windows.Forms.Padding(4);
             this.chBoxBarcode.Name = "chBoxBarcode";
             this.chBoxBarcode.Size = new System.Drawing.Size(105, 21);
             this.chBoxBarcode.TabIndex = 0;
@@ -371,7 +388,7 @@
             this.panelLastPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelLastPrice.Controls.Add(this.dataGridLastPrice);
             this.panelLastPrice.Location = new System.Drawing.Point(795, 271);
-            this.panelLastPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLastPrice.Margin = new System.Windows.Forms.Padding(4);
             this.panelLastPrice.Name = "panelLastPrice";
             this.panelLastPrice.Size = new System.Drawing.Size(461, 299);
             this.panelLastPrice.TabIndex = 7489;
@@ -383,13 +400,13 @@
             this.dataGridLastPrice.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridLastPrice.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridLastPrice.Location = new System.Drawing.Point(16, 18);
-            this.dataGridLastPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridLastPrice.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridLastPrice.Name = "dataGridLastPrice";
             this.dataGridLastPrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dataGridLastPrice.RowHeadersVisible = false;
             this.dataGridLastPrice.RowHeadersWidth = 51;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridLastPrice.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridLastPrice.RowsDefaultCellStyle = dataGridViewCellStyle43;
             this.dataGridLastPrice.Size = new System.Drawing.Size(428, 256);
             this.dataGridLastPrice.TabIndex = 5509;
             this.dataGridLastPrice.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridLastPrice_CellContentClick);
@@ -411,7 +428,7 @@
             this.PanalClintsDay.Controls.Add(this.label51);
             this.PanalClintsDay.Controls.Add(this.label50);
             this.PanalClintsDay.Location = new System.Drawing.Point(33, 53);
-            this.PanalClintsDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanalClintsDay.Margin = new System.Windows.Forms.Padding(4);
             this.PanalClintsDay.Name = "PanalClintsDay";
             this.PanalClintsDay.Size = new System.Drawing.Size(105, 68);
             this.PanalClintsDay.TabIndex = 7488;
@@ -425,7 +442,7 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.button11.Location = new System.Drawing.Point(17, 6);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button11.Margin = new System.Windows.Forms.Padding(4);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(33, 31);
             this.button11.TabIndex = 587;
@@ -437,7 +454,7 @@
             // 
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker2.Location = new System.Drawing.Point(253, 9);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dateTimePicker2.RightToLeftLayout = true;
@@ -448,7 +465,7 @@
             // 
             this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker5.Location = new System.Drawing.Point(57, 9);
-            this.dateTimePicker5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker5.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker5.Name = "dateTimePicker5";
             this.dateTimePicker5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dateTimePicker5.RightToLeftLayout = true;
@@ -479,7 +496,7 @@
             // 
             this.textNumBill.ForeColor = System.Drawing.Color.DarkCyan;
             this.textNumBill.Location = new System.Drawing.Point(728, 309);
-            this.textNumBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textNumBill.Margin = new System.Windows.Forms.Padding(4);
             this.textNumBill.Name = "textNumBill";
             this.textNumBill.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textNumBill.Size = new System.Drawing.Size(141, 22);
@@ -502,7 +519,7 @@
             // 
             this.textTotalTawred.ForeColor = System.Drawing.Color.Black;
             this.textTotalTawred.Location = new System.Drawing.Point(165, 311);
-            this.textTotalTawred.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTotalTawred.Margin = new System.Windows.Forms.Padding(4);
             this.textTotalTawred.Name = "textTotalTawred";
             this.textTotalTawred.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textTotalTawred.Size = new System.Drawing.Size(141, 22);
@@ -514,7 +531,7 @@
             // 
             this.textTotalBill.ForeColor = System.Drawing.Color.DarkCyan;
             this.textTotalBill.Location = new System.Drawing.Point(445, 309);
-            this.textTotalBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTotalBill.Margin = new System.Windows.Forms.Padding(4);
             this.textTotalBill.Name = "textTotalBill";
             this.textTotalBill.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textTotalBill.Size = new System.Drawing.Size(141, 22);
@@ -536,20 +553,20 @@
             this.remainingDataGridViewTextBoxColumn});
             this.dataGridClientsDay.DataSource = this.classBillDaySheraaBindingSource;
             this.dataGridClientsDay.Location = new System.Drawing.Point(17, 33);
-            this.dataGridClientsDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridClientsDay.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridClientsDay.Name = "dataGridClientsDay";
             this.dataGridClientsDay.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridClientsDay.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridClientsDay.RowHeadersDefaultCellStyle = dataGridViewCellStyle44;
             this.dataGridClientsDay.RowHeadersWidth = 51;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridClientsDay.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridClientsDay.RowsDefaultCellStyle = dataGridViewCellStyle45;
             this.dataGridClientsDay.Size = new System.Drawing.Size(973, 271);
             this.dataGridClientsDay.TabIndex = 0;
             this.dataGridClientsDay.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridClientsDay_CellDoubleClick);
@@ -634,7 +651,7 @@
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button34.ForeColor = System.Drawing.Color.White;
             this.button34.Location = new System.Drawing.Point(163, 63);
-            this.button34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button34.Margin = new System.Windows.Forms.Padding(4);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(32, 28);
             this.button34.TabIndex = 7486;
@@ -665,7 +682,7 @@
             this.panel5.Controls.Add(this.label8);
             this.panel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(210)))), ((int)(((byte)(211)))));
             this.panel5.Location = new System.Drawing.Point(16, 14);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1877, 48);
             this.panel5.TabIndex = 7487;
@@ -679,7 +696,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(250)))));
             this.button5.Location = new System.Drawing.Point(1477, 12);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(27, 25);
             this.button5.TabIndex = 7496;
@@ -722,7 +739,7 @@
             "نقدى",
             "آجل"});
             this.comTypeBill.Location = new System.Drawing.Point(937, 12);
-            this.comTypeBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comTypeBill.Margin = new System.Windows.Forms.Padding(4);
             this.comTypeBill.Name = "comTypeBill";
             this.comTypeBill.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.comTypeBill.Size = new System.Drawing.Size(77, 24);
@@ -771,7 +788,7 @@
             this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(1084, 12);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dateTimePicker1.RightToLeftLayout = true;
@@ -785,7 +802,7 @@
             this.combStorage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combStorage.FormattingEnabled = true;
             this.combStorage.Location = new System.Drawing.Point(1281, 12);
-            this.combStorage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.combStorage.Margin = new System.Windows.Forms.Padding(4);
             this.combStorage.Name = "combStorage";
             this.combStorage.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.combStorage.Size = new System.Drawing.Size(133, 24);
@@ -800,7 +817,7 @@
             this.comClient.DisplayMember = "Name";
             this.comClient.FormattingEnabled = true;
             this.comClient.Location = new System.Drawing.Point(1516, 12);
-            this.comClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comClient.Margin = new System.Windows.Forms.Padding(4);
             this.comClient.Name = "comClient";
             this.comClient.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.comClient.Size = new System.Drawing.Size(289, 24);
@@ -826,7 +843,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(21, 9);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(104, 28);
             this.button7.TabIndex = 560;
@@ -839,7 +856,7 @@
             this.textBillingDataNumBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBillingDataNumBill.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBillingDataNumBill.Location = new System.Drawing.Point(501, 12);
-            this.textBillingDataNumBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBillingDataNumBill.Margin = new System.Windows.Forms.Padding(4);
             this.textBillingDataNumBill.Name = "textBillingDataNumBill";
             this.textBillingDataNumBill.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBillingDataNumBill.Size = new System.Drawing.Size(117, 24);
@@ -852,7 +869,7 @@
             this.textBillingData1NumBill.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBillingData1NumBill.ForeColor = System.Drawing.Color.Blue;
             this.textBillingData1NumBill.Location = new System.Drawing.Point(711, 12);
-            this.textBillingData1NumBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBillingData1NumBill.Margin = new System.Windows.Forms.Padding(4);
             this.textBillingData1NumBill.Name = "textBillingData1NumBill";
             this.textBillingData1NumBill.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBillingData1NumBill.Size = new System.Drawing.Size(117, 24);
@@ -874,7 +891,7 @@
             // textUser
             // 
             this.textUser.Location = new System.Drawing.Point(189, -9);
-            this.textUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textUser.Margin = new System.Windows.Forms.Padding(4);
             this.textUser.Name = "textUser";
             this.textUser.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textUser.Size = new System.Drawing.Size(117, 22);
@@ -900,7 +917,7 @@
             this.butPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butPrint.ForeColor = System.Drawing.Color.White;
             this.butPrint.Location = new System.Drawing.Point(203, 63);
-            this.butPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butPrint.Margin = new System.Windows.Forms.Padding(4);
             this.butPrint.Name = "butPrint";
             this.butPrint.Size = new System.Drawing.Size(32, 28);
             this.butPrint.TabIndex = 7485;
@@ -915,7 +932,7 @@
             this.butClientDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butClientDay.ForeColor = System.Drawing.Color.White;
             this.butClientDay.Location = new System.Drawing.Point(228, 65);
-            this.butClientDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butClientDay.Margin = new System.Windows.Forms.Padding(4);
             this.butClientDay.Name = "butClientDay";
             this.butClientDay.Size = new System.Drawing.Size(40, 28);
             this.butClientDay.TabIndex = 7484;
@@ -937,7 +954,7 @@
             // textIDCategory
             // 
             this.textIDCategory.Location = new System.Drawing.Point(56, 11);
-            this.textIDCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textIDCategory.Margin = new System.Windows.Forms.Padding(4);
             this.textIDCategory.Name = "textIDCategory";
             this.textIDCategory.Size = new System.Drawing.Size(68, 22);
             this.textIDCategory.TabIndex = 7496;
@@ -950,7 +967,7 @@
             this.butAddProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butAddProduct.ForeColor = System.Drawing.Color.White;
             this.butAddProduct.Location = new System.Drawing.Point(17, 393);
-            this.butAddProduct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butAddProduct.Margin = new System.Windows.Forms.Padding(4);
             this.butAddProduct.Name = "butAddProduct";
             this.butAddProduct.Size = new System.Drawing.Size(371, 28);
             this.butAddProduct.TabIndex = 13;
@@ -961,7 +978,7 @@
             // textBoxtextBarcode
             // 
             this.textBoxtextBarcode.Location = new System.Drawing.Point(171, 11);
-            this.textBoxtextBarcode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxtextBarcode.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxtextBarcode.Name = "textBoxtextBarcode";
             this.textBoxtextBarcode.ReadOnly = true;
             this.textBoxtextBarcode.Size = new System.Drawing.Size(145, 22);
@@ -984,7 +1001,7 @@
             this.butLastPriceBilling1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butLastPriceBilling1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(133)))), ((int)(((byte)(0)))));
             this.butLastPriceBilling1.Location = new System.Drawing.Point(125, 154);
-            this.butLastPriceBilling1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butLastPriceBilling1.Margin = new System.Windows.Forms.Padding(4);
             this.butLastPriceBilling1.Name = "butLastPriceBilling1";
             this.butLastPriceBilling1.Size = new System.Drawing.Size(32, 17);
             this.butLastPriceBilling1.TabIndex = 7479;
@@ -998,7 +1015,7 @@
             this.butLastPriceBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butLastPriceBilling.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.butLastPriceBilling.Location = new System.Drawing.Point(24, 150);
-            this.butLastPriceBilling.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butLastPriceBilling.Margin = new System.Windows.Forms.Padding(4);
             this.butLastPriceBilling.Name = "butLastPriceBilling";
             this.butLastPriceBilling.Size = new System.Drawing.Size(32, 17);
             this.butLastPriceBilling.TabIndex = 7478;
@@ -1012,7 +1029,7 @@
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Location = new System.Drawing.Point(261, 357);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(89, 21);
             this.checkBox1.TabIndex = 552;
@@ -1037,7 +1054,7 @@
             this.txtTotalProduct.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalProduct.ForeColor = System.Drawing.Color.Black;
             this.txtTotalProduct.Location = new System.Drawing.Point(184, 298);
-            this.txtTotalProduct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalProduct.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalProduct.Name = "txtTotalProduct";
             this.txtTotalProduct.Size = new System.Drawing.Size(99, 24);
             this.txtTotalProduct.TabIndex = 525;
@@ -1073,7 +1090,7 @@
             this.butAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butAdd.ForeColor = System.Drawing.Color.White;
             this.butAdd.Location = new System.Drawing.Point(8, 261);
-            this.butAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butAdd.Margin = new System.Windows.Forms.Padding(4);
             this.butAdd.Name = "butAdd";
             this.butAdd.Size = new System.Drawing.Size(43, 28);
             this.butAdd.TabIndex = 13;
@@ -1085,7 +1102,7 @@
             // textBox58
             // 
             this.textBox58.Location = new System.Drawing.Point(125, 113);
-            this.textBox58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox58.Margin = new System.Windows.Forms.Padding(4);
             this.textBox58.Name = "textBox58";
             this.textBox58.Size = new System.Drawing.Size(40, 22);
             this.textBox58.TabIndex = 2161;
@@ -1099,7 +1116,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(224, 353);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(27, 28);
             this.button4.TabIndex = 558;
@@ -1111,7 +1128,7 @@
             // textBox57
             // 
             this.textBox57.Location = new System.Drawing.Point(125, 79);
-            this.textBox57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox57.Margin = new System.Windows.Forms.Padding(4);
             this.textBox57.Name = "textBox57";
             this.textBox57.Size = new System.Drawing.Size(40, 22);
             this.textBox57.TabIndex = 2160;
@@ -1134,7 +1151,7 @@
             // 
             this.textBox60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.textBox60.Location = new System.Drawing.Point(184, 261);
-            this.textBox60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox60.Margin = new System.Windows.Forms.Padding(4);
             this.textBox60.Name = "textBox60";
             this.textBox60.Size = new System.Drawing.Size(99, 22);
             this.textBox60.TabIndex = 12;
@@ -1156,7 +1173,7 @@
             // textBox59
             // 
             this.textBox59.Location = new System.Drawing.Point(91, 261);
-            this.textBox59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox59.Margin = new System.Windows.Forms.Padding(4);
             this.textBox59.Name = "textBox59";
             this.textBox59.Size = new System.Drawing.Size(60, 22);
             this.textBox59.TabIndex = 2157;
@@ -1202,7 +1219,7 @@
             this.textPriceKatey.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceKatey.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.textPriceKatey.Location = new System.Drawing.Point(184, 225);
-            this.textPriceKatey.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceKatey.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceKatey.Name = "textPriceKatey";
             this.textPriceKatey.Size = new System.Drawing.Size(99, 24);
             this.textPriceKatey.TabIndex = 11;
@@ -1216,7 +1233,7 @@
             this.textPriceGomla.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceGomla.ForeColor = System.Drawing.Color.Green;
             this.textPriceGomla.Location = new System.Drawing.Point(184, 190);
-            this.textPriceGomla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceGomla.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceGomla.Name = "textPriceGomla";
             this.textPriceGomla.Size = new System.Drawing.Size(99, 24);
             this.textPriceGomla.TabIndex = 10;
@@ -1235,7 +1252,7 @@
             "لفه",
             "علبه"});
             this.comboBox7.Location = new System.Drawing.Point(24, 113);
-            this.comboBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox7.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(48, 24);
             this.comboBox7.TabIndex = 7;
@@ -1251,7 +1268,7 @@
             "طقم",
             "لفه"});
             this.ComTypeCategorey.Location = new System.Drawing.Point(171, 79);
-            this.ComTypeCategorey.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ComTypeCategorey.Margin = new System.Windows.Forms.Padding(4);
             this.ComTypeCategorey.Name = "ComTypeCategorey";
             this.ComTypeCategorey.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ComTypeCategorey.Size = new System.Drawing.Size(145, 24);
@@ -1287,7 +1304,7 @@
             this.textQuantetyShera.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textQuantetyShera.ForeColor = System.Drawing.Color.Teal;
             this.textQuantetyShera.Location = new System.Drawing.Point(171, 113);
-            this.textQuantetyShera.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textQuantetyShera.Margin = new System.Windows.Forms.Padding(4);
             this.textQuantetyShera.Name = "textQuantetyShera";
             this.textQuantetyShera.Size = new System.Drawing.Size(145, 24);
             this.textQuantetyShera.TabIndex = 8;
@@ -1303,7 +1320,7 @@
             this.combCategorys.DisplayMember = "Category";
             this.combCategorys.FormattingEnabled = true;
             this.combCategorys.Location = new System.Drawing.Point(56, 44);
-            this.combCategorys.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.combCategorys.Margin = new System.Windows.Forms.Padding(4);
             this.combCategorys.Name = "combCategorys";
             this.combCategorys.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.combCategorys.Size = new System.Drawing.Size(260, 24);
@@ -1326,7 +1343,7 @@
             this.textUnit.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textUnit.ForeColor = System.Drawing.Color.Purple;
             this.textUnit.Location = new System.Drawing.Point(25, 78);
-            this.textUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textUnit.Margin = new System.Windows.Forms.Padding(4);
             this.textUnit.Name = "textUnit";
             this.textUnit.Size = new System.Drawing.Size(47, 24);
             this.textUnit.TabIndex = 6;
@@ -1359,7 +1376,7 @@
             this.textPriceSheraa.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceSheraa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.textPriceSheraa.Location = new System.Drawing.Point(184, 154);
-            this.textPriceSheraa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceSheraa.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceSheraa.Name = "textPriceSheraa";
             this.textPriceSheraa.Size = new System.Drawing.Size(99, 24);
             this.textPriceSheraa.TabIndex = 9;
@@ -1373,7 +1390,7 @@
             this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Location = new System.Drawing.Point(16, 332);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(374, 3);
             this.panel1.TabIndex = 12;
@@ -1396,6 +1413,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.panelSettings);
+            this.panel4.Controls.Add(this.button15);
             this.panel4.Controls.Add(this.butUP);
             this.panel4.Controls.Add(this.butDown);
             this.panel4.Controls.Add(this.panel11);
@@ -1421,7 +1440,7 @@
             this.panel4.Controls.Add(this.dataGridView2);
             this.panel4.Controls.Add(this.label20);
             this.panel4.Location = new System.Drawing.Point(16, 70);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1402, 801);
             this.panel4.TabIndex = 7483;
@@ -1435,7 +1454,7 @@
             this.butUP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butUP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
             this.butUP.Location = new System.Drawing.Point(-3, 214);
-            this.butUP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butUP.Margin = new System.Windows.Forms.Padding(4);
             this.butUP.Name = "butUP";
             this.butUP.Size = new System.Drawing.Size(35, 31);
             this.butUP.TabIndex = 7508;
@@ -1449,7 +1468,7 @@
             this.butDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butDown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
             this.butDown.Location = new System.Drawing.Point(-3, 254);
-            this.butDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDown.Margin = new System.Windows.Forms.Padding(4);
             this.butDown.Name = "butDown";
             this.butDown.Size = new System.Drawing.Size(35, 31);
             this.butDown.TabIndex = 7509;
@@ -1475,7 +1494,7 @@
             this.panel11.Controls.Add(this.txtMosadad);
             this.panel11.Controls.Add(this.txtRemainingNow);
             this.panel11.Location = new System.Drawing.Point(33, 746);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(1333, 39);
             this.panel11.TabIndex = 7507;
@@ -1484,7 +1503,7 @@
             // 
             this.TxtNumQuentity.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNumQuentity.Location = new System.Drawing.Point(175, 5);
-            this.TxtNumQuentity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNumQuentity.Margin = new System.Windows.Forms.Padding(4);
             this.TxtNumQuentity.Name = "TxtNumQuentity";
             this.TxtNumQuentity.ReadOnly = true;
             this.TxtNumQuentity.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1507,7 +1526,7 @@
             // 
             this.TxtNumCategorey.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNumCategorey.Location = new System.Drawing.Point(12, 5);
-            this.TxtNumCategorey.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNumCategorey.Margin = new System.Windows.Forms.Padding(4);
             this.TxtNumCategorey.Name = "TxtNumCategorey";
             this.TxtNumCategorey.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.TxtNumCategorey.Size = new System.Drawing.Size(67, 24);
@@ -1521,7 +1540,7 @@
             this.txtRemaningOld.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRemaningOld.ForeColor = System.Drawing.Color.Blue;
             this.txtRemaningOld.Location = new System.Drawing.Point(905, 6);
-            this.txtRemaningOld.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRemaningOld.Margin = new System.Windows.Forms.Padding(4);
             this.txtRemaningOld.Name = "txtRemaningOld";
             this.txtRemaningOld.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtRemaningOld.Size = new System.Drawing.Size(128, 24);
@@ -1583,7 +1602,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(485, 5);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(71, 28);
             this.button1.TabIndex = 7480;
@@ -1597,7 +1616,7 @@
             this.txtTotalBill.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalBill.ForeColor = System.Drawing.Color.Purple;
             this.txtTotalBill.Location = new System.Drawing.Point(1103, 6);
-            this.txtTotalBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalBill.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalBill.Name = "txtTotalBill";
             this.txtTotalBill.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtTotalBill.Size = new System.Drawing.Size(128, 24);
@@ -1610,7 +1629,7 @@
             this.txtDic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDic.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDic.Location = new System.Drawing.Point(765, 6);
-            this.txtDic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDic.Margin = new System.Windows.Forms.Padding(4);
             this.txtDic.Name = "txtDic";
             this.txtDic.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtDic.Size = new System.Drawing.Size(87, 24);
@@ -1633,7 +1652,7 @@
             this.txtMosadad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMosadad.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMosadad.Location = new System.Drawing.Point(565, 6);
-            this.txtMosadad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMosadad.Margin = new System.Windows.Forms.Padding(4);
             this.txtMosadad.Name = "txtMosadad";
             this.txtMosadad.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtMosadad.Size = new System.Drawing.Size(132, 24);
@@ -1648,7 +1667,7 @@
             this.txtRemainingNow.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRemainingNow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtRemainingNow.Location = new System.Drawing.Point(340, 6);
-            this.txtRemainingNow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRemainingNow.Margin = new System.Windows.Forms.Padding(4);
             this.txtRemainingNow.Name = "txtRemainingNow";
             this.txtRemainingNow.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtRemainingNow.Size = new System.Drawing.Size(137, 24);
@@ -1665,7 +1684,7 @@
             this.panelProfits.Controls.Add(this.label58);
             this.panelProfits.Controls.Add(this.textTotalSheraa);
             this.panelProfits.Location = new System.Drawing.Point(33, 172);
-            this.panelProfits.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelProfits.Margin = new System.Windows.Forms.Padding(4);
             this.panelProfits.Name = "panelProfits";
             this.panelProfits.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.panelProfits.Size = new System.Drawing.Size(285, 123);
@@ -1699,7 +1718,7 @@
             this.textTotalProfit.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTotalProfit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.textTotalProfit.Location = new System.Drawing.Point(25, 85);
-            this.textTotalProfit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTotalProfit.Margin = new System.Windows.Forms.Padding(4);
             this.textTotalProfit.Name = "textTotalProfit";
             this.textTotalProfit.Size = new System.Drawing.Size(132, 24);
             this.textTotalProfit.TabIndex = 13;
@@ -1711,7 +1730,7 @@
             this.textTotalBeaa.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTotalBeaa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.textTotalBeaa.Location = new System.Drawing.Point(25, 50);
-            this.textTotalBeaa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTotalBeaa.Margin = new System.Windows.Forms.Padding(4);
             this.textTotalBeaa.Name = "textTotalBeaa";
             this.textTotalBeaa.Size = new System.Drawing.Size(132, 24);
             this.textTotalBeaa.TabIndex = 16;
@@ -1734,7 +1753,7 @@
             this.textTotalSheraa.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTotalSheraa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.textTotalSheraa.Location = new System.Drawing.Point(25, 16);
-            this.textTotalSheraa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTotalSheraa.Margin = new System.Windows.Forms.Padding(4);
             this.textTotalSheraa.Name = "textTotalSheraa";
             this.textTotalSheraa.Size = new System.Drawing.Size(132, 24);
             this.textTotalSheraa.TabIndex = 15;
@@ -1748,7 +1767,7 @@
             this.butProfit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butProfit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
             this.butProfit.Location = new System.Drawing.Point(-3, 172);
-            this.butProfit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butProfit.Margin = new System.Windows.Forms.Padding(4);
             this.butProfit.Name = "butProfit";
             this.butProfit.Size = new System.Drawing.Size(35, 31);
             this.butProfit.TabIndex = 7503;
@@ -1761,7 +1780,7 @@
             this.panel6.Controls.Add(this.dataGridView1);
             this.panel6.Controls.Add(this.label40);
             this.panel6.Location = new System.Drawing.Point(671, 59);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.panel6.Size = new System.Drawing.Size(384, 143);
@@ -1770,47 +1789,47 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle50;
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle51.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle51.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle51.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle51;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.numBillDataGridViewTextBoxColumn1,
             this.dateDataGridViewTextBoxColumn,
             this.totalBillBuyDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.classBillsClintBindingSource;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle52.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle52.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle52.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle52;
             this.dataGridView1.Location = new System.Drawing.Point(9, 7);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle53.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle53.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle53;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle54;
             this.dataGridView1.Size = new System.Drawing.Size(380, 465);
             this.dataGridView1.TabIndex = 1;
             // 
@@ -1862,7 +1881,7 @@
             this.panel10.Controls.Add(this.textSearchClint);
             this.panel10.Controls.Add(this.dataGridSearchClint);
             this.panel10.Location = new System.Drawing.Point(1033, 68);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(245, 62);
             this.panel10.TabIndex = 7500;
@@ -1891,7 +1910,7 @@
             // textSearchClintMobil
             // 
             this.textSearchClintMobil.Location = new System.Drawing.Point(21, 22);
-            this.textSearchClintMobil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSearchClintMobil.Margin = new System.Windows.Forms.Padding(4);
             this.textSearchClintMobil.Name = "textSearchClintMobil";
             this.textSearchClintMobil.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textSearchClintMobil.Size = new System.Drawing.Size(221, 22);
@@ -1901,7 +1920,7 @@
             // textSearchClint
             // 
             this.textSearchClint.Location = new System.Drawing.Point(481, 22);
-            this.textSearchClint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSearchClint.Margin = new System.Windows.Forms.Padding(4);
             this.textSearchClint.Name = "textSearchClint";
             this.textSearchClint.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textSearchClint.Size = new System.Drawing.Size(417, 22);
@@ -1923,7 +1942,7 @@
             this.previousBalanceDataGridViewTextBoxColumn});
             this.dataGridSearchClint.DataSource = this.classGetAllClintesBindingSource;
             this.dataGridSearchClint.Location = new System.Drawing.Point(15, 58);
-            this.dataGridSearchClint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridSearchClint.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridSearchClint.Name = "dataGridSearchClint";
             this.dataGridSearchClint.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dataGridSearchClint.RowHeadersWidth = 51;
@@ -1999,7 +2018,7 @@
             this.butBarcode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butBarcode.ForeColor = System.Drawing.Color.White;
             this.butBarcode.Location = new System.Drawing.Point(81, 10);
-            this.butBarcode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butBarcode.Margin = new System.Windows.Forms.Padding(4);
             this.butBarcode.Name = "butBarcode";
             this.butBarcode.Size = new System.Drawing.Size(47, 37);
             this.butBarcode.TabIndex = 7495;
@@ -2014,7 +2033,7 @@
             this.butAllBillng.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butAllBillng.ForeColor = System.Drawing.Color.White;
             this.butAllBillng.Location = new System.Drawing.Point(25, 10);
-            this.butAllBillng.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butAllBillng.Margin = new System.Windows.Forms.Padding(4);
             this.butAllBillng.Name = "butAllBillng";
             this.butAllBillng.Size = new System.Drawing.Size(47, 37);
             this.butAllBillng.TabIndex = 7496;
@@ -2030,7 +2049,7 @@
             this.butClientDays.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butClientDays.ForeColor = System.Drawing.Color.White;
             this.butClientDays.Location = new System.Drawing.Point(353, 10);
-            this.butClientDays.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butClientDays.Margin = new System.Windows.Forms.Padding(4);
             this.butClientDays.Name = "butClientDays";
             this.butClientDays.Size = new System.Drawing.Size(43, 37);
             this.butClientDays.TabIndex = 7497;
@@ -2040,7 +2059,7 @@
             // textBox43
             // 
             this.textBox43.Location = new System.Drawing.Point(553, 17);
-            this.textBox43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox43.Margin = new System.Windows.Forms.Padding(4);
             this.textBox43.Name = "textBox43";
             this.textBox43.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox43.Size = new System.Drawing.Size(101, 22);
@@ -2056,7 +2075,7 @@
             this.butPrinting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butPrinting.ForeColor = System.Drawing.Color.White;
             this.butPrinting.Location = new System.Drawing.Point(301, 10);
-            this.butPrinting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butPrinting.Margin = new System.Windows.Forms.Padding(4);
             this.butPrinting.Name = "butPrinting";
             this.butPrinting.Size = new System.Drawing.Size(43, 37);
             this.butPrinting.TabIndex = 7498;
@@ -2071,7 +2090,7 @@
             this.panel8.Controls.Add(this.butAddDataToBill);
             this.panel8.Controls.Add(this.butImportExcel);
             this.panel8.Location = new System.Drawing.Point(81, 126);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(959, 597);
             this.panel8.TabIndex = 7499;
@@ -2094,14 +2113,14 @@
             this.dataGridView3.AllowUserToOrderColumns = true;
             this.dataGridView3.AutoGenerateColumns = false;
             this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle55.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle55.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle55.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle55.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle55;
             this.dataGridView3.ColumnHeadersHeight = 29;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -2115,35 +2134,35 @@
             this.Gomla,
             this.Kataee});
             this.dataGridView3.DataSource = this.classCategoreysBillSheraaBindingSource;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle60.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle60.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle60.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle60;
             this.dataGridView3.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridView3.Location = new System.Drawing.Point(13, 52);
-            this.dataGridView3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.LightYellow;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle61.BackColor = System.Drawing.Color.LightYellow;
+            dataGridViewCellStyle61.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle61.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle61.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle61;
             this.dataGridView3.RowHeadersWidth = 51;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle62.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle62.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle62;
             this.dataGridView3.Size = new System.Drawing.Size(1224, 527);
             this.dataGridView3.TabIndex = 7502;
             // 
@@ -2190,9 +2209,9 @@
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "Price";
-            dataGridViewCellStyle10.Format = "N2";
-            dataGridViewCellStyle10.NullValue = null;
-            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle56.Format = "N2";
+            dataGridViewCellStyle56.NullValue = null;
+            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle56;
             this.dataGridViewTextBoxColumn6.HeaderText = "السعر";
             this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
@@ -2209,9 +2228,9 @@
             // dataGridViewTextBoxColumn8
             // 
             this.dataGridViewTextBoxColumn8.DataPropertyName = "Total";
-            dataGridViewCellStyle11.Format = "N1";
-            dataGridViewCellStyle11.NullValue = null;
-            this.dataGridViewTextBoxColumn8.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle57.Format = "N1";
+            dataGridViewCellStyle57.NullValue = null;
+            this.dataGridViewTextBoxColumn8.DefaultCellStyle = dataGridViewCellStyle57;
             this.dataGridViewTextBoxColumn8.HeaderText = "الاجمالى";
             this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
@@ -2220,9 +2239,9 @@
             // Gomla
             // 
             this.Gomla.DataPropertyName = "Gomla";
-            dataGridViewCellStyle12.Format = "N1";
-            dataGridViewCellStyle12.NullValue = null;
-            this.Gomla.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle58.Format = "N1";
+            dataGridViewCellStyle58.NullValue = null;
+            this.Gomla.DefaultCellStyle = dataGridViewCellStyle58;
             this.Gomla.HeaderText = "الجمله";
             this.Gomla.MinimumWidth = 6;
             this.Gomla.Name = "Gomla";
@@ -2231,9 +2250,9 @@
             // Kataee
             // 
             this.Kataee.DataPropertyName = "Kataee";
-            dataGridViewCellStyle13.Format = "N1";
-            dataGridViewCellStyle13.NullValue = null;
-            this.Kataee.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle59.Format = "N1";
+            dataGridViewCellStyle59.NullValue = null;
+            this.Kataee.DefaultCellStyle = dataGridViewCellStyle59;
             this.Kataee.HeaderText = "القطاعى";
             this.Kataee.MinimumWidth = 6;
             this.Kataee.Name = "Kataee";
@@ -2246,7 +2265,7 @@
             // butAddDataToBill
             // 
             this.butAddDataToBill.Location = new System.Drawing.Point(20, 18);
-            this.butAddDataToBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butAddDataToBill.Margin = new System.Windows.Forms.Padding(4);
             this.butAddDataToBill.Name = "butAddDataToBill";
             this.butAddDataToBill.Size = new System.Drawing.Size(137, 28);
             this.butAddDataToBill.TabIndex = 7498;
@@ -2257,7 +2276,7 @@
             // butImportExcel
             // 
             this.butImportExcel.Location = new System.Drawing.Point(165, 17);
-            this.butImportExcel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butImportExcel.Margin = new System.Windows.Forms.Padding(4);
             this.butImportExcel.Name = "butImportExcel";
             this.butImportExcel.Size = new System.Drawing.Size(155, 28);
             this.butImportExcel.TabIndex = 7497;
@@ -2274,7 +2293,7 @@
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.dataGridSearchCategory);
             this.panel2.Location = new System.Drawing.Point(749, 158);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(529, 468);
             this.panel2.TabIndex = 7494;
@@ -2290,7 +2309,7 @@
             this.dataGridViewTextBoxColumn12});
             this.dataGridViewClientsCategory.DataSource = this.classGetAllCategryBindingSource;
             this.dataGridViewClientsCategory.Location = new System.Drawing.Point(23, 55);
-            this.dataGridViewClientsCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewClientsCategory.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewClientsCategory.Name = "dataGridViewClientsCategory";
             this.dataGridViewClientsCategory.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dataGridViewClientsCategory.RowHeadersWidth = 51;
@@ -2310,8 +2329,8 @@
             // dataGridViewTextBoxColumn12
             // 
             this.dataGridViewTextBoxColumn12.DataPropertyName = "Total";
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn12.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn12.DefaultCellStyle = dataGridViewCellStyle63;
             this.dataGridViewTextBoxColumn12.HeaderText = "الاجمالى";
             this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
@@ -2325,7 +2344,7 @@
             // 
             this.radio_GetAllCategry_Quntety.AutoSize = true;
             this.radio_GetAllCategry_Quntety.Location = new System.Drawing.Point(479, 489);
-            this.radio_GetAllCategry_Quntety.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radio_GetAllCategry_Quntety.Margin = new System.Windows.Forms.Padding(4);
             this.radio_GetAllCategry_Quntety.Name = "radio_GetAllCategry_Quntety";
             this.radio_GetAllCategry_Quntety.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.radio_GetAllCategry_Quntety.Size = new System.Drawing.Size(177, 21);
@@ -2340,7 +2359,7 @@
             this.radio_GetAllCategry.AutoSize = true;
             this.radio_GetAllCategry.Checked = true;
             this.radio_GetAllCategry.Location = new System.Drawing.Point(728, 487);
-            this.radio_GetAllCategry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radio_GetAllCategry.Margin = new System.Windows.Forms.Padding(4);
             this.radio_GetAllCategry.Name = "radio_GetAllCategry";
             this.radio_GetAllCategry.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.radio_GetAllCategry.Size = new System.Drawing.Size(95, 21);
@@ -2354,7 +2373,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(335, 18);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox2.Size = new System.Drawing.Size(512, 22);
@@ -2374,7 +2393,7 @@
             this.priceMostahlekDataGridViewTextBoxColumn});
             this.dataGridSearchCategory.DataSource = this.classGetAllCategryBindingSource;
             this.dataGridSearchCategory.Location = new System.Drawing.Point(25, 58);
-            this.dataGridSearchCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridSearchCategory.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridSearchCategory.Name = "dataGridSearchCategory";
             this.dataGridSearchCategory.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dataGridSearchCategory.RowHeadersWidth = 51;
@@ -2431,7 +2450,7 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Location = new System.Drawing.Point(137, 10);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button12.Margin = new System.Windows.Forms.Padding(4);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(47, 37);
             this.button12.TabIndex = 7499;
@@ -2445,7 +2464,7 @@
             this.butPrintautoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butPrintautoss.ForeColor = System.Drawing.Color.White;
             this.butPrintautoss.Location = new System.Drawing.Point(249, 10);
-            this.butPrintautoss.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butPrintautoss.Margin = new System.Windows.Forms.Padding(4);
             this.butPrintautoss.Name = "butPrintautoss";
             this.butPrintautoss.Size = new System.Drawing.Size(43, 37);
             this.butPrintautoss.TabIndex = 7500;
@@ -2460,7 +2479,7 @@
             this.butDeleteBilling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butDeleteBilling.ForeColor = System.Drawing.Color.White;
             this.butDeleteBilling.Location = new System.Drawing.Point(193, 10);
-            this.butDeleteBilling.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDeleteBilling.Margin = new System.Windows.Forms.Padding(4);
             this.butDeleteBilling.Name = "butDeleteBilling";
             this.butDeleteBilling.Size = new System.Drawing.Size(47, 37);
             this.butDeleteBilling.TabIndex = 7501;
@@ -2472,7 +2491,7 @@
             this.txtClintName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtClintName.Enabled = false;
             this.txtClintName.Location = new System.Drawing.Point(915, 16);
-            this.txtClintName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtClintName.Margin = new System.Windows.Forms.Padding(4);
             this.txtClintName.Name = "txtClintName";
             this.txtClintName.Size = new System.Drawing.Size(251, 22);
             this.txtClintName.TabIndex = 379;
@@ -2483,7 +2502,7 @@
             this.textClintID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textClintID.Enabled = false;
             this.textClintID.Location = new System.Drawing.Point(1229, 16);
-            this.textClintID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textClintID.Margin = new System.Windows.Forms.Padding(4);
             this.textClintID.Name = "textClintID";
             this.textClintID.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textClintID.Size = new System.Drawing.Size(80, 22);
@@ -2510,14 +2529,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView2.AutoGenerateColumns = false;
             this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle46.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
             this.dataGridView2.ColumnHeadersHeight = 29;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.numDataGridViewTextBoxColumn,
@@ -2529,35 +2548,35 @@
             this.discountDataGridViewTextBoxColumn,
             this.totalDataGridViewTextBoxColumn});
             this.dataGridView2.DataSource = this.classCategoreysBillSheraaBindingSource;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle47.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle47.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle47.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle47;
             this.dataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridView2.Location = new System.Drawing.Point(33, 53);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.LightYellow;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle48.BackColor = System.Drawing.Color.LightYellow;
+            dataGridViewCellStyle48.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle48;
             this.dataGridView2.RowHeadersWidth = 51;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle49.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle49.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle49.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle49;
             this.dataGridView2.Size = new System.Drawing.Size(1335, 683);
             this.dataGridView2.TabIndex = 254;
             this.dataGridView2.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellDoubleClick);
@@ -2643,7 +2662,7 @@
             // 
             this.textBox3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(183, 17);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox3.Size = new System.Drawing.Size(137, 24);
@@ -2693,7 +2712,7 @@
             // textBox38
             // 
             this.textBox38.Location = new System.Drawing.Point(-9, 12);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox38.Margin = new System.Windows.Forms.Padding(4);
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(25, 22);
             this.textBox38.TabIndex = 7475;
@@ -2705,7 +2724,7 @@
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.ForeColor = System.Drawing.Color.White;
             this.button19.Location = new System.Drawing.Point(-8, 116);
-            this.button19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button19.Margin = new System.Windows.Forms.Padding(4);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(25, 26);
             this.button19.TabIndex = 599;
@@ -2719,7 +2738,7 @@
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.ForeColor = System.Drawing.Color.White;
             this.button17.Location = new System.Drawing.Point(-11, 80);
-            this.button17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button17.Margin = new System.Windows.Forms.Padding(4);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(28, 28);
             this.button17.TabIndex = 599;
@@ -2734,7 +2753,7 @@
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Location = new System.Drawing.Point(-11, 44);
-            this.button18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button18.Margin = new System.Windows.Forms.Padding(4);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(28, 28);
             this.button18.TabIndex = 600;
@@ -2751,7 +2770,7 @@
             this.textMoveBill.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textMoveBill.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.textMoveBill.Location = new System.Drawing.Point(1784, -4);
-            this.textMoveBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textMoveBill.Margin = new System.Windows.Forms.Padding(4);
             this.textMoveBill.Name = "textMoveBill";
             this.textMoveBill.Size = new System.Drawing.Size(53, 27);
             this.textMoveBill.TabIndex = 5512;
@@ -2770,9 +2789,9 @@
             this.groupBox5.Controls.Add(this.textTotalQuantety);
             this.groupBox5.ForeColor = System.Drawing.Color.Black;
             this.groupBox5.Location = new System.Drawing.Point(25, 484);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox5.Size = new System.Drawing.Size(405, 132);
             this.groupBox5.TabIndex = 7482;
@@ -2805,7 +2824,7 @@
             // 
             this.textQuntetyTagzea.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textQuntetyTagzea.Location = new System.Drawing.Point(24, 25);
-            this.textQuntetyTagzea.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textQuntetyTagzea.Margin = new System.Windows.Forms.Padding(4);
             this.textQuntetyTagzea.Name = "textQuntetyTagzea";
             this.textQuntetyTagzea.Size = new System.Drawing.Size(95, 24);
             this.textQuntetyTagzea.TabIndex = 599;
@@ -2818,7 +2837,7 @@
             this.textQuantetyK.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textQuantetyK.ForeColor = System.Drawing.Color.Purple;
             this.textQuantetyK.Location = new System.Drawing.Point(201, 25);
-            this.textQuantetyK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textQuantetyK.Margin = new System.Windows.Forms.Padding(4);
             this.textQuantetyK.Name = "textQuantetyK";
             this.textQuantetyK.Size = new System.Drawing.Size(93, 24);
             this.textQuantetyK.TabIndex = 552;
@@ -2843,7 +2862,7 @@
             this.textTotalQuantety.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textTotalQuantety.ForeColor = System.Drawing.Color.Crimson;
             this.textTotalQuantety.Location = new System.Drawing.Point(24, 71);
-            this.textTotalQuantety.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTotalQuantety.Margin = new System.Windows.Forms.Padding(4);
             this.textTotalQuantety.Name = "textTotalQuantety";
             this.textTotalQuantety.Size = new System.Drawing.Size(271, 24);
             this.textTotalQuantety.TabIndex = 555;
@@ -2857,7 +2876,7 @@
             this.butDeleteBill.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDeleteBill.ForeColor = System.Drawing.Color.White;
             this.butDeleteBill.Location = new System.Drawing.Point(121, 59);
-            this.butDeleteBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDeleteBill.Margin = new System.Windows.Forms.Padding(4);
             this.butDeleteBill.Name = "butDeleteBill";
             this.butDeleteBill.Size = new System.Drawing.Size(33, 34);
             this.butDeleteBill.TabIndex = 7493;
@@ -2873,7 +2892,7 @@
             this.button2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(39, 59);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(76, 34);
             this.button2.TabIndex = 7493;
@@ -2885,7 +2904,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(199, 128);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(76, 22);
             this.textBox1.TabIndex = 7492;
@@ -2904,7 +2923,7 @@
             this.panel3.Controls.Add(this.groupBox5);
             this.panel3.Controls.Add(this.groupBox6);
             this.panel3.Location = new System.Drawing.Point(1427, 69);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(467, 802);
             this.panel3.TabIndex = 7495;
@@ -2961,7 +2980,7 @@
             this.panel7.Controls.Add(this.textBox59);
             this.panel7.Controls.Add(this.label47);
             this.panel7.Location = new System.Drawing.Point(25, 23);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.panel7.Size = new System.Drawing.Size(402, 441);
@@ -2985,7 +3004,7 @@
             this.buttprofitPercentOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttprofitPercentOpen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(216)))), ((int)(((byte)(224)))));
             this.buttprofitPercentOpen.Location = new System.Drawing.Point(16, 295);
-            this.buttprofitPercentOpen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttprofitPercentOpen.Margin = new System.Windows.Forms.Padding(4);
             this.buttprofitPercentOpen.Name = "buttprofitPercentOpen";
             this.buttprofitPercentOpen.Size = new System.Drawing.Size(35, 31);
             this.buttprofitPercentOpen.TabIndex = 7509;
@@ -2995,7 +3014,7 @@
             // textNear
             // 
             this.textNear.Location = new System.Drawing.Point(16, 354);
-            this.textNear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textNear.Margin = new System.Windows.Forms.Padding(4);
             this.textNear.Name = "textNear";
             this.textNear.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textNear.Size = new System.Drawing.Size(81, 22);
@@ -3011,7 +3030,7 @@
             this.butSearchCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butSearchCategory.ForeColor = System.Drawing.Color.White;
             this.butSearchCategory.Location = new System.Drawing.Point(9, 44);
-            this.butSearchCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butSearchCategory.Margin = new System.Windows.Forms.Padding(4);
             this.butSearchCategory.Name = "butSearchCategory";
             this.butSearchCategory.Size = new System.Drawing.Size(27, 25);
             this.butSearchCategory.TabIndex = 7495;
@@ -3047,7 +3066,7 @@
             this.textPriceGomlaAlgomla.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceGomlaAlgomla.ForeColor = System.Drawing.Color.Green;
             this.textPriceGomlaAlgomla.Location = new System.Drawing.Point(25, 188);
-            this.textPriceGomlaAlgomla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceGomlaAlgomla.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceGomlaAlgomla.Name = "textPriceGomlaAlgomla";
             this.textPriceGomlaAlgomla.Size = new System.Drawing.Size(71, 24);
             this.textPriceGomlaAlgomla.TabIndex = 10;
@@ -3062,7 +3081,7 @@
             this.textPriceNesfGomla.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceNesfGomla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.textPriceNesfGomla.Location = new System.Drawing.Point(25, 223);
-            this.textPriceNesfGomla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceNesfGomla.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceNesfGomla.Name = "textPriceNesfGomla";
             this.textPriceNesfGomla.Size = new System.Drawing.Size(71, 24);
             this.textPriceNesfGomla.TabIndex = 11;
@@ -3077,7 +3096,7 @@
             this.textPriceAlgomlaProfitRate.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceAlgomlaProfitRate.ForeColor = System.Drawing.Color.Green;
             this.textPriceAlgomlaProfitRate.Location = new System.Drawing.Point(21, 87);
-            this.textPriceAlgomlaProfitRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceAlgomlaProfitRate.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceAlgomlaProfitRate.Name = "textPriceAlgomlaProfitRate";
             this.textPriceAlgomlaProfitRate.Size = new System.Drawing.Size(71, 24);
             this.textPriceAlgomlaProfitRate.TabIndex = 202;
@@ -3113,7 +3132,7 @@
             this.panel9.Controls.Add(this.butClientDay);
             this.panel9.Controls.Add(this.textBox1);
             this.panel9.Location = new System.Drawing.Point(16, 879);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(103, 44);
             this.panel9.TabIndex = 7506;
@@ -3124,7 +3143,7 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::ZAD_Sales.Properties.Resources.ClientNull;
             this.pictureBox1.Location = new System.Drawing.Point(31, 101);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(159, 145);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -3147,7 +3166,7 @@
             this.panelprofitPercent.Controls.Add(this.textPriceAlgomlaProfitRate);
             this.panelprofitPercent.Controls.Add(this.label38);
             this.panelprofitPercent.Location = new System.Drawing.Point(943, 329);
-            this.panelprofitPercent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelprofitPercent.Margin = new System.Windows.Forms.Padding(4);
             this.panelprofitPercent.Name = "panelprofitPercent";
             this.panelprofitPercent.Size = new System.Drawing.Size(240, 229);
             this.panelprofitPercent.TabIndex = 7497;
@@ -3157,7 +3176,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(108, 174);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.checkBox2.Size = new System.Drawing.Size(95, 21);
@@ -3172,7 +3191,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(-52, 204);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(83, 28);
             this.button6.TabIndex = 204;
@@ -3187,7 +3206,7 @@
             this.butProfitPercent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butProfitPercent.ForeColor = System.Drawing.Color.White;
             this.butProfitPercent.Location = new System.Drawing.Point(21, 169);
-            this.butProfitPercent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butProfitPercent.Margin = new System.Windows.Forms.Padding(4);
             this.butProfitPercent.Name = "butProfitPercent";
             this.butProfitPercent.Size = new System.Drawing.Size(83, 28);
             this.butProfitPercent.TabIndex = 204;
@@ -3200,7 +3219,7 @@
             this.textPriceKataeeProfitRate.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceKataeeProfitRate.ForeColor = System.Drawing.Color.Green;
             this.textPriceKataeeProfitRate.Location = new System.Drawing.Point(21, 18);
-            this.textPriceKataeeProfitRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceKataeeProfitRate.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceKataeeProfitRate.Name = "textPriceKataeeProfitRate";
             this.textPriceKataeeProfitRate.Size = new System.Drawing.Size(71, 24);
             this.textPriceKataeeProfitRate.TabIndex = 200;
@@ -3226,7 +3245,7 @@
             this.textPriceNesfAlgomlaProfitRate.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceNesfAlgomlaProfitRate.ForeColor = System.Drawing.Color.Green;
             this.textPriceNesfAlgomlaProfitRate.Location = new System.Drawing.Point(21, 53);
-            this.textPriceNesfAlgomlaProfitRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceNesfAlgomlaProfitRate.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceNesfAlgomlaProfitRate.Name = "textPriceNesfAlgomlaProfitRate";
             this.textPriceNesfAlgomlaProfitRate.Size = new System.Drawing.Size(71, 24);
             this.textPriceNesfAlgomlaProfitRate.TabIndex = 201;
@@ -3252,7 +3271,7 @@
             this.textPriceGomlaAlgomlaProfitRate.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textPriceGomlaAlgomlaProfitRate.ForeColor = System.Drawing.Color.Green;
             this.textPriceGomlaAlgomlaProfitRate.Location = new System.Drawing.Point(21, 122);
-            this.textPriceGomlaAlgomlaProfitRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textPriceGomlaAlgomlaProfitRate.Margin = new System.Windows.Forms.Padding(4);
             this.textPriceGomlaAlgomlaProfitRate.Name = "textPriceGomlaAlgomlaProfitRate";
             this.textPriceGomlaAlgomlaProfitRate.Size = new System.Drawing.Size(71, 24);
             this.textPriceGomlaAlgomlaProfitRate.TabIndex = 203;
@@ -3325,6 +3344,184 @@
             this.label46.Text = "ملحوظه للفاتورة :";
             this.label46.Visible = false;
             // 
+            // panelSettings
+            // 
+            this.panelSettings.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelSettings.Controls.Add(this.groupBox1);
+            this.panelSettings.Controls.Add(this.groupBox4);
+            this.panelSettings.Location = new System.Drawing.Point(38, 160);
+            this.panelSettings.Margin = new System.Windows.Forms.Padding(4);
+            this.panelSettings.Name = "panelSettings";
+            this.panelSettings.Size = new System.Drawing.Size(307, 428);
+            this.panelSettings.TabIndex = 7510;
+            this.panelSettings.Visible = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.groupBox1.Controls.Add(this.butUpdateSeting);
+            this.groupBox1.Controls.Add(this.label71);
+            this.groupBox1.Controls.Add(this.combPrinters);
+            this.groupBox1.Controls.Add(this.combPaperSize);
+            this.groupBox1.Controls.Add(this.label72);
+            this.groupBox1.Location = new System.Drawing.Point(19, 203);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox1.Size = new System.Drawing.Size(261, 206);
+            this.groupBox1.TabIndex = 5542;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "    اعدادات الطباعه المباشرة  ";
+            // 
+            // butUpdateSeting
+            // 
+            this.butUpdateSeting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(81)))), ((int)(((byte)(156)))));
+            this.butUpdateSeting.ForeColor = System.Drawing.Color.White;
+            this.butUpdateSeting.Location = new System.Drawing.Point(16, 148);
+            this.butUpdateSeting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.butUpdateSeting.Name = "butUpdateSeting";
+            this.butUpdateSeting.Size = new System.Drawing.Size(209, 39);
+            this.butUpdateSeting.TabIndex = 5541;
+            this.butUpdateSeting.Text = "حفظ";
+            this.butUpdateSeting.UseVisualStyleBackColor = false;
+            this.butUpdateSeting.Click += new System.EventHandler(this.butUpdateSeting_Click);
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label71.Location = new System.Drawing.Point(23, 28);
+            this.label71.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(64, 17);
+            this.label71.TabIndex = 13;
+            this.label71.Text = "مقاس الورقة";
+            // 
+            // combPrinters
+            // 
+            this.combPrinters.FormattingEnabled = true;
+            this.combPrinters.Location = new System.Drawing.Point(16, 117);
+            this.combPrinters.Margin = new System.Windows.Forms.Padding(4);
+            this.combPrinters.Name = "combPrinters";
+            this.combPrinters.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.combPrinters.Size = new System.Drawing.Size(209, 24);
+            this.combPrinters.TabIndex = 5540;
+            // 
+            // combPaperSize
+            // 
+            this.combPaperSize.FormattingEnabled = true;
+            this.combPaperSize.Location = new System.Drawing.Point(16, 52);
+            this.combPaperSize.Margin = new System.Windows.Forms.Padding(4);
+            this.combPaperSize.Name = "combPaperSize";
+            this.combPaperSize.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.combPaperSize.Size = new System.Drawing.Size(209, 24);
+            this.combPaperSize.TabIndex = 5540;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label72.Location = new System.Drawing.Point(23, 96);
+            this.label72.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(58, 17);
+            this.label72.TabIndex = 13;
+            this.label72.Text = "اسم الطابعه";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.groupBox4.Controls.Add(this.radioB_Factory);
+            this.groupBox4.Controls.Add(this.radioB_Program);
+            this.groupBox4.Controls.Add(this.checkBox3);
+            this.groupBox4.Controls.Add(this.checkBox4);
+            this.groupBox4.Controls.Add(this.checkBox5);
+            this.groupBox4.ForeColor = System.Drawing.Color.Black;
+            this.groupBox4.Location = new System.Drawing.Point(16, 17);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox4.Size = new System.Drawing.Size(261, 171);
+            this.groupBox4.TabIndex = 5523;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "اعدادات";
+            // 
+            // radioB_Factory
+            // 
+            this.radioB_Factory.AutoSize = true;
+            this.radioB_Factory.Location = new System.Drawing.Point(75, 84);
+            this.radioB_Factory.Margin = new System.Windows.Forms.Padding(4);
+            this.radioB_Factory.Name = "radioB_Factory";
+            this.radioB_Factory.Size = new System.Drawing.Size(95, 21);
+            this.radioB_Factory.TabIndex = 5506;
+            this.radioB_Factory.Text = "باركود المصنع";
+            this.radioB_Factory.UseVisualStyleBackColor = true;
+            // 
+            // radioB_Program
+            // 
+            this.radioB_Program.AutoSize = true;
+            this.radioB_Program.Location = new System.Drawing.Point(71, 57);
+            this.radioB_Program.Margin = new System.Windows.Forms.Padding(4);
+            this.radioB_Program.Name = "radioB_Program";
+            this.radioB_Program.Size = new System.Drawing.Size(98, 21);
+            this.radioB_Program.TabIndex = 5506;
+            this.radioB_Program.Text = "باركود البرنامج";
+            this.radioB_Program.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.ForeColor = System.Drawing.Color.Navy;
+            this.checkBox3.Location = new System.Drawing.Point(67, 142);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(143, 21);
+            this.checkBox3.TabIndex = 5505;
+            this.checkBox3.Text = "اخفاء السابق عند الطباعه";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Checked = true;
+            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox4.ForeColor = System.Drawing.Color.Navy;
+            this.checkBox4.Location = new System.Drawing.Point(68, 117);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(141, 21);
+            this.checkBox4.TabIndex = 5505;
+            this.checkBox4.Text = "تجميع الاصناف المتشابهه";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.ForeColor = System.Drawing.Color.Navy;
+            this.checkBox5.Location = new System.Drawing.Point(88, 23);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(121, 21);
+            this.checkBox5.TabIndex = 0;
+            this.checkBox5.Text = "البيع بالباركود مباشر";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.BackgroundImage = global::ZAD_Sales.Properties.Resources.gear_solid;
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.button15.Location = new System.Drawing.Point(-3, 130);
+            this.button15.Margin = new System.Windows.Forms.Padding(4);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(35, 32);
+            this.button15.TabIndex = 7511;
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // Purchases
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -3344,7 +3541,7 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Purchases";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "المشتريات";
@@ -3397,6 +3594,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelprofitPercent.ResumeLayout(false);
             this.panelprofitPercent.PerformLayout();
+            this.panelSettings.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3635,5 +3837,19 @@
         private System.Windows.Forms.TextBox textMosadadActual;
         private System.Windows.Forms.TextBox textNoteBill;
         private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Panel panelSettings;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button butUpdateSeting;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.ComboBox combPrinters;
+        private System.Windows.Forms.ComboBox combPaperSize;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.RadioButton radioB_Factory;
+        private System.Windows.Forms.RadioButton radioB_Program;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.Button button15;
     }
 }

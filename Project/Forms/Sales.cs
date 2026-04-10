@@ -56,9 +56,7 @@ namespace ZAD_Sales.Forms
 
         //}
 
-        protected override bool ProcessCmdKey(
-ref Message msg,
-Keys keyData)
+        protected override bool ProcessCmdKey(ref Message msg,Keys keyData)
         {
 
             if (keyData == Keys.F9)
@@ -1239,8 +1237,7 @@ Keys keyData)
         {
 
             // Paper size
-            if (combPaperSize.Items.Contains(
-            PaperSizePrint))
+            if (combPaperSize.Items.Contains( PaperSizePrint))
             {
 
                 combPaperSize.Text =
@@ -11818,8 +11815,7 @@ Keys keyData)
             try
             {
 
-                LocalReport report =
-                new LocalReport();
+                LocalReport report = new LocalReport();
 
 
 
@@ -11854,8 +11850,7 @@ Keys keyData)
 
                 report.DataSources.Clear();
 
-                report.DataSources.Add(
-                PrepareItems());
+                report.DataSources.Add( PrepareItems());
 
                 report.EnableExternalImages = true;
                 //   SetParameters(report);

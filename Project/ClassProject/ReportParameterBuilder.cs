@@ -18,9 +18,7 @@ namespace ZAD_Sales.ClassProject
     public class ReportParameterBuilder
     {
 
-        public static void SetParameters(
-        LocalReport report,
-        InvoiceData data)
+        public static void SetParameters( LocalReport report, InvoiceData data)
         {
 
             try
