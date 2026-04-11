@@ -638,11 +638,29 @@ namespace ZAD_Sales.Forms
                         CurrentUser.FirstAccounts = GetValue(dr, "FirstAccounts");
                         CurrentUser.AllowUser = GetValue(dr, "AllowUser");
                         CurrentUser.Statistical = GetValue(dr, "Statistical");
+                        CurrentUser.SalesReturns = GetValue(dr, "SalesReturns");
+                        CurrentUser.PurchaseReturns = GetValue(dr, "PurchaseReturns");
                         CurrentUser.PriceViewer = GetValue(dr, "PriceViewer");
                         CurrentUser.ProducerAddBarcodeFactory = GetValue(dr, "ProducerAddBarcodeFactory");
+                        CurrentUser.ClientsMoneyTo = GetValue(dr, "ClientsMoneyTo");
+                        CurrentUser.DailyEvents = GetValue(dr, "DailyEvents");
+                        CurrentUser.DailyClosing = GetValue(dr, "DailyClosing");
+                        CurrentUser.StatisticalFrmBillingSummary = GetValue(dr, "StatisticalFrmBillingSummary");
 
-                        // مش موجود في الداتا بيز → نخليه افتراضي
-                        CurrentUser.Statistical = 1;
+                        CurrentUser.OtherExpensesRevenues = GetValue(dr, "OtherExpensesRevenues");
+                        CurrentUser.Installment = GetValue(dr, "Installment");
+                        CurrentUser.SalesNoSave = GetValue(dr, "SalesNoSave");
+                        CurrentUser.OccasionsForm = GetValue(dr, "OccasionsForm");
+                        CurrentUser.VersionNew = GetValue(dr, "VersionNew");
+                        CurrentUser.Programs = GetValue(dr, "Programs");
+                        CurrentUser.TermsandConditions = GetValue(dr, "TermsandConditions");
+                        CurrentUser.Group_Name = GetValue(dr, "Group_Name");
+                        CurrentUser.FactionCategoreyAdd = GetValue(dr, "FactionCategoreyAdd");
+                        CurrentUser.AddSnToCategory = GetValue(dr, "AddSnToCategory");
+                        CurrentUser.ProductMakeAddMateriall = GetValue(dr, "ProductMakeAddMateriall");
+                        CurrentUser.ProductMakeNeww = GetValue(dr, "ProductMakeNeww");
+
+
 
                         // فتح الفورم الرئيسي
                         Main frm = new Main();

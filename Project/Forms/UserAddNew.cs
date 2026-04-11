@@ -105,8 +105,27 @@ namespace ZAD_Sales.Forms
             {"FirstAccounts", "الحسابات الأولية"},
             {"AllowUser", "إدارة المستخدمين"},
             {"Statistical", "الاحصائيات"},
-            {"PriceViewer", "عرض الاسعار"},
-            {"ProducerAddBarcodeFactory", "اضافة باركود المصنع"}
+            {"SalesReturns", "مردودات المبيعات"},
+            {"PurchaseReturns", "مردودات المشتريات"},
+            {"PriceViewer", "شاشة عرض ااسعار"},
+            {"ProducerAddBarcodeFactory", "اضافة باركود المصنع"},
+            {"ClientsMoneyTo", "تحويل من عميل الى عميل"},
+            {"DailyEvents", "الاحداث اليومية"},
+            {"DailyClosing", "الختام اليومى"},
+            {"StatisticalFrmBillingSummary", "تقارير اليومية"},
+
+            {"OtherExpensesRevenues", "الختام اليومى"},
+            {"Installment", "شاشة التقسيط"},
+            {"SalesNoSave", "فاتورة غير معتمدة"},
+            {"OccasionsForm", "شاشة المناسبات"},
+            {"VersionNew", "شاشة جديد الاصدارات"},
+            {"Programs", "برامجنا"},
+            {"TermsandConditions", "الشروط والاحكام"},
+            {"Group_Name", "اضافة مجموعات للعملاء"},
+            {"FactionCategoreyAdd", "اضافة فئات جديدة للاصناف"},
+            {"AddSnToCategory", "اضافة سريلات للاصناف"},
+            {"ProductMakeAddMateriall", "شاشة اضافة خامات التصنيع"},
+            {"ProductMakeNeww", "شاشة تصنيع المنتجات"},
         };
         //-------  تحميل الصلاحيات داخل الجدول
 
@@ -135,12 +154,14 @@ namespace ZAD_Sales.Forms
         private void UserAddNew_Load(object sender, EventArgs e)
         {
             dgvPermissions.Columns.Add("Permission", "الصلاحية");
+           
 
             DataGridViewCheckBoxColumn chk = new DataGridViewCheckBoxColumn();
             chk.Name = "Value";
             chk.HeaderText = "السماح";
             dgvPermissions.Columns.Add(chk);
 
+          
 
             //---------  استدعاء الدالة عند فتح الفورم---------
             LoadPermissions();
@@ -154,6 +175,10 @@ namespace ZAD_Sales.Forms
             //--------- تحميل المستخدمين
 
             LoadUsers();
+
+            this.dgvPermissions.Columns[0].Width = 250;
+            this.dgvPermissions.Columns[1].Width = 100;
+
 
             butAdd.Enabled = true;
             btnUpdate.Enabled = false;

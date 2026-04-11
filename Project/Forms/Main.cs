@@ -3005,8 +3005,8 @@ namespace ZAD_Sales.Forms
             //=== مبيعات ومشتريات
             { "TsmSales", () => CurrentUser.Sales },
             { "TsmPurchases", () => CurrentUser.Purchases },
-            { "TsmSalesReturns", () => CurrentUser.Sales },//مردودات
-            { "TsmPurchaseReturns", () => CurrentUser.Purchases },//مردودات
+            { "TsmSalesReturns", () => CurrentUser.SalesReturns },//مردودات
+            { "TsmPurchaseReturns", () => CurrentUser.PurchaseReturns },//مردودات
             //TsmOtherExpensesRevenues مصروفات وايرادات اخرى
             //TsmInstallment   التقسيط
             //TsmSalesNoSave فاتورة مبيعات غير معتمدة
@@ -3047,6 +3047,8 @@ namespace ZAD_Sales.Forms
             { "TsmBackupRestore", () => CurrentUser.BackupRestore },
             { "TsmSettingsGeneral", () => CurrentUser.SettingsGeneral },
             { "TsmSystemReset", () => CurrentUser.SystemReset },
+            { "TsmOccasionsForm", () => CurrentUser.OccasionsForm },
+            { "TsmVersionNew", () => CurrentUser.VersionNew },
             // TsmOccasionsForm  المناسبات
             //TsmVersionNew جديد الاصدارات
             //========== نهاية قواعد البيانات
@@ -3054,8 +3056,9 @@ namespace ZAD_Sales.Forms
             //===المساعدة 
             { "TsmLicense", () => CurrentUser.License },
             { "TsmCallUs", () => CurrentUser.CallUs },
-            //TsmPrograms برامجنا
-            //TsmTermsandConditions الشروط والاحكام
+            { "TsmPrograms", () => CurrentUser.Programs },
+            { "TsmTermsandConditions", () => CurrentUser.TermsandConditions },
+           
             //TsmExplainSystem موقعنا على الانترنت
             //====== نهاية المساعدة
 
@@ -3065,6 +3068,8 @@ namespace ZAD_Sales.Forms
             //==== الاصناف
             { "TsmProducerNewAdd", () => CurrentUser.ProducerNewAdd },
             { "TsmStoreNewAdd", () => CurrentUser.StoreNewAdd },
+             { "tsmGroup_Name", () => CurrentUser.Group_Name },
+            { "tsmFactionCategoreyAdd", () => CurrentUser.FactionCategoreyAdd },
             //tsmGroup_Name اضافة مجموعه للاصناف
             //tsmFactionCategoreyAdd  اضافة فئات جديدة للاصناف
             { "TsmPrices", () => CurrentUser.Prices },
@@ -3073,6 +3078,7 @@ namespace ZAD_Sales.Forms
             { "TsmInventory", () => CurrentUser.Inventory },
             { "TsmBarcode", () => CurrentUser.Barcode },
             { "TsmProducerIncomplete", () => CurrentUser.ProducerIncomplete },
+             { "TsmAddSnToCategory", () => CurrentUser.AddSnToCategory },
             //TsmAddSnToCategory اضافة سريلات للاصناف
             { "TsmPriceViewer", () => CurrentUser.PriceViewer },
             { "TsmProducerAddBarcodeFactory", () => CurrentUser.ProducerAddBarcodeFactory },
@@ -3088,10 +3094,13 @@ namespace ZAD_Sales.Forms
             { "TsmDailySalesPurchases", () => CurrentUser.DailySalesPurchases },
             { "TsmDailyTransactions", () => CurrentUser.DailyTransactions },
             { "TsmFinancialStatements", () => CurrentUser.FinancialStatements },
-           //DailyEvents الاحداث اليومية
-           //TsmDailyClosing الختام اليومى
+
+            { "TsmDailyEvents", () => CurrentUser.DailyEvents },
+            { "TsmDailyClosing", () => CurrentUser.DailyClosing },
+          
            { "TsmStatistical", () => CurrentUser.Statistical },
-           //TsmStatisticalFrmBillingSummary تقرير العملاء
+           { "TsmStatisticalFrmBillingSummary", () => CurrentUser.StatisticalFrmBillingSummary },
+          
            //====== نهاية التقارير
 
            //==== البنوك
@@ -3110,6 +3119,11 @@ namespace ZAD_Sales.Forms
 
             //===== حسابات اول المدة القائمة كاملة
             { "TsmFirstAccounts", () => CurrentUser.FirstAccounts },
+
+             //===== التصنيع
+            { "TsmProductMakeAddMateriall", () => CurrentUser.UserAdd1 },
+             { "TsmProductMakeNeww", () => CurrentUser.UserAdd1 },
+
             
             
 

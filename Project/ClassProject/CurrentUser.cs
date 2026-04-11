@@ -61,7 +61,26 @@ namespace ZAD_Sales.ClassProject
         public static int FirstAccounts;
         public static int AllowUser;
         public static int Statistical;
+        public static int SalesReturns;
+        public static int PurchaseReturns;
         public static int PriceViewer;
         public static int ProducerAddBarcodeFactory;
+        public static int ClientsMoneyTo;
+        public static int DailyEvents;
+        public static int DailyClosing;
+        public static int StatisticalFrmBillingSummary;
+
+        public static int OtherExpensesRevenues;
+        public static int Installment;
+        public static int SalesNoSave;
+        public static int OccasionsForm;
+        public static int VersionNew;
+        public static int Programs;
+        public static int TermsandConditions;
+        public static int Group_Name;
+        public static int FactionCategoreyAdd;
+        public static int AddSnToCategory;
+        public static int ProductMakeAddMateriall;
+        public static int ProductMakeNeww;
     }
 }
