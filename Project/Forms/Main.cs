@@ -144,7 +144,7 @@ namespace ZAD_Sales.Forms
 
                 TsmStoreToStore.Visible = false;
                 TsmBarcode.Visible = false;
-                ToolStrip_CategoryOthers.Visible = false;
+                TsmOtherExpensesRevenues.Visible = false;
                 شئونموظفينToolStripMenuItem.Visible = false;
                 TsmInstallment.Visible = false;
                 toolStripMenuItem1.Visible = false;
@@ -492,7 +492,7 @@ namespace ZAD_Sales.Forms
                     TsmSales.Enabled = true;
                     TsmSalesReturns.Enabled = true;
                     TsmPurchaseReturns.Enabled = true;
-                    ToolStrip_CategoryOthers.Enabled = true;
+                    TsmOtherExpensesRevenues.Enabled = true;
                     TsmBarcode.Enabled = true;
                     TsmProducerIncomplete.Enabled = true;
                 }
@@ -1894,7 +1894,7 @@ namespace ZAD_Sales.Forms
             TsmSales.Enabled = false;
             TsmSalesReturns.Enabled = false;
             TsmPurchaseReturns.Enabled = false;
-            ToolStrip_CategoryOthers.Enabled = false;
+            TsmOtherExpensesRevenues.Enabled = false;
             TsmPurchases.Enabled = false;
             TsmExpenses.Enabled = false;
             TsmMoneyToBox.Enabled = false;
@@ -2926,7 +2926,7 @@ namespace ZAD_Sales.Forms
             TsmSales.Enabled = CurrentUser.Sales == 1;
             TsmSalesReturns.Enabled = CurrentUser.Sales == 1;
             TsmPurchaseReturns.Enabled = CurrentUser.Sales == 1;
-            ToolStrip_CategoryOthers.Enabled = CurrentUser.Sales == 1;
+            TsmOtherExpensesRevenues.Enabled = CurrentUser.Sales == 1;
             TsmBarcode.Enabled = CurrentUser.Sales == 1;
             TsmProducerIncomplete.Enabled = CurrentUser.Sales == 1;
 
@@ -3002,86 +3002,198 @@ namespace ZAD_Sales.Forms
         //    };
         Dictionary<string, Func<int>> menuPermissions = new Dictionary<string, Func<int>>()
         {
-            { "TsmFirstAccounts", () => CurrentUser.FirstAccounts },
-    
-            // مفيش مقابل واضح → ممكن تربطه أو تسيبه
-            { "TsmStatistical", () => CurrentUser.Statistical },
-
+            //=== مبيعات ومشتريات
             { "TsmSales", () => CurrentUser.Sales },
-            { "TsmSalesReturns", () => CurrentUser.Sales },
-            { "TsmPurchaseReturns", () => CurrentUser.Purchases },
-
-            { "ToolStrip_CategoryOthers", () => 1 },
-
-            { "TsmBarcode", () => CurrentUser.Barcode },
-            { "TsmProducerIncomplete", () => CurrentUser.ProducerIncomplete },
-
             { "TsmPurchases", () => CurrentUser.Purchases },
+            { "TsmSalesReturns", () => CurrentUser.Sales },//مردودات
+            { "TsmPurchaseReturns", () => CurrentUser.Purchases },//مردودات
+            //TsmOtherExpensesRevenues مصروفات وايرادات اخرى
+            //TsmInstallment   التقسيط
+            //TsmSalesNoSave فاتورة مبيعات غير معتمدة
+            //======= نهاية قائمة المبيعات والمشتريات
+
+            //======= شئون مالية
             { "TsmExpenses", () => CurrentUser.Expenses },
             { "TsmMoneyToBox", () => CurrentUser.MoneyToBox },
             { "TsmMoneyFromBox", () => CurrentUser.MoneyFromBox },
-
+            //====== نهاية شئون مالية
+            
+            //===== العملاء
             { "TsmGroupAdd", () => CurrentUser.GroupAdd },
+            { "TsmAddClient", () => CurrentUser.ClientAdd },
+            { "TsmClientsMoneyFrom", () => CurrentUser.ClientsMoney },
+            { "TsmClientsMoneyTo", () => CurrentUser.ClientsMoney },
+            { "TsmClientsMoneyToClients", () => CurrentUser.ClientsMoney } ,// تحويل من عميل الى عميل
+
+            //=== نهاية العملاء
+
+
+            // ==== شئون العاملين
             { "TsmEmployeeAdd", () => CurrentUser.EmployeeAdd },
             { "TsmEmployeeSalaryPayment", () => CurrentUser.EmployeeSalaryPayment },
             { "TsmEmployeeSalaryMovement", () => CurrentUser.EmployeeSalaryMovement },
             { "TsmEmployeeBonusAdd", () => CurrentUser.EmployeeBonusAdd },
             { "TsmEmployeePenaltyAdd", () => CurrentUser.EmployeePenaltyAdd },
+            //=== نهاية شئون العاملين
 
+            //==== السيارات
             { "TsmCarsAdd", () => CurrentUser.CarsAdd },
             { "TsmCarsExpenses", () => CurrentUser.CarsExpenses },
             { "TsmCarsExpensesMovement", () => CurrentUser.CarsExpensesMovement },
-
+           // نهاية اسيارات
+            
+            //=== قواعد البيانات
             { "TsmBackupSave", () => CurrentUser.BackupSave },
             { "TsmBackupRestore", () => CurrentUser.BackupRestore },
-
             { "TsmSettingsGeneral", () => CurrentUser.SettingsGeneral },
             { "TsmSystemReset", () => CurrentUser.SystemReset },
+            // TsmOccasionsForm  المناسبات
+            //TsmVersionNew جديد الاصدارات
+            //========== نهاية قواعد البيانات
 
-            { "TsmAddClient", () => CurrentUser.ClientAdd },
-            { "TsmClientsMoneyFrom", () => CurrentUser.ClientsMoney },
-            { "TsmClientsMoneyTo", () => CurrentUser.ClientsMoney },
+            //===المساعدة 
+            { "TsmLicense", () => CurrentUser.License },
+            { "TsmCallUs", () => CurrentUser.CallUs },
+            //TsmPrograms برامجنا
+            //TsmTermsandConditions الشروط والاحكام
+            //TsmExplainSystem موقعنا على الانترنت
+            //====== نهاية المساعدة
 
+            
+            { "TsmExplainSystem", () => CurrentUser.ExplainSystem }, // شرح النظام
+
+            //==== الاصناف
             { "TsmProducerNewAdd", () => CurrentUser.ProducerNewAdd },
             { "TsmStoreNewAdd", () => CurrentUser.StoreNewAdd },
-
+            //tsmGroup_Name اضافة مجموعه للاصناف
+            //tsmFactionCategoreyAdd  اضافة فئات جديدة للاصناف
             { "TsmPrices", () => CurrentUser.Prices },
             { "TsmProducerUpdate", () => CurrentUser.ProducerUpdate },
-
-            { "TsmInventory", () => CurrentUser.Inventory },
             { "TsmStoreToStore", () => CurrentUser.StoreToStore },
+            { "TsmInventory", () => CurrentUser.Inventory },
+            { "TsmBarcode", () => CurrentUser.Barcode },
+            { "TsmProducerIncomplete", () => CurrentUser.ProducerIncomplete },
+            //TsmAddSnToCategory اضافة سريلات للاصناف
+            { "TsmPriceViewer", () => CurrentUser.PriceViewer },
+            { "TsmProducerAddBarcodeFactory", () => CurrentUser.ProducerAddBarcodeFactory },
+            // ====نهاية الاصناف 
 
+            //====== التقارير
             { "TsmProductMovement", () => CurrentUser.ProductMovement },
             { "TsmBoxMovement", () => CurrentUser.BoxMovement },
-
+            { "TsmClientAccountStatement", () => CurrentUser.ClientAccountStatement },
             { "TsmClientsList", () => CurrentUser.ClientsList },
             { "TsmBanksList", () => CurrentUser.BanksList },
-
             { "TsmProfits", () => CurrentUser.Profits },
             { "TsmDailySalesPurchases", () => CurrentUser.DailySalesPurchases },
             { "TsmDailyTransactions", () => CurrentUser.DailyTransactions },
             { "TsmFinancialStatements", () => CurrentUser.FinancialStatements },
+           //DailyEvents الاحداث اليومية
+           //TsmDailyClosing الختام اليومى
+           { "TsmStatistical", () => CurrentUser.Statistical },
+           //TsmStatisticalFrmBillingSummary تقرير العملاء
+           //====== نهاية التقارير
 
+           //==== البنوك
             { "TsmBankAddAccount", () => CurrentUser.BankAddAccount },
-
-            // الشيكات كلها على نفس الصلاحية
-            { "TsmCheckSaderAll", () => CurrentUser.CheckSaderWared },
-            { "TsmCheckWaredAll", () => CurrentUser.CheckSaderWared },
             { "TsmCheckAddALL", () => CurrentUser.CheckSave },
             { "TsmCheckDiscALL", () => CurrentUser.CheckSave },
-
+            { "TsmCheckWaredAll", () => CurrentUser.CheckSaderWared },
+            { "TsmCheckSaderAll", () => CurrentUser.CheckSaderWared },
             { "TsmBankStatement", () => CurrentUser.BankStatement },
             { "TsmBankToBank", () => CurrentUser.BankToBank },
+            //====== نهاية البنوك
 
-            { "TsmClientAccountStatement", () => CurrentUser.ClientAccountStatement },
 
+            //===== المستخدمين
             { "TsmUserAdd", () => CurrentUser.UserAdd1 },
-            { "TsmExplainSystem", () => CurrentUser.ExplainSystem },
-            { "TsmCallUs", () => CurrentUser.CallUs },
-            { "TsmLicense", () => CurrentUser.License },
-            { "TsmClientsMoneyToClients", () => CurrentUser.ClientsMoney },
-            { "TsmPriceViewer", () => CurrentUser.PriceViewer },
-            { "TsmProducerAddBarcodeFactory", () => CurrentUser.PriceViewer }
+
+            //===== حسابات اول المدة القائمة كاملة
+            { "TsmFirstAccounts", () => CurrentUser.FirstAccounts },
+            
+            
+
+
+            //{ "TsmFirstAccounts", () => CurrentUser.FirstAccounts },
+    
+            //// مفيش مقابل واضح → ممكن تربطه أو تسيبه
+            //{ "TsmStatistical", () => CurrentUser.Statistical },
+
+            //{ "TsmSales", () => CurrentUser.Sales },
+            //{ "TsmSalesReturns", () => CurrentUser.Sales },
+            //{ "TsmPurchaseReturns", () => CurrentUser.Purchases },
+
+            //{ "ToolStrip_CategoryOthers", () => 1 },
+
+            //{ "TsmBarcode", () => CurrentUser.Barcode },
+            //{ "TsmProducerIncomplete", () => CurrentUser.ProducerIncomplete },
+
+            //{ "TsmPurchases", () => CurrentUser.Purchases },
+            //{ "TsmExpenses", () => CurrentUser.Expenses },
+            //{ "TsmMoneyToBox", () => CurrentUser.MoneyToBox },
+            //{ "TsmMoneyFromBox", () => CurrentUser.MoneyFromBox },
+
+            //{ "TsmGroupAdd", () => CurrentUser.GroupAdd },
+            //{ "TsmEmployeeAdd", () => CurrentUser.EmployeeAdd },
+            //{ "TsmEmployeeSalaryPayment", () => CurrentUser.EmployeeSalaryPayment },
+            //{ "TsmEmployeeSalaryMovement", () => CurrentUser.EmployeeSalaryMovement },
+            //{ "TsmEmployeeBonusAdd", () => CurrentUser.EmployeeBonusAdd },
+            //{ "TsmEmployeePenaltyAdd", () => CurrentUser.EmployeePenaltyAdd },
+
+            //{ "TsmCarsAdd", () => CurrentUser.CarsAdd },
+            //{ "TsmCarsExpenses", () => CurrentUser.CarsExpenses },
+            //{ "TsmCarsExpensesMovement", () => CurrentUser.CarsExpensesMovement },
+
+            //{ "TsmBackupSave", () => CurrentUser.BackupSave },
+            //{ "TsmBackupRestore", () => CurrentUser.BackupRestore },
+
+            //{ "TsmSettingsGeneral", () => CurrentUser.SettingsGeneral },
+            //{ "TsmSystemReset", () => CurrentUser.SystemReset },
+
+            //{ "TsmAddClient", () => CurrentUser.ClientAdd },
+            //{ "TsmClientsMoneyFrom", () => CurrentUser.ClientsMoney },
+            //{ "TsmClientsMoneyTo", () => CurrentUser.ClientsMoney },
+
+            //{ "TsmProducerNewAdd", () => CurrentUser.ProducerNewAdd },
+            //{ "TsmStoreNewAdd", () => CurrentUser.StoreNewAdd },
+
+            //{ "TsmPrices", () => CurrentUser.Prices },
+            //{ "TsmProducerUpdate", () => CurrentUser.ProducerUpdate },
+
+            //{ "TsmInventory", () => CurrentUser.Inventory },
+            //{ "TsmStoreToStore", () => CurrentUser.StoreToStore },
+
+            //{ "TsmProductMovement", () => CurrentUser.ProductMovement },
+            //{ "TsmBoxMovement", () => CurrentUser.BoxMovement },
+
+            //{ "TsmClientsList", () => CurrentUser.ClientsList },
+            //{ "TsmBanksList", () => CurrentUser.BanksList },
+
+            //{ "TsmProfits", () => CurrentUser.Profits },
+            //{ "TsmDailySalesPurchases", () => CurrentUser.DailySalesPurchases },
+            //{ "TsmDailyTransactions", () => CurrentUser.DailyTransactions },
+            //{ "TsmFinancialStatements", () => CurrentUser.FinancialStatements },
+
+            //{ "TsmBankAddAccount", () => CurrentUser.BankAddAccount },
+
+            //// الشيكات كلها على نفس الصلاحية
+            //{ "TsmCheckSaderAll", () => CurrentUser.CheckSaderWared },
+            //{ "TsmCheckWaredAll", () => CurrentUser.CheckSaderWared },
+            //{ "TsmCheckAddALL", () => CurrentUser.CheckSave },
+            //{ "TsmCheckDiscALL", () => CurrentUser.CheckSave },
+
+            //{ "TsmBankStatement", () => CurrentUser.BankStatement },
+            //{ "TsmBankToBank", () => CurrentUser.BankToBank },
+
+            //{ "TsmClientAccountStatement", () => CurrentUser.ClientAccountStatement },
+
+            //{ "TsmUserAdd", () => CurrentUser.UserAdd1 },
+            //{ "TsmExplainSystem", () => CurrentUser.ExplainSystem },
+            //{ "TsmCallUs", () => CurrentUser.CallUs },
+            //{ "TsmLicense", () => CurrentUser.License },
+            //{ "TsmClientsMoneyToClients", () => CurrentUser.ClientsMoney },
+            //{ "TsmPriceViewer", () => CurrentUser.PriceViewer },
+            //{ "TsmProducerAddBarcodeFactory", () => CurrentUser.PriceViewer }
 
         };
 
@@ -3165,11 +3277,11 @@ namespace ZAD_Sales.Forms
 
             //------- تحميل صلاحيات المستخدم النظام القديم
 
-            User_Powers();
+          //  User_Powers();
 
             //------- تحميل صلاحيات المستخدم النظام الجديدة
           
-           // ApplyPermissionsSmart();
+            ApplyPermissionsSmart();
 
 
             DebugPermissions(); // 👈 شغلها مؤقتًا

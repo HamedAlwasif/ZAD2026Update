@@ -637,9 +637,9 @@ namespace ZAD_Sales.Forms
                         CurrentUser.UserAdd1 = GetValue(dr, "UserAdd1");
                         CurrentUser.FirstAccounts = GetValue(dr, "FirstAccounts");
                         CurrentUser.AllowUser = GetValue(dr, "AllowUser");
-                        CurrentUser.AllowUser = GetValue(dr, "Statistical");
-                        CurrentUser.AllowUser = GetValue(dr, "PriceViewer");
-                        CurrentUser.AllowUser = GetValue(dr, "ProducerAddBarcodeFactory");
+                        CurrentUser.Statistical = GetValue(dr, "Statistical");
+                        CurrentUser.PriceViewer = GetValue(dr, "PriceViewer");
+                        CurrentUser.ProducerAddBarcodeFactory = GetValue(dr, "ProducerAddBarcodeFactory");
 
                         // مش موجود في الداتا بيز → نخليه افتراضي
                         CurrentUser.Statistical = 1;

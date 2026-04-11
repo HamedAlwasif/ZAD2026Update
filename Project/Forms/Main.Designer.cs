@@ -48,7 +48,7 @@
             this.TsmInventory = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmBarcode = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmProducerIncomplete = new System.Windows.Forms.ToolStripMenuItem();
-            this.إضافةسريالاتالأصنافToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TsmAddSnToCategory = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmProducerAddBarcodeFactory = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmPriceViewer = new System.Windows.Forms.ToolStripMenuItem();
             this.العملاءToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,7 +62,7 @@
             this.TsmPurchases = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmSalesReturns = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmPurchaseReturns = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStrip_CategoryOthers = new System.Windows.Forms.ToolStripMenuItem();
+            this.TsmOtherExpensesRevenues = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmInstallment = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmSalesNoSave = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -131,13 +131,13 @@
             this.TsmSystemReset = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmSettingsGeneral = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmOccasionsForm = new System.Windows.Forms.ToolStripMenuItem();
-            this.جديدالاصداراتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TsmVersionNew = new System.Windows.Forms.ToolStripMenuItem();
             this.نبذهعنالبرنامجToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmExplainSystem = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmCallUs = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmPrograms = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmLicense = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMTermsandConditions = new System.Windows.Forms.ToolStripMenuItem();
+            this.TsmTermsandConditions = new System.Windows.Forms.ToolStripMenuItem();
             this.مواقعقدتهمكToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.قناةالوصيفللقرآنالكريمToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -420,7 +420,7 @@
             this.TsmInventory,
             this.TsmBarcode,
             this.TsmProducerIncomplete,
-            this.إضافةسريالاتالأصنافToolStripMenuItem,
+            this.TsmAddSnToCategory,
             this.TsmProducerAddBarcodeFactory,
             this.TsmPriceViewer});
             this.الأصنافToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -512,12 +512,12 @@
             this.TsmProducerIncomplete.Text = "الاصناف الناقصة";
             this.TsmProducerIncomplete.Click += new System.EventHandler(this.TsmProducerIncomplete_Click);
             // 
-            // إضافةسريالاتالأصنافToolStripMenuItem
+            // TsmAddSnToCategory
             // 
-            this.إضافةسريالاتالأصنافToolStripMenuItem.Name = "إضافةسريالاتالأصنافToolStripMenuItem";
-            this.إضافةسريالاتالأصنافToolStripMenuItem.Size = new System.Drawing.Size(283, 34);
-            this.إضافةسريالاتالأصنافToolStripMenuItem.Text = "إضافة سريالات الأصناف";
-            this.إضافةسريالاتالأصنافToolStripMenuItem.Click += new System.EventHandler(this.إضافةسريالاتالأصنافToolStripMenuItem_Click);
+            this.TsmAddSnToCategory.Name = "TsmAddSnToCategory";
+            this.TsmAddSnToCategory.Size = new System.Drawing.Size(283, 34);
+            this.TsmAddSnToCategory.Text = "إضافة سريالات الأصناف";
+            this.TsmAddSnToCategory.Click += new System.EventHandler(this.إضافةسريالاتالأصنافToolStripMenuItem_Click);
             // 
             // TsmProducerAddBarcodeFactory
             // 
@@ -599,7 +599,7 @@
             this.TsmPurchases,
             this.TsmSalesReturns,
             this.TsmPurchaseReturns,
-            this.ToolStrip_CategoryOthers,
+            this.TsmOtherExpensesRevenues,
             this.TsmInstallment,
             this.TsmSalesNoSave});
             this.مبيعاتومشترياتToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
@@ -654,14 +654,14 @@
             this.TsmPurchaseReturns.Text = "مردودات مشتريــات";
             this.TsmPurchaseReturns.Click += new System.EventHandler(this.TsmPurchaseReturns_Click);
             // 
-            // ToolStrip_CategoryOthers
+            // TsmOtherExpensesRevenues
             // 
-            this.ToolStrip_CategoryOthers.Enabled = false;
-            this.ToolStrip_CategoryOthers.Image = global::ZAD_Sales.Properties.Resources.money1;
-            this.ToolStrip_CategoryOthers.Name = "ToolStrip_CategoryOthers";
-            this.ToolStrip_CategoryOthers.Size = new System.Drawing.Size(302, 34);
-            this.ToolStrip_CategoryOthers.Text = "مصروفات وايرادات أخرى";
-            this.ToolStrip_CategoryOthers.Click += new System.EventHandler(this.ToolStrip_CategoryOthers_Click);
+            this.TsmOtherExpensesRevenues.Enabled = false;
+            this.TsmOtherExpensesRevenues.Image = global::ZAD_Sales.Properties.Resources.money1;
+            this.TsmOtherExpensesRevenues.Name = "TsmOtherExpensesRevenues";
+            this.TsmOtherExpensesRevenues.Size = new System.Drawing.Size(302, 34);
+            this.TsmOtherExpensesRevenues.Text = "مصروفات وايرادات أخرى";
+            this.TsmOtherExpensesRevenues.Click += new System.EventHandler(this.ToolStrip_CategoryOthers_Click);
             // 
             // TsmInstallment
             // 
@@ -1254,7 +1254,7 @@
             this.TsmSystemReset,
             this.TsmSettingsGeneral,
             this.TsmOccasionsForm,
-            this.جديدالاصداراتToolStripMenuItem});
+            this.TsmVersionNew});
             this.قواعدالبياناتToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.قواعدالبياناتToolStripMenuItem.Image = global::ZAD_Sales.Properties.Resources.database;
             this.قواعدالبياناتToolStripMenuItem.Name = "قواعدالبياناتToolStripMenuItem";
@@ -1303,12 +1303,12 @@
             this.TsmOccasionsForm.Text = "ادارة المناسبات";
             this.TsmOccasionsForm.Click += new System.EventHandler(this.TsmOccasionsForm_Click);
             // 
-            // جديدالاصداراتToolStripMenuItem
+            // TsmVersionNew
             // 
-            this.جديدالاصداراتToolStripMenuItem.Name = "جديدالاصداراتToolStripMenuItem";
-            this.جديدالاصداراتToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
-            this.جديدالاصداراتToolStripMenuItem.Text = "جديد الاصدارات";
-            this.جديدالاصداراتToolStripMenuItem.Click += new System.EventHandler(this.جديدالاصداراتToolStripMenuItem_Click);
+            this.TsmVersionNew.Name = "TsmVersionNew";
+            this.TsmVersionNew.Size = new System.Drawing.Size(246, 34);
+            this.TsmVersionNew.Text = "جديد الاصدارات";
+            this.TsmVersionNew.Click += new System.EventHandler(this.جديدالاصداراتToolStripMenuItem_Click);
             // 
             // نبذهعنالبرنامجToolStripMenuItem1
             // 
@@ -1317,7 +1317,7 @@
             this.TsmCallUs,
             this.TsmPrograms,
             this.TsmLicense,
-            this.TSMTermsandConditions});
+            this.TsmTermsandConditions});
             this.نبذهعنالبرنامجToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.نبذهعنالبرنامجToolStripMenuItem1.Image = global::ZAD_Sales.Properties.Resources.help2;
             this.نبذهعنالبرنامجToolStripMenuItem1.Name = "نبذهعنالبرنامجToolStripMenuItem1";
@@ -1356,12 +1356,12 @@
             this.TsmLicense.Text = "الترخيص";
             this.TsmLicense.Click += new System.EventHandler(this.TsmLicense_Click);
             // 
-            // TSMTermsandConditions
+            // TsmTermsandConditions
             // 
-            this.TSMTermsandConditions.Name = "TSMTermsandConditions";
-            this.TSMTermsandConditions.Size = new System.Drawing.Size(227, 34);
-            this.TSMTermsandConditions.Text = "الشروط والأحكام";
-            this.TSMTermsandConditions.Click += new System.EventHandler(this.TSMTermsandConditions_Click);
+            this.TsmTermsandConditions.Name = "TsmTermsandConditions";
+            this.TsmTermsandConditions.Size = new System.Drawing.Size(227, 34);
+            this.TsmTermsandConditions.Text = "الشروط والأحكام";
+            this.TsmTermsandConditions.Click += new System.EventHandler(this.TSMTermsandConditions_Click);
             // 
             // مواقعقدتهمكToolStripMenuItem
             // 
@@ -3211,7 +3211,7 @@
         private System.Windows.Forms.ToolStripMenuItem TsmPurchases;
         private System.Windows.Forms.ToolStripMenuItem TsmSalesReturns;
         private System.Windows.Forms.ToolStripMenuItem TsmPurchaseReturns;
-        private System.Windows.Forms.ToolStripMenuItem ToolStrip_CategoryOthers;
+        private System.Windows.Forms.ToolStripMenuItem TsmOtherExpensesRevenues;
         private System.Windows.Forms.ToolStripMenuItem شئونماليهToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TsmMoneyToBox;
         private System.Windows.Forms.ToolStripMenuItem TsmMoneyFromBox;
@@ -3338,7 +3338,7 @@
         private System.Windows.Forms.ToolStripMenuItem الأحداثاليوميةToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TsmDailyClosing;
         private System.Windows.Forms.ToolStripMenuItem TsmSalesNoSave;
-        private System.Windows.Forms.ToolStripMenuItem جديدالاصداراتToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TsmVersionNew;
         private System.Windows.Forms.ToolStripMenuItem مواقعقدتهمكToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem قناةالوصيفللقرآنالكريمToolStripMenuItem1;
@@ -3436,12 +3436,12 @@
         private System.Windows.Forms.ToolStripMenuItem TsmStatistical;
         private System.Windows.Forms.ToolStripMenuItem TsmRASMALL;
         private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.ToolStripMenuItem إضافةسريالاتالأصنافToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TsmAddSnToCategory;
         private System.Windows.Forms.ToolStripMenuItem TsmProducerAddBarcodeFactory;
         private System.Windows.Forms.Label labelDataBaseName;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.ToolStripMenuItem TsmOccasionsForm;
-        private System.Windows.Forms.ToolStripMenuItem TSMTermsandConditions;
+        private System.Windows.Forms.ToolStripMenuItem TsmTermsandConditions;
         private System.Windows.Forms.ToolStripMenuItem TsmStatisticalFrmBillingSummary;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.ToolStripMenuItem TsmPriceViewer;
