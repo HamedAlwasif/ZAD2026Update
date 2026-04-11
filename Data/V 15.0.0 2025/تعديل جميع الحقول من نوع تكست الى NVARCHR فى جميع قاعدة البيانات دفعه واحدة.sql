@@ -1,0 +1,52 @@
+﻿USE [ZEZO];
+GO
+
+
+DECLARE @TableName NVARCHAR(255);
+DECLARE @ColumnName NVARCHAR(255);
+DECLARE @SQL NVARCHAR(MAX);
+
+-- كيرسور يجيب كل الأعمدة اللي نوعها text
+DECLARE cur CURSOR FOR
+SELECT t.name AS TableName, c.name AS ColumnName
+FROM sys.columns c
+INNER JOIN sys.tables t ON c.object_id = t.object_id
+WHERE c.user_type_id = 35; -- 35 = text
+
+OPEN cur;
+FETCH NEXT FROM cur INTO @TableName, @ColumnName;
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+    SET @SQL = 'ALTER TABLE [' + @TableName + '] ALTER COLUMN [' + @ColumnName + '] NVARCHAR(250)';
+    PRINT @SQL; -- للمتابعة والاطمئنان
+    EXEC sp_executesql @SQL;
+
+    FETCH NEXT FROM cur INTO @TableName, @ColumnName;
+END
+
+CLOSE cur;
+DEALLOCATE cur;
+
+
+--ALTER TABLE [Bank] ALTER COLUMN [Address] NVARCHAR(250)
+--ALTER TABLE [Bank] ALTER COLUMN [Note] NVARCHAR(250)
+--ALTER TABLE [BankHesab] ALTER COLUMN [Note] NVARCHAR(250)
+--ALTER TABLE [BillingData] ALTER COLUMN [ReasonDiscount] NVARCHAR(250)
+--ALTER TABLE [BillingData1] ALTER COLUMN [Move] NVARCHAR(250)
+--ALTER TABLE [BillingData1] ALTER COLUMN [ReasonDiscount] NVARCHAR(250)
+--ALTER TABLE [BillingData1] ALTER COLUMN [ReasonAdd] NVARCHAR(250)
+--ALTER TABLE [BillingInvalid] ALTER COLUMN [Notes] NVARCHAR(250)
+--ALTER TABLE [BoxMove] ALTER COLUMN [Note] NVARCHAR(250)
+--ALTER TABLE [Car] ALTER COLUMN [NumShaseh] NVARCHAR(250)
+--ALTER TABLE [Car] ALTER COLUMN [NumMotor] NVARCHAR(250)
+--ALTER TABLE [Clients] ALTER COLUMN [Address] NVARCHAR(250)
+--ALTER TABLE [EmployedSalary] ALTER COLUMN [Notice] NVARCHAR(250)
+--ALTER TABLE [Events] ALTER COLUMN [Events] NVARCHAR(250)
+--ALTER TABLE [Expended] ALTER COLUMN [Report] NVARCHAR(250)
+--ALTER TABLE [Expended1] ALTER COLUMN [Report] NVARCHAR(250)
+--ALTER TABLE [Invalid] ALTER COLUMN [Notes] NVARCHAR(250)
+--ALTER TABLE [OsolSabta] ALTER COLUMN [Report] NVARCHAR(250)
+--ALTER TABLE [SearchCar] ALTER COLUMN [Notice] NVARCHAR(250)
+--ALTER TABLE [SheekSave] ALTER COLUMN [Note] NVARCHAR(250)
+--ALTER TABLE [Treasury] ALTER COLUMN [Notice] NVARCHAR(250)
