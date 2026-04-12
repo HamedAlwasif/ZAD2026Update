@@ -3007,9 +3007,10 @@ namespace ZAD_Sales.Forms
             { "TsmPurchases", () => CurrentUser.Purchases },
             { "TsmSalesReturns", () => CurrentUser.SalesReturns },//مردودات
             { "TsmPurchaseReturns", () => CurrentUser.PurchaseReturns },//مردودات
-            //TsmOtherExpensesRevenues مصروفات وايرادات اخرى
-            //TsmInstallment   التقسيط
-            //TsmSalesNoSave فاتورة مبيعات غير معتمدة
+            { "TsmInstallment", () => CurrentUser.Installment },//التقسيط
+            { "TsmOtherExpensesRevenues", () => CurrentUser.OtherExpensesRevenues },//مصروفات وايرادات اخرى
+            { "TsmSalesNoSave", () => CurrentUser.SalesNoSave },//فاتورة مبيعات غير معتمد
+            
             //======= نهاية قائمة المبيعات والمشتريات
 
             //======= شئون مالية
@@ -3063,7 +3064,7 @@ namespace ZAD_Sales.Forms
             //====== نهاية المساعدة
 
             
-            { "TsmExplainSystem", () => CurrentUser.ExplainSystem }, // شرح النظام
+            { "TsmExplainSystem", () => CurrentUser.ExplainSystem }, // موقعنا على الانترنت
 
             //==== الاصناف
             { "TsmProducerNewAdd", () => CurrentUser.ProducerNewAdd },
