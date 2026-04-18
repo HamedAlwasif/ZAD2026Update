@@ -915,6 +915,9 @@ string PriceNesfAlgomla = "0";
             NoteToBill = AppSetting.NoteToBill;
             Demo = AppSetting.DemoOnBill;
 
+            comTypeBill.Text = AppSetting.TypeBillDefoult;  // نوع الفاورة
+
+
             //---------- ايجاد الطابعه الافتراضية وحجم الورقة -----
 
             SizePaperBill = AppSetting.SizePaperBill;
@@ -1054,6 +1057,11 @@ string PriceNesfAlgomla = "0";
                 textPriceKatey.Visible = false;
                 label43.Visible = false;
                 label44.Visible = false;
+
+                textPriceGomlaAlgomla.Visible = false;
+                textPriceNesfGomla.Visible = false;
+                label35.Visible = false;
+                label34.Visible = false;
 
                 label2.Text = "السعـــــر";
 
@@ -3416,6 +3424,19 @@ string PriceNesfAlgomla = "0";
 
 
             dataGridView2.AutoResizeRowHeadersWidth(DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders);
+
+
+            //------------------------- العميل النقدى -------------------
+
+            if (comTypeBill.Text == "نقدى")
+            {
+                txtMosadad.Text = txtTotalBill.Text;
+            }
+            else
+            {
+
+            }
+
             //--------- حساب الباقى ----------------------
             CountRemaining();
             //------ الذهاب لمربع الصنف -----------------

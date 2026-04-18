@@ -908,5 +908,33 @@ namespace ZAD_Sales.Forms
                 labPassword.Visible = false;
             }
         }
+
+        private void combVersionsUpdate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (combVersionsUpdate.Text== "Occasions")
+            {
+                txtSqlScriptUpdateData.Text = textOccasions.Text;
+            }
+            else if (combVersionsUpdate.Text== "UsersUpdate")
+            {
+                txtSqlScriptUpdateData.Text = textUsersUpdate.Text;
+            }
+            else if (combVersionsUpdate.Text == "ProfitRate")
+            {
+                txtSqlScriptUpdateData.Text = textProfitRate.Text;
+            }
+            else if (combVersionsUpdate.Text == "TextToNvarchar")
+            {
+                txtSqlScriptUpdateData.Text = textTextToNvarchar.Text;
+            }
+            else if (combVersionsUpdate.Text == "Version16")
+            {
+                txtSqlScriptUpdateData.Text = textVersion16.Text;
+            }
+            else
+            {
+               // txtSqlScriptUpdateData.Text = textOccasions.Text;
+            }
+        }
     }
 }

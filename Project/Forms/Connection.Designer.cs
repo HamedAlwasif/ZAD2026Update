@@ -46,6 +46,11 @@
             this.butSave = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.textSecurity = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -63,6 +68,13 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.butSecurityIP = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.textSecurityIP = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -99,21 +111,33 @@
             this.radioCreatDataBase = new System.Windows.Forms.RadioButton();
             this.txtSqlScript = new System.Windows.Forms.TextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.butUpdateData = new System.Windows.Forms.Button();
             this.txtSqlScriptUpdateData = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.butUpdateData = new System.Windows.Forms.Button();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.labUserName = new System.Windows.Forms.Label();
             this.radioWindowsAuthentication = new System.Windows.Forms.RadioButton();
+            this.labPassword = new System.Windows.Forms.Label();
+            this.textUserName = new System.Windows.Forms.TextBox();
             this.radioSqlAuthentication = new System.Windows.Forms.RadioButton();
+            this.textPassword = new System.Windows.Forms.TextBox();
             this.comboDatabases = new System.Windows.Forms.ComboBox();
             this.comboServers = new System.Windows.Forms.ComboBox();
             this.butUpdateData11 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label24 = new System.Windows.Forms.Label();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
             this.textBoxUserName = new System.Windows.Forms.TextBox();
             this.butCreatUser = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.radioAttach = new System.Windows.Forms.RadioButton();
             this.groupAttach = new System.Windows.Forms.GroupBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
             this.combDatabaseAttach = new System.Windows.Forms.ComboBox();
             this.combServerNameAttach = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -128,30 +152,13 @@
             this.label17 = new System.Windows.Forms.Label();
             this.butAttach = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.labUserName = new System.Windows.Forms.Label();
-            this.labPassword = new System.Windows.Forms.Label();
-            this.textUserName = new System.Windows.Forms.TextBox();
-            this.textPassword = new System.Windows.Forms.TextBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
+            this.combVersionsUpdate = new System.Windows.Forms.ComboBox();
+            this.textUsersUpdate = new System.Windows.Forms.TextBox();
+            this.textOccasions = new System.Windows.Forms.TextBox();
+            this.textProfitRate = new System.Windows.Forms.TextBox();
+            this.textTextToNvarchar = new System.Windows.Forms.TextBox();
+            this.textVersion16 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -164,10 +171,10 @@
             this.tabPage6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.groupAttach.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabControl
@@ -394,6 +401,71 @@
             this.groupBox1.Text = "   الاتصال باستخدام مستخدم و    كلمة سر";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label36.Location = new System.Drawing.Point(79, 140);
+            this.label36.Name = "label36";
+            this.label36.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label36.Size = new System.Drawing.Size(71, 15);
+            this.label36.TabIndex = 212153;
+            this.label36.Text = "UserName :";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label30.Location = new System.Drawing.Point(79, 68);
+            this.label30.Name = "label30";
+            this.label30.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label30.Size = new System.Drawing.Size(85, 15);
+            this.label30.TabIndex = 212153;
+            this.label30.Text = "Server Name :";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label31.Location = new System.Drawing.Point(79, 32);
+            this.label31.Name = "label31";
+            this.label31.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label31.Size = new System.Drawing.Size(95, 15);
+            this.label31.TabIndex = 212154;
+            this.label31.Text = "Authentication :";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label35.Location = new System.Drawing.Point(79, 176);
+            this.label35.Name = "label35";
+            this.label35.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label35.Size = new System.Drawing.Size(66, 15);
+            this.label35.TabIndex = 212155;
+            this.label35.Text = "Password :";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label32.Location = new System.Drawing.Point(79, 104);
+            this.label32.Name = "label32";
+            this.label32.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label32.Size = new System.Drawing.Size(100, 15);
+            this.label32.TabIndex = 212155;
+            this.label32.Text = "DataBase Name :";
+            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -597,6 +669,97 @@
             this.groupBox3.TabIndex = 33;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "  الاتصال عن طريق الشبكة   ";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label33.Location = new System.Drawing.Point(42, 151);
+            this.label33.Name = "label33";
+            this.label33.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label33.Size = new System.Drawing.Size(71, 15);
+            this.label33.TabIndex = 212156;
+            this.label33.Text = "UserName :";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Transparent;
+            this.label41.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label41.Location = new System.Drawing.Point(238, 91);
+            this.label41.Name = "label41";
+            this.label41.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label41.Size = new System.Drawing.Size(106, 15);
+            this.label41.TabIndex = 212157;
+            this.label41.Text = "Network Library :";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label40.Location = new System.Drawing.Point(42, 91);
+            this.label40.Name = "label40";
+            this.label40.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label40.Size = new System.Drawing.Size(85, 15);
+            this.label40.TabIndex = 212157;
+            this.label40.Text = "Port Number :";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label34.Location = new System.Drawing.Point(42, 61);
+            this.label34.Name = "label34";
+            this.label34.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label34.Size = new System.Drawing.Size(85, 15);
+            this.label34.TabIndex = 212157;
+            this.label34.Text = "Server Name :";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label37.Location = new System.Drawing.Point(42, 31);
+            this.label37.Name = "label37";
+            this.label37.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label37.Size = new System.Drawing.Size(95, 15);
+            this.label37.TabIndex = 212158;
+            this.label37.Text = "Authentication :";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label38.Location = new System.Drawing.Point(42, 181);
+            this.label38.Name = "label38";
+            this.label38.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label38.Size = new System.Drawing.Size(66, 15);
+            this.label38.TabIndex = 212159;
+            this.label38.Text = "Password :";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.Transparent;
+            this.label39.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label39.Location = new System.Drawing.Point(42, 121);
+            this.label39.Name = "label39";
+            this.label39.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label39.Size = new System.Drawing.Size(100, 15);
+            this.label39.TabIndex = 212160;
+            this.label39.Text = "DataBase Name :";
             // 
             // radioButton1
             // 
@@ -1005,6 +1168,13 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.label21);
+            this.tabPage6.Controls.Add(this.textVersion16);
+            this.tabPage6.Controls.Add(this.textTextToNvarchar);
+            this.tabPage6.Controls.Add(this.textProfitRate);
+            this.tabPage6.Controls.Add(this.textOccasions);
+            this.tabPage6.Controls.Add(this.textUsersUpdate);
+            this.tabPage6.Controls.Add(this.combVersionsUpdate);
             this.tabPage6.Controls.Add(this.butUpdateData);
             this.tabPage6.Controls.Add(this.txtSqlScriptUpdateData);
             this.tabPage6.Controls.Add(this.groupBox5);
@@ -1016,15 +1186,28 @@
             this.tabPage6.Text = "تحديث البيانات  ";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // butUpdateData
+            // 
+            this.butUpdateData.BackColor = System.Drawing.Color.Teal;
+            this.butUpdateData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butUpdateData.ForeColor = System.Drawing.Color.White;
+            this.butUpdateData.Location = new System.Drawing.Point(36, 632);
+            this.butUpdateData.Name = "butUpdateData";
+            this.butUpdateData.Size = new System.Drawing.Size(77, 23);
+            this.butUpdateData.TabIndex = 97;
+            this.butUpdateData.Text = "تحديث";
+            this.butUpdateData.UseVisualStyleBackColor = false;
+            this.butUpdateData.Click += new System.EventHandler(this.butUpdateData_Click_1);
+            // 
             // txtSqlScriptUpdateData
             // 
-            this.txtSqlScriptUpdateData.Location = new System.Drawing.Point(36, 141);
+            this.txtSqlScriptUpdateData.Location = new System.Drawing.Point(36, 170);
             this.txtSqlScriptUpdateData.MaxLength = 999999999;
             this.txtSqlScriptUpdateData.Multiline = true;
             this.txtSqlScriptUpdateData.Name = "txtSqlScriptUpdateData";
             this.txtSqlScriptUpdateData.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtSqlScriptUpdateData.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtSqlScriptUpdateData.Size = new System.Drawing.Size(818, 491);
+            this.txtSqlScriptUpdateData.Size = new System.Drawing.Size(818, 458);
             this.txtSqlScriptUpdateData.TabIndex = 212161;
             this.txtSqlScriptUpdateData.Text = resources.GetString("txtSqlScriptUpdateData.Text");
             // 
@@ -1049,18 +1232,58 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "    Data   ";
             // 
-            // butUpdateData
+            // label46
             // 
-            this.butUpdateData.BackColor = System.Drawing.Color.Teal;
-            this.butUpdateData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butUpdateData.ForeColor = System.Drawing.Color.White;
-            this.butUpdateData.Location = new System.Drawing.Point(47, 638);
-            this.butUpdateData.Name = "butUpdateData";
-            this.butUpdateData.Size = new System.Drawing.Size(77, 23);
-            this.butUpdateData.TabIndex = 97;
-            this.butUpdateData.Text = "تحديث";
-            this.butUpdateData.UseVisualStyleBackColor = false;
-            this.butUpdateData.Click += new System.EventHandler(this.butUpdateData_Click_1);
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label46.Location = new System.Drawing.Point(26, 75);
+            this.label46.Name = "label46";
+            this.label46.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label46.Size = new System.Drawing.Size(100, 15);
+            this.label46.TabIndex = 212163;
+            this.label46.Text = "DataBase Name :";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label45.Location = new System.Drawing.Point(26, 45);
+            this.label45.Name = "label45";
+            this.label45.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label45.Size = new System.Drawing.Size(85, 15);
+            this.label45.TabIndex = 212162;
+            this.label45.Text = "Server Name :";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label44.Location = new System.Drawing.Point(26, 19);
+            this.label44.Name = "label44";
+            this.label44.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label44.Size = new System.Drawing.Size(95, 15);
+            this.label44.TabIndex = 212162;
+            this.label44.Text = "Authentication :";
+            // 
+            // labUserName
+            // 
+            this.labUserName.AutoSize = true;
+            this.labUserName.BackColor = System.Drawing.Color.Transparent;
+            this.labUserName.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labUserName.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.labUserName.Location = new System.Drawing.Point(562, 45);
+            this.labUserName.Name = "labUserName";
+            this.labUserName.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.labUserName.Size = new System.Drawing.Size(71, 15);
+            this.labUserName.TabIndex = 212164;
+            this.labUserName.Text = "UserName :";
+            this.labUserName.Visible = false;
             // 
             // radioWindowsAuthentication
             // 
@@ -1081,6 +1304,30 @@
             this.radioWindowsAuthentication.UseVisualStyleBackColor = false;
             this.radioWindowsAuthentication.CheckedChanged += new System.EventHandler(this.radioWindowsAuthentication_CheckedChanged);
             // 
+            // labPassword
+            // 
+            this.labPassword.AutoSize = true;
+            this.labPassword.BackColor = System.Drawing.Color.Transparent;
+            this.labPassword.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labPassword.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.labPassword.Location = new System.Drawing.Point(562, 75);
+            this.labPassword.Name = "labPassword";
+            this.labPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.labPassword.Size = new System.Drawing.Size(66, 15);
+            this.labPassword.TabIndex = 212165;
+            this.labPassword.Text = "Password :";
+            this.labPassword.Visible = false;
+            // 
+            // textUserName
+            // 
+            this.textUserName.Location = new System.Drawing.Point(637, 42);
+            this.textUserName.Name = "textUserName";
+            this.textUserName.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textUserName.Size = new System.Drawing.Size(165, 20);
+            this.textUserName.TabIndex = 212162;
+            this.textUserName.Text = "zezo";
+            this.textUserName.Visible = false;
+            // 
             // radioSqlAuthentication
             // 
             this.radioSqlAuthentication.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -1097,6 +1344,16 @@
             this.radioSqlAuthentication.Text = "Sql Authentication";
             this.radioSqlAuthentication.UseVisualStyleBackColor = false;
             this.radioSqlAuthentication.CheckedChanged += new System.EventHandler(this.radioSqlAuthentication_CheckedChanged);
+            // 
+            // textPassword
+            // 
+            this.textPassword.Location = new System.Drawing.Point(637, 72);
+            this.textPassword.Name = "textPassword";
+            this.textPassword.PasswordChar = '*';
+            this.textPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textPassword.Size = new System.Drawing.Size(165, 20);
+            this.textPassword.TabIndex = 212163;
+            this.textPassword.Visible = false;
             // 
             // comboDatabases
             // 
@@ -1140,6 +1397,33 @@
             this.tabPage5.Text = "إنشاء مستخدم   ";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label24);
+            this.groupBox6.Controls.Add(this.textBoxPassword);
+            this.groupBox6.Controls.Add(this.label23);
+            this.groupBox6.Controls.Add(this.textBoxUserName);
+            this.groupBox6.Location = new System.Drawing.Point(107, 105);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.groupBox6.Size = new System.Drawing.Size(518, 143);
+            this.groupBox6.TabIndex = 109;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "   Create a new user    ";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.Indigo;
+            this.label24.Location = new System.Drawing.Point(53, 89);
+            this.label24.Name = "label24";
+            this.label24.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label24.Size = new System.Drawing.Size(81, 19);
+            this.label24.TabIndex = 106;
+            this.label24.Text = "Password :";
+            // 
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1150,6 +1434,19 @@
             this.textBoxPassword.Size = new System.Drawing.Size(254, 22);
             this.textBoxPassword.TabIndex = 108;
             this.textBoxPassword.Text = "2042017";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Indigo;
+            this.label23.Location = new System.Drawing.Point(53, 49);
+            this.label23.Name = "label23";
+            this.label23.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label23.Size = new System.Drawing.Size(90, 19);
+            this.label23.TabIndex = 105;
+            this.label23.Text = "UserName :";
             // 
             // textBoxUserName
             // 
@@ -1211,6 +1508,32 @@
             this.groupAttach.TabIndex = 212159;
             this.groupAttach.TabStop = false;
             this.groupAttach.Text = "    Attach";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.Teal;
+            this.label42.Location = new System.Drawing.Point(45, 64);
+            this.label42.Name = "label42";
+            this.label42.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label42.Size = new System.Drawing.Size(85, 15);
+            this.label42.TabIndex = 212161;
+            this.label42.Text = "Server Name :";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.Teal;
+            this.label43.Location = new System.Drawing.Point(45, 113);
+            this.label43.Name = "label43";
+            this.label43.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label43.Size = new System.Drawing.Size(100, 15);
+            this.label43.TabIndex = 212162;
+            this.label43.Text = "DataBase Name :";
             // 
             // combDatabaseAttach
             // 
@@ -1352,314 +1675,99 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // label30
+            // combVersionsUpdate
             // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label30.Location = new System.Drawing.Point(79, 68);
-            this.label30.Name = "label30";
-            this.label30.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label30.Size = new System.Drawing.Size(85, 15);
-            this.label30.TabIndex = 212153;
-            this.label30.Text = "Server Name :";
+            this.combVersionsUpdate.FormattingEnabled = true;
+            this.combVersionsUpdate.Items.AddRange(new object[] {
+            "Occasions",
+            "UsersUpdate",
+            "ProfitRate",
+            "TextToNvarchar",
+            "Version16"});
+            this.combVersionsUpdate.Location = new System.Drawing.Point(168, 143);
+            this.combVersionsUpdate.Name = "combVersionsUpdate";
+            this.combVersionsUpdate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.combVersionsUpdate.Size = new System.Drawing.Size(248, 21);
+            this.combVersionsUpdate.TabIndex = 212162;
+            this.combVersionsUpdate.SelectedIndexChanged += new System.EventHandler(this.combVersionsUpdate_SelectedIndexChanged);
             // 
-            // label31
+            // textUsersUpdate
             // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label31.Location = new System.Drawing.Point(79, 32);
-            this.label31.Name = "label31";
-            this.label31.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label31.Size = new System.Drawing.Size(95, 15);
-            this.label31.TabIndex = 212154;
-            this.label31.Text = "Authentication :";
+            this.textUsersUpdate.Location = new System.Drawing.Point(168, 634);
+            this.textUsersUpdate.MaxLength = 999999999;
+            this.textUsersUpdate.Multiline = true;
+            this.textUsersUpdate.Name = "textUsersUpdate";
+            this.textUsersUpdate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textUsersUpdate.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textUsersUpdate.Size = new System.Drawing.Size(116, 59);
+            this.textUsersUpdate.TabIndex = 212163;
+            this.textUsersUpdate.Text = resources.GetString("textUsersUpdate.Text");
+            this.textUsersUpdate.Visible = false;
             // 
-            // label32
+            // textOccasions
             // 
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label32.Location = new System.Drawing.Point(79, 104);
-            this.label32.Name = "label32";
-            this.label32.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label32.Size = new System.Drawing.Size(100, 15);
-            this.label32.TabIndex = 212155;
-            this.label32.Text = "DataBase Name :";
+            this.textOccasions.Location = new System.Drawing.Point(290, 634);
+            this.textOccasions.MaxLength = 999999999;
+            this.textOccasions.Multiline = true;
+            this.textOccasions.Name = "textOccasions";
+            this.textOccasions.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textOccasions.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textOccasions.Size = new System.Drawing.Size(116, 59);
+            this.textOccasions.TabIndex = 212163;
+            this.textOccasions.Text = resources.GetString("textOccasions.Text");
+            this.textOccasions.Visible = false;
             // 
-            // label35
+            // textProfitRate
             // 
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label35.Location = new System.Drawing.Point(79, 176);
-            this.label35.Name = "label35";
-            this.label35.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label35.Size = new System.Drawing.Size(66, 15);
-            this.label35.TabIndex = 212155;
-            this.label35.Text = "Password :";
+            this.textProfitRate.Location = new System.Drawing.Point(412, 634);
+            this.textProfitRate.MaxLength = 999999999;
+            this.textProfitRate.Multiline = true;
+            this.textProfitRate.Name = "textProfitRate";
+            this.textProfitRate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textProfitRate.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textProfitRate.Size = new System.Drawing.Size(116, 59);
+            this.textProfitRate.TabIndex = 212163;
+            this.textProfitRate.Text = resources.GetString("textProfitRate.Text");
+            this.textProfitRate.Visible = false;
             // 
-            // label36
+            // textTextToNvarchar
             // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label36.Location = new System.Drawing.Point(79, 140);
-            this.label36.Name = "label36";
-            this.label36.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label36.Size = new System.Drawing.Size(71, 15);
-            this.label36.TabIndex = 212153;
-            this.label36.Text = "UserName :";
+            this.textTextToNvarchar.Location = new System.Drawing.Point(534, 634);
+            this.textTextToNvarchar.MaxLength = 999999999;
+            this.textTextToNvarchar.Multiline = true;
+            this.textTextToNvarchar.Name = "textTextToNvarchar";
+            this.textTextToNvarchar.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textTextToNvarchar.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textTextToNvarchar.Size = new System.Drawing.Size(116, 59);
+            this.textTextToNvarchar.TabIndex = 212163;
+            this.textTextToNvarchar.Text = resources.GetString("textTextToNvarchar.Text");
+            this.textTextToNvarchar.Visible = false;
             // 
-            // label33
+            // textVersion16
             // 
-            this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.Transparent;
-            this.label33.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label33.Location = new System.Drawing.Point(42, 151);
-            this.label33.Name = "label33";
-            this.label33.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label33.Size = new System.Drawing.Size(71, 15);
-            this.label33.TabIndex = 212156;
-            this.label33.Text = "UserName :";
+            this.textVersion16.Location = new System.Drawing.Point(656, 634);
+            this.textVersion16.MaxLength = 999999999;
+            this.textVersion16.Multiline = true;
+            this.textVersion16.Name = "textVersion16";
+            this.textVersion16.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textVersion16.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textVersion16.Size = new System.Drawing.Size(116, 59);
+            this.textVersion16.TabIndex = 212163;
+            this.textVersion16.Text = resources.GetString("textVersion16.Text");
+            this.textVersion16.Visible = false;
             // 
-            // label34
+            // label21
             // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label34.Location = new System.Drawing.Point(42, 61);
-            this.label34.Name = "label34";
-            this.label34.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label34.Size = new System.Drawing.Size(85, 15);
-            this.label34.TabIndex = 212157;
-            this.label34.Text = "Server Name :";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.Transparent;
-            this.label37.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label37.Location = new System.Drawing.Point(42, 31);
-            this.label37.Name = "label37";
-            this.label37.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label37.Size = new System.Drawing.Size(95, 15);
-            this.label37.TabIndex = 212158;
-            this.label37.Text = "Authentication :";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label38.Location = new System.Drawing.Point(42, 181);
-            this.label38.Name = "label38";
-            this.label38.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label38.Size = new System.Drawing.Size(66, 15);
-            this.label38.TabIndex = 212159;
-            this.label38.Text = "Password :";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.Color.Transparent;
-            this.label39.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label39.Location = new System.Drawing.Point(42, 121);
-            this.label39.Name = "label39";
-            this.label39.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label39.Size = new System.Drawing.Size(100, 15);
-            this.label39.TabIndex = 212160;
-            this.label39.Text = "DataBase Name :";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.Color.Transparent;
-            this.label40.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label40.Location = new System.Drawing.Point(42, 91);
-            this.label40.Name = "label40";
-            this.label40.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label40.Size = new System.Drawing.Size(85, 15);
-            this.label40.TabIndex = 212157;
-            this.label40.Text = "Port Number :";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.BackColor = System.Drawing.Color.Transparent;
-            this.label41.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label41.Location = new System.Drawing.Point(238, 91);
-            this.label41.Name = "label41";
-            this.label41.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label41.Size = new System.Drawing.Size(106, 15);
-            this.label41.TabIndex = 212157;
-            this.label41.Text = "Network Library :";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.BackColor = System.Drawing.Color.Transparent;
-            this.label42.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.Teal;
-            this.label42.Location = new System.Drawing.Point(45, 64);
-            this.label42.Name = "label42";
-            this.label42.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label42.Size = new System.Drawing.Size(85, 15);
-            this.label42.TabIndex = 212161;
-            this.label42.Text = "Server Name :";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.label43.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.Teal;
-            this.label43.Location = new System.Drawing.Point(45, 113);
-            this.label43.Name = "label43";
-            this.label43.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label43.Size = new System.Drawing.Size(100, 15);
-            this.label43.TabIndex = 212162;
-            this.label43.Text = "DataBase Name :";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.Indigo;
-            this.label24.Location = new System.Drawing.Point(53, 89);
-            this.label24.Name = "label24";
-            this.label24.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label24.Size = new System.Drawing.Size(81, 19);
-            this.label24.TabIndex = 106;
-            this.label24.Text = "Password :";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.Indigo;
-            this.label23.Location = new System.Drawing.Point(53, 49);
-            this.label23.Name = "label23";
-            this.label23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label23.Size = new System.Drawing.Size(90, 19);
-            this.label23.TabIndex = 105;
-            this.label23.Text = "UserName :";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.label24);
-            this.groupBox6.Controls.Add(this.textBoxPassword);
-            this.groupBox6.Controls.Add(this.label23);
-            this.groupBox6.Controls.Add(this.textBoxUserName);
-            this.groupBox6.Location = new System.Drawing.Point(107, 105);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox6.Size = new System.Drawing.Size(518, 143);
-            this.groupBox6.TabIndex = 109;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "   Create a new user    ";
-            // 
-            // labUserName
-            // 
-            this.labUserName.AutoSize = true;
-            this.labUserName.BackColor = System.Drawing.Color.Transparent;
-            this.labUserName.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labUserName.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.labUserName.Location = new System.Drawing.Point(562, 45);
-            this.labUserName.Name = "labUserName";
-            this.labUserName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.labUserName.Size = new System.Drawing.Size(71, 15);
-            this.labUserName.TabIndex = 212164;
-            this.labUserName.Text = "UserName :";
-            this.labUserName.Visible = false;
-            // 
-            // labPassword
-            // 
-            this.labPassword.AutoSize = true;
-            this.labPassword.BackColor = System.Drawing.Color.Transparent;
-            this.labPassword.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labPassword.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.labPassword.Location = new System.Drawing.Point(562, 75);
-            this.labPassword.Name = "labPassword";
-            this.labPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.labPassword.Size = new System.Drawing.Size(66, 15);
-            this.labPassword.TabIndex = 212165;
-            this.labPassword.Text = "Password :";
-            this.labPassword.Visible = false;
-            // 
-            // textUserName
-            // 
-            this.textUserName.Location = new System.Drawing.Point(637, 42);
-            this.textUserName.Name = "textUserName";
-            this.textUserName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textUserName.Size = new System.Drawing.Size(165, 20);
-            this.textUserName.TabIndex = 212162;
-            this.textUserName.Text = "zezo";
-            this.textUserName.Visible = false;
-            // 
-            // textPassword
-            // 
-            this.textPassword.Location = new System.Drawing.Point(637, 72);
-            this.textPassword.Name = "textPassword";
-            this.textPassword.PasswordChar = '*';
-            this.textPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textPassword.Size = new System.Drawing.Size(165, 20);
-            this.textPassword.TabIndex = 212163;
-            this.textPassword.Visible = false;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.BackColor = System.Drawing.Color.Transparent;
-            this.label44.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label44.Location = new System.Drawing.Point(26, 19);
-            this.label44.Name = "label44";
-            this.label44.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label44.Size = new System.Drawing.Size(95, 15);
-            this.label44.TabIndex = 212162;
-            this.label44.Text = "Authentication :";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.BackColor = System.Drawing.Color.Transparent;
-            this.label45.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label45.Location = new System.Drawing.Point(26, 45);
-            this.label45.Name = "label45";
-            this.label45.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label45.Size = new System.Drawing.Size(85, 15);
-            this.label45.TabIndex = 212162;
-            this.label45.Text = "Server Name :";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.BackColor = System.Drawing.Color.Transparent;
-            this.label46.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label46.Location = new System.Drawing.Point(26, 75);
-            this.label46.Name = "label46";
-            this.label46.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label46.Size = new System.Drawing.Size(100, 15);
-            this.label46.TabIndex = 212163;
-            this.label46.Text = "DataBase Name :";
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label21.Location = new System.Drawing.Point(57, 145);
+            this.label21.Name = "label21";
+            this.label21.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label21.Size = new System.Drawing.Size(75, 15);
+            this.label21.TabIndex = 212163;
+            this.label21.Text = "Version No :";
             // 
             // Connection
             // 
@@ -1701,14 +1809,14 @@
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.tabPage5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             this.groupAttach.ResumeLayout(false);
             this.groupAttach.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1839,5 +1947,12 @@
         internal System.Windows.Forms.Label labPassword;
         private System.Windows.Forms.TextBox textUserName;
         private System.Windows.Forms.TextBox textPassword;
+        private System.Windows.Forms.TextBox textTextToNvarchar;
+        private System.Windows.Forms.TextBox textProfitRate;
+        private System.Windows.Forms.TextBox textOccasions;
+        private System.Windows.Forms.TextBox textUsersUpdate;
+        private System.Windows.Forms.ComboBox combVersionsUpdate;
+        private System.Windows.Forms.TextBox textVersion16;
+        internal System.Windows.Forms.Label label21;
     }
 }

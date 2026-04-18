@@ -447,6 +447,7 @@
             this.panel15 = new System.Windows.Forms.Panel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.textPaidAmountWords = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -503,6 +504,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             this.panel15.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // butSeting
@@ -780,7 +782,7 @@
             this.butAdd3.BackColor = System.Drawing.Color.Teal;
             this.butAdd3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butAdd3.ForeColor = System.Drawing.Color.White;
-            this.butAdd3.Location = new System.Drawing.Point(1311, 100);
+            this.butAdd3.Location = new System.Drawing.Point(271, 24);
             this.butAdd3.Name = "butAdd3";
             this.butAdd3.Size = new System.Drawing.Size(23, 26);
             this.butAdd3.TabIndex = 8;
@@ -1274,6 +1276,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.groupBox3);
             this.panel7.Controls.Add(this.panel23);
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.groupBox5);
@@ -1291,7 +1294,7 @@
             this.panel23.Controls.Add(this.radBtPriceGomla);
             this.panel23.Controls.Add(this.chBoxDeletCat);
             this.panel23.Controls.Add(this.radioBtPriceMostahlek);
-            this.panel23.Location = new System.Drawing.Point(9, 441);
+            this.panel23.Location = new System.Drawing.Point(9, 417);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(301, 39);
             this.panel23.TabIndex = 5548;
@@ -1331,6 +1334,7 @@
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.label33);
             this.panel8.Controls.Add(this.textID_SN);
+            this.panel8.Controls.Add(this.butAdd3);
             this.panel8.Controls.Add(this.panel24);
             this.panel8.Controls.Add(this.textNear);
             this.panel8.Controls.Add(this.textBox21);
@@ -1457,7 +1461,7 @@
             this.groupBox5.Controls.Add(this.textBox20);
             this.groupBox5.Controls.Add(this.label21);
             this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.groupBox5.Location = new System.Drawing.Point(8, 510);
+            this.groupBox5.Location = new System.Drawing.Point(8, 465);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox5.Size = new System.Drawing.Size(300, 96);
@@ -1629,7 +1633,7 @@
             this.tabPage1.Controls.Add(this.panel5);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(342, 411);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "    البيانات   ";
@@ -1815,7 +1819,7 @@
             this.tabPage2.Controls.Add(this.dataGridView3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(342, 411);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "   الفواتير  ";
@@ -2136,7 +2140,7 @@
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(48)))), ((int)(((byte)(80)))));
             this.panel13.Location = new System.Drawing.Point(5, 351);
-            this.panel13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel13.Margin = new System.Windows.Forms.Padding(2);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(19, 2);
             this.panel13.TabIndex = 5552;
@@ -2406,7 +2410,7 @@
             // 
             this.TxtNumBox.Enabled = false;
             this.TxtNumBox.Location = new System.Drawing.Point(411, 8);
-            this.TxtNumBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtNumBox.Margin = new System.Windows.Forms.Padding(2);
             this.TxtNumBox.Name = "TxtNumBox";
             this.TxtNumBox.Size = new System.Drawing.Size(46, 20);
             this.TxtNumBox.TabIndex = 5549;
@@ -2427,7 +2431,7 @@
             // 
             this.txtBoxRemining.Enabled = false;
             this.txtBoxRemining.Location = new System.Drawing.Point(288, 8);
-            this.txtBoxRemining.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBoxRemining.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxRemining.Name = "txtBoxRemining";
             this.txtBoxRemining.Size = new System.Drawing.Size(76, 20);
             this.txtBoxRemining.TabIndex = 5549;
@@ -2453,9 +2457,9 @@
             this.groupBox1.Controls.Add(this.combPaperSize);
             this.groupBox1.Controls.Add(this.label72);
             this.groupBox1.Location = new System.Drawing.Point(14, 165);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox1.Size = new System.Drawing.Size(196, 167);
             this.groupBox1.TabIndex = 5542;
@@ -2467,7 +2471,7 @@
             this.butUpdateSeting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(81)))), ((int)(((byte)(156)))));
             this.butUpdateSeting.ForeColor = System.Drawing.Color.White;
             this.butUpdateSeting.Location = new System.Drawing.Point(12, 120);
-            this.butUpdateSeting.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butUpdateSeting.Margin = new System.Windows.Forms.Padding(2);
             this.butUpdateSeting.Name = "butUpdateSeting";
             this.butUpdateSeting.Size = new System.Drawing.Size(157, 32);
             this.butUpdateSeting.TabIndex = 5541;
@@ -2564,14 +2568,10 @@
             this.panel22.Controls.Add(this.label63);
             this.panel22.Controls.Add(this.label13);
             this.panel22.Controls.Add(this.label12);
-            this.panel22.Controls.Add(this.label74);
-            this.panel22.Controls.Add(this.label73);
             this.panel22.Controls.Add(this.label10);
             this.panel22.Controls.Add(this.txtTotalBill);
             this.panel22.Controls.Add(this.label11);
             this.panel22.Controls.Add(this.txtRemaningOld);
-            this.panel22.Controls.Add(this.textReturn);
-            this.panel22.Controls.Add(this.textMosadadActual);
             this.panel22.Controls.Add(this.txtMosadad);
             this.panel22.Controls.Add(this.label9);
             this.panel22.Controls.Add(this.txtRemainingNow);
@@ -2654,7 +2654,7 @@
             // 
             this.label74.AutoSize = true;
             this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(81)))), ((int)(((byte)(156)))));
-            this.label74.Location = new System.Drawing.Point(436, 41);
+            this.label74.Location = new System.Drawing.Point(107, 26);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(29, 13);
             this.label74.TabIndex = 16;
@@ -2665,11 +2665,11 @@
             // 
             this.label73.AutoSize = true;
             this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(81)))), ((int)(((byte)(156)))));
-            this.label73.Location = new System.Drawing.Point(404, 18);
+            this.label73.Location = new System.Drawing.Point(250, 26);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(78, 13);
+            this.label73.Size = new System.Drawing.Size(32, 13);
             this.label73.TabIndex = 16;
-            this.label73.Text = " المدفوع الفعلى";
+            this.label73.Text = "المبلغ";
             this.label73.Click += new System.EventHandler(this.label10_Click);
             // 
             // label10
@@ -2725,10 +2725,10 @@
             // 
             this.textReturn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textReturn.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textReturn.Location = new System.Drawing.Point(314, 40);
+            this.textReturn.Location = new System.Drawing.Point(31, 22);
             this.textReturn.Name = "textReturn";
             this.textReturn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textReturn.Size = new System.Drawing.Size(86, 21);
+            this.textReturn.Size = new System.Drawing.Size(67, 21);
             this.textReturn.TabIndex = 388;
             this.textReturn.Text = "0";
             this.textReturn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2739,7 +2739,7 @@
             // 
             this.textMosadadActual.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textMosadadActual.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textMosadadActual.Location = new System.Drawing.Point(314, 14);
+            this.textMosadadActual.Location = new System.Drawing.Point(157, 22);
             this.textMosadadActual.Name = "textMosadadActual";
             this.textMosadadActual.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textMosadadActual.Size = new System.Drawing.Size(86, 21);
@@ -5120,12 +5120,29 @@
             // 
             // textPaidAmountWords
             // 
-            this.textPaidAmountWords.Location = new System.Drawing.Point(301, 701);
+            this.textPaidAmountWords.Location = new System.Drawing.Point(51, 45);
             this.textPaidAmountWords.Name = "textPaidAmountWords";
-            this.textPaidAmountWords.Size = new System.Drawing.Size(460, 20);
+            this.textPaidAmountWords.Size = new System.Drawing.Size(187, 20);
             this.textPaidAmountWords.TabIndex = 5531;
             this.textPaidAmountWords.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textPaidAmountWords.Visible = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox3.Controls.Add(this.textMosadadActual);
+            this.groupBox3.Controls.Add(this.label74);
+            this.groupBox3.Controls.Add(this.textReturn);
+            this.groupBox3.Controls.Add(this.label73);
+            this.groupBox3.Controls.Add(this.textPaidAmountWords);
+            this.groupBox3.ForeColor = System.Drawing.Color.Green;
+            this.groupBox3.Location = new System.Drawing.Point(7, 564);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox3.Size = new System.Drawing.Size(300, 58);
+            this.groupBox3.TabIndex = 5549;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "  المدفوع الفعلى   ";
             // 
             // Sales
             // 
@@ -5135,7 +5152,6 @@
             this.ClientSize = new System.Drawing.Size(1461, 716);
             this.Controls.Add(this.panel15);
             this.Controls.Add(this.reportViewer1);
-            this.Controls.Add(this.butAdd3);
             this.Controls.Add(this.butBillingNoSave);
             this.Controls.Add(this.panel21);
             this.Controls.Add(this.textBox57);
@@ -5146,7 +5162,6 @@
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.textPaidAmountWords);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Sales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -5234,6 +5249,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5622,5 +5639,6 @@
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.Label label73;
         private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
