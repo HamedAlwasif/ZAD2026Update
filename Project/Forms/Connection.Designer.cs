@@ -111,6 +111,13 @@
             this.radioCreatDataBase = new System.Windows.Forms.RadioButton();
             this.txtSqlScript = new System.Windows.Forms.TextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textVersion16 = new System.Windows.Forms.TextBox();
+            this.textTextToNvarchar = new System.Windows.Forms.TextBox();
+            this.textProfitRate = new System.Windows.Forms.TextBox();
+            this.textOccasions = new System.Windows.Forms.TextBox();
+            this.textUsersUpdate = new System.Windows.Forms.TextBox();
+            this.combVersionsUpdate = new System.Windows.Forms.ComboBox();
             this.butUpdateData = new System.Windows.Forms.Button();
             this.txtSqlScriptUpdateData = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -152,13 +159,14 @@
             this.label17 = new System.Windows.Forms.Label();
             this.butAttach = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.combVersionsUpdate = new System.Windows.Forms.ComboBox();
-            this.textUsersUpdate = new System.Windows.Forms.TextBox();
-            this.textOccasions = new System.Windows.Forms.TextBox();
-            this.textProfitRate = new System.Windows.Forms.TextBox();
-            this.textTextToNvarchar = new System.Windows.Forms.TextBox();
-            this.textVersion16 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
+            this.panelTextScripts = new System.Windows.Forms.Panel();
+            this.textDB_Versions = new System.Windows.Forms.TextBox();
+            this.textDescription = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textUser = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -175,6 +183,7 @@
             this.tabPage7.SuspendLayout();
             this.groupAttach.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.panelTextScripts.SuspendLayout();
             this.SuspendLayout();
             // 
             // TabControl
@@ -1168,12 +1177,14 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.textUser);
+            this.tabPage6.Controls.Add(this.dateTimePicker1);
+            this.tabPage6.Controls.Add(this.textDescription);
+            this.tabPage6.Controls.Add(this.panelTextScripts);
+            this.tabPage6.Controls.Add(this.label22);
+            this.tabPage6.Controls.Add(this.label29);
+            this.tabPage6.Controls.Add(this.label28);
             this.tabPage6.Controls.Add(this.label21);
-            this.tabPage6.Controls.Add(this.textVersion16);
-            this.tabPage6.Controls.Add(this.textTextToNvarchar);
-            this.tabPage6.Controls.Add(this.textProfitRate);
-            this.tabPage6.Controls.Add(this.textOccasions);
-            this.tabPage6.Controls.Add(this.textUsersUpdate);
             this.tabPage6.Controls.Add(this.combVersionsUpdate);
             this.tabPage6.Controls.Add(this.butUpdateData);
             this.tabPage6.Controls.Add(this.txtSqlScriptUpdateData);
@@ -1185,6 +1196,101 @@
             this.tabPage6.TabIndex = 7;
             this.tabPage6.Text = "تحديث البيانات  ";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label21.Location = new System.Drawing.Point(62, 145);
+            this.label21.Name = "label21";
+            this.label21.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label21.Size = new System.Drawing.Size(75, 15);
+            this.label21.TabIndex = 212163;
+            this.label21.Text = "Version No :";
+            // 
+            // textVersion16
+            // 
+            this.textVersion16.Location = new System.Drawing.Point(501, 15);
+            this.textVersion16.MaxLength = 999999999;
+            this.textVersion16.Multiline = true;
+            this.textVersion16.Name = "textVersion16";
+            this.textVersion16.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textVersion16.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textVersion16.Size = new System.Drawing.Size(116, 59);
+            this.textVersion16.TabIndex = 212163;
+            this.textVersion16.Text = resources.GetString("textVersion16.Text");
+            this.textVersion16.Visible = false;
+            // 
+            // textTextToNvarchar
+            // 
+            this.textTextToNvarchar.Location = new System.Drawing.Point(379, 15);
+            this.textTextToNvarchar.MaxLength = 999999999;
+            this.textTextToNvarchar.Multiline = true;
+            this.textTextToNvarchar.Name = "textTextToNvarchar";
+            this.textTextToNvarchar.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textTextToNvarchar.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textTextToNvarchar.Size = new System.Drawing.Size(116, 59);
+            this.textTextToNvarchar.TabIndex = 212163;
+            this.textTextToNvarchar.Text = resources.GetString("textTextToNvarchar.Text");
+            this.textTextToNvarchar.Visible = false;
+            // 
+            // textProfitRate
+            // 
+            this.textProfitRate.Location = new System.Drawing.Point(257, 15);
+            this.textProfitRate.MaxLength = 999999999;
+            this.textProfitRate.Multiline = true;
+            this.textProfitRate.Name = "textProfitRate";
+            this.textProfitRate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textProfitRate.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textProfitRate.Size = new System.Drawing.Size(116, 59);
+            this.textProfitRate.TabIndex = 212163;
+            this.textProfitRate.Text = resources.GetString("textProfitRate.Text");
+            this.textProfitRate.Visible = false;
+            // 
+            // textOccasions
+            // 
+            this.textOccasions.Location = new System.Drawing.Point(135, 15);
+            this.textOccasions.MaxLength = 999999999;
+            this.textOccasions.Multiline = true;
+            this.textOccasions.Name = "textOccasions";
+            this.textOccasions.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textOccasions.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textOccasions.Size = new System.Drawing.Size(116, 59);
+            this.textOccasions.TabIndex = 212163;
+            this.textOccasions.Text = resources.GetString("textOccasions.Text");
+            this.textOccasions.Visible = false;
+            // 
+            // textUsersUpdate
+            // 
+            this.textUsersUpdate.Location = new System.Drawing.Point(13, 15);
+            this.textUsersUpdate.MaxLength = 999999999;
+            this.textUsersUpdate.Multiline = true;
+            this.textUsersUpdate.Name = "textUsersUpdate";
+            this.textUsersUpdate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textUsersUpdate.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textUsersUpdate.Size = new System.Drawing.Size(116, 59);
+            this.textUsersUpdate.TabIndex = 212163;
+            this.textUsersUpdate.Text = resources.GetString("textUsersUpdate.Text");
+            this.textUsersUpdate.Visible = false;
+            // 
+            // combVersionsUpdate
+            // 
+            this.combVersionsUpdate.FormattingEnabled = true;
+            this.combVersionsUpdate.Items.AddRange(new object[] {
+            "Occasions",
+            "UsersUpdate",
+            "ProfitRate",
+            "TextToNvarchar",
+            "Version16",
+            "DB_Versions"});
+            this.combVersionsUpdate.Location = new System.Drawing.Point(168, 143);
+            this.combVersionsUpdate.Name = "combVersionsUpdate";
+            this.combVersionsUpdate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.combVersionsUpdate.Size = new System.Drawing.Size(248, 21);
+            this.combVersionsUpdate.TabIndex = 212162;
+            this.combVersionsUpdate.SelectedIndexChanged += new System.EventHandler(this.combVersionsUpdate_SelectedIndexChanged);
             // 
             // butUpdateData
             // 
@@ -1201,13 +1307,13 @@
             // 
             // txtSqlScriptUpdateData
             // 
-            this.txtSqlScriptUpdateData.Location = new System.Drawing.Point(36, 170);
+            this.txtSqlScriptUpdateData.Location = new System.Drawing.Point(36, 199);
             this.txtSqlScriptUpdateData.MaxLength = 999999999;
             this.txtSqlScriptUpdateData.Multiline = true;
             this.txtSqlScriptUpdateData.Name = "txtSqlScriptUpdateData";
             this.txtSqlScriptUpdateData.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtSqlScriptUpdateData.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtSqlScriptUpdateData.Size = new System.Drawing.Size(818, 458);
+            this.txtSqlScriptUpdateData.Size = new System.Drawing.Size(818, 429);
             this.txtSqlScriptUpdateData.TabIndex = 212161;
             this.txtSqlScriptUpdateData.Text = resources.GetString("txtSqlScriptUpdateData.Text");
             // 
@@ -1377,13 +1483,12 @@
             this.butUpdateData11.BackColor = System.Drawing.Color.HotPink;
             this.butUpdateData11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butUpdateData11.ForeColor = System.Drawing.Color.White;
-            this.butUpdateData11.Location = new System.Drawing.Point(787, 638);
+            this.butUpdateData11.Location = new System.Drawing.Point(673, 632);
             this.butUpdateData11.Name = "butUpdateData11";
-            this.butUpdateData11.Size = new System.Drawing.Size(67, 22);
+            this.butUpdateData11.Size = new System.Drawing.Size(181, 22);
             this.butUpdateData11.TabIndex = 2;
-            this.butUpdateData11.Text = "تحديث";
+            this.butUpdateData11.Text = "تحديث والاضافة";
             this.butUpdateData11.UseVisualStyleBackColor = false;
-            this.butUpdateData11.Visible = false;
             this.butUpdateData11.Click += new System.EventHandler(this.butUpdateData_Click);
             // 
             // tabPage5
@@ -1675,99 +1780,97 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // combVersionsUpdate
+            // panelTextScripts
             // 
-            this.combVersionsUpdate.FormattingEnabled = true;
-            this.combVersionsUpdate.Items.AddRange(new object[] {
-            "Occasions",
-            "UsersUpdate",
-            "ProfitRate",
-            "TextToNvarchar",
-            "Version16"});
-            this.combVersionsUpdate.Location = new System.Drawing.Point(168, 143);
-            this.combVersionsUpdate.Name = "combVersionsUpdate";
-            this.combVersionsUpdate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.combVersionsUpdate.Size = new System.Drawing.Size(248, 21);
-            this.combVersionsUpdate.TabIndex = 212162;
-            this.combVersionsUpdate.SelectedIndexChanged += new System.EventHandler(this.combVersionsUpdate_SelectedIndexChanged);
+            this.panelTextScripts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panelTextScripts.Controls.Add(this.textUsersUpdate);
+            this.panelTextScripts.Controls.Add(this.textOccasions);
+            this.panelTextScripts.Controls.Add(this.textDB_Versions);
+            this.panelTextScripts.Controls.Add(this.textVersion16);
+            this.panelTextScripts.Controls.Add(this.textProfitRate);
+            this.panelTextScripts.Controls.Add(this.textTextToNvarchar);
+            this.panelTextScripts.Location = new System.Drawing.Point(18, 240);
+            this.panelTextScripts.Name = "panelTextScripts";
+            this.panelTextScripts.Size = new System.Drawing.Size(841, 309);
+            this.panelTextScripts.TabIndex = 212164;
+            this.panelTextScripts.Visible = false;
             // 
-            // textUsersUpdate
+            // textDB_Versions
             // 
-            this.textUsersUpdate.Location = new System.Drawing.Point(168, 634);
-            this.textUsersUpdate.MaxLength = 999999999;
-            this.textUsersUpdate.Multiline = true;
-            this.textUsersUpdate.Name = "textUsersUpdate";
-            this.textUsersUpdate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textUsersUpdate.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textUsersUpdate.Size = new System.Drawing.Size(116, 59);
-            this.textUsersUpdate.TabIndex = 212163;
-            this.textUsersUpdate.Text = resources.GetString("textUsersUpdate.Text");
-            this.textUsersUpdate.Visible = false;
+            this.textDB_Versions.Location = new System.Drawing.Point(623, 15);
+            this.textDB_Versions.MaxLength = 999999999;
+            this.textDB_Versions.Multiline = true;
+            this.textDB_Versions.Name = "textDB_Versions";
+            this.textDB_Versions.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textDB_Versions.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textDB_Versions.Size = new System.Drawing.Size(116, 59);
+            this.textDB_Versions.TabIndex = 212163;
+            this.textDB_Versions.Text = resources.GetString("textDB_Versions.Text");
+            this.textDB_Versions.Visible = false;
             // 
-            // textOccasions
+            // textDescription
             // 
-            this.textOccasions.Location = new System.Drawing.Point(290, 634);
-            this.textOccasions.MaxLength = 999999999;
-            this.textOccasions.Multiline = true;
-            this.textOccasions.Name = "textOccasions";
-            this.textOccasions.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textOccasions.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textOccasions.Size = new System.Drawing.Size(116, 59);
-            this.textOccasions.TabIndex = 212163;
-            this.textOccasions.Text = resources.GetString("textOccasions.Text");
-            this.textOccasions.Visible = false;
+            this.textDescription.Location = new System.Drawing.Point(510, 144);
+            this.textDescription.Name = "textDescription";
+            this.textDescription.Size = new System.Drawing.Size(344, 20);
+            this.textDescription.TabIndex = 212165;
+            this.textDescription.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textProfitRate
+            // dateTimePicker1
             // 
-            this.textProfitRate.Location = new System.Drawing.Point(412, 634);
-            this.textProfitRate.MaxLength = 999999999;
-            this.textProfitRate.Multiline = true;
-            this.textProfitRate.Name = "textProfitRate";
-            this.textProfitRate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textProfitRate.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textProfitRate.Size = new System.Drawing.Size(116, 59);
-            this.textProfitRate.TabIndex = 212163;
-            this.textProfitRate.Text = resources.GetString("textProfitRate.Text");
-            this.textProfitRate.Visible = false;
+            this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(168, 170);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(248, 20);
+            this.dateTimePicker1.TabIndex = 212166;
             // 
-            // textTextToNvarchar
+            // textUser
             // 
-            this.textTextToNvarchar.Location = new System.Drawing.Point(534, 634);
-            this.textTextToNvarchar.MaxLength = 999999999;
-            this.textTextToNvarchar.Multiline = true;
-            this.textTextToNvarchar.Name = "textTextToNvarchar";
-            this.textTextToNvarchar.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textTextToNvarchar.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textTextToNvarchar.Size = new System.Drawing.Size(116, 59);
-            this.textTextToNvarchar.TabIndex = 212163;
-            this.textTextToNvarchar.Text = resources.GetString("textTextToNvarchar.Text");
-            this.textTextToNvarchar.Visible = false;
+            this.textUser.Location = new System.Drawing.Point(510, 170);
+            this.textUser.Name = "textUser";
+            this.textUser.Size = new System.Drawing.Size(344, 20);
+            this.textUser.TabIndex = 212167;
+            this.textUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textVersion16
+            // label22
             // 
-            this.textVersion16.Location = new System.Drawing.Point(656, 634);
-            this.textVersion16.MaxLength = 999999999;
-            this.textVersion16.Multiline = true;
-            this.textVersion16.Name = "textVersion16";
-            this.textVersion16.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textVersion16.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textVersion16.Size = new System.Drawing.Size(116, 59);
-            this.textVersion16.TabIndex = 212163;
-            this.textVersion16.Text = resources.GetString("textVersion16.Text");
-            this.textVersion16.Visible = false;
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label22.Location = new System.Drawing.Point(426, 147);
+            this.label22.Name = "label22";
+            this.label22.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label22.Size = new System.Drawing.Size(78, 15);
+            this.label22.TabIndex = 212163;
+            this.label22.Text = "Description :";
             // 
-            // label21
+            // label28
             // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label21.Location = new System.Drawing.Point(57, 145);
-            this.label21.Name = "label21";
-            this.label21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label21.Size = new System.Drawing.Size(75, 15);
-            this.label21.TabIndex = 212163;
-            this.label21.Text = "Version No :";
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label28.Location = new System.Drawing.Point(62, 172);
+            this.label28.Name = "label28";
+            this.label28.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label28.Size = new System.Drawing.Size(42, 15);
+            this.label28.TabIndex = 212163;
+            this.label28.Text = "Date  :";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label29.Location = new System.Drawing.Point(426, 175);
+            this.label29.Name = "label29";
+            this.label29.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label29.Size = new System.Drawing.Size(74, 15);
+            this.label29.TabIndex = 212163;
+            this.label29.Text = "User Name :";
             // 
             // Connection
             // 
@@ -1817,6 +1920,8 @@
             this.groupAttach.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.panelTextScripts.ResumeLayout(false);
+            this.panelTextScripts.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1954,5 +2059,13 @@
         private System.Windows.Forms.ComboBox combVersionsUpdate;
         private System.Windows.Forms.TextBox textVersion16;
         internal System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Panel panelTextScripts;
+        private System.Windows.Forms.TextBox textDB_Versions;
+        private System.Windows.Forms.TextBox textDescription;
+        private System.Windows.Forms.TextBox textUser;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        internal System.Windows.Forms.Label label22;
+        internal System.Windows.Forms.Label label29;
+        internal System.Windows.Forms.Label label28;
     }
 }

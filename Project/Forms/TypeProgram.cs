@@ -253,11 +253,19 @@ namespace ZAD_Sales.Forms
                     CurrentUser.ProductMovement = Convert.ToInt32(dr["ProductMovement"]);
                     CurrentUser.BoxMovement = Convert.ToInt32(dr["BoxMovement"]);
                     CurrentUser.AllowUser = Convert.ToInt32(dr["AllowUser"]);
+                    string AllowUser = dr["AllowUser"].ToString();
+
+                    string UserName = dr["UserName"].ToString();
                     // كمل باقي الأعمدة بنفس الطريقة
 
                     // فتح البرنامج
                     Main frm = new Main();
                     frm.Show();
+
+
+
+                    AppSetting.AllowUser = AllowUser;
+                    AppSetting.user = UserName;
                 }
                 else
                 {
@@ -662,9 +670,17 @@ namespace ZAD_Sales.Forms
 
 
 
+                        string UserName = dr["UserName"].ToString();
+                        AppSetting.user = UserName;
+
+                        //=== الصلاحيات الداخلية
+                        string AllowUser = dr["AllowUser"].ToString();
+                        AppSetting.AllowUser = AllowUser;
+
                         // فتح الفورم الرئيسي
                         Main frm = new Main();
                         frm.Show();
+
 
                         this.Hide();
                     }

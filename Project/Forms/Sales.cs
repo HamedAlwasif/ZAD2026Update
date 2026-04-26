@@ -1373,8 +1373,8 @@ namespace ZAD_Sales.Forms
             CompanyPhone = AppSetting.textCompany_Phone;
             NoteToBill = AppSetting.NoteToBill;
             Demo = AppSetting.DemoOnBill;
-
-
+            AllowUser = AppSetting.AllowUser;
+        
             comTypeBill.Text = AppSetting.TypeBillDefoult;
 
             //========= نهاية طباعه الفواتير النظام الجديد
@@ -1385,6 +1385,7 @@ namespace ZAD_Sales.Forms
             txtBoxRemining.Text = boxBalance.ToString("N2");
 
 
+            textBox7.Text = AllowUser;
 
             // textBox7.Text = button10.Location.Y.ToString();
 

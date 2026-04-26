@@ -1999,6 +1999,7 @@ namespace ZAD_Sales.Forms
                     string BarcodeSize = dr["BarcodeSize"].ToString();
                     string OpenFormOther = dr["OpenFormOther"].ToString();
                     string PricesAll = dr["PricesAll"].ToString();
+                    
                     BathBackup = dr["BathBackup"].ToString();
 
 

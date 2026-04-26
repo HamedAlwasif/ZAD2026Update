@@ -13,12 +13,22 @@ using File = System.IO.File;
 using Microsoft.Win32;
 
 
+using System.Data.SqlClient;
+using System.Configuration;
+
 using System.Text.RegularExpressions; // لإزالة GO
 
 namespace ZAD_Sales.Forms
 {
     public partial class Connection : Form
     {
+
+        //----------------- ConnectionStrings ------------------
+
+        static string constring = ConfigurationManager.ConnectionStrings["ConnectionStringData"].ConnectionString;
+        SqlConnection cn = new SqlConnection(constring);
+
+
         private string ConnectionString = "Integrated Security=SSPI;" + "Initial Catalog=;" + "Data Source=.\\SQLEXPRESS;";
 
         private SqlConnection conn = null;
@@ -182,6 +192,9 @@ namespace ZAD_Sales.Forms
 
         private void Connection_Load(object sender, EventArgs e)
         {
+            textUser.Text = AppSetting.user;
+
+
             combServer.Items.Add(".");
             combServer.Items.Add("(local)");
             combServer.Items.Add(@".\SQLEXPESS");
@@ -200,7 +213,12 @@ namespace ZAD_Sales.Forms
             combServerSecurityIP.Items.Add(@".\SQLEXPESS");
             combServerSecurityIP.Items.Add(string.Format(@"{0}\SQLEXPRESS", Environment.MachineName));
             combServerSecurityIP.SelectedIndex = 3;
-
+            //----------------------------------
+            comboServers.Items.Add(".");
+            comboServers.Items.Add("(local)");
+            comboServers.Items.Add(@".\SQLEXPESS");
+            comboServers.Items.Add(string.Format(@"{0}\SQLEXPRESS", Environment.MachineName));
+            comboServers.SelectedIndex = 3;
             //-------------------------------------------
             textConnectionString.Text = Properties.Settings.Default.constring;
             textConnectionStringSec.Text = Properties.Settings.Default.constring;
@@ -772,36 +790,150 @@ namespace ZAD_Sales.Forms
             }
         }
 
+
+        //======== 3. دالة الحفظ
+        void SaveUpdate(string connectionString, string version, string description, string script,
+                  DateTime date, string user, bool isSuccess, string errorMessage)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+
+                SqlCommand cmd = new SqlCommand(@"
+            INSERT INTO DB_Versions
+            (VersionNo, Description, ScriptContent, AppliedDate, AppliedBy, IsSuccess, ErrorMessage)
+            VALUES
+            (@Version, @Description, @Script, @Date, @User, @IsSuccess, @Error)
+        ", con);
+
+                cmd.Parameters.AddWithValue("@Version", version);
+                cmd.Parameters.AddWithValue("@Description", description);
+                cmd.Parameters.AddWithValue("@Script", script);
+                cmd.Parameters.AddWithValue("@Date", date);
+                cmd.Parameters.AddWithValue("@User", user);
+                cmd.Parameters.AddWithValue("@IsSuccess", isSuccess);
+
+                if (errorMessage == null)
+                    cmd.Parameters.AddWithValue("@Error", DBNull.Value);
+                else
+                    cmd.Parameters.AddWithValue("@Error", errorMessage);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        //===== 2. دالة تنفيذ السكربت
+
+
+        //void ExecuteScript(string connectionString, string script)
+        //{
+        //    using (SqlConnection con = new SqlConnection(connectionString))
+        //    {
+        //        con.Open();
+
+        //        SqlCommand cmd = new SqlCommand(script, con);
+        //        cmd.ExecuteNonQuery();
+        //    }
+        //}
+
+        void ExecuteScript(string connectionString, string script)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+
+                SqlTransaction trans = con.BeginTransaction();
+
+                try
+                {
+                    var commands = Regex.Split(script, @"^\s*GO\s*$", RegexOptions.Multiline | RegexOptions.IgnoreCase);
+
+                    foreach (var commandText in commands)
+                    {
+                        if (string.IsNullOrWhiteSpace(commandText))
+                            continue;
+
+                        using (SqlCommand cmd = new SqlCommand(commandText, con, trans))
+                        {
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+
+                    trans.Commit();
+                }
+                catch
+                {
+                    trans.Rollback();
+                    throw;
+                }
+            }
+        }
+
+
+        //=== دالة التاكد من عدم تكرار التحديث
+        bool IsVersionExists(string connectionString, string version)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT COUNT(1) FROM DB_Versions WHERE VersionNo = @Version", con);
+
+                cmd.Parameters.AddWithValue("@Version", version);
+
+                int count = Convert.ToInt32(cmd.ExecuteScalar());
+
+                return count > 0;
+            }
+        }
+
         private void butUpdateData_Click(object sender, EventArgs e)
         {
-            string cons = null;
-            if (radioButton1.Checked)
+            string connectionString = $"Server={comboServers.Text};Database={comboDatabases.Text};Integrated Security=True;";
+
+            string conn = connectionString ;
+
+            string version = combVersionsUpdate.Text;
+            string description = textDescription.Text;
+            string script = txtSqlScriptUpdateData.Text;
+            DateTime date = dateTimePicker1.Value;
+            string user = textUser.Text;
+
+            // 🔹 تحقق من البيانات
+            if (string.IsNullOrWhiteSpace(version) || string.IsNullOrWhiteSpace(script))
             {
-                cons = @"Server=" + comboServers.Text + ";Initial Catalog=" + "master" +
-                ";User ID=" + txtusername.Text + ";password=" + txtpassword.Text + ";Persist Security Info=False";
-
+                MessageBox.Show("بيانات غير مكتملة");
+                return;
             }
-            else
+
+            // ============================================
+            // 🔥 هنا المكان الصحيح لمنع التكرار
+            // ============================================
+            if (IsVersionExists(conn, version))
             {
-                cons = @"Data Source=" + comboServers.Text + ";Initial Catalog=" + "master" +
-                  ";Integrated Security=SSPI";
+                MessageBox.Show("هذا الإصدار تم تطبيقه مسبقاً");
+                return; // ⛔ وقف التنفيذ بالكامل
             }
 
+            try
+            {
+                // 🔹 تنفيذ السكربت
+                ExecuteScript(conn, script);
 
-            SqlConnection cnxc = new SqlConnection(cons);
+                // 🔹 حفظ نجاح العملية
+                SaveUpdate(conn, version, description, script, date, user, true, null);
 
-            string sqlConnectionString = cons;
+                MessageBox.Show("تم التنفيذ بنجاح");
+            }
+            catch (Exception ex)
+            {
+                // 🔹 حفظ الخطأ
+                SaveUpdate(conn, version, description, script, date, user, false, ex.Message);
 
+                MessageBox.Show("خطأ: " + ex.Message);
+            }
 
-            string script = @"use [" + comboDatabases.Text + "]" + Environment.NewLine + "  Go  " + Environment.NewLine + txtSqlScriptUpdateData.Text;
-
-            SqlConnection conn = new SqlConnection(sqlConnectionString);
-
-            Server server = new Server(new ServerConnection(conn));
-
-            //try
-            //{
-            server.ConnectionContext.ExecuteNonQuery(script);
         }
 
         private void butUpdateData_Click_1(object sender, EventArgs e)
@@ -865,6 +997,40 @@ namespace ZAD_Sales.Forms
 
                     MessageBox.Show($"✅ تم تنفيذ السكريبت بنجاح.\nعدد الأوامر المنفذة: {executed}", "نجاح", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+
+
+            //    // ============================================
+            //    // 💾 ثانياً: حفظ بيانات التحديث في جدول DB_Versions
+            //    // ============================================
+            //    // الهدف من الخطوة دي:
+            //    // 1- تسجيل إن التحديث تم تنفيذه
+            //    // 2- منع تكرار نفس الإصدار مستقبلاً
+            //    // 3- الاحتفاظ بالسكربت للمراجعة
+            //    // 4- معرفة مين نفذ التحديث وامتى
+
+            //    SqlCommand insertCmd = new SqlCommand(@"
+            //    INSERT INTO DB_Versions
+            //    (VersionNo, ScriptContent, AppliedBy, AppliedDate, IsSuccess)
+            //    VALUES
+            //    (@Version, @Script, @User, GETDATE(), 1)
+            //", cn, trans);
+
+            //    insertCmd.Parameters.AddWithValue("@Version", version);
+            //    insertCmd.Parameters.AddWithValue("@Script", script);
+            //    insertCmd.Parameters.AddWithValue("@User", userName);
+
+            //    insertCmd.ExecuteNonQuery();
+
+
+            //    // ============================================
+            //    // ✅ ثالثاً: تأكيد العملية (Commit)
+            //    // ============================================
+            //    // لو كل حاجة تمت بنجاح (تنفيذ السكربت + الحفظ)
+            //    // يتم حفظ التغييرات بشكل نهائي في الداتا بيز
+
+            //    trans.Commit();
+
+            //    MessageBox.Show("تم تنفيذ التحديث وحفظه بنجاح");
             }
             catch (Exception ex)
             {
@@ -930,6 +1096,10 @@ namespace ZAD_Sales.Forms
             else if (combVersionsUpdate.Text == "Version16")
             {
                 txtSqlScriptUpdateData.Text = textVersion16.Text;
+            }
+            else if (combVersionsUpdate.Text == "DB_Versions")
+            {
+                txtSqlScriptUpdateData.Text = textDB_Versions.Text;
             }
             else
             {
