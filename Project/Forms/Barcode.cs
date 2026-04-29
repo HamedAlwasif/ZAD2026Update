@@ -12,6 +12,8 @@ using System.Configuration;
 using System.Drawing.Printing;
 using Microsoft.Reporting.WinForms;
 
+using ZAD_Sales.ClassProject;
+
 namespace ZAD_Sales.Forms
 {
     public partial class Barcode : Form
@@ -138,6 +140,10 @@ namespace ZAD_Sales.Forms
             else if (BarcodeSize == "38-12")
             {
                 radbutPrint38_12.Checked = true;
+            } 
+            else if (BarcodeSize == "100-70")
+            {
+                radbutPrint100_70.Checked = true;
             }
 
 
@@ -612,31 +618,41 @@ namespace ZAD_Sales.Forms
         }
 
 
+        //  دالة التحويل من المللى الى اانش
+        //double GetInch(TextBox txt)
+        //{
+        //    return UnitConverter.MmToInch(txt.Text);
+        //}
+
+
         private void PrintPage38_12(object sender, PrintPageEventArgs ev)
         {
+            //============== بداية الكود الاصلى القديم
+
             int f = int.Parse(texSizeFontBarcode.Text);  // حجم خط الباركود
 
             int fP = int.Parse(texSizeFontProduct.Text); // حجم خط المنتج
 
+
             //--------------- الهوامش ------
 
-            int NameX = int.Parse(TextNameX.Text); // حجم خط المنتج
-            int NameY = int.Parse(TextNameY.Text); // حجم خط المنتج
-            int BarcodeX = int.Parse(textBarcodeX.Text); // حجم خط المنتج
-            int BarcodeY = int.Parse(textBarcodeY.Text); // حجم خط المنتج
-            int CategorysX = int.Parse(textCategorysX.Text); // حجم خط المنتج
-            int CategorysY = int.Parse(textCategorysY.Text); // حجم خط المنتج
-            int CategoryIDX = int.Parse(textCategoryIDX.Text); // حجم خط المنتج
-            int CategoryIDY = int.Parse(textCategoryIDY.Text); // حجم خط المنتج
-            int PriceX = int.Parse(textPriceX.Text); // حجم خط المنتج
-            int PriceY = int.Parse(textPriceY.Text); // حجم خط المنتج
+            int NameX = int.Parse(TextNameX.Text);
+            int NameY = int.Parse(TextNameY.Text);
+            int BarcodeX = int.Parse(textBarcodeX.Text);
+            int BarcodeY = int.Parse(textBarcodeY.Text);
+            int CategorysX = int.Parse(textCategorysX.Text);
+            int CategorysY = int.Parse(textCategorysY.Text);
+            int CategoryIDX = int.Parse(textCategoryIDX.Text);
+            int CategoryIDY = int.Parse(textCategoryIDY.Text);
+            int PriceX = int.Parse(textPriceX.Text);
+            int PriceY = int.Parse(textPriceY.Text);
             //-------------
 
             RectangleF recAtZero = new RectangleF(0, 0, ev.PageBounds.Width, ev.PageBounds.Height);
             //------------ اتجاه النص من اليمين للشمال -----------------------------
             StringFormat formatRL = new StringFormat(StringFormatFlags.DirectionRightToLeft);
 
-           
+
             //----------------------------------------1-----------------------Tahoma; 8.25pt; style=Bold--------------------------
 
 
@@ -644,12 +660,17 @@ namespace ZAD_Sales.Forms
 
             ev.Graphics.DrawString(textCodePreview3.Text, new Font("3 of 9 Barcode", f), Brushes.Black, BarcodeX, BarcodeY, new StringFormat()); //الباركود
 
-            ev.Graphics.DrawString(textCategorys.Text, new Font("Tahoma", fP), Brushes.Black, CategorysX, CategorysY, new StringFormat()) ; // اسم المنتج
+            ev.Graphics.DrawString(textCategorys.Text, new Font("Tahoma", fP), Brushes.Black, CategorysX, CategorysY, new StringFormat()); // اسم المنتج
 
             ev.Graphics.DrawString(textCategoryIDprint.Text, new Font("Tahoma", 6), Brushes.Black, CategoryIDX, CategoryIDY, new StringFormat()); // كود المنتج
 
 
             ev.Graphics.DrawString(textPricePrint1.Text, new Font("Tahoma", 6), Brushes.Black, PriceX, PriceY, new StringFormat()); // سعر المنتج
+
+            //========= نهاية الكود الاصلى
+
+
+
 
             // ev.Graphics.DrawString(": السعر", new Font("Arial", 5), Brushes.Black, 80, 36, new StringFormat()); // كتابة السعر
 
@@ -666,12 +687,171 @@ namespace ZAD_Sales.Forms
 
             //ev.Graphics.DrawString(textPricePrint1.Text, new Font("Tahoma", 8), Brushes.Black, 70, 36, new StringFormat()); // سعر المنتج
 
-           
+
 
 
 
         }
 
+        private void PrintPage100_70(object sender, PrintPageEventArgs ev)
+        {
+            //============== بداية الكود الاصلى القديم
+
+            string FontNameBarcode = comTypeFont.Text;
+
+            int f = int.Parse(texSizeFontBarcode.Text);  // حجم خط الباركود
+
+            int fP = int.Parse(texSizeFontProduct.Text); // حجم خط المنتج
+
+
+            //--------------- الهوامش ------
+
+            float dpiX = ev.Graphics.DpiX;
+            float dpiY = ev.Graphics.DpiY;
+
+            // تحويل من mm → pixel مباشرة
+            float NameX = UnitHelper.MmToPixel(TextNameX100.Text, dpiX);
+            float NameY = UnitHelper.MmToPixel(TextNameY100.Text, dpiY);
+
+            float BarcodeX = UnitHelper.MmToPixel(textBarcodeX100.Text, dpiX);
+            float BarcodeY = UnitHelper.MmToPixel(textBarcodeY100.Text, dpiY);
+
+            float CategorysX = UnitHelper.MmToPixel(textCategorysX100.Text, dpiX);
+            float CategorysY = UnitHelper.MmToPixel(textCategorysY100.Text, dpiY);
+
+            float CategoryIDX = UnitHelper.MmToPixel(textCategoryIDX100.Text, dpiX);
+            float CategoryIDY = UnitHelper.MmToPixel(textCategoryIDY100.Text, dpiY);
+
+            float PriceX = UnitHelper.MmToPixel(textPriceX100.Text, dpiX);
+            float PriceY = UnitHelper.MmToPixel(textPriceY100.Text, dpiY);
+
+
+            // الطباعة
+            ev.Graphics.DrawString(TextName.Text, new Font("Tahoma", 6), Brushes.Black, NameX, NameY);
+
+            ev.Graphics.DrawString(textCodePreview3.Text, new Font(comTypeFont.Text, f), Brushes.Black, BarcodeX, BarcodeY);
+
+            ev.Graphics.DrawString(textCategorys.Text, new Font("Tahoma", fP), Brushes.Black, CategorysX, CategorysY);
+
+            ev.Graphics.DrawString(textCategoryIDprint.Text, new Font("Tahoma", 6), Brushes.Black, CategoryIDX, CategoryIDY);
+
+            ev.Graphics.DrawString(textPricePrint1.Text, new Font("Tahoma", 6), Brushes.Black, PriceX, PriceY);
+
+            //========= نهاية الكود الاصلى
+
+
+
+            ////============== بداية الكود الاصلى القديم
+
+            //string FontNameBarcode = comTypeFont.Text;
+
+            //int f = int.Parse(texSizeFontBarcode.Text);  // حجم خط الباركود
+
+            //int fP = int.Parse(texSizeFontProduct.Text); // حجم خط المنتج
+
+
+            ////--------------- الهوامش ------
+
+            //float dpiX = ev.Graphics.DpiX;
+            //float dpiY = ev.Graphics.DpiY;
+
+            //float NameX = UnitConverter.MmToInch(TextNameX100.Text) * dpiX;
+            //float NameY = UnitConverter.MmToInch(TextNameY100.Text) * dpiY;
+
+            //float BarcodeX = UnitConverter.MmToInch(textBarcodeX100.Text) * dpiX;
+            //float BarcodeY = UnitConverter.MmToInch(textBarcodeY100.Text) * dpiY;
+
+            //float CategorysX = UnitConverter.MmToInch(textCategorysX100.Text) * dpiX;
+            //float CategorysY = UnitConverter.MmToInch(textCategorysY100.Text) * dpiY;
+
+            //float CategoryIDX = UnitConverter.MmToInch(textCategoryIDX100.Text) * dpiX;
+            //float CategoryIDY = UnitConverter.MmToInch(textCategoryIDY100.Text) * dpiY;
+
+            //float PriceX = UnitConverter.MmToInch(textPriceX100.Text) * dpiX;
+            //float PriceY = UnitConverter.MmToInch(textPriceY100.Text) * dpiY;
+
+
+            //// الطباعة
+            //ev.Graphics.DrawString(TextName.Text, new Font("Tahoma", 6), Brushes.Black, NameX, NameY);
+
+            //ev.Graphics.DrawString(textCodePreview3.Text, new Font(comTypeFont.Text, f), Brushes.Black, BarcodeX, BarcodeY);
+
+            //ev.Graphics.DrawString(textCategorys.Text, new Font("Tahoma", fP), Brushes.Black, CategorysX, CategorysY);
+
+            //ev.Graphics.DrawString(textCategoryIDprint.Text, new Font("Tahoma", 6), Brushes.Black, CategoryIDX, CategoryIDY);
+
+            //ev.Graphics.DrawString(textPricePrint1.Text, new Font("Tahoma", 6), Brushes.Black, PriceX, PriceY);
+
+            ////========= نهاية الكود الاصلى
+
+
+
+
+            //============== بداية الكود الاصلى القديم
+
+            //int f = int.Parse(texSizeFontBarcode.Text);  // حجم خط الباركود
+
+            //int fP = int.Parse(texSizeFontProduct.Text); // حجم خط المنتج
+
+
+            ////--------------- الهوامش ------
+
+            //int NameX = int.Parse(TextNameX.Text);
+            //int NameY = int.Parse(TextNameY.Text);
+            //int BarcodeX = int.Parse(textBarcodeX.Text);
+            //int BarcodeY = int.Parse(textBarcodeY.Text);
+            //int CategorysX = int.Parse(textCategorysX.Text);
+            //int CategorysY = int.Parse(textCategorysY.Text);
+            //int CategoryIDX = int.Parse(textCategoryIDX.Text);
+            //int CategoryIDY = int.Parse(textCategoryIDY.Text);
+            //int PriceX = int.Parse(textPriceX.Text);
+            //int PriceY = int.Parse(textPriceY.Text);
+            ////-------------
+
+            //RectangleF recAtZero = new RectangleF(0, 0, ev.PageBounds.Width, ev.PageBounds.Height);
+            ////------------ اتجاه النص من اليمين للشمال -----------------------------
+            //StringFormat formatRL = new StringFormat(StringFormatFlags.DirectionRightToLeft);
+
+
+            ////----------------------------------------1-----------------------Tahoma; 8.25pt; style=Bold--------------------------
+
+
+            //ev.Graphics.DrawString(TextName.Text, new Font("Tahoma", 6), Brushes.Black, NameX, NameY, new StringFormat()); // اسم الشركة
+
+            //ev.Graphics.DrawString(textCodePreview3.Text, new Font("3 of 9 Barcode", f), Brushes.Black, BarcodeX, BarcodeY, new StringFormat()); //الباركود
+
+            //ev.Graphics.DrawString(textCategorys.Text, new Font("Tahoma", fP), Brushes.Black, CategorysX, CategorysY, new StringFormat()) ; // اسم المنتج
+
+            //ev.Graphics.DrawString(textCategoryIDprint.Text, new Font("Tahoma", 6), Brushes.Black, CategoryIDX, CategoryIDY, new StringFormat()); // كود المنتج
+
+
+            //ev.Graphics.DrawString(textPricePrint1.Text, new Font("Tahoma", 6), Brushes.Black, PriceX, PriceY, new StringFormat()); // سعر المنتج
+
+            //========= نهاية الكود الاصلى
+
+
+
+
+            // ev.Graphics.DrawString(": السعر", new Font("Arial", 5), Brushes.Black, 80, 36, new StringFormat()); // كتابة السعر
+
+
+            // الاصل
+
+            //ev.Graphics.DrawString(TextName.Text, new Font("Tahoma", 6), Brushes.Black, 40, 5, new StringFormat()); // اسم الشركة
+
+            //ev.Graphics.DrawString(textCategoryIDprint.Text, new Font("Tahoma", 6), Brushes.Black, 5, 5, new StringFormat()); // كود المنتج
+
+            //ev.Graphics.DrawString(textCodePreview3.Text, new Font("3 of 9 Barcode", f), Brushes.Black, 5, 15, new StringFormat()); //الباركود
+
+            //ev.Graphics.DrawString(textCategorys.Text, new Font("Tahoma", fP), Brushes.Black, 5, 30, new StringFormat()); // اسم المنتج
+
+            //ev.Graphics.DrawString(textPricePrint1.Text, new Font("Tahoma", 8), Brushes.Black, 70, 36, new StringFormat()); // سعر المنتج
+
+
+
+
+
+        }
 
         private void PrintPage38_12_2(object sender, PrintPageEventArgs ev)
         {
@@ -2560,6 +2740,8 @@ namespace ZAD_Sales.Forms
             panelMargins3825.Visible = false;
             panelMargins5025.Visible = false;
             panelMargins5040.Visible = false;
+            panelMargins10070.Visible = false;
+
 
             texSizeFontBarcode.Text = "18";
             texSizeFontProduct.Text = "7";
@@ -2621,6 +2803,7 @@ namespace ZAD_Sales.Forms
             panelMargins5025.Visible = true;
             panelMargins5040.Visible = false;
             panelMargins3812.Visible = false;
+            panelMargins10070.Visible = false;
 
             texSizeFontBarcode.Text = "12";
             texSizeFontProduct.Text = "6";
@@ -2635,6 +2818,8 @@ namespace ZAD_Sales.Forms
             panelMargins3825.Visible = true;
             panelMargins5025.Visible = false;
             panelMargins5040.Visible = false;
+            panelMargins10070.Visible = false;
+
 
 
             texSizeFontBarcode.Text = "12";
@@ -2651,6 +2836,8 @@ namespace ZAD_Sales.Forms
             panelMargins3812.Visible = false;
             panelMargins3825.Visible = false;
             panelMargins5025.Visible = false;
+            panelMargins10070.Visible = false;
+
 
             texSizeFontBarcode.Text = "12";
             texSizeFontProduct.Text = "6";
@@ -2940,6 +3127,36 @@ namespace ZAD_Sales.Forms
                     pd.DefaultPageSettings.PaperSize = ps;
 
                 }
+
+                else if (radbutPrint100_70.Checked == true)
+                {
+                    // قراءة المقاسات من المستخدم (mm)
+                    float widthMm = float.Parse(txtWidthMM.Text);
+                    float heightMm = float.Parse(txtHeightMM.Text);
+
+                    // تحويل إلى PaperSize (inch * 100)
+                    PaperSize ps = new PaperSize(
+                        "Custom",
+                        UnitHelper.MmToPaperUnit(widthMm),
+                        UnitHelper.MmToPaperUnit(heightMm)
+                    );
+
+                    // تطبيق على نفس الـ PrintDocument
+                    pd.DefaultPageSettings.PaperSize = ps;
+
+                    // ربط حدث الطباعة (مرة واحدة فقط)
+                    pd.PrintPage -= PrintPage100_70; // مهم عشان ما يتكرر
+                    pd.PrintPage += PrintPage100_70;
+
+                    // تنفيذ الطباعة
+                    pd.Print();
+
+
+                    //pd.PrintPage += new PrintPageEventHandler(PrintPage100_70);
+                    //PaperSize ps = new PaperSize("10 x 7 cm", 394, 276);
+                    //pd.DefaultPageSettings.PaperSize = ps;
+
+                }
                 //PageSettings pa = new PageSettings();
                 //pa.Margins = new Margins(5, 5, 5, 5);
 
@@ -2948,8 +3165,8 @@ namespace ZAD_Sales.Forms
 
 
 
-              //  int n = Convert.ToInt32(textCount.Text);
-                
+                //  int n = Convert.ToInt32(textCount.Text);
+
                 Int16 n = Convert.ToInt16(textCount.Text);
 
                
@@ -3107,6 +3324,21 @@ namespace ZAD_Sales.Forms
 
             texSizeFontBarcode.Text = "13";
             texSizeFontProduct.Text = "6";
+
+            comTypeFont.Text = "IDAHC39M Code 39 Barcode";
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            // checkBox3.Visible = false;
+            panelMargins10070.Visible = true;
+            panelMargins5040.Visible = false;
+            panelMargins3812.Visible = false;
+            panelMargins3825.Visible = false;
+            panelMargins5025.Visible = false;
+
+            texSizeFontBarcode.Text = "18";
+            texSizeFontProduct.Text = "12";
 
             comTypeFont.Text = "IDAHC39M Code 39 Barcode";
         }

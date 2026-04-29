@@ -262,6 +262,27 @@
             this.printDocument3 = new System.Drawing.Printing.PrintDocument();
             this.classCategoreysPrintBarcodeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.printDocument4 = new System.Drawing.Printing.PrintDocument();
+            this.radbutPrint100_70 = new System.Windows.Forms.RadioButton();
+            this.panelMargins10070 = new System.Windows.Forms.Panel();
+            this.label56 = new System.Windows.Forms.Label();
+            this.TextNameX100 = new System.Windows.Forms.TextBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.textPriceX100 = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.textPriceY100 = new System.Windows.Forms.TextBox();
+            this.TextNameY100 = new System.Windows.Forms.TextBox();
+            this.textCategoryIDX100 = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.textCategoryIDY100 = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.textCategorysX100 = new System.Windows.Forms.TextBox();
+            this.textBarcodeY100 = new System.Windows.Forms.TextBox();
+            this.textCategorysY100 = new System.Windows.Forms.TextBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.textBarcodeX100 = new System.Windows.Forms.TextBox();
+            this.txtWidthMM = new System.Windows.Forms.TextBox();
+            this.txtHeightMM = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.panelMargins5040.SuspendLayout();
             this.panelMargins5025.SuspendLayout();
@@ -289,10 +310,13 @@
             this.groupBox10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.classCategoreysPrintBarcodeBindingSource)).BeginInit();
+            this.panelMargins10070.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.panelMargins10070);
+            this.groupBox1.Controls.Add(this.radbutPrint100_70);
             this.groupBox1.Controls.Add(this.panelMargins5040);
             this.groupBox1.Controls.Add(this.panelMargins5025);
             this.groupBox1.Controls.Add(this.panelMargins3825);
@@ -338,7 +362,7 @@
             this.panelMargins5040.Controls.Add(this.label54);
             this.panelMargins5040.Controls.Add(this.textBarcodeX5040);
             this.panelMargins5040.Controls.Add(this.label55);
-            this.panelMargins5040.Location = new System.Drawing.Point(9, 210);
+            this.panelMargins5040.Location = new System.Drawing.Point(9, 224);
             this.panelMargins5040.Margin = new System.Windows.Forms.Padding(2);
             this.panelMargins5040.Name = "panelMargins5040";
             this.panelMargins5040.Size = new System.Drawing.Size(251, 184);
@@ -507,7 +531,7 @@
             this.panelMargins5025.Controls.Add(this.label49);
             this.panelMargins5025.Controls.Add(this.textBarcodeX5025);
             this.panelMargins5025.Controls.Add(this.label50);
-            this.panelMargins5025.Location = new System.Drawing.Point(11, 212);
+            this.panelMargins5025.Location = new System.Drawing.Point(11, 226);
             this.panelMargins5025.Margin = new System.Windows.Forms.Padding(2);
             this.panelMargins5025.Name = "panelMargins5025";
             this.panelMargins5025.Size = new System.Drawing.Size(251, 184);
@@ -676,7 +700,7 @@
             this.panelMargins3825.Controls.Add(this.label45);
             this.panelMargins3825.Controls.Add(this.textBarcodeX3825);
             this.panelMargins3825.Controls.Add(this.label43);
-            this.panelMargins3825.Location = new System.Drawing.Point(11, 218);
+            this.panelMargins3825.Location = new System.Drawing.Point(11, 232);
             this.panelMargins3825.Margin = new System.Windows.Forms.Padding(2);
             this.panelMargins3825.Name = "panelMargins3825";
             this.panelMargins3825.Size = new System.Drawing.Size(251, 184);
@@ -859,7 +883,7 @@
             this.panelMargins3812.Controls.Add(this.label35);
             this.panelMargins3812.Controls.Add(this.label36);
             this.panelMargins3812.Controls.Add(this.textBarcodeX);
-            this.panelMargins3812.Location = new System.Drawing.Point(11, 218);
+            this.panelMargins3812.Location = new System.Drawing.Point(11, 232);
             this.panelMargins3812.Margin = new System.Windows.Forms.Padding(2);
             this.panelMargins3812.Name = "panelMargins3812";
             this.panelMargins3812.Size = new System.Drawing.Size(251, 223);
@@ -1089,7 +1113,7 @@
             this.radbutPrint38_12.Checked = true;
             this.radbutPrint38_12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radbutPrint38_12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.radbutPrint38_12.Location = new System.Drawing.Point(104, 162);
+            this.radbutPrint38_12.Location = new System.Drawing.Point(102, 162);
             this.radbutPrint38_12.Name = "radbutPrint38_12";
             this.radbutPrint38_12.Size = new System.Drawing.Size(98, 20);
             this.radbutPrint38_12.TabIndex = 3;
@@ -1116,7 +1140,7 @@
             this.radbutPrint50_25.AutoSize = true;
             this.radbutPrint50_25.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radbutPrint50_25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.radbutPrint50_25.Location = new System.Drawing.Point(116, 187);
+            this.radbutPrint50_25.Location = new System.Drawing.Point(113, 183);
             this.radbutPrint50_25.Name = "radbutPrint50_25";
             this.radbutPrint50_25.Size = new System.Drawing.Size(87, 20);
             this.radbutPrint50_25.TabIndex = 1;
@@ -1142,7 +1166,7 @@
             this.radbutPrint50_40.AutoSize = true;
             this.radbutPrint50_40.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radbutPrint50_40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.radbutPrint50_40.Location = new System.Drawing.Point(6, 187);
+            this.radbutPrint50_40.Location = new System.Drawing.Point(4, 183);
             this.radbutPrint50_40.Name = "radbutPrint50_40";
             this.radbutPrint50_40.Size = new System.Drawing.Size(87, 20);
             this.radbutPrint50_40.TabIndex = 0;
@@ -2889,6 +2913,242 @@
             // 
             this.printDocument4.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument4_PrintPage);
             // 
+            // radbutPrint100_70
+            // 
+            this.radbutPrint100_70.AutoSize = true;
+            this.radbutPrint100_70.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radbutPrint100_70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.radbutPrint100_70.Location = new System.Drawing.Point(106, 203);
+            this.radbutPrint100_70.Name = "radbutPrint100_70";
+            this.radbutPrint100_70.Size = new System.Drawing.Size(94, 20);
+            this.radbutPrint100_70.TabIndex = 212160;
+            this.radbutPrint100_70.Text = "مقاس 100*70";
+            this.radbutPrint100_70.UseVisualStyleBackColor = true;
+            this.radbutPrint100_70.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // panelMargins10070
+            // 
+            this.panelMargins10070.Controls.Add(this.label56);
+            this.panelMargins10070.Controls.Add(this.TextNameX100);
+            this.panelMargins10070.Controls.Add(this.button18);
+            this.panelMargins10070.Controls.Add(this.textPriceX100);
+            this.panelMargins10070.Controls.Add(this.label57);
+            this.panelMargins10070.Controls.Add(this.textPriceY100);
+            this.panelMargins10070.Controls.Add(this.TextNameY100);
+            this.panelMargins10070.Controls.Add(this.txtWidthMM);
+            this.panelMargins10070.Controls.Add(this.txtHeightMM);
+            this.panelMargins10070.Controls.Add(this.textCategoryIDX100);
+            this.panelMargins10070.Controls.Add(this.label58);
+            this.panelMargins10070.Controls.Add(this.textCategoryIDY100);
+            this.panelMargins10070.Controls.Add(this.label59);
+            this.panelMargins10070.Controls.Add(this.textCategorysX100);
+            this.panelMargins10070.Controls.Add(this.textBarcodeY100);
+            this.panelMargins10070.Controls.Add(this.textCategorysY100);
+            this.panelMargins10070.Controls.Add(this.label61);
+            this.panelMargins10070.Controls.Add(this.label62);
+            this.panelMargins10070.Controls.Add(this.textBarcodeX100);
+            this.panelMargins10070.Location = new System.Drawing.Point(10, 225);
+            this.panelMargins10070.Margin = new System.Windows.Forms.Padding(2);
+            this.panelMargins10070.Name = "panelMargins10070";
+            this.panelMargins10070.Size = new System.Drawing.Size(251, 223);
+            this.panelMargins10070.TabIndex = 212157;
+            this.panelMargins10070.Visible = false;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
+            this.label56.Location = new System.Drawing.Point(89, 7);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(65, 13);
+            this.label56.TabIndex = 212156;
+            this.label56.Text = "ضبط الهوامش";
+            // 
+            // TextNameX100
+            // 
+            this.TextNameX100.Location = new System.Drawing.Point(11, 28);
+            this.TextNameX100.Name = "TextNameX100";
+            this.TextNameX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.TextNameX100.Size = new System.Drawing.Size(73, 20);
+            this.TextNameX100.TabIndex = 212155;
+            this.TextNameX100.Text = "50";
+            this.TextNameX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(11, 185);
+            this.button18.Margin = new System.Windows.Forms.Padding(2);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(56, 20);
+            this.button18.TabIndex = 7478;
+            this.button18.Text = "الافتراضى";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // textPriceX100
+            // 
+            this.textPriceX100.Location = new System.Drawing.Point(11, 156);
+            this.textPriceX100.Name = "textPriceX100";
+            this.textPriceX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textPriceX100.Size = new System.Drawing.Size(73, 20);
+            this.textPriceX100.TabIndex = 212155;
+            this.textPriceX100.Text = "10";
+            this.textPriceX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label57.Location = new System.Drawing.Point(180, 30);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(66, 16);
+            this.label57.TabIndex = 212154;
+            this.label57.Text = "اسم المشروع";
+            // 
+            // textPriceY100
+            // 
+            this.textPriceY100.Location = new System.Drawing.Point(102, 156);
+            this.textPriceY100.Name = "textPriceY100";
+            this.textPriceY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textPriceY100.Size = new System.Drawing.Size(73, 20);
+            this.textPriceY100.TabIndex = 212155;
+            this.textPriceY100.Text = "65";
+            this.textPriceY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TextNameY100
+            // 
+            this.TextNameY100.Location = new System.Drawing.Point(103, 28);
+            this.TextNameY100.Name = "TextNameY100";
+            this.TextNameY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.TextNameY100.Size = new System.Drawing.Size(73, 20);
+            this.TextNameY100.TabIndex = 212155;
+            this.TextNameY100.Text = "10";
+            this.TextNameY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCategoryIDX100
+            // 
+            this.textCategoryIDX100.Location = new System.Drawing.Point(11, 120);
+            this.textCategoryIDX100.Name = "textCategoryIDX100";
+            this.textCategoryIDX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategoryIDX100.Size = new System.Drawing.Size(73, 20);
+            this.textCategoryIDX100.TabIndex = 212155;
+            this.textCategoryIDX100.Text = "10";
+            this.textCategoryIDX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label58.Location = new System.Drawing.Point(203, 62);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(42, 16);
+            this.label58.TabIndex = 212154;
+            this.label58.Text = "الباركود";
+            // 
+            // textCategoryIDY100
+            // 
+            this.textCategoryIDY100.Location = new System.Drawing.Point(103, 120);
+            this.textCategoryIDY100.Name = "textCategoryIDY100";
+            this.textCategoryIDY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategoryIDY100.Size = new System.Drawing.Size(73, 20);
+            this.textCategoryIDY100.TabIndex = 212155;
+            this.textCategoryIDY100.Text = "1";
+            this.textCategoryIDY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label59.Location = new System.Drawing.Point(210, 90);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(34, 16);
+            this.label59.TabIndex = 212154;
+            this.label59.Text = "المنتج";
+            // 
+            // textCategorysX100
+            // 
+            this.textCategorysX100.Location = new System.Drawing.Point(11, 89);
+            this.textCategorysX100.Name = "textCategorysX100";
+            this.textCategorysX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategorysX100.Size = new System.Drawing.Size(73, 20);
+            this.textCategorysX100.TabIndex = 212155;
+            this.textCategorysX100.Text = "10";
+            this.textCategorysX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBarcodeY100
+            // 
+            this.textBarcodeY100.Location = new System.Drawing.Point(103, 59);
+            this.textBarcodeY100.Name = "textBarcodeY100";
+            this.textBarcodeY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBarcodeY100.Size = new System.Drawing.Size(73, 20);
+            this.textBarcodeY100.TabIndex = 212155;
+            this.textBarcodeY100.Text = "20";
+            this.textBarcodeY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCategorysY100
+            // 
+            this.textCategorysY100.Location = new System.Drawing.Point(103, 89);
+            this.textCategorysY100.Name = "textCategorysY100";
+            this.textCategorysY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategorysY100.Size = new System.Drawing.Size(73, 20);
+            this.textCategorysY100.TabIndex = 212155;
+            this.textCategorysY100.Text = "60";
+            this.textCategorysY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label61.Location = new System.Drawing.Point(191, 122);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(53, 16);
+            this.label61.TabIndex = 212154;
+            this.label61.Text = "كود المنتج";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label62.Location = new System.Drawing.Point(212, 159);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(33, 16);
+            this.label62.TabIndex = 212154;
+            this.label62.Text = "السعر";
+            // 
+            // textBarcodeX100
+            // 
+            this.textBarcodeX100.Location = new System.Drawing.Point(11, 59);
+            this.textBarcodeX100.Name = "textBarcodeX100";
+            this.textBarcodeX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBarcodeX100.Size = new System.Drawing.Size(73, 20);
+            this.textBarcodeX100.TabIndex = 212155;
+            this.textBarcodeX100.Text = "10";
+            this.textBarcodeX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtWidthMM
+            // 
+            this.txtWidthMM.Location = new System.Drawing.Point(92, 188);
+            this.txtWidthMM.Name = "txtWidthMM";
+            this.txtWidthMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtWidthMM.Size = new System.Drawing.Size(73, 20);
+            this.txtWidthMM.TabIndex = 212155;
+            this.txtWidthMM.Text = "100";
+            this.txtWidthMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtHeightMM
+            // 
+            this.txtHeightMM.Location = new System.Drawing.Point(173, 190);
+            this.txtHeightMM.Name = "txtHeightMM";
+            this.txtHeightMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtHeightMM.Size = new System.Drawing.Size(73, 20);
+            this.txtHeightMM.TabIndex = 212155;
+            this.txtHeightMM.Text = "70";
+            this.txtHeightMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Barcode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2955,6 +3215,8 @@
             this.groupBox10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.classCategoreysPrintBarcodeBindingSource)).EndInit();
+            this.panelMargins10070.ResumeLayout(false);
+            this.panelMargins10070.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3187,5 +3449,26 @@
         private System.Windows.Forms.TextBox textBarcodeX5040;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.TextBox textFristPriceCode;
+        private System.Windows.Forms.RadioButton radbutPrint100_70;
+        private System.Windows.Forms.Panel panelMargins10070;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.TextBox TextNameX100;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.TextBox textPriceX100;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.TextBox textPriceY100;
+        private System.Windows.Forms.TextBox TextNameY100;
+        private System.Windows.Forms.TextBox textCategoryIDX100;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.TextBox textCategoryIDY100;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox textCategorysX100;
+        private System.Windows.Forms.TextBox textBarcodeY100;
+        private System.Windows.Forms.TextBox textCategorysY100;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.TextBox textBarcodeX100;
+        private System.Windows.Forms.TextBox txtHeightMM;
+        private System.Windows.Forms.TextBox txtWidthMM;
     }
 }

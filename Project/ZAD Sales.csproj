@@ -103,6 +103,8 @@
     <Compile Include="ClassProject\ReportEngine.cs" />
     <Compile Include="ClassProject\ReportParameterBuilder.cs" />
     <Compile Include="ClassProject\ReportPrinter.cs" />
+    <Compile Include="ClassProject\UnitConverter.cs" />
+    <Compile Include="ClassProject\UnitHelper.cs" />
     <Compile Include="DAL\CashBoxHelper.cs" />
     <Compile Include="DAL\OccasionDAL.cs" />
     <Compile Include="DAL\SqlHelperAll.cs" />
