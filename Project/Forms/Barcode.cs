@@ -14,6 +14,12 @@ using Microsoft.Reporting.WinForms;
 
 using ZAD_Sales.ClassProject;
 
+using System.Drawing.Drawing2D;
+
+using ZXing;
+using ZXing.Common;
+
+
 namespace ZAD_Sales.Forms
 {
     public partial class Barcode : Form
@@ -38,6 +44,8 @@ namespace ZAD_Sales.Forms
         //---------------------------------
         //---------------------------------
         ReportDataSource rs = new ReportDataSource();
+
+        PrintDocument pd = new PrintDocument();
 
         public Barcode()
         {
@@ -114,8 +122,439 @@ namespace ZAD_Sales.Forms
 
         }
 
+        //float ConvertX(string mm)
+        //{
+        //    return GetMM(mm) * scaleX;
+        //}
+
+        //float ConvertY(string mm)
+        //{
+        //    return GetMM(mm) * scaleY;
+        //}
+
+        float GetMM(TextBox txt)
+        {
+            if (float.TryParse(txt.Text.Replace(',', '.'),
+                System.Globalization.NumberStyles.Any,
+                System.Globalization.CultureInfo.InvariantCulture,
+                out float val))
+            {
+                return val;
+            }
+            return 0f;
+        }
+
+        float GetMM(string txt)
+        {
+            if (float.TryParse(txt.Replace(',', '.'),
+                System.Globalization.NumberStyles.Any,
+                System.Globalization.CultureInfo.InvariantCulture,
+                out float val))
+            {
+                return val;
+            }
+            return 0f;
+        }
+
+        private void PanelPreview_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics g = e.Graphics;
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // ---------- مقاس الورقة ----------
+            float widthMm = GetMM(txtWidthMM1);
+            float heightMm = GetMM(txtHeightMM1);
+
+            if (widthMm == 0 || heightMm == 0) return;
+
+            float panelWidth = panelPreview.Width;
+            float panelHeight = panelPreview.Height;
+
+            float scaleX = panelWidth / widthMm;
+            float scaleY = panelHeight / heightMm;
+
+            float ConvertX(string mm) => GetMM(mm) * scaleX;
+            float ConvertY(string mm) => GetMM(mm) * scaleY;
+
+            // ---------- رسم حدود الورقة ----------
+            g.DrawRectangle(Pens.Black, 0, 0, panelWidth - 1, panelHeight - 1);
+
+            // ===================================================
+            // 🟢 اسم الشركة
+            // ===================================================
+            float NameX = ConvertX(txtNameX.Text);
+            float NameY = ConvertY(txtNameY.Text);
+
+            Font nameFont = new Font("Tahoma", 8);
+            string nameText = txtCompanyName.Text;
+
+            g.DrawString(nameText, nameFont, Brushes.Black, NameX, NameY);
+
+            SizeF nameSize = g.MeasureString(nameText, nameFont);
+
+            if (chkShowBorders.Checked)
+                g.DrawRectangle(Pens.Red, NameX, NameY, nameSize.Width, nameSize.Height);
+
+            // ===================================================
+            // 🔵 الباركود (ZXing)
+            // ===================================================
+            float BarcodeX = ConvertX(txtBarcodeX.Text);
+            float BarcodeY = ConvertY(txtBarcodeY.Text);
+
+            float BarcodeWidth = GetMM(txtBarcodeWidthMM) * scaleX;
+            float BarcodeHeight = GetMM(txtBarcodeHeightMM) * scaleY;
+
+            var writer = new ZXing.BarcodeWriter
+            {
+                Format = ZXing.BarcodeFormat.CODE_128,
+                Options = new ZXing.Common.EncodingOptions
+                {
+                    Width = (int)BarcodeWidth,
+                    Height = (int)BarcodeHeight,
+                    Margin = 0,
+                    PureBarcode = true
+                }
+            };
+
+            Bitmap barcodeImg = writer.Write(txtBarcodeValue.Text);
+
+            g.DrawImage(barcodeImg, BarcodeX, BarcodeY);
+
+            if (chkShowBorders.Checked)
+                g.DrawRectangle(Pens.Blue, BarcodeX, BarcodeY, BarcodeWidth, BarcodeHeight);
+
+            // ===================================================
+            // 🟡 اسم المنتج
+            // ===================================================
+            float CatX = ConvertX(txtCategoryX.Text);
+            float CatY = ConvertY(txtCategoryY.Text);
+
+            Font catFont = new Font("Tahoma", 8);
+            string catText = txtProductName.Text;
+
+            g.DrawString(catText, catFont, Brushes.Black, CatX, CatY);
+
+            SizeF catSize = g.MeasureString(catText, catFont);
+
+            if (chkShowBorders.Checked)
+                g.DrawRectangle(Pens.Green, CatX, CatY, catSize.Width, catSize.Height);
+
+            // ===================================================
+            // 🟠 كود المنتج
+            // ===================================================
+            float IDX = ConvertX(txtCategoryIDX.Text);
+            float IDY = ConvertY(txtCategoryIDY.Text);
+
+            Font idFont = new Font("Tahoma", 8);
+            string idText = txtProductID.Text;
+
+            g.DrawString(idText, idFont, Brushes.Black, IDX, IDY);
+
+            SizeF idSize = g.MeasureString(idText, idFont);
+
+            if (chkShowBorders.Checked)
+                g.DrawRectangle(Pens.Orange, IDX, IDY, idSize.Width, idSize.Height);
+
+            // ===================================================
+            // 🟣 السعر
+            // ===================================================
+            float PriceX = ConvertX(txtPriceX.Text);
+            float PriceY = ConvertY(txtPriceY.Text);
+
+            Font priceFont = new Font("Tahoma", 8);
+            string priceText = txtPrice.Text;
+
+            g.DrawString(priceText, priceFont, Brushes.Black, PriceX, PriceY);
+
+            SizeF priceSize = g.MeasureString(priceText, priceFont);
+
+            if (chkShowBorders.Checked)
+                g.DrawRectangle(Pens.Purple, PriceX, PriceY, priceSize.Width, priceSize.Height);
+
+
+         
+
+            //------------------ اضافة بوردر فى الطباعه
+            if (chkPageBorder.Checked)
+            {
+                float padding = 4f;
+                // float radius = 10f; // درجة التدوير
+                float radius = GetMM(txtCornerRadius);
+
+                RectangleF rect = new RectangleF(
+                    padding,
+                    padding,
+                    panelPreview.Width - padding * 2,
+                    panelPreview.Height - padding * 2
+                );
+
+                using (Pen pen = new Pen(Color.Black, 2))
+                using (GraphicsPath path = GetRoundedRect(rect, radius))
+                {
+                    g.DrawPath(pen, path);
+                }
+
+                //--------- بوردر للصفحة
+                //float borderPadding = 2f; // مسافة من الحواف
+
+                //using (Pen pen = new Pen(Color.Black, 2))
+                //{
+                //    g.DrawRectangle(
+                //        pen,
+                //        borderPadding,
+                //        borderPadding,
+                //        panelPreview.Width - borderPadding * 2,
+                //        panelPreview.Height - borderPadding * 2
+                //    );
+                //}
+            }
+        }
+
+        GraphicsPath GetRoundedRect(RectangleF rect, float radius)
+        {
+            float d = radius * 2;
+            GraphicsPath path = new GraphicsPath();
+
+            path.AddArc(rect.X, rect.Y, d, d, 180, 90);
+            path.AddArc(rect.Right - d, rect.Y, d, d, 270, 90);
+            path.AddArc(rect.Right - d, rect.Bottom - d, d, d, 0, 90);
+            path.AddArc(rect.X, rect.Bottom - d, d, d, 90, 90);
+
+            path.CloseFigure();
+            return path;
+        }
+        //private void PanelPreview_Paint(object sender, PaintEventArgs e)
+        //{
+        //    Graphics g = e.Graphics;
+
+        //    // تحسين الجودة
+        //    g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+        //    // قراءة مقاس الورقة
+        //    float widthMm = GetMM(txtWidthMM);
+        //    float heightMm = GetMM(txtHeightMM);
+
+        //    if (widthMm == 0 || heightMm == 0) return;
+
+        //    float panelWidth = panelPreview.Width;
+        //    float panelHeight = panelPreview.Height;
+
+        //    // حساب الـ Scale
+        //    float scaleX = panelWidth / widthMm;
+        //    float scaleY = panelHeight / heightMm;
+
+        //    // تحويل mm → pixel
+        //    float ConvertX(string mm) => GetMM(mm) * scaleX;
+        //    float ConvertY(string mm) => GetMM(mm) * scaleY;
+
+        //    // ------------------ الباركود ------------------
+
+        //    float BarcodeX = ConvertX(txtBarcodeX.Text);
+        //    float BarcodeY = ConvertY(txtBarcodeY.Text);
+
+        //    float BarcodeWidth = GetMM(txtBarcodeWidthMM) * scaleX;
+        //    float BarcodeHeight = GetMM(txtBarcodeHeightMM) * scaleY;
+
+        //    // توليد الباركود
+        //    var writer = new ZXing.BarcodeWriter
+        //    {
+        //        Format = ZXing.BarcodeFormat.CODE_128,
+        //        Options = new ZXing.Common.EncodingOptions
+        //        {
+        //            Width = (int)BarcodeWidth,
+        //            Height = (int)BarcodeHeight,
+        //            Margin = 0,
+        //            PureBarcode = true
+        //        }
+        //    };
+
+        //    Bitmap barcodeImg = writer.Write(txtBarcodeValue.Text);
+
+        //    // رسم الباركود
+        //    g.DrawImage(barcodeImg, BarcodeX, BarcodeY);
+
+        //    // رسم البوردر
+        //    if (chkShowBorders.Checked)
+        //    {
+        //        g.DrawRectangle(Pens.Blue, BarcodeX, BarcodeY, BarcodeWidth, BarcodeHeight);
+        //    }
+        //}
+        //private void PanelPreview_Paint(object sender, PaintEventArgs e)
+        //{
+        //    float ConvertX(string mm) => GetMM(mm) * scaleX;
+        //    float ConvertY(string mm) => GetMM(mm) * scaleY;
+
+        //    float BarcodeX = ConvertX(txtBarcodeX.Text);
+        //    float BarcodeY = ConvertY(txtBarcodeY.Text);
+
+        //    float BarcodeWidth = GetMM(txtBarcodeWidthMM) * scaleX;
+        //    float BarcodeHeight = GetMM(txtBarcodeHeightMM) * scaleY;
+
+        //    // توليد الباركود
+        //    var writer = new ZXing.BarcodeWriter
+        //    {
+        //        Format = ZXing.BarcodeFormat.CODE_128,
+        //        Options = new ZXing.Common.EncodingOptions
+        //        {
+        //            Width = (int)BarcodeWidth,
+        //            Height = (int)BarcodeHeight,
+        //            Margin = 0,
+        //            PureBarcode = true
+        //        }
+        //    };
+
+        //    Bitmap barcodeImg = writer.Write(txtBarcodeValue.Text);
+
+        //    // رسمه
+        //    g.DrawImage(barcodeImg, BarcodeX, BarcodeY);
+
+        //    // البوردر
+        //    if (chkShowBorders.Checked)
+        //    {
+        //        g.DrawRectangle(Pens.Blue, BarcodeX, BarcodeY, BarcodeWidth, BarcodeHeight);
+        //    }
+
+
+        //    //Graphics g = e.Graphics;
+
+        //    //// تحسين الجودة
+        //    //g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+        //    //// قراءة مقاس الورقة (mm)
+        //    //float widthMm = float.Parse(txtWidthMM.Text);
+        //    //float heightMm = float.Parse(txtHeightMM.Text);
+
+        //    //// مقاس الـ panel
+        //    //float panelWidth = panelPreview.Width;
+        //    //float panelHeight = panelPreview.Height;
+
+        //    //// حساب الـ scale
+        //    //float scaleX = panelWidth / widthMm;
+        //    //float scaleY = panelHeight / heightMm;
+
+        //    //// دالة تحويل mm → pixel داخل preview
+        //    //float ConvertX(string mm) => UnitHelper.MmToInch(mm) * 25.4f * scaleX;
+        //    //float ConvertY(string mm) => UnitHelper.MmToInch(mm) * 25.4f * scaleY;
+
+        //    //// -------- رسم حدود الورقة --------
+        //    //g.DrawRectangle(Pens.Black, 0, 0, panelWidth - 1, panelHeight - 1);
+
+        //    //// -------- رسم اسم الشركة --------
+        //    //float NameX = ConvertX(txtNameX.Text);
+        //    //float NameY = ConvertY(txtNameY.Text);
+
+        //    //g.DrawString(txtCompanyName.Text, new Font("Tahoma", 8), Brushes.Black, NameX, NameY);
+
+        //    //// -------- رسم الباركود --------
+        //    //float BarcodeX = ConvertX(txtBarcodeX.Text);
+        //    //float BarcodeY = ConvertY(txtBarcodeY.Text);
+
+        //    //Font barcodeFont = new Font(cmbBarcodeFont.Text, 20);
+        //    //string barcodeText = txtBarcodeValue.Text;
+
+        //    //g.DrawString(barcodeText, barcodeFont, Brushes.Black, BarcodeX, BarcodeY);
+
+        //    //SizeF barcodeSize = g.MeasureString(barcodeText, barcodeFont);
+
+        //    //if (chkShowBorders.Checked)
+        //    //{
+        //    //    g.DrawRectangle(Pens.Blue, BarcodeX, BarcodeY, barcodeSize.Width, barcodeSize.Height);
+        //    //}
+
+        //    ////float BarcodeX = ConvertX(txtBarcodeX.Text);
+        //    ////float BarcodeY = ConvertY(txtBarcodeY.Text);
+
+        //    ////g.DrawString(txtBarcodeValue.Text,
+        //    ////    new Font(cmbBarcodeFont.Text, 20),
+        //    ////    Brushes.Black,
+        //    ////    BarcodeX,
+        //    ////    BarcodeY);
+
+        //    //// -------- اسم المنتج --------
+
+        //    //float CategoryX = ConvertX(txtCategoryX.Text);
+        //    //float CategoryY = ConvertY(txtCategoryY.Text);
+
+        //    //Font catFont = new Font("Tahoma", 8);
+        //    //string catText = txtProductName.Text;
+
+        //    //g.DrawString(catText, catFont, Brushes.Black, CategoryX, CategoryY);
+
+        //    //SizeF catSize = g.MeasureString(catText, catFont);
+
+        //    //if (chkShowBorders.Checked)
+        //    //{
+        //    //    g.DrawRectangle(Pens.Green, CategoryX, CategoryY, catSize.Width, catSize.Height);
+        //    //}
+
+        //    ////float CategoryX = ConvertX(txtCategoryX.Text);
+        //    ////float CategoryY = ConvertY(txtCategoryY.Text);
+
+        //    ////g.DrawString(txtProductName.Text, new Font("Tahoma", 8), Brushes.Black, CategoryX, CategoryY);
+
+        //    //// -------- كود المنتج --------
+
+        //    //float IDX = ConvertX(txtCategoryIDX.Text);
+        //    //float IDY = ConvertY(txtCategoryIDY.Text);
+
+        //    //string idText = txtProductID.Text;
+        //    //Font idFont = new Font("Tahoma", 8);
+
+        //    //g.DrawString(idText, idFont, Brushes.Black, IDX, IDY);
+
+        //    //SizeF idSize = g.MeasureString(idText, idFont);
+
+        //    //if (chkShowBorders.Checked)
+        //    //{
+        //    //    g.DrawRectangle(Pens.Orange, IDX, IDY, idSize.Width, idSize.Height);
+        //    //}
+
+        //    ////float IDX = ConvertX(txtCategoryIDX.Text);
+        //    ////float IDY = ConvertY(txtCategoryIDY.Text);
+
+        //    ////g.DrawString(txtProductID.Text, new Font("Tahoma", 8), Brushes.Black, IDX, IDY);
+
+        //    //// -------- السعر --------
+        //    //float PriceX = ConvertX(txtPriceX.Text);
+        //    //float PriceY = ConvertY(txtPriceY.Text);
+
+        //    //string priceText = txtPrice.Text;
+        //    //Font priceFont = new Font("Tahoma", 8);
+
+        //    //g.DrawString(priceText, priceFont, Brushes.Black, PriceX, PriceY);
+
+        //    //SizeF priceSize = g.MeasureString(priceText, priceFont);
+
+        //    //if (chkShowBorders.Checked)
+        //    //{
+        //    //    g.DrawRectangle(Pens.Purple, PriceX, PriceY, priceSize.Width, priceSize.Height);
+        //    //}
+
+        //    ////float PriceX = ConvertX(txtPriceX.Text);
+        //    ////float PriceY = ConvertY(txtPriceY.Text);
+
+        //    ////g.DrawString(txtPrice.Text, new Font("Tahoma", 8), Brushes.Black, PriceX, PriceY);
+        //}
+
+        void RefreshPreview()
+        {
+            panelPreview.Invalidate();
+        }
         private void Barcode_Load(object sender, EventArgs e)
         {
+            //----- نظام الباركود الخاص
+            panelPreview.Paint += PanelPreview_Paint;
+
+            pd.PrintPage += Pd_PrintPage;
+
+
+            //==================================
+
+
+
+
+
 
             GetDataBarcode_Seting();
 
@@ -3341,6 +3780,342 @@ namespace ZAD_Sales.Forms
             texSizeFontProduct.Text = "12";
 
             comTypeFont.Text = "IDAHC39M Code 39 Barcode";
+        }
+
+        private void AnyControl_TextChanged(object sender, EventArgs e)
+        {
+            RefreshPreview();
+        }
+
+        private void txtNameX_TextChanged(object sender, EventArgs e)
+        {
+            txtNameX.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtNameY_TextChanged(object sender, EventArgs e)
+        {
+            txtNameY.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtBarcodeX_TextChanged(object sender, EventArgs e)
+        {
+            txtBarcodeX.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtBarcodeY_TextChanged(object sender, EventArgs e)
+        {
+            txtBarcodeY.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtWidthMM1_TextChanged(object sender, EventArgs e)
+        {
+            txtWidthMM1.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtHeightMM1_TextChanged(object sender, EventArgs e)
+        {
+            txtHeightMM1.TextChanged += AnyControl_TextChanged;
+        }
+
+        private void txtCategoryX_TextChanged(object sender, EventArgs e)
+        {
+            txtCategoryX.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtCategoryY_TextChanged(object sender, EventArgs e)
+        {
+            txtCategoryY.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtCategoryIDX_TextChanged(object sender, EventArgs e)
+        {
+            txtCategoryIDX.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtCategoryIDY_TextChanged(object sender, EventArgs e)
+        {
+            txtCategoryIDY.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtPriceX_TextChanged(object sender, EventArgs e)
+        {
+            txtPriceX.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtPriceY_TextChanged(object sender, EventArgs e)
+        {
+            txtPriceY.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void cmbBarcodeFont_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbBarcodeFont.SelectedIndexChanged += AnyControl_TextChanged;
+        }
+
+        private void txtBarcodeFontSize_TextChanged(object sender, EventArgs e)
+        {
+            txtBarcodeFontSize.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void cmbOrientation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbOrientation.SelectedIndexChanged += AnyControl_TextChanged;
+        }
+
+        private void txtCompanyName_TextChanged(object sender, EventArgs e)
+        {
+            txtCompanyName.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtProductName_TextChanged(object sender, EventArgs e)
+        {
+            txtProductName.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtBarcodeValue_TextChanged(object sender, EventArgs e)
+        {
+            txtBarcodeValue.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtPrice_TextChanged(object sender, EventArgs e)
+        {
+            txtPrice.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void chkShowBorders_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+        private void Pd_PrintPage(object sender, PrintPageEventArgs e)
+        {
+            Graphics g = e.Graphics;
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            float dpiX = 96f;
+            float dpiY = 96f;
+
+           
+
+
+            //float dpiX = g.DpiX;
+            //float dpiY = g.DpiY;
+
+            float ConvertX(string mm) => GetMM(mm) / 25.4f * dpiX;
+            float ConvertY(string mm) => GetMM(mm) / 25.4f * dpiY;
+
+            // ================= اسم الشركة =================
+            float NameX = ConvertX(txtNameX.Text);
+            float NameY = ConvertY(txtNameY.Text);
+
+            g.DrawString(txtCompanyName.Text, new Font("Tahoma", 8), Brushes.Black, NameX, NameY);
+
+            // ================= الباركود =================
+            float BarcodeX = ConvertX(txtBarcodeX.Text);
+            float BarcodeY = ConvertY(txtBarcodeY.Text);
+
+            float BarcodeWidth = GetMM(txtBarcodeWidthMM) / 25.4f * dpiX;
+            float BarcodeHeight = GetMM(txtBarcodeHeightMM) / 25.4f * dpiY;
+
+            var writer = new ZXing.BarcodeWriter
+            {
+                Format = ZXing.BarcodeFormat.CODE_128,
+                Options = new ZXing.Common.EncodingOptions
+                {
+                    Width = (int)BarcodeWidth,
+                    Height = (int)BarcodeHeight,
+                    Margin = 0,
+                    PureBarcode = true
+                }
+            };
+
+            Bitmap barcodeImg = writer.Write(txtBarcodeValue.Text);
+
+            g.DrawImage(barcodeImg, BarcodeX, BarcodeY);
+
+            // ================= اسم المنتج =================
+            float CatX = ConvertX(txtCategoryX.Text);
+            float CatY = ConvertY(txtCategoryY.Text);
+
+            g.DrawString(txtProductName.Text, new Font("Tahoma", 8), Brushes.Black, CatX, CatY);
+
+            // ================= كود المنتج =================
+            float IDX = ConvertX(txtCategoryIDX.Text);
+            float IDY = ConvertY(txtCategoryIDY.Text);
+
+            g.DrawString(txtProductID.Text, new Font("Tahoma", 8), Brushes.Black, IDX, IDY);
+
+            // ================= السعر =================
+            float PriceX = ConvertX(txtPriceX.Text);
+            float PriceY = ConvertY(txtPriceY.Text);
+
+            g.DrawString(txtPrice.Text, new Font("Tahoma", 8), Brushes.Black, PriceX, PriceY);
+
+
+          
+
+            //------------------ اضافة بوردر فى الطباعه
+            if (chkPageBorder.Checked)
+            {
+
+                //float dpiX = 96f;
+                //float dpiY = 96f;
+
+                float pageWidth = GetMM(txtWidthMM) / 25.4f * dpiX;
+                float pageHeight = GetMM(txtHeightMM) / 25.4f * dpiY;
+
+                float padding = 5f;
+                //float radius = 15f;
+                float radius = GetMM(txtCornerRadius);
+
+                RectangleF rect = new RectangleF(
+                    padding,
+                    padding,
+                    pageWidth - padding * 2,
+                    pageHeight - padding * 2
+                );
+
+                using (Pen pen = new Pen(Color.Black, 3))
+                using (GraphicsPath path = GetRoundedRect(rect, radius))
+                {
+                    e.Graphics.DrawPath(pen, path);
+                }
+
+
+                // رسم البوردر
+
+                // تحويل mm → pixel
+                //float pageWidth = GetMM(txtWidthMM) / 25.4f * dpiX;
+                //float pageHeight = GetMM(txtHeightMM) / 25.4f * dpiY;
+
+                //float borderPadding = 5f; // ممكن تزودها حسب الشكل
+
+                //using (Pen pen = new Pen(Color.Black, 3))
+                //{
+                //    e.Graphics.DrawRectangle(
+                //        pen,
+                //        borderPadding,
+                //        borderPadding,
+                //        pageWidth - borderPadding * 2,
+                //        pageHeight - borderPadding * 2
+                //    );
+                //}
+            }
+        }
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            SetPaperSize();
+            pd.Print();
+
+
+            //float widthMm = GetMM(txtWidthMM);
+            //float heightMm = GetMM(txtHeightMM);
+
+            //// تحويل إلى PaperSize
+            //PaperSize ps = new PaperSize(
+            //    "Custom",
+            //    UnitHelper.MmToPaperUnit(widthMm),
+            //    UnitHelper.MmToPaperUnit(heightMm)
+            //);
+
+            //pd.DefaultPageSettings.PaperSize = ps;
+
+            //// الاتجاه
+            //pd.DefaultPageSettings.Landscape = (cmbOrientation.Text == "Landscape");
+
+            //// ربط حدث الطباعة
+            //pd.PrintPage -= Pd_PrintPage;
+            //pd.PrintPage += Pd_PrintPage;
+
+            //pd.Print();
+        }
+
+        private void txtBarcodeWidthMM_TextChanged(object sender, EventArgs e)
+        {
+            txtBarcodeWidthMM.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void txtBarcodeHeightMM_TextChanged(object sender, EventArgs e)
+        {
+            txtBarcodeHeightMM.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        void SetPaperSize()
+        {
+            float widthMm = GetMM(txtWidthMM1);
+            float heightMm = GetMM(txtHeightMM1);
+
+            bool isLandscape = (cmbOrientation.Text == "Landscape");
+
+            // لو Landscape نقلب القيم
+            float finalWidth = isLandscape ? heightMm : widthMm;
+            float finalHeight = isLandscape ? widthMm : heightMm;
+
+            PaperSize ps = new PaperSize(
+                "Custom",
+                UnitHelper.MmToPaperUnit(finalWidth),
+                UnitHelper.MmToPaperUnit(finalHeight)
+            );
+
+            pd.DefaultPageSettings.PaperSize = ps;
+            pd.DefaultPageSettings.Landscape = isLandscape;
+
+            pd.DefaultPageSettings.Margins = new Margins(0, 0, 0, 0);
+        }
+        //void SetPaperSize()
+        //{
+        //    float widthMm = GetMM(txtWidthMM);
+        //    float heightMm = GetMM(txtHeightMM);
+
+        //    PaperSize ps = new PaperSize(
+        //        "Custom",
+        //        UnitHelper.MmToPaperUnit(widthMm),
+        //        UnitHelper.MmToPaperUnit(heightMm)
+        //    );
+
+        //    pd.DefaultPageSettings.PaperSize = ps;
+
+        //    pd.DefaultPageSettings.Landscape = (cmbOrientation.Text == "Landscape");
+
+        //    // 🔥 مهم جدًا
+        //    pd.DefaultPageSettings.Margins = new Margins(0, 0, 0, 0);
+        //}
+        private void btnPreview_Click(object sender, EventArgs e)
+        {
+            SetPaperSize(); // مهم
+
+            PrintPreviewDialog preview = new PrintPreviewDialog();
+            preview.Document = pd;
+            preview.ShowDialog();
+        }
+
+        private void txtCornerRadius_TextChanged(object sender, EventArgs e)
+        {
+            txtCornerRadius.TextChanged += AnyControl_TextChanged;
+
+        }
+
+        private void chkPageBorder_CheckedChanged(object sender, EventArgs e)
+        {
+           
         }
     }
     

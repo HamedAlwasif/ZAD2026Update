@@ -29,15 +29,36 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Barcode));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panelMargins10070 = new System.Windows.Forms.Panel();
+            this.label56 = new System.Windows.Forms.Label();
+            this.TextNameX100 = new System.Windows.Forms.TextBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.textPriceX100 = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.textPriceY100 = new System.Windows.Forms.TextBox();
+            this.TextNameY100 = new System.Windows.Forms.TextBox();
+            this.txtWidthMM = new System.Windows.Forms.TextBox();
+            this.txtHeightMM = new System.Windows.Forms.TextBox();
+            this.textCategoryIDX100 = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.textCategoryIDY100 = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.textCategorysX100 = new System.Windows.Forms.TextBox();
+            this.textBarcodeY100 = new System.Windows.Forms.TextBox();
+            this.textCategorysY100 = new System.Windows.Forms.TextBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.textBarcodeX100 = new System.Windows.Forms.TextBox();
+            this.radbutPrint100_70 = new System.Windows.Forms.RadioButton();
             this.panelMargins5040 = new System.Windows.Forms.Panel();
             this.TextNameX5040 = new System.Windows.Forms.TextBox();
             this.button17 = new System.Windows.Forms.Button();
@@ -262,28 +283,81 @@
             this.printDocument3 = new System.Drawing.Printing.PrintDocument();
             this.classCategoreysPrintBarcodeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.printDocument4 = new System.Drawing.Printing.PrintDocument();
-            this.radbutPrint100_70 = new System.Windows.Forms.RadioButton();
-            this.panelMargins10070 = new System.Windows.Forms.Panel();
-            this.label56 = new System.Windows.Forms.Label();
-            this.TextNameX100 = new System.Windows.Forms.TextBox();
-            this.button18 = new System.Windows.Forms.Button();
-            this.textPriceX100 = new System.Windows.Forms.TextBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.textPriceY100 = new System.Windows.Forms.TextBox();
-            this.TextNameY100 = new System.Windows.Forms.TextBox();
-            this.textCategoryIDX100 = new System.Windows.Forms.TextBox();
-            this.label58 = new System.Windows.Forms.Label();
-            this.textCategoryIDY100 = new System.Windows.Forms.TextBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.textCategorysX100 = new System.Windows.Forms.TextBox();
-            this.textBarcodeY100 = new System.Windows.Forms.TextBox();
-            this.textCategorysY100 = new System.Windows.Forms.TextBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.textBarcodeX100 = new System.Windows.Forms.TextBox();
-            this.txtWidthMM = new System.Windows.Forms.TextBox();
-            this.txtHeightMM = new System.Windows.Forms.TextBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label60 = new System.Windows.Forms.Label();
+            this.txtNameX = new System.Windows.Forms.TextBox();
+            this.button19 = new System.Windows.Forms.Button();
+            this.txtPriceX = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.txtPriceY = new System.Windows.Forms.TextBox();
+            this.txtNameY = new System.Windows.Forms.TextBox();
+            this.txtWidthMM1 = new System.Windows.Forms.TextBox();
+            this.txtHeightMM1 = new System.Windows.Forms.TextBox();
+            this.txtCategoryIDX = new System.Windows.Forms.TextBox();
+            this.label64 = new System.Windows.Forms.Label();
+            this.txtCategoryIDY = new System.Windows.Forms.TextBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.txtCategoryX = new System.Windows.Forms.TextBox();
+            this.txtBarcodeY = new System.Windows.Forms.TextBox();
+            this.txtCategoryY = new System.Windows.Forms.TextBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.txtBarcodeX = new System.Windows.Forms.TextBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.btnPrint = new System.Windows.Forms.Button();
+            this.txtCopies = new System.Windows.Forms.TextBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.txtProductID = new System.Windows.Forms.TextBox();
+            this.txtProductName = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.txtBarcodeValue = new System.Windows.Forms.TextBox();
+            this.txtCompanyName = new System.Windows.Forms.TextBox();
+            this.label71 = new System.Windows.Forms.Label();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.label70 = new System.Windows.Forms.Label();
+            this.cmbBarcodeFont = new System.Windows.Forms.ComboBox();
+            this.cmbBarcodeType = new System.Windows.Forms.ComboBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.txtBarcodeFontSize = new System.Windows.Forms.TextBox();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.cmbOrientation = new System.Windows.Forms.ComboBox();
+            this.label94 = new System.Windows.Forms.Label();
+            this.panelPreview = new System.Windows.Forms.Panel();
+            this.label76 = new System.Windows.Forms.Label();
+            this.chkShowBorders = new System.Windows.Forms.CheckBox();
+            this.txtBarcodeWidthMM = new System.Windows.Forms.TextBox();
+            this.txtBarcodeHeightMM = new System.Windows.Forms.TextBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.btnPreview = new System.Windows.Forms.Button();
+            this.chkPageBorder = new System.Windows.Forms.CheckBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.txtCornerRadius = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
+            this.panelMargins10070.SuspendLayout();
             this.panelMargins5040.SuspendLayout();
             this.panelMargins5025.SuspendLayout();
             this.panelMargins3825.SuspendLayout();
@@ -310,7 +384,9 @@
             this.groupBox10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.classCategoreysPrintBarcodeBindingSource)).BeginInit();
-            this.panelMargins10070.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -344,6 +420,242 @@
             this.groupBox1.TabIndex = 5524;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "الإعدادات";
+            // 
+            // panelMargins10070
+            // 
+            this.panelMargins10070.Controls.Add(this.label56);
+            this.panelMargins10070.Controls.Add(this.TextNameX100);
+            this.panelMargins10070.Controls.Add(this.button18);
+            this.panelMargins10070.Controls.Add(this.textPriceX100);
+            this.panelMargins10070.Controls.Add(this.label57);
+            this.panelMargins10070.Controls.Add(this.textPriceY100);
+            this.panelMargins10070.Controls.Add(this.TextNameY100);
+            this.panelMargins10070.Controls.Add(this.txtWidthMM);
+            this.panelMargins10070.Controls.Add(this.txtHeightMM);
+            this.panelMargins10070.Controls.Add(this.textCategoryIDX100);
+            this.panelMargins10070.Controls.Add(this.label58);
+            this.panelMargins10070.Controls.Add(this.textCategoryIDY100);
+            this.panelMargins10070.Controls.Add(this.label59);
+            this.panelMargins10070.Controls.Add(this.textCategorysX100);
+            this.panelMargins10070.Controls.Add(this.textBarcodeY100);
+            this.panelMargins10070.Controls.Add(this.textCategorysY100);
+            this.panelMargins10070.Controls.Add(this.label61);
+            this.panelMargins10070.Controls.Add(this.label62);
+            this.panelMargins10070.Controls.Add(this.textBarcodeX100);
+            this.panelMargins10070.Location = new System.Drawing.Point(10, 225);
+            this.panelMargins10070.Margin = new System.Windows.Forms.Padding(2);
+            this.panelMargins10070.Name = "panelMargins10070";
+            this.panelMargins10070.Size = new System.Drawing.Size(251, 223);
+            this.panelMargins10070.TabIndex = 212157;
+            this.panelMargins10070.Visible = false;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
+            this.label56.Location = new System.Drawing.Point(89, 7);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(65, 13);
+            this.label56.TabIndex = 212156;
+            this.label56.Text = "ضبط الهوامش";
+            // 
+            // TextNameX100
+            // 
+            this.TextNameX100.Location = new System.Drawing.Point(11, 28);
+            this.TextNameX100.Name = "TextNameX100";
+            this.TextNameX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.TextNameX100.Size = new System.Drawing.Size(73, 20);
+            this.TextNameX100.TabIndex = 212155;
+            this.TextNameX100.Text = "50";
+            this.TextNameX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(11, 185);
+            this.button18.Margin = new System.Windows.Forms.Padding(2);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(56, 20);
+            this.button18.TabIndex = 7478;
+            this.button18.Text = "الافتراضى";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // textPriceX100
+            // 
+            this.textPriceX100.Location = new System.Drawing.Point(11, 156);
+            this.textPriceX100.Name = "textPriceX100";
+            this.textPriceX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textPriceX100.Size = new System.Drawing.Size(73, 20);
+            this.textPriceX100.TabIndex = 212155;
+            this.textPriceX100.Text = "10";
+            this.textPriceX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label57.Location = new System.Drawing.Point(180, 30);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(66, 16);
+            this.label57.TabIndex = 212154;
+            this.label57.Text = "اسم المشروع";
+            // 
+            // textPriceY100
+            // 
+            this.textPriceY100.Location = new System.Drawing.Point(102, 156);
+            this.textPriceY100.Name = "textPriceY100";
+            this.textPriceY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textPriceY100.Size = new System.Drawing.Size(73, 20);
+            this.textPriceY100.TabIndex = 212155;
+            this.textPriceY100.Text = "65";
+            this.textPriceY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // TextNameY100
+            // 
+            this.TextNameY100.Location = new System.Drawing.Point(103, 28);
+            this.TextNameY100.Name = "TextNameY100";
+            this.TextNameY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.TextNameY100.Size = new System.Drawing.Size(73, 20);
+            this.TextNameY100.TabIndex = 212155;
+            this.TextNameY100.Text = "10";
+            this.TextNameY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtWidthMM
+            // 
+            this.txtWidthMM.Location = new System.Drawing.Point(92, 188);
+            this.txtWidthMM.Name = "txtWidthMM";
+            this.txtWidthMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtWidthMM.Size = new System.Drawing.Size(73, 20);
+            this.txtWidthMM.TabIndex = 212155;
+            this.txtWidthMM.Text = "100";
+            this.txtWidthMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtHeightMM
+            // 
+            this.txtHeightMM.Location = new System.Drawing.Point(173, 190);
+            this.txtHeightMM.Name = "txtHeightMM";
+            this.txtHeightMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtHeightMM.Size = new System.Drawing.Size(73, 20);
+            this.txtHeightMM.TabIndex = 212155;
+            this.txtHeightMM.Text = "70";
+            this.txtHeightMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCategoryIDX100
+            // 
+            this.textCategoryIDX100.Location = new System.Drawing.Point(11, 120);
+            this.textCategoryIDX100.Name = "textCategoryIDX100";
+            this.textCategoryIDX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategoryIDX100.Size = new System.Drawing.Size(73, 20);
+            this.textCategoryIDX100.TabIndex = 212155;
+            this.textCategoryIDX100.Text = "10";
+            this.textCategoryIDX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label58.Location = new System.Drawing.Point(203, 62);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(42, 16);
+            this.label58.TabIndex = 212154;
+            this.label58.Text = "الباركود";
+            // 
+            // textCategoryIDY100
+            // 
+            this.textCategoryIDY100.Location = new System.Drawing.Point(103, 120);
+            this.textCategoryIDY100.Name = "textCategoryIDY100";
+            this.textCategoryIDY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategoryIDY100.Size = new System.Drawing.Size(73, 20);
+            this.textCategoryIDY100.TabIndex = 212155;
+            this.textCategoryIDY100.Text = "1";
+            this.textCategoryIDY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label59.Location = new System.Drawing.Point(210, 90);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(34, 16);
+            this.label59.TabIndex = 212154;
+            this.label59.Text = "المنتج";
+            // 
+            // textCategorysX100
+            // 
+            this.textCategorysX100.Location = new System.Drawing.Point(11, 89);
+            this.textCategorysX100.Name = "textCategorysX100";
+            this.textCategorysX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategorysX100.Size = new System.Drawing.Size(73, 20);
+            this.textCategorysX100.TabIndex = 212155;
+            this.textCategorysX100.Text = "10";
+            this.textCategorysX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBarcodeY100
+            // 
+            this.textBarcodeY100.Location = new System.Drawing.Point(103, 59);
+            this.textBarcodeY100.Name = "textBarcodeY100";
+            this.textBarcodeY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBarcodeY100.Size = new System.Drawing.Size(73, 20);
+            this.textBarcodeY100.TabIndex = 212155;
+            this.textBarcodeY100.Text = "20";
+            this.textBarcodeY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textCategorysY100
+            // 
+            this.textCategorysY100.Location = new System.Drawing.Point(103, 89);
+            this.textCategorysY100.Name = "textCategorysY100";
+            this.textCategorysY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textCategorysY100.Size = new System.Drawing.Size(73, 20);
+            this.textCategorysY100.TabIndex = 212155;
+            this.textCategorysY100.Text = "60";
+            this.textCategorysY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label61.Location = new System.Drawing.Point(191, 122);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(53, 16);
+            this.label61.TabIndex = 212154;
+            this.label61.Text = "كود المنتج";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label62.Location = new System.Drawing.Point(212, 159);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(33, 16);
+            this.label62.TabIndex = 212154;
+            this.label62.Text = "السعر";
+            // 
+            // textBarcodeX100
+            // 
+            this.textBarcodeX100.Location = new System.Drawing.Point(11, 59);
+            this.textBarcodeX100.Name = "textBarcodeX100";
+            this.textBarcodeX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBarcodeX100.Size = new System.Drawing.Size(73, 20);
+            this.textBarcodeX100.TabIndex = 212155;
+            this.textBarcodeX100.Text = "10";
+            this.textBarcodeX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // radbutPrint100_70
+            // 
+            this.radbutPrint100_70.AutoSize = true;
+            this.radbutPrint100_70.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radbutPrint100_70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.radbutPrint100_70.Location = new System.Drawing.Point(106, 203);
+            this.radbutPrint100_70.Name = "radbutPrint100_70";
+            this.radbutPrint100_70.Size = new System.Drawing.Size(94, 20);
+            this.radbutPrint100_70.TabIndex = 212160;
+            this.radbutPrint100_70.Text = "مقاس 100*70";
+            this.radbutPrint100_70.UseVisualStyleBackColor = true;
+            this.radbutPrint100_70.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // panelMargins5040
             // 
@@ -1906,14 +2218,14 @@
             // 
             this.dataGridViewCategroyBill.AutoGenerateColumns = false;
             this.dataGridViewCategroyBill.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewCategroyBill.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewCategroyBill.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dataGridViewCategroyBill.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewCategroyBill.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.NumBill,
@@ -1924,8 +2236,8 @@
             this.dataGridViewCategroyBill.Name = "dataGridViewCategroyBill";
             this.dataGridViewCategroyBill.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dataGridViewCategroyBill.RowHeadersWidth = 51;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewCategroyBill.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewCategroyBill.RowsDefaultCellStyle = dataGridViewCellStyle24;
             this.dataGridViewCategroyBill.Size = new System.Drawing.Size(482, 381);
             this.dataGridViewCategroyBill.TabIndex = 5537;
             this.dataGridViewCategroyBill.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCategroyBill_CellContentClick);
@@ -1943,8 +2255,8 @@
             // categoryDataGridViewTextBoxColumn
             // 
             this.categoryDataGridViewTextBoxColumn.DataPropertyName = "Category";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.categoryDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.categoryDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle23;
             this.categoryDataGridViewTextBoxColumn.HeaderText = "الصنف";
             this.categoryDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
@@ -2013,6 +2325,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Location = new System.Drawing.Point(12, 22);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -2401,33 +2714,33 @@
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Categry,
             this.Barcode1,
             this.Price});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle27;
             this.dataGridView1.Location = new System.Drawing.Point(42, 105);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle28;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(549, 341);
             this.dataGridView1.TabIndex = 5540;
@@ -2448,8 +2761,8 @@
             // 
             // Price
             // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.Price.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.Price.DefaultCellStyle = dataGridViewCellStyle26;
             this.Price.HeaderText = "السعر";
             this.Price.MinimumWidth = 6;
             this.Price.Name = "Price";
@@ -2913,241 +3226,863 @@
             // 
             this.printDocument4.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument4_PrintPage);
             // 
-            // radbutPrint100_70
+            // tabPage4
             // 
-            this.radbutPrint100_70.AutoSize = true;
-            this.radbutPrint100_70.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radbutPrint100_70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.radbutPrint100_70.Location = new System.Drawing.Point(106, 203);
-            this.radbutPrint100_70.Name = "radbutPrint100_70";
-            this.radbutPrint100_70.Size = new System.Drawing.Size(94, 20);
-            this.radbutPrint100_70.TabIndex = 212160;
-            this.radbutPrint100_70.Text = "مقاس 100*70";
-            this.radbutPrint100_70.UseVisualStyleBackColor = true;
-            this.radbutPrint100_70.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
+            this.tabPage4.Controls.Add(this.txtBarcodeWidthMM);
+            this.tabPage4.Controls.Add(this.txtBarcodeHeightMM);
+            this.tabPage4.Controls.Add(this.label95);
+            this.tabPage4.Controls.Add(this.label96);
+            this.tabPage4.Controls.Add(this.chkPageBorder);
+            this.tabPage4.Controls.Add(this.chkShowBorders);
+            this.tabPage4.Controls.Add(this.label76);
+            this.tabPage4.Controls.Add(this.panelPreview);
+            this.tabPage4.Controls.Add(this.panel3);
+            this.tabPage4.Controls.Add(this.btnPreview);
+            this.tabPage4.Controls.Add(this.btnPrint);
+            this.tabPage4.Controls.Add(this.txtCopies);
+            this.tabPage4.Controls.Add(this.label71);
+            this.tabPage4.Controls.Add(this.panel2);
+            this.tabPage4.Controls.Add(this.txtCornerRadius);
+            this.tabPage4.Controls.Add(this.label97);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(1109, 494);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "طباعه خاص";
             // 
-            // panelMargins10070
+            // panel2
             // 
-            this.panelMargins10070.Controls.Add(this.label56);
-            this.panelMargins10070.Controls.Add(this.TextNameX100);
-            this.panelMargins10070.Controls.Add(this.button18);
-            this.panelMargins10070.Controls.Add(this.textPriceX100);
-            this.panelMargins10070.Controls.Add(this.label57);
-            this.panelMargins10070.Controls.Add(this.textPriceY100);
-            this.panelMargins10070.Controls.Add(this.TextNameY100);
-            this.panelMargins10070.Controls.Add(this.txtWidthMM);
-            this.panelMargins10070.Controls.Add(this.txtHeightMM);
-            this.panelMargins10070.Controls.Add(this.textCategoryIDX100);
-            this.panelMargins10070.Controls.Add(this.label58);
-            this.panelMargins10070.Controls.Add(this.textCategoryIDY100);
-            this.panelMargins10070.Controls.Add(this.label59);
-            this.panelMargins10070.Controls.Add(this.textCategorysX100);
-            this.panelMargins10070.Controls.Add(this.textBarcodeY100);
-            this.panelMargins10070.Controls.Add(this.textCategorysY100);
-            this.panelMargins10070.Controls.Add(this.label61);
-            this.panelMargins10070.Controls.Add(this.label62);
-            this.panelMargins10070.Controls.Add(this.textBarcodeX100);
-            this.panelMargins10070.Location = new System.Drawing.Point(10, 225);
-            this.panelMargins10070.Margin = new System.Windows.Forms.Padding(2);
-            this.panelMargins10070.Name = "panelMargins10070";
-            this.panelMargins10070.Size = new System.Drawing.Size(251, 223);
-            this.panelMargins10070.TabIndex = 212157;
-            this.panelMargins10070.Visible = false;
+            this.panel2.Controls.Add(this.txtCompanyName);
+            this.panel2.Controls.Add(this.txtBarcodeValue);
+            this.panel2.Controls.Add(this.txtProductName);
+            this.panel2.Controls.Add(this.txtProductID);
+            this.panel2.Controls.Add(this.txtPrice);
+            this.panel2.Controls.Add(this.label92);
+            this.panel2.Controls.Add(this.label91);
+            this.panel2.Controls.Add(this.label88);
+            this.panel2.Controls.Add(this.label89);
+            this.panel2.Controls.Add(this.label90);
+            this.panel2.Location = new System.Drawing.Point(683, 25);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(402, 229);
+            this.panel2.TabIndex = 212158;
             // 
-            // label56
+            // label60
             // 
-            this.label56.AutoSize = true;
-            this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
-            this.label56.Location = new System.Drawing.Point(89, 7);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(65, 13);
-            this.label56.TabIndex = 212156;
-            this.label56.Text = "ضبط الهوامش";
+            this.label60.AutoSize = true;
+            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
+            this.label60.Location = new System.Drawing.Point(99, 222);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(65, 13);
+            this.label60.TabIndex = 212156;
+            this.label60.Text = "ضبط الهوامش";
             // 
-            // TextNameX100
+            // txtNameX
             // 
-            this.TextNameX100.Location = new System.Drawing.Point(11, 28);
-            this.TextNameX100.Name = "TextNameX100";
-            this.TextNameX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.TextNameX100.Size = new System.Drawing.Size(73, 20);
-            this.TextNameX100.TabIndex = 212155;
-            this.TextNameX100.Text = "50";
-            this.TextNameX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNameX.Location = new System.Drawing.Point(32, 256);
+            this.txtNameX.Name = "txtNameX";
+            this.txtNameX.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtNameX.Size = new System.Drawing.Size(73, 20);
+            this.txtNameX.TabIndex = 212155;
+            this.txtNameX.Text = "50";
+            this.txtNameX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNameX.TextChanged += new System.EventHandler(this.txtNameX_TextChanged);
             // 
-            // button18
+            // button19
             // 
-            this.button18.Location = new System.Drawing.Point(11, 185);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(56, 20);
-            this.button18.TabIndex = 7478;
-            this.button18.Text = "الافتراضى";
-            this.button18.UseVisualStyleBackColor = true;
+            this.button19.Location = new System.Drawing.Point(29, 409);
+            this.button19.Margin = new System.Windows.Forms.Padding(2);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(56, 20);
+            this.button19.TabIndex = 7478;
+            this.button19.Text = "الافتراضى";
+            this.button19.UseVisualStyleBackColor = true;
             // 
-            // textPriceX100
+            // txtPriceX
             // 
-            this.textPriceX100.Location = new System.Drawing.Point(11, 156);
-            this.textPriceX100.Name = "textPriceX100";
-            this.textPriceX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textPriceX100.Size = new System.Drawing.Size(73, 20);
-            this.textPriceX100.TabIndex = 212155;
-            this.textPriceX100.Text = "10";
-            this.textPriceX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPriceX.Location = new System.Drawing.Point(32, 384);
+            this.txtPriceX.Name = "txtPriceX";
+            this.txtPriceX.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtPriceX.Size = new System.Drawing.Size(73, 20);
+            this.txtPriceX.TabIndex = 212155;
+            this.txtPriceX.Text = "5";
+            this.txtPriceX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPriceX.TextChanged += new System.EventHandler(this.txtPriceX_TextChanged);
             // 
-            // label57
+            // label63
             // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.label57.Location = new System.Drawing.Point(180, 30);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(66, 16);
-            this.label57.TabIndex = 212154;
-            this.label57.Text = "اسم المشروع";
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label63.Location = new System.Drawing.Point(220, 258);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(66, 16);
+            this.label63.TabIndex = 212154;
+            this.label63.Text = "اسم المشروع";
             // 
-            // textPriceY100
+            // txtPriceY
             // 
-            this.textPriceY100.Location = new System.Drawing.Point(102, 156);
-            this.textPriceY100.Name = "textPriceY100";
-            this.textPriceY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textPriceY100.Size = new System.Drawing.Size(73, 20);
-            this.textPriceY100.TabIndex = 212155;
-            this.textPriceY100.Text = "65";
-            this.textPriceY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPriceY.Location = new System.Drawing.Point(123, 384);
+            this.txtPriceY.Name = "txtPriceY";
+            this.txtPriceY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtPriceY.Size = new System.Drawing.Size(73, 20);
+            this.txtPriceY.TabIndex = 212155;
+            this.txtPriceY.Text = "60";
+            this.txtPriceY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPriceY.TextChanged += new System.EventHandler(this.txtPriceY_TextChanged);
             // 
-            // TextNameY100
+            // txtNameY
             // 
-            this.TextNameY100.Location = new System.Drawing.Point(103, 28);
-            this.TextNameY100.Name = "TextNameY100";
-            this.TextNameY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.TextNameY100.Size = new System.Drawing.Size(73, 20);
-            this.TextNameY100.TabIndex = 212155;
-            this.TextNameY100.Text = "10";
-            this.TextNameY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNameY.Location = new System.Drawing.Point(124, 256);
+            this.txtNameY.Name = "txtNameY";
+            this.txtNameY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtNameY.Size = new System.Drawing.Size(73, 20);
+            this.txtNameY.TabIndex = 212155;
+            this.txtNameY.Text = "10";
+            this.txtNameY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNameY.TextChanged += new System.EventHandler(this.txtNameY_TextChanged);
             // 
-            // textCategoryIDX100
+            // txtWidthMM1
             // 
-            this.textCategoryIDX100.Location = new System.Drawing.Point(11, 120);
-            this.textCategoryIDX100.Name = "textCategoryIDX100";
-            this.textCategoryIDX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textCategoryIDX100.Size = new System.Drawing.Size(73, 20);
-            this.textCategoryIDX100.TabIndex = 212155;
-            this.textCategoryIDX100.Text = "10";
-            this.textCategoryIDX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtWidthMM1.Location = new System.Drawing.Point(122, 42);
+            this.txtWidthMM1.Name = "txtWidthMM1";
+            this.txtWidthMM1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtWidthMM1.Size = new System.Drawing.Size(36, 20);
+            this.txtWidthMM1.TabIndex = 212155;
+            this.txtWidthMM1.Text = "100";
+            this.txtWidthMM1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtWidthMM1.TextChanged += new System.EventHandler(this.txtWidthMM1_TextChanged);
             // 
-            // label58
+            // txtHeightMM1
             // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.label58.Location = new System.Drawing.Point(203, 62);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(42, 16);
-            this.label58.TabIndex = 212154;
-            this.label58.Text = "الباركود";
+            this.txtHeightMM1.Location = new System.Drawing.Point(31, 42);
+            this.txtHeightMM1.Name = "txtHeightMM1";
+            this.txtHeightMM1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtHeightMM1.Size = new System.Drawing.Size(44, 20);
+            this.txtHeightMM1.TabIndex = 212155;
+            this.txtHeightMM1.Text = "70";
+            this.txtHeightMM1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtHeightMM1.TextChanged += new System.EventHandler(this.txtHeightMM1_TextChanged);
             // 
-            // textCategoryIDY100
+            // txtCategoryIDX
             // 
-            this.textCategoryIDY100.Location = new System.Drawing.Point(103, 120);
-            this.textCategoryIDY100.Name = "textCategoryIDY100";
-            this.textCategoryIDY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textCategoryIDY100.Size = new System.Drawing.Size(73, 20);
-            this.textCategoryIDY100.TabIndex = 212155;
-            this.textCategoryIDY100.Text = "1";
-            this.textCategoryIDY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCategoryIDX.Location = new System.Drawing.Point(32, 348);
+            this.txtCategoryIDX.Name = "txtCategoryIDX";
+            this.txtCategoryIDX.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtCategoryIDX.Size = new System.Drawing.Size(73, 20);
+            this.txtCategoryIDX.TabIndex = 212155;
+            this.txtCategoryIDX.Text = "5";
+            this.txtCategoryIDX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCategoryIDX.TextChanged += new System.EventHandler(this.txtCategoryIDX_TextChanged);
             // 
-            // label59
+            // label64
             // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.label59.Location = new System.Drawing.Point(210, 90);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(34, 16);
-            this.label59.TabIndex = 212154;
-            this.label59.Text = "المنتج";
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label64.Location = new System.Drawing.Point(244, 290);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(42, 16);
+            this.label64.TabIndex = 212154;
+            this.label64.Text = "الباركود";
             // 
-            // textCategorysX100
+            // txtCategoryIDY
             // 
-            this.textCategorysX100.Location = new System.Drawing.Point(11, 89);
-            this.textCategorysX100.Name = "textCategorysX100";
-            this.textCategorysX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textCategorysX100.Size = new System.Drawing.Size(73, 20);
-            this.textCategorysX100.TabIndex = 212155;
-            this.textCategorysX100.Text = "10";
-            this.textCategorysX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCategoryIDY.Location = new System.Drawing.Point(124, 348);
+            this.txtCategoryIDY.Name = "txtCategoryIDY";
+            this.txtCategoryIDY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtCategoryIDY.Size = new System.Drawing.Size(73, 20);
+            this.txtCategoryIDY.TabIndex = 212155;
+            this.txtCategoryIDY.Text = "10";
+            this.txtCategoryIDY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCategoryIDY.TextChanged += new System.EventHandler(this.txtCategoryIDY_TextChanged);
             // 
-            // textBarcodeY100
+            // label65
             // 
-            this.textBarcodeY100.Location = new System.Drawing.Point(103, 59);
-            this.textBarcodeY100.Name = "textBarcodeY100";
-            this.textBarcodeY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBarcodeY100.Size = new System.Drawing.Size(73, 20);
-            this.textBarcodeY100.TabIndex = 212155;
-            this.textBarcodeY100.Text = "20";
-            this.textBarcodeY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label65.Location = new System.Drawing.Point(232, 318);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(54, 16);
+            this.label65.TabIndex = 212154;
+            this.label65.Text = "اسم المنتج";
             // 
-            // textCategorysY100
+            // txtCategoryX
             // 
-            this.textCategorysY100.Location = new System.Drawing.Point(103, 89);
-            this.textCategorysY100.Name = "textCategorysY100";
-            this.textCategorysY100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textCategorysY100.Size = new System.Drawing.Size(73, 20);
-            this.textCategorysY100.TabIndex = 212155;
-            this.textCategorysY100.Text = "60";
-            this.textCategorysY100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCategoryX.Location = new System.Drawing.Point(32, 320);
+            this.txtCategoryX.Name = "txtCategoryX";
+            this.txtCategoryX.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtCategoryX.Size = new System.Drawing.Size(73, 20);
+            this.txtCategoryX.TabIndex = 212155;
+            this.txtCategoryX.Text = "5";
+            this.txtCategoryX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCategoryX.TextChanged += new System.EventHandler(this.txtCategoryX_TextChanged);
             // 
-            // label61
+            // txtBarcodeY
             // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.label61.Location = new System.Drawing.Point(191, 122);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(53, 16);
-            this.label61.TabIndex = 212154;
-            this.label61.Text = "كود المنتج";
+            this.txtBarcodeY.Location = new System.Drawing.Point(124, 287);
+            this.txtBarcodeY.Name = "txtBarcodeY";
+            this.txtBarcodeY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtBarcodeY.Size = new System.Drawing.Size(73, 20);
+            this.txtBarcodeY.TabIndex = 212155;
+            this.txtBarcodeY.Text = "20";
+            this.txtBarcodeY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarcodeY.TextChanged += new System.EventHandler(this.txtBarcodeY_TextChanged);
             // 
-            // label62
+            // txtCategoryY
             // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
-            this.label62.Location = new System.Drawing.Point(212, 159);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(33, 16);
-            this.label62.TabIndex = 212154;
-            this.label62.Text = "السعر";
+            this.txtCategoryY.Location = new System.Drawing.Point(124, 317);
+            this.txtCategoryY.Name = "txtCategoryY";
+            this.txtCategoryY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtCategoryY.Size = new System.Drawing.Size(73, 20);
+            this.txtCategoryY.TabIndex = 212155;
+            this.txtCategoryY.Text = "50";
+            this.txtCategoryY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCategoryY.TextChanged += new System.EventHandler(this.txtCategoryY_TextChanged);
             // 
-            // textBarcodeX100
+            // label66
             // 
-            this.textBarcodeX100.Location = new System.Drawing.Point(11, 59);
-            this.textBarcodeX100.Name = "textBarcodeX100";
-            this.textBarcodeX100.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBarcodeX100.Size = new System.Drawing.Size(73, 20);
-            this.textBarcodeX100.TabIndex = 212155;
-            this.textBarcodeX100.Text = "10";
-            this.textBarcodeX100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label66.Location = new System.Drawing.Point(233, 350);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(53, 16);
+            this.label66.TabIndex = 212154;
+            this.label66.Text = "كود المنتج";
             // 
-            // txtWidthMM
+            // label67
             // 
-            this.txtWidthMM.Location = new System.Drawing.Point(92, 188);
-            this.txtWidthMM.Name = "txtWidthMM";
-            this.txtWidthMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtWidthMM.Size = new System.Drawing.Size(73, 20);
-            this.txtWidthMM.TabIndex = 212155;
-            this.txtWidthMM.Text = "100";
-            this.txtWidthMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label67.Location = new System.Drawing.Point(253, 387);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(33, 16);
+            this.label67.TabIndex = 212154;
+            this.label67.Text = "السعر";
             // 
-            // txtHeightMM
+            // txtBarcodeX
             // 
-            this.txtHeightMM.Location = new System.Drawing.Point(173, 190);
-            this.txtHeightMM.Name = "txtHeightMM";
-            this.txtHeightMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtHeightMM.Size = new System.Drawing.Size(73, 20);
-            this.txtHeightMM.TabIndex = 212155;
-            this.txtHeightMM.Text = "70";
-            this.txtHeightMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarcodeX.Location = new System.Drawing.Point(32, 287);
+            this.txtBarcodeX.Name = "txtBarcodeX";
+            this.txtBarcodeX.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtBarcodeX.Size = new System.Drawing.Size(73, 20);
+            this.txtBarcodeX.TabIndex = 212155;
+            this.txtBarcodeX.Text = "5";
+            this.txtBarcodeX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarcodeX.TextChanged += new System.EventHandler(this.txtBarcodeX_TextChanged);
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label68.Location = new System.Drawing.Point(223, 44);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(63, 16);
+            this.label68.TabIndex = 212154;
+            this.label68.Text = "مقاس الورقة";
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.ForeColor = System.Drawing.Color.Black;
+            this.label69.Location = new System.Drawing.Point(79, 44);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(41, 16);
+            this.label69.TabIndex = 212154;
+            this.label69.Text = "الارتفاع";
+            // 
+            // btnPrint
+            // 
+            this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrint.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.ForeColor = System.Drawing.Color.White;
+            this.btnPrint.Location = new System.Drawing.Point(20, 298);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(138, 27);
+            this.btnPrint.TabIndex = 212162;
+            this.btnPrint.Text = "طباعه";
+            this.btnPrint.UseVisualStyleBackColor = false;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+            // 
+            // txtCopies
+            // 
+            this.txtCopies.Location = new System.Drawing.Point(164, 298);
+            this.txtCopies.Name = "txtCopies";
+            this.txtCopies.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtCopies.Size = new System.Drawing.Size(103, 20);
+            this.txtCopies.TabIndex = 212160;
+            this.txtCopies.Text = "1";
+            this.txtCopies.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
+            this.groupBox12.Location = new System.Drawing.Point(68, 551);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox12.Size = new System.Drawing.Size(335, 253);
+            this.groupBox12.TabIndex = 212161;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "معاينة";
+            // 
+            // txtProductID
+            // 
+            this.txtProductID.Location = new System.Drawing.Point(15, 58);
+            this.txtProductID.Name = "txtProductID";
+            this.txtProductID.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtProductID.Size = new System.Drawing.Size(260, 20);
+            this.txtProductID.TabIndex = 34;
+            this.txtProductID.Text = "1000001";
+            this.txtProductID.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtProductName
+            // 
+            this.txtProductName.Location = new System.Drawing.Point(15, 135);
+            this.txtProductName.Name = "txtProductName";
+            this.txtProductName.Size = new System.Drawing.Size(260, 20);
+            this.txtProductName.TabIndex = 33;
+            this.txtProductName.Text = "شهادة تقديرقطيفة";
+            this.txtProductName.TextChanged += new System.EventHandler(this.txtProductName_TextChanged);
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(1020, 548);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(39, 20);
+            this.textBox20.TabIndex = 11;
+            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPrice
+            // 
+            this.txtPrice.Location = new System.Drawing.Point(15, 161);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(260, 20);
+            this.txtPrice.TabIndex = 11;
+            this.txtPrice.Text = "120";
+            this.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPrice.TextChanged += new System.EventHandler(this.txtPrice_TextChanged);
+            // 
+            // txtBarcodeValue
+            // 
+            this.txtBarcodeValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBarcodeValue.Location = new System.Drawing.Point(15, 94);
+            this.txtBarcodeValue.Name = "txtBarcodeValue";
+            this.txtBarcodeValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtBarcodeValue.Size = new System.Drawing.Size(260, 35);
+            this.txtBarcodeValue.TabIndex = 31;
+            this.txtBarcodeValue.Text = "1000001";
+            this.txtBarcodeValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarcodeValue.TextChanged += new System.EventHandler(this.txtBarcodeValue_TextChanged);
+            // 
+            // txtCompanyName
+            // 
+            this.txtCompanyName.Font = new System.Drawing.Font("Cairo", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCompanyName.Location = new System.Drawing.Point(15, 24);
+            this.txtCompanyName.Name = "txtCompanyName";
+            this.txtCompanyName.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtCompanyName.Size = new System.Drawing.Size(260, 28);
+            this.txtCompanyName.TabIndex = 22;
+            this.txtCompanyName.Text = "إسم الشركة";
+            this.txtCompanyName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCompanyName.TextChanged += new System.EventHandler(this.txtCompanyName_TextChanged);
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(222)))), ((int)(((byte)(251)))));
+            this.label71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(4)))), ((int)(((byte)(94)))));
+            this.label71.Location = new System.Drawing.Point(273, 302);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(54, 13);
+            this.label71.TabIndex = 212159;
+            this.label71.Text = "عدد النسخ";
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(22, 182);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBox24.Size = new System.Drawing.Size(174, 20);
+            this.textBox24.TabIndex = 212170;
+            this.textBox24.Text = "6";
+            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label70.Location = new System.Drawing.Point(205, 182);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(81, 16);
+            this.label70.TabIndex = 212169;
+            this.label70.Text = "حجم الخط المنتج";
+            // 
+            // cmbBarcodeFont
+            // 
+            this.cmbBarcodeFont.FormattingEnabled = true;
+            this.cmbBarcodeFont.Items.AddRange(new object[] {
+            "3 of 9 Barcode",
+            "IDAHC39M Code 39 Barcode"});
+            this.cmbBarcodeFont.Location = new System.Drawing.Point(22, 153);
+            this.cmbBarcodeFont.Name = "cmbBarcodeFont";
+            this.cmbBarcodeFont.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.cmbBarcodeFont.Size = new System.Drawing.Size(174, 21);
+            this.cmbBarcodeFont.TabIndex = 212168;
+            this.cmbBarcodeFont.Text = "LibreBarcode128-Regular.ttf";
+            this.cmbBarcodeFont.SelectedIndexChanged += new System.EventHandler(this.cmbBarcodeFont_SelectedIndexChanged);
+            // 
+            // cmbBarcodeType
+            // 
+            this.cmbBarcodeType.FormattingEnabled = true;
+            this.cmbBarcodeType.Location = new System.Drawing.Point(22, 96);
+            this.cmbBarcodeType.Name = "cmbBarcodeType";
+            this.cmbBarcodeType.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.cmbBarcodeType.Size = new System.Drawing.Size(174, 21);
+            this.cmbBarcodeType.TabIndex = 212166;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label72.Location = new System.Drawing.Point(248, 98);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(38, 16);
+            this.label72.TabIndex = 212165;
+            this.label72.Text = "الطابعه";
+            // 
+            // txtBarcodeFontSize
+            // 
+            this.txtBarcodeFontSize.Location = new System.Drawing.Point(22, 125);
+            this.txtBarcodeFontSize.Name = "txtBarcodeFontSize";
+            this.txtBarcodeFontSize.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtBarcodeFontSize.Size = new System.Drawing.Size(174, 20);
+            this.txtBarcodeFontSize.TabIndex = 212167;
+            this.txtBarcodeFontSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarcodeFontSize.TextChanged += new System.EventHandler(this.txtBarcodeFontSize_TextChanged);
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label73.Location = new System.Drawing.Point(228, 154);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(58, 16);
+            this.label73.TabIndex = 212163;
+            this.label73.Text = "نـــوع الخط";
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label74.Location = new System.Drawing.Point(197, 126);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(89, 16);
+            this.label74.TabIndex = 212164;
+            this.label74.Text = "حجم الخط الباركود";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.button19);
+            this.panel3.Controls.Add(this.label75);
+            this.panel3.Controls.Add(this.label60);
+            this.panel3.Controls.Add(this.txtNameX);
+            this.panel3.Controls.Add(this.cmbOrientation);
+            this.panel3.Controls.Add(this.cmbBarcodeType);
+            this.panel3.Controls.Add(this.txtCategoryX);
+            this.panel3.Controls.Add(this.textBox24);
+            this.panel3.Controls.Add(this.txtPriceX);
+            this.panel3.Controls.Add(this.label74);
+            this.panel3.Controls.Add(this.label63);
+            this.panel3.Controls.Add(this.label70);
+            this.panel3.Controls.Add(this.txtPriceY);
+            this.panel3.Controls.Add(this.label73);
+            this.panel3.Controls.Add(this.txtNameY);
+            this.panel3.Controls.Add(this.txtWidthMM1);
+            this.panel3.Controls.Add(this.cmbBarcodeFont);
+            this.panel3.Controls.Add(this.txtHeightMM1);
+            this.panel3.Controls.Add(this.label94);
+            this.panel3.Controls.Add(this.label69);
+            this.panel3.Controls.Add(this.txtCategoryIDX);
+            this.panel3.Controls.Add(this.label87);
+            this.panel3.Controls.Add(this.label86);
+            this.panel3.Controls.Add(this.label82);
+            this.panel3.Controls.Add(this.label85);
+            this.panel3.Controls.Add(this.label81);
+            this.panel3.Controls.Add(this.label84);
+            this.panel3.Controls.Add(this.label80);
+            this.panel3.Controls.Add(this.label83);
+            this.panel3.Controls.Add(this.label79);
+            this.panel3.Controls.Add(this.label78);
+            this.panel3.Controls.Add(this.label77);
+            this.panel3.Controls.Add(this.label68);
+            this.panel3.Controls.Add(this.txtBarcodeFontSize);
+            this.panel3.Controls.Add(this.label93);
+            this.panel3.Controls.Add(this.label64);
+            this.panel3.Controls.Add(this.label72);
+            this.panel3.Controls.Add(this.txtCategoryIDY);
+            this.panel3.Controls.Add(this.txtBarcodeX);
+            this.panel3.Controls.Add(this.label65);
+            this.panel3.Controls.Add(this.label67);
+            this.panel3.Controls.Add(this.label66);
+            this.panel3.Controls.Add(this.txtBarcodeY);
+            this.panel3.Controls.Add(this.txtCategoryY);
+            this.panel3.Location = new System.Drawing.Point(379, 25);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(299, 438);
+            this.panel3.TabIndex = 212171;
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
+            this.label75.Location = new System.Drawing.Point(117, 7);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(47, 13);
+            this.label75.TabIndex = 212156;
+            this.label75.Text = "الاعدادات";
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label77.Location = new System.Drawing.Point(6, 44);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(25, 15);
+            this.label77.TabIndex = 212154;
+            this.label77.Text = "mm";
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label78.Location = new System.Drawing.Point(15, 256);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(13, 14);
+            this.label78.TabIndex = 212154;
+            this.label78.Text = "x";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label79.Location = new System.Drawing.Point(15, 288);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(13, 14);
+            this.label79.TabIndex = 212154;
+            this.label79.Text = "x";
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label80.Location = new System.Drawing.Point(15, 320);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(13, 14);
+            this.label80.TabIndex = 212154;
+            this.label80.Text = "x";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label81.Location = new System.Drawing.Point(15, 352);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(13, 14);
+            this.label81.TabIndex = 212154;
+            this.label81.Text = "x";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label82.Location = new System.Drawing.Point(15, 384);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(13, 14);
+            this.label82.TabIndex = 212154;
+            this.label82.Text = "x";
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label83.Location = new System.Drawing.Point(111, 259);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(13, 14);
+            this.label83.TabIndex = 212154;
+            this.label83.Text = "y";
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label84.Location = new System.Drawing.Point(111, 291);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(13, 14);
+            this.label84.TabIndex = 212154;
+            this.label84.Text = "y";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label85.Location = new System.Drawing.Point(111, 323);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(13, 14);
+            this.label85.TabIndex = 212154;
+            this.label85.Text = "y";
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label86.Location = new System.Drawing.Point(111, 355);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(13, 14);
+            this.label86.TabIndex = 212154;
+            this.label86.Text = "y";
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label87.Location = new System.Drawing.Point(111, 387);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(13, 14);
+            this.label87.TabIndex = 212154;
+            this.label87.Text = "y";
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label88.Location = new System.Drawing.Point(321, 94);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(42, 16);
+            this.label88.TabIndex = 212165;
+            this.label88.Text = "الباركود";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label89.Location = new System.Drawing.Point(305, 26);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(58, 16);
+            this.label89.TabIndex = 212154;
+            this.label89.Text = "اسم الشركة";
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label90.Location = new System.Drawing.Point(310, 60);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(53, 16);
+            this.label90.TabIndex = 212154;
+            this.label90.Text = "كود المنتج";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label91.Location = new System.Drawing.Point(309, 134);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(54, 16);
+            this.label91.TabIndex = 212165;
+            this.label91.Text = "اسم المنتج";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label92.Location = new System.Drawing.Point(330, 164);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(33, 16);
+            this.label92.TabIndex = 212165;
+            this.label92.Text = "السعر";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(62)))), ((int)(((byte)(138)))));
+            this.label93.Location = new System.Drawing.Point(226, 70);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(60, 16);
+            this.label93.TabIndex = 212165;
+            this.label93.Text = "اتجاه الورقة";
+            // 
+            // cmbOrientation
+            // 
+            this.cmbOrientation.FormattingEnabled = true;
+            this.cmbOrientation.Items.AddRange(new object[] {
+            "Landscape",
+            "Portrait"});
+            this.cmbOrientation.Location = new System.Drawing.Point(23, 69);
+            this.cmbOrientation.Name = "cmbOrientation";
+            this.cmbOrientation.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.cmbOrientation.Size = new System.Drawing.Size(174, 21);
+            this.cmbOrientation.TabIndex = 212166;
+            this.cmbOrientation.Text = "Landscape";
+            this.cmbOrientation.SelectedIndexChanged += new System.EventHandler(this.cmbOrientation_SelectedIndexChanged);
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label94.ForeColor = System.Drawing.Color.Black;
+            this.label94.Location = new System.Drawing.Point(164, 44);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(39, 16);
+            this.label94.TabIndex = 212154;
+            this.label94.Text = "العرض";
+            // 
+            // panelPreview
+            // 
+            this.panelPreview.Location = new System.Drawing.Point(20, 25);
+            this.panelPreview.Name = "panelPreview";
+            this.panelPreview.Size = new System.Drawing.Size(312, 151);
+            this.panelPreview.TabIndex = 212172;
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(4)))), ((int)(((byte)(41)))));
+            this.label76.Location = new System.Drawing.Point(136, 9);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(41, 13);
+            this.label76.TabIndex = 212156;
+            this.label76.Text = "المعاينة";
+            // 
+            // chkShowBorders
+            // 
+            this.chkShowBorders.AutoSize = true;
+            this.chkShowBorders.Location = new System.Drawing.Point(244, 188);
+            this.chkShowBorders.Name = "chkShowBorders";
+            this.chkShowBorders.Size = new System.Drawing.Size(88, 17);
+            this.chkShowBorders.TabIndex = 212173;
+            this.chkShowBorders.Text = "اطار للمكونات";
+            this.chkShowBorders.UseVisualStyleBackColor = true;
+            this.chkShowBorders.CheckedChanged += new System.EventHandler(this.chkShowBorders_CheckedChanged);
+            // 
+            // txtBarcodeWidthMM
+            // 
+            this.txtBarcodeWidthMM.Location = new System.Drawing.Point(170, 380);
+            this.txtBarcodeWidthMM.Name = "txtBarcodeWidthMM";
+            this.txtBarcodeWidthMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtBarcodeWidthMM.Size = new System.Drawing.Size(36, 20);
+            this.txtBarcodeWidthMM.TabIndex = 212177;
+            this.txtBarcodeWidthMM.Text = "70";
+            this.txtBarcodeWidthMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarcodeWidthMM.TextChanged += new System.EventHandler(this.txtBarcodeWidthMM_TextChanged);
+            // 
+            // txtBarcodeHeightMM
+            // 
+            this.txtBarcodeHeightMM.Location = new System.Drawing.Point(79, 380);
+            this.txtBarcodeHeightMM.Name = "txtBarcodeHeightMM";
+            this.txtBarcodeHeightMM.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtBarcodeHeightMM.Size = new System.Drawing.Size(44, 20);
+            this.txtBarcodeHeightMM.TabIndex = 212178;
+            this.txtBarcodeHeightMM.Text = "30";
+            this.txtBarcodeHeightMM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtBarcodeHeightMM.TextChanged += new System.EventHandler(this.txtBarcodeHeightMM_TextChanged);
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.ForeColor = System.Drawing.Color.Black;
+            this.label95.Location = new System.Drawing.Point(212, 382);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(39, 16);
+            this.label95.TabIndex = 212175;
+            this.label95.Text = "العرض";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label96.ForeColor = System.Drawing.Color.Black;
+            this.label96.Location = new System.Drawing.Point(127, 382);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(41, 16);
+            this.label96.TabIndex = 212176;
+            this.label96.Text = "الارتفاع";
+            // 
+            // btnPreview
+            // 
+            this.btnPreview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnPreview.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPreview.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPreview.ForeColor = System.Drawing.Color.White;
+            this.btnPreview.Location = new System.Drawing.Point(20, 342);
+            this.btnPreview.Name = "btnPreview";
+            this.btnPreview.Size = new System.Drawing.Size(138, 27);
+            this.btnPreview.TabIndex = 212162;
+            this.btnPreview.Text = "عرض";
+            this.btnPreview.UseVisualStyleBackColor = false;
+            this.btnPreview.Click += new System.EventHandler(this.btnPreview_Click);
+            // 
+            // chkPageBorder
+            // 
+            this.chkPageBorder.AutoSize = true;
+            this.chkPageBorder.Location = new System.Drawing.Point(33, 190);
+            this.chkPageBorder.Name = "chkPageBorder";
+            this.chkPageBorder.Size = new System.Drawing.Size(85, 17);
+            this.chkPageBorder.TabIndex = 212173;
+            this.chkPageBorder.Text = "اطار للباركود";
+            this.chkPageBorder.UseVisualStyleBackColor = true;
+            this.chkPageBorder.CheckedChanged += new System.EventHandler(this.chkPageBorder_CheckedChanged);
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.ForeColor = System.Drawing.Color.Black;
+            this.label97.Location = new System.Drawing.Point(180, 187);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(34, 16);
+            this.label97.TabIndex = 212154;
+            this.label97.Text = "دوران";
+            // 
+            // txtCornerRadius
+            // 
+            this.txtCornerRadius.Location = new System.Drawing.Point(138, 185);
+            this.txtCornerRadius.Name = "txtCornerRadius";
+            this.txtCornerRadius.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtCornerRadius.Size = new System.Drawing.Size(36, 20);
+            this.txtCornerRadius.TabIndex = 212155;
+            this.txtCornerRadius.Text = "15";
+            this.txtCornerRadius.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtCornerRadius.TextChanged += new System.EventHandler(this.txtCornerRadius_TextChanged);
             // 
             // Barcode
             // 
@@ -3156,8 +4091,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(157)))));
             this.ClientSize = new System.Drawing.Size(1141, 569);
             this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.textBox20);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.groupBox12);
             this.Controls.Add(this.butPrintBarcode);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.button1);
@@ -3173,6 +4110,8 @@
             this.Load += new System.EventHandler(this.Barcode_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panelMargins10070.ResumeLayout(false);
+            this.panelMargins10070.PerformLayout();
             this.panelMargins5040.ResumeLayout(false);
             this.panelMargins5040.PerformLayout();
             this.panelMargins5025.ResumeLayout(false);
@@ -3215,8 +4154,12 @@
             this.groupBox10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.classCategoreysPrintBarcodeBindingSource)).EndInit();
-            this.panelMargins10070.ResumeLayout(false);
-            this.panelMargins10070.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3470,5 +4413,78 @@
         private System.Windows.Forms.TextBox textBarcodeX100;
         private System.Windows.Forms.TextBox txtHeightMM;
         private System.Windows.Forms.TextBox txtWidthMM;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label75;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox txtNameX;
+        private System.Windows.Forms.ComboBox cmbBarcodeType;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox txtPriceX;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.TextBox txtPriceY;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.TextBox txtNameY;
+        private System.Windows.Forms.TextBox txtWidthMM1;
+        private System.Windows.Forms.ComboBox cmbBarcodeFont;
+        private System.Windows.Forms.TextBox txtHeightMM1;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.TextBox txtCategoryIDX;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.TextBox txtBarcodeFontSize;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.TextBox txtCategoryIDY;
+        private System.Windows.Forms.TextBox txtBarcodeX;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.TextBox txtCategoryX;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.TextBox txtBarcodeY;
+        private System.Windows.Forms.TextBox txtCategoryY;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox txtProductName;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.TextBox txtProductID;
+        private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.TextBox txtCopies;
+        private System.Windows.Forms.TextBox txtBarcodeValue;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.TextBox txtCompanyName;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.ComboBox cmbOrientation;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Panel panelPreview;
+        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.CheckBox chkShowBorders;
+        private System.Windows.Forms.TextBox txtBarcodeWidthMM;
+        private System.Windows.Forms.TextBox txtBarcodeHeightMM;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Button btnPreview;
+        private System.Windows.Forms.CheckBox chkPageBorder;
+        private System.Windows.Forms.TextBox txtCornerRadius;
+        private System.Windows.Forms.Label label97;
     }
 }

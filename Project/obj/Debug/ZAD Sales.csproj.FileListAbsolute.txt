@@ -29200,3 +29200,7 @@ E:\Hamed\01- Githup\2026\ZAD2026Update\Project\obj\Debug\dje-NE\ZAD Sales.resour
 E:\Hamed\01- Githup\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.csproj.CopyComplete
 E:\Hamed\01- Githup\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.exe
 E:\Hamed\01- Githup\2026\ZAD2026Update\Project\obj\Debug\ZAD Sales.pdb
+E:\Hamed\01- Githup\2026\ZAD2026Update\Project\bin\Debug\zxing.dll
+E:\Hamed\01- Githup\2026\ZAD2026Update\Project\bin\Debug\zxing.presentation.dll
+E:\Hamed\01- Githup\2026\ZAD2026Update\Project\bin\Debug\zxing.xml
+E:\Hamed\01- Githup\2026\ZAD2026Update\Project\bin\Debug\zxing.presentation.xml
